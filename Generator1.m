@@ -97,7 +97,9 @@ readcleanfile = fopen(cleanfile,'r');
 
 wordcounter = 1;
 wordcell{1} = 'xxx';
-wordstruct.xxx = 0;
+details.count = 0;
+details.next = '';
+wordstruct.xxx = details;
 
 for x = 1:numlines
     currentline = fgetline(readcleanfile);
@@ -118,9 +120,12 @@ for x = 1:numlines
             end
             
             if wordtest > 0
-                wordstruct.(word) = wordstruct.(word) + 1;
+                details = wordstruct.(word);
+                details.count = details.count + 1;
+                wordstruct.(word) = details;
             else
-                wordstruct.(word) = 1;
+                details.count = 1;
+                wordstruct.(word) = details;
                 wordcounter = wordcounter + 1;
                 wordcell{wordcounter,1} = word;
             end
@@ -134,7 +139,8 @@ wordcountarray = 0;
 
 for x = 1:outputlength
     word = wordcell{x,1};
-    wordcountarray(x,1) = wordstruct.(word);
+    details = wordstruct.(word);
+    wordcountarray(x,1) = details.count;
 end
 
 %sort output arrays into finished cell array
@@ -175,7 +181,7 @@ numlines = size(matrix,1)
 
 readfile = fopen(inputfile,'r');
 
-foundwords = 0;
+pairs = 0;
 unfoundwords = 0;
 previousword = '';
 nextword = '';
@@ -186,6 +192,7 @@ for x = 1:numlines
      printout = [' ',currentline];
      printout = strrep(printout,'.',' zzz ');
      printout = strrep(printout,',','');
+     printout = strrep(printout,'--',' ');
      printout = strrep(printout,' -',' ');
      printout = strrep(printout,'- ',' ');
      printout = strrep(printout,'  ',' ');
@@ -197,18 +204,15 @@ for x = 1:numlines
      printout = strrep(printout,''' ',' zzz ');
      printout = strrep(printout,' ''',' zzz ');
      
-     currentline = printout
+     currentline = printout;
      spacelocations = regexp(currentline,' ');
      numwords = size(spacelocations,2)-1;
     
      if(numwords > 0) %skip blank lines
-         for y = 1:numwords-1
-             word1 = lower(currentline(spacelocations(y)+1:spacelocations(y+1)-1))
-             word2 = lower(currentline(spacelocations(y+1)+1:spacelocations(y+2)-1))
+         for y = 1:numwords-1 
+             word1 = lower(currentline(spacelocations(y)+1:spacelocations(y+1)-1));
+             word2 = lower(currentline(spacelocations(y+1)+1:spacelocations(y+2)-1));
              
-             %wordfield = ['wordstruct.',word]
-             %wordtest = exist(wordfield, 'var') % doesn't work
-             %but this does...
              try
                  test = wordstruct.(word1);
                  wordtest1 = 1;
@@ -225,19 +229,48 @@ for x = 1:numlines
              
             
              if wordtest1 > 0 && wordtest2 > 0 %both are valid words
-                 following = word2
+                 following = word2;
+                 pairs = pairs + 1;
+                 
+                 details = wordstruct.(word1);
+                 next = details.next;
+                 try
+                     test = next.(word2);
+                     wordtestnext = 1;
+                 catch
+                     wordtestnext = 0;
+                 end
+                 
+                 if wordtestnext > 0 %already an entry
+                     details = wordstruct.(word1);
+                     count = next.(word2);
+                     count = count + 1;
+                     next.(word2) = count;
+                     details.next = next;
+                     wordstruct.(word1) = details;
+                     
+                 else
+                     details = wordstruct.(word1);
+                     next.(word2) = 1;
+                     details.next = next;
+                     wordstruct.(word1) = details;
+                 end
+                 
+                 
              else
-                 following = 'word not found'
+                 following = 'word not found';
                  unfoundwords = unfoundwords + 1;
+                 unfound = [word1,'-',word2];
              end
             
         end
     end
 end
 
+pairs = pairs
 unfoundwords = unfoundwords
  
- 
+testout = wordstruct;
 
 
 
