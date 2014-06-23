@@ -2,7 +2,15 @@
 function testout = Generator1(language)
     
 tic    
-    
+
+
+%limits to output
+allwordsmax = 100000;
+nextwordsmax = 10;
+previouswordsmax = 10;
+
+
+
 activefolder = pwd;
 
 filename = [language,'-corpus.txt'];
@@ -221,12 +229,21 @@ for x = 1:numlines
      numwords = size(spacelocations,2)-1;
     
      if(numwords > 0) %skip blank lines
-         for y = 2:numwords-1 
-             word0 = lower(currentline(spacelocations(y-1)+1:spacelocations(y)-1)); % previous word
-             word1 = lower(currentline(spacelocations(y)+1:spacelocations(y+1)-1)); % active word
-             word2 = lower(currentline(spacelocations(y+1)+1:spacelocations(y+2)-1)); % next word
+         for y = 1:numwords
              
-             phrase = [word0,word1,word2];
+             %main word
+             word1 = lower(currentline(spacelocations(y)+1:spacelocations(y+1)-1)); % active word
+             
+             %previous word
+             if y ~= 1 
+                 word0 = lower(currentline(spacelocations(y-1)+1:spacelocations(y)-1)); % previous word
+             end
+             
+             %next word
+             if y ~= numwords
+                 word2 = lower(currentline(spacelocations(y+1)+1:spacelocations(y+2)-1)); % next word
+             end
+             
              
              try
                  test = sortedwordstruct.(word0);
@@ -282,7 +299,6 @@ for x = 1:numlines
              else
                  following = 'word not found';
                  unfoundwords = unfoundwords + 1;
-                 unfound = [word1,'-',word2];
              end
              
              if wordtest1 > 0 && wordtest0 > 0 %both are valid words
@@ -321,6 +337,27 @@ for x = 1:numlines
              end
              
              
+             %for phrases
+             fullwordtest = wordtest0 + wordtest1 + wordtest2;
+             if fullwordtest == 3
+                 trigram = [word0,' ',word1,' ',word2];
+             
+                 try
+                     test = trigramstruct.(trigram);
+                     trigramtest = 1;
+                 catch
+                     trigramtest = 0;
+                 end
+                 
+                 if trigramtest > 0 %trigram already exists
+                     trigramstruct.(trigram) = trigramstruct.(trigram) + 1;
+                 else
+                     trigramstruct.(trigram) = 1;
+                 end
+             end
+             
+             
+        clear word0 word1 word2 trigram   
             
         end
     end
@@ -328,7 +365,7 @@ end
 
 pairs = pairs
 unfoundwords = unfoundwords
-
+testout = trigramstruct
 
 %sort structure so words and counts are in descending order
 
@@ -423,11 +460,7 @@ writejsonfile = fopen(jsonfile,'w');
 print = ['{'];
 fprintf(writejsonfile,'%s\n',print);
 
-%limits to output
-allwordsmax = 100000;
-nextwordsmax = 20;
-previouswordsmax = 20;
-
+%set limits at front of file
 
 if allwordssize > allwordsmax
     allwordssize = allwordsmax;
@@ -528,8 +561,6 @@ fprintf(writejsonfile,'%s\n',print);
 
 fclose(writejsonfile);
 fclose(readfile);
-
-testout = sortedwordstruct;
 
 
 
