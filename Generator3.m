@@ -6,8 +6,8 @@ tic
 
 %limits to output
 allwordsmax = 100000;
-nextwordsmax = 20;
-previouswordsmax = 20;
+nextwordsmax = 10;
+previouswordsmax = 10;
 
 
 activefolder = pwd;
@@ -281,15 +281,19 @@ for x = 1:numlines
                  
                  if wordtestnext > 0 %already an entry
                      details = sortedwordstruct.(word1);
-                     count = next.(word2);
+                     subdetails = next.(word2);
+                     count = subdetails.count;
                      count = count + 1;
-                     next.(word2) = count;
+                     subdetails.count = count;
+                     next.(word2) = subdetails;
                      details.next = next;
                      sortedwordstruct.(word1) = details;
                      
                  else
                      details = sortedwordstruct.(word1);
-                     next.(word2) = 1;
+                     subdetails.count = 1;
+                     subdetails.word = 'test';
+                     next.(word2) = subdetails;
                      details.next = next;
                      sortedwordstruct.(word1) = details;
                  end
@@ -364,7 +368,7 @@ end
 
 pairs = pairs
 unfoundwords = unfoundwords
-testout = trigramstruct
+testout = sortedwordstruct
 
 %sort structure so words and counts are in descending order
 
@@ -384,7 +388,8 @@ for x = 1:allwordssize
     nextcount = 0; 
     for y = 1:allnextsize
          nextword = allnexts{y};
-         nextcount(y,1) = nextfields.(nextword);
+         protocount = nextfields.(nextword)
+         nextcount(y,1) = protocount.count;
     end
     
     %sort output arrays into finished cell array
@@ -496,6 +501,7 @@ for x = 1:allwordssize
         nextcount = 0; 
         for y = 1:allnextsize
              nextword = allnexts{y};
+             test = nextfields.(nextword)
              nextcount = num2str(nextfields.(nextword));
              printnext = ['"',nextword,'":',nextcount];
              fprintf(writejsonfile,'%s',printnext);
