@@ -7,6 +7,7 @@ fs.readFile('en-corpus.txt', function(err, data) {
 		linestring = array[i]		
 
 
+		linestring = linestring.replace('.','');
 		
 		//deal with apostrophes and contractions:
 		linestring = linestring.replace("'s", "xxxxx");
@@ -78,43 +79,75 @@ fs.readFile('en-corpus.txt', function(err, data) {
 		for(j = 0; j < wordsinline; j++) {
 			activeword = linearray[j];
 			if(wordspace[activeword]){
-				wordspace[activeword] = wordspace[activeword] + 1;
+				wordspace[activeword].count = wordspace[activeword].count + 1;
 			}
 			else{
-				if(activeword != '')
-				wordspace[activeword] = 1;
-				
+				if(activeword.length > 0){ //eliminates issue of blank keys
+					wordspace[activeword] = new Object();
+					wordspace[activeword].count = 1;
+					wordspace[activeword].next = new Object();
+				}
 			}
-
-		
+			
+			if(j < wordsinline-1){
+				nextword = linearray[j+1];
+				if(wordspace[activeword].next[nextword]){
+					wordspace[activeword].next[nextword].count = wordspace[activeword].next[nextword].count + 1;
+				}
+				else{
+					wordspace[activeword].next[nextword] = new Object();
+					wordspace[activeword].next[nextword].count = 1;
+					wordspace[activeword].next[nextword].third = new Object();
+				}
+				if(j < wordsinline-2){
+					thirdword = linearray[j+2];
+					
+					if(wordspace[activeword].next[nextword].third[thirdword]){
+						wordspace[activeword].next[nextword].third[thirdword].count = wordspace[activeword].next[nextword].third[thirdword].count + 1;
+					}
+					else{
+						wordspace[activeword].next[nextword].third[thirdword] = new Object();
+						wordspace[activeword].next[nextword].third[thirdword].count = 1;
+					}
+			
+					
+				}
+			}
 			
 		}
 		
 		
     }
-	console.log(wordspace);
+	//console.log(wordspace);
 	
+	sortedwordspace = nextsorter(wordspace)
+	console.log(sortedwordspace)
+	console.log(sortedwordspace.i.next.am)
+	
+});
+
+function nextsorter(wordspace){ //sorts entries in object and returns sorted object
+
 	countedwordsarray = Object.keys(wordspace)
 	numkeys = countedwordsarray.length
 	wordcountarray = new Array();
 	
 	for(x = 0; x < numkeys; x++){
 		countedword = countedwordsarray[x];
-		wordcountarray[x] = wordspace[countedword];
+		wordcountarray[x] = wordspace[countedword].count;
 	}
 	
-	//console.log(wordcountarray);
 	
 	sortedwordspace = new Object();
 	for(x = 0; x < numkeys; x++){
 		//maxindex = wordcountarray.indexOf(Math.max.apply(Math, wordcountarray)); //gets index of max value
 		maxindex = wordcountarray.indexOf(Math.min.apply(Math, wordcountarray)); //gets index of max value
-		sortedwordspace[countedwordsarray[maxindex]] = wordcountarray[maxindex];
+		targetword = countedwordsarray[maxindex];
+		sortedwordspace[countedwordsarray[maxindex]] = wordspace[targetword];
 		countedwordsarray.splice(maxindex, 1);
 		wordcountarray.splice(maxindex, 1);
 		
 	}	
-	//console.log(sortedwordspace);
-	
-	
-});
+
+	return sortedwordspace
+}
