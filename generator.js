@@ -1,8 +1,15 @@
-var dictionaryoutsize = 5000; // total size of sorted output dictionary
-var nextoutsize = 10;
-var thirdoutsize = 5;
-var prevoutsize = 5;
-var penuloutsize = 2;
+var dictionaryoutsize = 10000; // total size of sorted output dictionary
+var nextoutsize = 1000;
+var thirdoutfactor = 2; 
+var prevoutsize = 1000;
+var penuloutfactor = 2;
+var minnextout = 2;
+var minprevout = 2;
+var outpower = 0.85;
+
+var totalwordcount = 0;
+
+var test = 0;
 
 var fs = require('fs');
 fs.readFile('en-corpus.txt', function(err, data) {
@@ -10,80 +17,39 @@ fs.readFile('en-corpus.txt', function(err, data) {
     if(err) throw err;
     var array = data.toString().split("\n");
     for(i in array) {
-		linestring = array[i]		
-
-
-		linestring = linestring.replace('.','');
-		
-		//deal with apostrophes and contractions:
-		linestring = linestring.replace("'s", "xxxxx");
-		
-		linestring = linestring.replace(/'/g, "");
-		
-		linestring = linestring.replace(/,/g, "");
-		//how to deal with periods when in quotations?
-		linestring = linestring.replace(/[0-9]/g, '');
-		
-		//replace all non-text characters
-		linestring = linestring.replace('.','');
-		linestring = linestring.replace('?','');
-		linestring = linestring.replace('"','');
-		linestring = linestring.replace('!','');
-		linestring = linestring.replace(';','');
-		linestring = linestring.replace(':','');
-		linestring = linestring.replace('/','');
-		linestring = linestring.replace('(','');
-		linestring = linestring.replace(')','');
-		linestring = linestring.replace('[','');
-		linestring = linestring.replace(']','');
-		linestring = linestring.replace('@','');
-		linestring = linestring.replace('#','');
-		linestring = linestring.replace('$','');
-		linestring = linestring.replace('%','');
-		linestring = linestring.replace('^','');
-		linestring = linestring.replace('&','');
-		linestring = linestring.replace('*','');
-		linestring = linestring.replace('+','');
-		linestring = linestring.replace('=','');
-		linestring = linestring.replace('{','');
-		linestring = linestring.replace('}','');
-		linestring = linestring.replace('>','');
-		linestring = linestring.replace('<','');
-		linestring = linestring.replace('~','');
-		linestring = linestring.replace('"','');
-		linestring = linestring.replace('\r','');
-		linestring = linestring.replace('\n','');
-		
-		//don't want to eliminate hyphenated words
-		linestring = linestring.replace(' -',' ');
-		linestring = linestring.replace('- ',' ');
-		
-		linestring = linestring.replace("xxxxx", "'s");
-		
-		//looped to eliminate repeated space; up to 10 spaces in a row
-		for(k = 0; k < 10; k++){
-			linestring = linestring.replace('  ',' '); // eliminates all double spaces
+		if(Math.floor(i/10) == i/10){
+		console.log(i)
 		}
-		linestring = linestring.trim()
+		linestring = array[i]	
+
+		linestring = linestring.trim() //trim trailing and following whitespace
 		
-		array[i] = linestring;
-		//console.log(array[i]);
+		linestring = linestring.toLowerCase();		
+
+		linestring = linestring.replace(/\s/g,'A'); //swap out spaces for A's, put them back in later
 		
-		linestring = linestring.toLowerCase();
+		linestring = linestring.replace(/\W/g, '')
+		
+		linestring = linestring.replace(/\d/g, '')
+		
+		linestring = linestring.replace(/A/g,' '); // put spaces back in
+		
+		linestring = linestring.replace(/\s{2,}/g, ' ');
 		
 		//count individual words
 		linearray = linestring.split(" ");
 		wordsinline = linearray.length;
 		for(j = 0; j < wordsinline; j++) {
 			activeword = linearray[j];
-			if(checkword(activeword)){ //blank words still seem to show up...
+			if(checkword(activeword)){ 
+				totalwordcount += 1;
 				if(wordspace[activeword]){
-					wordspace[activeword].x = wordspace[activeword].x + 1;
+					wordspace[activeword].n = wordspace[activeword].n + 1;
 				}
 				else{
 					if(activeword.length > 0){ //eliminates issue of blank keys
 						wordspace[activeword] = new Object();
-						wordspace[activeword].x = 1;
+						wordspace[activeword].n = 1;
 						wordspace[activeword].b = new Object();
 						wordspace[activeword].z = new Object();
 					}
@@ -93,11 +59,11 @@ fs.readFile('en-corpus.txt', function(err, data) {
 					prevword = linearray[j-1];
 					if(checkword(prevword)){
 						if(wordspace[activeword].z[prevword]){
-							wordspace[activeword].z[prevword].x = wordspace[activeword].z[prevword].x + 1;
+							wordspace[activeword].z[prevword].n = wordspace[activeword].z[prevword].n + 1;
 						}
 						else{
 							wordspace[activeword].z[prevword] = new Object();
-							wordspace[activeword].z[prevword].x = 1;
+							wordspace[activeword].z[prevword].n = 1;
 							wordspace[activeword].z[prevword].y = new Object();
 						}
 						//third word in trigram
@@ -105,11 +71,11 @@ fs.readFile('en-corpus.txt', function(err, data) {
 							penulword = linearray[j-2];
 							if(checkword(penulword)){
 								if(wordspace[activeword].z[prevword].y[penulword]){
-									wordspace[activeword].z[prevword].y[penulword].x = wordspace[activeword].z[prevword].y[penulword].x + 1;
+									wordspace[activeword].z[prevword].y[penulword].n = wordspace[activeword].z[prevword].y[penulword].n + 1;
 								}
 								else{
 									wordspace[activeword].z[prevword].y[penulword] = new Object();
-									wordspace[activeword].z[prevword].y[penulword].x = 1;
+									wordspace[activeword].z[prevword].y[penulword].n = 1;
 								}
 							}
 						}
@@ -121,23 +87,24 @@ fs.readFile('en-corpus.txt', function(err, data) {
 					nextword = linearray[j+1];
 					if(checkword(nextword)){
 						if(wordspace[activeword].b[nextword]){
-							wordspace[activeword].b[nextword].x = wordspace[activeword].b[nextword].x + 1;
+							wordspace[activeword].b[nextword].n = wordspace[activeword].b[nextword].n + 1;
 						}
 						else{
 							wordspace[activeword].b[nextword] = new Object();
-							wordspace[activeword].b[nextword].x = 1;
+							wordspace[activeword].b[nextword].n = 1;
 							wordspace[activeword].b[nextword].c = new Object();
 						}
 						//third word in trigram
 						if(j < wordsinline-2){
 							thirdword = linearray[j+2];
+							//console.log(activeword + " " + nextword + " " + thirdword)
 							if(checkword(thirdword)){
 								if(wordspace[activeword].b[nextword].c[thirdword]){
-									wordspace[activeword].b[nextword].c[thirdword].x = wordspace[activeword].b[nextword].c[thirdword].x + 1;
+									wordspace[activeword].b[nextword].c[thirdword].n = wordspace[activeword].b[nextword].c[thirdword].n + 1;
 								}
 								else{
 									wordspace[activeword].b[nextword].c[thirdword] = new Object();
-									wordspace[activeword].b[nextword].c[thirdword].x = 1;
+									wordspace[activeword].b[nextword].c[thirdword].n = 1;
 								}
 							}
 						}
@@ -148,7 +115,7 @@ fs.readFile('en-corpus.txt', function(err, data) {
 		
 		
     }
-	//console.log(wordspace);
+	console.log("totalwordcount = " + totalwordcount);
 	
 	sortedwordspace = countsorter(wordspace,dictionaryoutsize)
 	sortedwordsarray = Object.keys(sortedwordspace)
@@ -156,31 +123,42 @@ fs.readFile('en-corpus.txt', function(err, data) {
 	totalnumkeys = sortedwordsarray.length
 	for(y = 0; y < totalnumkeys; y++){
 		word = sortedwordsarray[y]
-		
+		nextnumoccur = sortedwordspace[word].n
+		calcnextoutsize = Math.floor(nextoutsize/Math.pow((totalwordcount/nextnumoccur),outpower)) + minnextout;
+		if(test == 0){
+			console.log(calcnextoutsize)
+			test = 1;
+		}
 		nextobject = sortedwordspace[word].b
 		thirdwordsarray = Object.keys(nextobject)
 		thirdnumkeys = thirdwordsarray.length
 			for(z = 0; z < thirdnumkeys; z++){
 				thirdword = thirdwordsarray[z];
+				thirdnumoccur = nextobject[thirdword].n
+				calcthirdoutsize = Math.ceil(calcnextoutsize/thirdoutfactor)
 				thirdobject = nextobject[thirdword].c
-				sortedthirdobject = countsorter(thirdobject, thirdoutsize)
+				sortedthirdobject = countsorter(thirdobject, calcthirdoutsize)
 				nextobject[thirdword].c = sortedthirdobject
 			}
 		
-		sortednextobject = countsorter(nextobject,nextoutsize)
+		sortednextobject = countsorter(nextobject,calcnextoutsize)
 		sortedwordspace[word].b = sortednextobject
 		
+		prevnumoccur = sortedwordspace[word].n
+		calcprevoutsize = Math.floor(prevoutsize/Math.pow((totalwordcount/prevnumoccur),outpower)) + minprevout;
 		prevobject = sortedwordspace[word].z
 		penulwordsarray = Object.keys(prevobject)
 		penulnumkeys = penulwordsarray.length
 			for(z = 0; z < penulnumkeys; z++){
 				penulword = penulwordsarray[z];
 				penulobject = prevobject[penulword].y
-				sortedpenulobject = countsorter(penulobject, penuloutsize)
+				penulnumoccur = prevobject[penulword].n
+				calcpenuloutsize = Math.ceil(calcprevoutsize/penuloutfactor)
+				sortedpenulobject = countsorter(penulobject, calcpenuloutsize)
 				prevobject[penulword].y = sortedpenulobject
 			}
 		
-		sortedprevobject = countsorter(prevobject,prevoutsize)
+		sortedprevobject = countsorter(prevobject,calcprevoutsize)
 		sortedwordspace[word].z = sortedprevobject
 	}
 	
@@ -197,25 +175,30 @@ fs.readFile('en-corpus.txt', function(err, data) {
 	jsontree = new Object();
 	for(x = 0; x < numkeys; x++){
 		simpleword = simplewordsarray[x];
-		count = sortedwordspace[simpleword].x;
+		count = sortedwordspace[simpleword].n;
 		arraytofile[x] = [simpleword,count];
 		
 		letterarray = simpleword.split("");
 		numletters = letterarray.length;
 		evalexpression = 'jsontree';
-		for(y = 0; y < numletters; y++){
-			evalexpression = evalexpression + '.' + letterarray[y];
-			if(eval(evalexpression)){
-				console.log("gotone")
+		for(y = 0; y < numletters+1; y++){
+			if(y == numletters){
+				evalexpression = evalexpression + ".zz = " + count;
+				eval(evalexpression);
 			}
 			else{
-				eval(evalexpression + ' = new Object()');
-				console.log("unfound")
-				//break;
+				evalexpression = evalexpression + '.' + letterarray[y];
+				if(eval(evalexpression)){
+					//console.log("gotone")
+				}
+				else{
+					eval(evalexpression + ' = new Object()');
+					//console.log("unfound")
+					//break;
+				}
 			}
 		}
 	}
-	console.log(jsontree)
 		
 	writeJSONfile(jsontree, 'priority')
 	
@@ -223,7 +206,7 @@ fs.readFile('en-corpus.txt', function(err, data) {
 
 	var file = fs.createWriteStream('en-dictionary.txt');
 	file.on('error', function(err) { /* error handling */ });
-	arraytofile.forEach(function(v) { file.write(v.join(', ') + '\n'); });
+	arraytofile.forEach(function(v) { file.write(v.join(',') + '\n'); });
 	file.end();
  
 	
@@ -233,13 +216,26 @@ fs.readFile('en-corpus.txt', function(err, data) {
 
 function writeJSONfile(jsonoutput, type){
 
+//version with lots of whitespace; much more readable
 var jf = require('jsonfile')
 
-filename = 'en-'+type+'.json';
+filename = 'long-en-'+type+'.json';
 
 jf.writeFile(filename, jsonoutput, function(err) {
   console.log("error? " + err);
 })
+
+//compressed version
+var jf = require('fs')
+
+filename = 'en-'+type+'.json';
+
+jsonoutput = JSON.stringify(jsonoutput)
+
+jf.writeFile(filename, jsonoutput, function(err) {
+  console.log("error? " + err);
+})
+
 
 	
 
@@ -256,9 +252,8 @@ function countsorter(countedobject,subsize){ //sorts and trims entries in object
 	
 	for(x = 0; x < numkeys; x++){
 		countedword = countedwordsarray[x];
-		wordcountarray[x] = countedobject[countedword].x;
+		wordcountarray[x] = countedobject[countedword].n;
 	}
-	
 	
 	numtrimmed = Math.min(countedwordsarray.length,subsize)
 	sortedcountedobject = new Object();
@@ -279,7 +274,7 @@ function checkword(word){ // checks word against "forbidden" list
 if(word == ''){
 	return false
 }
-else if(word == 'enron'){
+else if(word == 'constructor'){ //causes problems with array construction
 	return false
 }
 else{
