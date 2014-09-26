@@ -1,0 +1,2120 @@
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 0
+synonymsmax: 50
+ringlimit: 5
+superringlimit: 10
+synonymcorpusfactor: 0.3
+numberofchoices: 5
+Achoice: 737
+ABchoice: 697
+ABCchoice: 869
+Achoicewild: 0
+ABchoicewild: 0
+ABCchoicewild: 0
+Atop: 639
+ABtop: 667
+ABCtop: 838
+Atopwild: 0
+ABtopwild: 0
+ABCtopwild: 0
+superseded: 159
+unfound: 37
+totalwordcount: 4953920
+topbranchesnext: 27
+topbranchesprev: 44
+hundredbranchesnext: 15
+hundredbranchesprev: 22
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 6
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3819
+keypresses: 6120
+letters: 10000
+perfect: 324
+oneperfect: 463
+twoperfect: 434
+words: 2340
+trigramfilesize: 5.1 Mb
+
+--------------------
+
+LIMIT C TO NUMBER OF CHOICES
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 0
+synonymfloor: 0
+synonymsmax: 50
+ringlimit: 5
+superringlimit: 10
+synonymcorpusfactor: 0.2
+numberofchoices: 5
+Achoice: 1049
+ABchoice: 700
+ABCchoice: 556
+Achoicewild: 0
+ABchoicewild: 0
+ABCchoicewild: 0
+Atop: 970
+ABtop: 671
+ABCtop: 525
+Atopwild: 0
+ABtopwild: 0
+ABCtopwild: 0
+superseded: 139
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 27
+topbranchesprev: 44
+hundredbranchesnext: 15
+hundredbranchesprev: 22
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 6
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3736
+keypresses: 6050
+letters: 10000
+perfect: 324
+oneperfect: 487
+twoperfect: 436
+words: 2340
+trigramfilesize: 5 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 5000
+correlationthreshold: 20
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1052
+ABchoice: 694
+ABCchoice: 555
+Achoicewild: 0
+ABchoicewild: 1
+ABCchoicewild: 3
+Atop: 971
+ABtop: 665
+ABCtop: 524
+Atopwild: 0
+ABtopwild: 2
+ABCtopwild: 3
+superseded: 140
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 27
+topbranchesprev: 44
+hundredbranchesnext: 15
+hundredbranchesprev: 22
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 6
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3736
+keypresses: 6044
+letters: 10000
+perfect: 325
+oneperfect: 487
+twoperfect: 432
+words: 2340
+trigramfilesize: 4.8 Mb
+
+------------------------------------------------------------------------END OF ORIGINAL SCHEME RESULTS--------------------------------------
+
+
+--------------------
+FIRST ATTEMPT WITH FULL SYNONYM SETUP
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 1000
+correlationthreshold: 10
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1088
+ABchoice: 746
+ABCchoice: 467
+Achoicewild: 0
+ABchoicewild: 0
+ABCchoicewild: 0
+Atop: 980
+ABtop: 743
+ABCtop: 431
+Atopwild: 0
+ABtopwild: 0
+ABCtopwild: 0
+superseded: 147
+unfound: 39
+totalwordcount: 4953920
+topbranchesnext: 27
+topbranchesprev: 44
+hundredbranchesnext: 15
+hundredbranchesprev: 22
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 6
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3825
+keypresses: 6192
+letters: 10000
+perfect: 304
+oneperfect: 473
+twoperfect: 433
+words: 2340
+trigramfilesize: 3.6 Mb
+
+--------------------
+CYCLING OF NEXTOUTSIZE
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 1000
+correlationthreshold: 20
+nextoutsize: 30
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1086
+ABchoice: 748
+ABCchoice: 469
+Atop: 982
+ABtop: 759
+ABCtop: 424
+superseded: 138
+unfound: 37
+totalwordcount: 4953920
+topbranchesnext: 27
+topbranchesprev: 44
+hundredbranchesnext: 15
+hundredbranchesprev: 22
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 6
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3755
+keypresses: 6124
+letters: 10000
+perfect: 310
+oneperfect: 488
+twoperfect: 438
+words: 2340
+trigramfilesize: 4.4 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 1000
+correlationthreshold: 20
+nextoutsize: 25
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1109
+ABchoice: 736
+ABCchoice: 458
+Atop: 1003
+ABtop: 750
+ABCtop: 415
+superseded: 135
+unfound: 37
+totalwordcount: 4953920
+topbranchesnext: 24
+topbranchesprev: 38
+hundredbranchesnext: 13
+hundredbranchesprev: 20
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 4
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3766
+keypresses: 6126
+letters: 10000
+perfect: 311
+oneperfect: 486
+twoperfect: 439
+words: 2340
+trigramfilesize: 4.1 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 1000
+correlationthreshold: 20
+nextoutsize: 20
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1134
+ABchoice: 729
+ABCchoice: 440
+Atop: 1025
+ABtop: 745
+ABCtop: 397
+superseded: 136
+unfound: 37
+totalwordcount: 4953920
+topbranchesnext: 21
+topbranchesprev: 32
+hundredbranchesnext: 12
+hundredbranchesprev: 17
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 3
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3791
+keypresses: 6126
+letters: 10000
+perfect: 313
+oneperfect: 492
+twoperfect: 427
+words: 2340
+trigramfilesize: 3.8 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 500
+correlationthreshold: 20
+nextoutsize: 20
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1137
+ABchoice: 731
+ABCchoice: 436
+Atop: 1018
+ABtop: 735
+ABCtop: 401
+superseded: 150
+unfound: 36
+totalwordcount: 4953920
+topbranchesnext: 21
+topbranchesprev: 32
+hundredbranchesnext: 12
+hundredbranchesprev: 17
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3793
+keypresses: 6114
+letters: 10000
+perfect: 316
+oneperfect: 487
+twoperfect: 423
+words: 2340
+trigramfilesize: 3.7 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 500
+correlationthreshold: 15
+nextoutsize: 20
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1140
+ABchoice: 716
+ABCchoice: 449
+Atop: 1029
+ABtop: 720
+ABCtop: 414
+superseded: 142
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 21
+topbranchesprev: 32
+hundredbranchesnext: 12
+hundredbranchesprev: 17
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3816
+keypresses: 6116
+letters: 10000
+perfect: 311
+oneperfect: 490
+twoperfect: 437
+words: 2340
+trigramfilesize: 3.5 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 20
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 917
+ABchoice: 794
+ABCchoice: 589
+Atop: 819
+ABtop: 781
+ABCtop: 538
+superseded: 162
+unfound: 40
+totalwordcount: 4953920
+topbranchesnext: 21
+topbranchesprev: 32
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4051
+keypresses: 6399
+letters: 10000
+perfect: 232
+oneperfect: 476
+twoperfect: 448
+words: 2340
+trigramfilesize: 1.8 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 20
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 917
+ABchoice: 794
+ABCchoice: 589
+Atop: 819
+ABtop: 781
+ABCtop: 538
+superseded: 162
+unfound: 40
+totalwordcount: 4953920
+topbranchesnext: 21
+topbranchesprev: 32
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4051
+keypresses: 6399
+letters: 10000
+perfect: 232
+oneperfect: 476
+twoperfect: 448
+words: 2340
+trigramfilesize: 1.8 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 20
+ringlimit: 3
+superringlimit: 6
+numberofchoices: 5
+Achoice: 976
+ABchoice: 771
+ABCchoice: 555
+Atop: 880
+ABtop: 753
+ABCtop: 513
+superseded: 156
+unfound: 38
+totalwordcount: 4953920
+topbranchesnext: 21
+topbranchesprev: 32
+hundredbranchesnext: 12
+hundredbranchesprev: 17
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3994
+keypresses: 6299
+letters: 10000
+perfect: 279
+oneperfect: 458
+twoperfect: 454
+words: 2340
+trigramfilesize: 2 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 10
+nextoutsize: 20
+ringlimit: 2
+superringlimit: 4
+numberofchoices: 5
+Achoice: 1012
+ABchoice: 768
+ABCchoice: 520
+Atop: 921
+ABtop: 767
+ABCtop: 479
+superseded: 133
+unfound: 40
+totalwordcount: 4953920
+topbranchesnext: 21
+topbranchesprev: 32
+hundredbranchesnext: 12
+hundredbranchesprev: 17
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3898
+keypresses: 6270
+letters: 10000
+perfect: 284
+oneperfect: 470
+twoperfect: 443
+words: 2340
+trigramfilesize: 2.8 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 10
+nextoutsize: 20
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 955
+ABchoice: 776
+ABCchoice: 571
+Atop: 865
+ABtop: 767
+ABCtop: 520
+superseded: 150
+unfound: 38
+totalwordcount: 4953920
+topbranchesnext: 21
+topbranchesprev: 32
+hundredbranchesnext: 12
+hundredbranchesprev: 17
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3997
+keypresses: 6367
+letters: 10000
+perfect: 273
+oneperfect: 449
+twoperfect: 447
+words: 2340
+trigramfilesize: 2.5 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 944
+ABchoice: 791
+ABCchoice: 565
+Atop: 842
+ABtop: 785
+ABCtop: 513
+superseded: 160
+unfound: 40
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4069
+keypresses: 6405
+letters: 10000
+perfect: 232
+oneperfect: 479
+twoperfect: 442
+words: 2340
+trigramfilesize: 1.7 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 4028
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 944
+ABchoice: 791
+ABCchoice: 565
+Atop: 842
+ABtop: 785
+ABCtop: 513
+superseded: 160
+unfound: 40
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4069
+keypresses: 6405
+letters: 10000
+perfect: 232
+oneperfect: 479
+twoperfect: 442
+words: 2340
+trigramfilesize: 1.7 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 3784
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 948
+ABchoice: 765
+ABCchoice: 584
+Atop: 847
+ABtop: 746
+ABCtop: 546
+superseded: 158
+unfound: 43
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4119
+keypresses: 6472
+letters: 10000
+perfect: 217
+oneperfect: 478
+twoperfect: 456
+words: 2340
+trigramfilesize: 1.6 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 3784
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 948
+ABchoice: 765
+ABCchoice: 584
+Atop: 847
+ABtop: 746
+ABCtop: 546
+superseded: 158
+unfound: 43
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4119
+keypresses: 6472
+letters: 10000
+perfect: 217
+oneperfect: 478
+twoperfect: 456
+words: 2340
+trigramfilesize: 1.6 Mb
+
+--------------------BASELINE
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 3784
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 948
+ABchoice: 679
+ABCchoice: 669
+Atop: 847
+ABtop: 640
+ABCtop: 653
+superseded: 156
+unfound: 44
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4126
+keypresses: 6476
+letters: 10000
+perfect: 217
+oneperfect: 478
+twoperfect: 453
+words: 2340
+trigramfilesize: 1.6 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 3784
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 948
+ABchoice: 679
+ABCchoice: 669
+Atop: 847
+ABtop: 640
+ABCtop: 653
+superseded: 156
+unfound: 44
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4128
+keypresses: 6478
+letters: 10000
+perfect: 213
+oneperfect: 483
+twoperfect: 453
+words: 2340
+trigramfilesize: 1.6 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 3784
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 948
+ABchoice: 679
+ABCchoice: 669
+Atop: 853
+ABtop: 640
+ABCtop: 653
+superseded: 150
+unfound: 44
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4135
+keypresses: 6484
+letters: 10000
+perfect: 213
+oneperfect: 484
+twoperfect: 452
+words: 2340
+trigramfilesize: 1.6 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 3784
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 862
+ABchoice: 679
+ABCchoice: 755
+Atop: 768
+ABtop: 640
+ABCtop: 729
+superseded: 159
+unfound: 44
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4149
+keypresses: 6488
+letters: 10000
+perfect: 218
+oneperfect: 464
+twoperfect: 459
+words: 2340
+trigramfilesize: 1.6 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 3784
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 862
+ABchoice: 679
+ABCchoice: 755
+Atop: 768
+ABtop: 640
+ABCtop: 729
+superseded: 159
+unfound: 44
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4149
+keypresses: 6488
+letters: 10000
+perfect: 218
+oneperfect: 464
+twoperfect: 459
+words: 2340
+trigramfilesize: 1.6 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 3784
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 862
+ABchoice: 679
+ABCchoice: 755
+Atop: 768
+ABtop: 640
+ABCtop: 729
+superseded: 159
+unfound: 44
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 4149
+keypresses: 6488
+letters: 10000
+perfect: 218
+oneperfect: 464
+twoperfect: 459
+perfectchoice: 534
+oneperfectchoice: 669
+twoperfectchoice: 456
+words: 2340
+trigramfilesize: 1.6 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 7474
+ringdictionarysize: 10000
+synonymfloor: 1000
+correlationthreshold: 15
+nextoutsize: 15
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 1037
+ABchoice: 678
+ABCchoice: 590
+Atop: 927
+ABtop: 655
+ABCtop: 574
+superseded: 149
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+hundredbranchesnext: 11
+hundredbranchesprev: 15
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 3
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3896
+keypresses: 6235
+letters: 10000
+perfect: 306
+oneperfect: 455
+twoperfect: 441
+perfectchoice: 644
+oneperfectchoice: 646
+twoperfectchoice: 428
+words: 2340
+trigramfilesize: 3.2 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 10000
+ringdictionarysize: 10000
+synonymfloor: 10000
+correlationthreshold: 15
+nextoutsize: 30
+ringlimit: 10
+superringlimit: 20
+numberofchoices: 5
+Achoice: 929
+ABchoice: 700
+ABCchoice: 675
+Atop: 832
+ABtop: 671
+ABCtop: 659
+superseded: 142
+unfound: 36
+totalwordcount: 4953920
+topbranchesnext: 27
+topbranchesprev: 44
+hundredbranchesnext: 15
+hundredbranchesprev: 22
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 6
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3768
+keypresses: 6097
+letters: 10000
+perfect: 322
+oneperfect: 454
+twoperfect: 456
+perfectchoice: 666
+oneperfectchoice: 689
+twoperfectchoice: 391
+words: 2340
+trigramfilesize: 5 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 7533
+ringdictionarysize: 10000
+synonymfloor: 500
+correlationthreshold: 15
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1042
+ABchoice: 679
+ABCchoice: 584
+Atop: 928
+ABtop: 652
+ABCtop: 567
+superseded: 158
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+hundredbranchesnext: 11
+hundredbranchesprev: 15
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3878
+keypresses: 6186
+letters: 10000
+perfect: 310
+oneperfect: 457
+twoperfect: 444
+perfectchoice: 638
+oneperfectchoice: 666
+twoperfectchoice: 421
+words: 2340
+trigramfilesize: 3.2 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 6508
+ringdictionarysize: 10000
+synonymfloor: 400
+correlationthreshold: 12
+nextoutsize: 15
+ringlimit: 6
+superringlimit: 12
+numberofchoices: 5
+Achoice: 1032
+ABchoice: 677
+ABCchoice: 596
+Atop: 913
+ABtop: 647
+ABCtop: 582
+superseded: 163
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 27
+hundredbranchesnext: 11
+hundredbranchesprev: 15
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3903
+keypresses: 6215
+letters: 10000
+perfect: 309
+oneperfect: 455
+twoperfect: 432
+perfectchoice: 637
+oneperfectchoice: 663
+twoperfectchoice: 413
+words: 2340
+trigramfilesize: 2.8 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 7465
+ringdictionarysize: 10000
+synonymfloor: 300
+correlationthreshold: 15
+nextoutsize: 2
+ringlimit: 6
+superringlimit: 12
+numberofchoices: 5
+Achoice: 1102
+ABchoice: 682
+ABCchoice: 513
+Atop: 980
+ABtop: 646
+ABCtop: 502
+superseded: 169
+unfound: 43
+totalwordcount: 4953920
+topbranchesnext: 11
+topbranchesprev: 21
+hundredbranchesnext: 8
+hundredbranchesprev: 12
+thousandbranchesnext: 2
+thousandbranchesprev: 5
+choicekeypresses: 3939
+keypresses: 6277
+letters: 10000
+perfect: 299
+oneperfect: 418
+twoperfect: 457
+perfectchoice: 605
+oneperfectchoice: 676
+twoperfectchoice: 431
+words: 2340
+trigramfilesize: 3.4 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 7551
+ringdictionarysize: 10000
+synonymfloor: 700
+correlationthreshold: 15
+nextoutsize: 10
+ringlimit: 6
+superringlimit: 12
+numberofchoices: 5
+Achoice: 1050
+ABchoice: 674
+ABCchoice: 580
+Atop: 940
+ABtop: 652
+ABCtop: 564
+superseded: 148
+unfound: 36
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 3
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3866
+keypresses: 6227
+letters: 10000
+perfect: 305
+oneperfect: 445
+twoperfect: 453
+perfectchoice: 643
+oneperfectchoice: 673
+twoperfectchoice: 401
+words: 2340
+trigramfilesize: 3.2 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 9106
+ringdictionarysize: 10000
+synonymfloor: 500
+correlationthreshold: 30
+nextoutsize: 10
+ringlimit: 6
+superringlimit: 12
+numberofchoices: 5
+Achoice: 1045
+ABchoice: 683
+ABCchoice: 576
+Atop: 935
+ABtop: 659
+ABCtop: 560
+superseded: 150
+unfound: 36
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 3
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3870
+keypresses: 6194
+letters: 10000
+perfect: 313
+oneperfect: 452
+twoperfect: 438
+perfectchoice: 642
+oneperfectchoice: 668
+twoperfectchoice: 411
+words: 2340
+trigramfilesize: 3.7 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 6093
+ringdictionarysize: 10000
+synonymfloor: 2000
+correlationthreshold: 10
+nextoutsize: 30
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 967
+ABchoice: 683
+ABCchoice: 655
+Atop: 863
+ABtop: 656
+ABCtop: 635
+superseded: 151
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 27
+topbranchesprev: 44
+hundredbranchesnext: 15
+hundredbranchesprev: 22
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 6
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3874
+keypresses: 6203
+letters: 10000
+perfect: 310
+oneperfect: 450
+twoperfect: 447
+perfectchoice: 642
+oneperfectchoice: 665
+twoperfectchoice: 421
+words: 2340
+trigramfilesize: 3.7 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 6036
+ringdictionarysize: 10000
+synonymfloor: 1500
+correlationthreshold: 10
+nextoutsize: 30
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 972
+ABchoice: 678
+ABCchoice: 651
+Atop: 865
+ABtop: 649
+ABCtop: 630
+superseded: 157
+unfound: 39
+totalwordcount: 4953920
+topbranchesnext: 27
+topbranchesprev: 44
+hundredbranchesnext: 15
+hundredbranchesprev: 22
+fivehundredbranchesnext: 3
+fivehundredbranchesprev: 6
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3860
+keypresses: 6201
+letters: 10000
+perfect: 308
+oneperfect: 443
+twoperfect: 452
+perfectchoice: 647
+oneperfectchoice: 665
+twoperfectchoice: 412
+words: 2340
+trigramfilesize: 3.6 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 7533
+ringdictionarysize: 10000
+synonymfloor: 500
+correlationthreshold: 15
+nextoutsize: 20
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1015
+ABchoice: 679
+ABCchoice: 611
+Atop: 909
+ABtop: 649
+ABCtop: 598
+superseded: 149
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 21
+topbranchesprev: 32
+hundredbranchesnext: 12
+hundredbranchesprev: 17
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3864
+keypresses: 6155
+letters: 10000
+perfect: 310
+oneperfect: 463
+twoperfect: 452
+perfectchoice: 643
+oneperfectchoice: 669
+twoperfectchoice: 413
+words: 2340
+trigramfilesize: 3.5 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 7533
+ringdictionarysize: 10000
+synonymfloor: 500
+correlationthreshold: 15
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1017
+ABchoice: 682
+ABCchoice: 606
+Atop: 909
+ABtop: 654
+ABCtop: 591
+superseded: 151
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 18
+topbranchesprev: 35
+hundredbranchesnext: 11
+hundredbranchesprev: 19
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3857
+keypresses: 6143
+letters: 10000
+perfect: 310
+oneperfect: 461
+twoperfect: 455
+perfectchoice: 638
+oneperfectchoice: 683
+twoperfectchoice: 406
+words: 2340
+trigramfilesize: 3.5 Mb
+
+--------------------
+
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 7533
+ringdictionarysize: 10000
+synonymfloor: 500
+correlationthreshold: 15
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 1021
+ABchoice: 682
+ABCchoice: 602
+Atop: 910
+ABtop: 654
+ABCtop: 586
+superseded: 155
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 38
+hundredbranchesnext: 10
+hundredbranchesprev: 20
+thousandbranchesnext: 3
+thousandbranchesprev: 3
+choicekeypresses: 3853
+keypresses: 6150
+letters: 10000
+perfect: 309
+oneperfect: 455
+twoperfect: 452
+perfectchoice: 633
+oneperfectchoice: 692
+twoperfectchoice: 407
+words: 2340
+trigramfilesize: 3.6 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 3265
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 0
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 10
+numberofchoices: 5
+Achoice: 910
+ABchoice: 674
+ABCchoice: 710
+Atop: 810
+ABtop: 633
+ABCtop: 688
+superseded: 163
+unfound: 46
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+choicekeypresses: 4133
+keypresses: 6533
+letters: 10000
+perfect: 220
+oneperfect: 456
+twoperfect: 447
+perfectchoice: 545
+oneperfectchoice: 681
+twoperfectchoice: 431
+words: 2340
+trigramfilesize: 0.9 Mb
+
+--------------------
+
+CURRENT FAVORITE VARIABLES:
+//SAME AS CONSOLIDATED SIMULATOR, BUT SKIPS SYNONYM STATS GENERATION SO IT CAN BE DONE INDEPENDENTLY (AND SAVE TONS OF TIME)
+
+//GENERAL VARIABLES
+var totalwordcount = 0;
+var cleanarray = [] // for data after it has been cleaned and trimmed	
+var corpus = 'en-corpus.txt'
+
+//SYNONYM GENERATOR VARIABLES
+
+var ringdic = {};
+//var ringdictionarysize = 5100;
+var maxarraylength = 5000;
+var denomconstant = .0001;
+var synonymsmax = 50;
+var synonymcorpusfactor = 0.2; //denotes what proportion of full text corpus is used for synonym generation - make things go faster
+var synonymring = {};
+
+//RING GENERATOR VARIABLES
+var ringlimit = 5;
+var superringlimit = 15; //upper limit of allowable elements before things start getting shunted off into orphans
+
+//PRIORITY DICTIONARY VARIABLES
+var prioritydictionaryoutsize = 100000; // total size of priority output dictionary
+
+//TRIGRAM DICTIONARY VARIABLES
+var trigramdictionaryoutsize = 10000; // total size of trigram output dictionary
+var ringdictionarysize = 10000; // total size of trigram output dictionary
+var synonymfloor = 100; // minimum value above which words are not added to trigram dictionary if they have a synonym available 
+var correlationthreshold = 5; //only uses words that have fairly high synonym value default ~15
+var assignedsynonyms = {};
+var nextoutsize = 10;
+var outpower = 0.2;
+var nextzero = 10;
+var slope = 0.03;
+var prevoutsize = 3*nextoutsize;
+var prevzero = nextzero;
+var minnextout = 2;
+var minprevout = minnextout;
+var thirdoutfactor = 2;  //divide next and prev by this #
+var penuloutfactor = thirdoutfactor;
+
+var prioritydic = {};
+var prioritydickeys = [];
+var trigramdic = {};
+var sortedwordspace = {};
+var capswordspace = {};
+var capsthreshold = 0.8; //if proportion of caps version exceeds this threshold, shunted to another matrix
+
+//NORMALLY SYNONYM STATS WOULD BE CALCULATED; ACCELERATED VERSION DOES THIS SEPARATELY TO SAVE TIME
+var synonymring = require('./en-synonym.json'); //skip synonym ring generation
+	
+
+//SIMULATOR VARIABLES
+prioritydic = {};
+trigramdic = {};
+rings = {};
+ringassignments = {};
+ringtotals = {};
+typedword = [];
+evalword = "";
+basechoicearray = [];
+ABarray = [];
+ABCarray = [];
+ZABarray = [];
+A_Carray = [];
+A_Cfinalarray = [];
+Y_Aarray = [];
+ABxarray = [];
+xBCarray = [];
+AxCarray = [];
+xABarray = [];
+ZxBarray = [];
+xBarray = [];
+finalchoicearray = [];
+originalchoicearray = [];
+potentialword = true;
+penultimateword = "";
+previousword = "";
+numberofchoices = 5;
+
+abcfactor = 1000; //abcfactor >> zabfactor for no effect
+zabfactor = 1;
+purefactor = 1;
+
+maxwordlength = 30;
+wordpower = 1; // gives boost to shorter words - use 1 for no effect
+
+-------------------------
+
+CURRENT FAVORITE RESULTS
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 4011
+ringdictionarysize: 10000
+synonymfloor: 100
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1084
+ABchoice: 663
+ABCchoice: 557
+Atop: 958
+ABtop: 625
+ABCtop: 539
+superseded: 182
+unfound: 36
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+choicekeypresses: 4067
+keypresses: 6424
+letters: 10000
+perfect: 279
+oneperfect: 402
+twoperfect: 455
+perfectchoice: 553
+oneperfectchoice: 704
+twoperfectchoice: 421
+words: 2340
+trigramfilesize: 1.19 Mb
+
+--------------------
+NO SYNONYMS AT ALL - STILL PRETTY GOOD
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 10000
+ringdictionarysize: 10000
+synonymfloor: 100
+correlationthreshold: 50000
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1082
+ABchoice: 684
+ABCchoice: 539
+Atop: 972
+ABtop: 662
+ABCtop: 535
+superseded: 136
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3864
+keypresses: 6208
+letters: 10000
+perfect: 316
+oneperfect: 461
+twoperfect: 438
+perfectchoice: 644
+oneperfectchoice: 683
+twoperfectchoice: 386
+words: 2340
+trigramfilesize: 2.46 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 9486
+ringdictionarysize: 10000
+synonymfloor: 100
+correlationthreshold: 50
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1106
+ABchoice: 676
+ABCchoice: 523
+Atop: 993
+ABtop: 652
+ABCtop: 516
+superseded: 144
+unfound: 35
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3887
+keypresses: 6243
+letters: 10000
+perfect: 312
+oneperfect: 439
+twoperfect: 454
+perfectchoice: 627
+oneperfectchoice: 691
+twoperfectchoice: 401
+words: 2340
+trigramfilesize: 2.34 Mb
+
+--------------------
+
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 9500
+ringdictionarysize: 10000
+synonymfloor: 0
+correlationthreshold: 50
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1095
+ABchoice: 677
+ABCchoice: 530
+Atop: 986
+ABtop: 655
+ABCtop: 525
+superseded: 136
+unfound: 38
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3895
+keypresses: 6225
+letters: 10000
+perfect: 311
+oneperfect: 458
+twoperfect: 429
+perfectchoice: 625
+oneperfectchoice: 685
+twoperfectchoice: 404
+words: 2340
+trigramfilesize: 2.33 Mb
+
+--------------------
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 4443
+ringdictionarysize: 10000
+synonymfloor: 3000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1114
+ABchoice: 659
+ABCchoice: 533
+Atop: 999
+ABtop: 640
+ABCtop: 519
+superseded: 148
+unfound: 34
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3951
+keypresses: 6310
+letters: 10000
+perfect: 297
+oneperfect: 451
+twoperfect: 439
+perfectchoice: 620
+oneperfectchoice: 678
+twoperfectchoice: 403
+words: 2340
+trigramfilesize: 1.5 Mb
+
+--------------------
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 4370
+ringdictionarysize: 10000
+synonymfloor: 2000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1110
+ABchoice: 655
+ABCchoice: 539
+Atop: 1003
+ABtop: 636
+ABCtop: 526
+superseded: 139
+unfound: 36
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3944
+keypresses: 6273
+letters: 10000
+perfect: 295
+oneperfect: 447
+twoperfect: 458
+perfectchoice: 616
+oneperfectchoice: 681
+twoperfectchoice: 406
+words: 2340
+trigramfilesize: 1.48 Mb
+
+--------------------
+//GENERAL VARIABLES
+var totalwordcount = 0;
+var cleanarray = [] // for data after it has been cleaned and trimmed	
+var corpus = 'en-corpus.txt'
+
+//SYNONYM GENERATOR VARIABLES
+
+var ringdic = {};
+//var ringdictionarysize = 5100;
+var maxarraylength = 5000;
+var denomconstant = .0001;
+var synonymsmax = 50;
+var synonymcorpusfactor = 0.2; //denotes what proportion of full text corpus is used for synonym generation - make things go faster
+var synonymring = {};
+
+//RING GENERATOR VARIABLES
+var ringlimit = 5;
+var superringlimit = 15; //upper limit of allowable elements before things start getting shunted off into orphans
+
+//PRIORITY DICTIONARY VARIABLES
+var prioritydictionaryoutsize = 100000; // total size of priority output dictionary
+
+//TRIGRAM DICTIONARY VARIABLES
+var trigramdictionaryoutsize = 10000; // total size of trigram output dictionary
+var ringdictionarysize = 10000; // total size of trigram output dictionary
+var synonymfloor = 2000; // minimum value above which words are not added to trigram dictionary if they have a synonym available 
+var correlationthreshold = 5; //only uses words that have fairly high synonym value default ~15
+var assignedsynonyms = {};
+var nextoutsize = 10;
+var outpower = 0.2;
+var nextzero = 10;
+var slope = 0.03;
+var prevoutsize = 3*nextoutsize;
+var prevzero = nextzero;
+var minnextout = 2;
+var minprevout = minnextout;
+var thirdoutfactor = 2;  //divide next and prev by this #
+var penuloutfactor = thirdoutfactor;
+
+var prioritydic = {};
+var prioritydickeys = [];
+var trigramdic = {};
+var sortedwordspace = {};
+var capswordspace = {};
+var capsthreshold = 0.8; //if proportion of caps version exceeds this threshold, shunted to another matrix
+
+
+TRULY AMAZING PERFORMANCE AND SIZE
+
+prioritysize: 100000
+trigramsize: 10000
+trigramwordcount: 4370
+ringdictionarysize: 10000
+synonymfloor: 2000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1110
+ABchoice: 655
+ABCchoice: 539
+Atop: 1003
+ABtop: 636
+ABCtop: 526
+superseded: 139
+unfound: 36
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3944
+keypresses: 6273
+letters: 10000
+perfect: 295
+oneperfect: 447
+twoperfect: 458
+perfectchoice: 616
+oneperfectchoice: 681
+twoperfectchoice: 406
+words: 2340
+trigramfilesize: 1.48 Mb
+
+--------------------
+
+prioritysize: 80788
+trigramsize: 10000
+trigramwordcount: 4370
+ringdictionarysize: 10000
+synonymfloor: 2000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1110
+ABchoice: 655
+ABCchoice: 539
+Atop: 1003
+ABtop: 636
+ABCtop: 526
+superseded: 139
+unfound: 36
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3944
+keypresses: 6273
+letters: 10000
+perfect: 295
+oneperfect: 447
+twoperfect: 458
+perfectchoice: 616
+oneperfectchoice: 681
+twoperfectchoice: 406
+words: 2340
+trigramfilesize: 1.48 Mb
+
+--------------------
+//using floor of 2 for minimum priority
+prioritysize: 48062
+trigramsize: 10000
+trigramwordcount: 4370
+ringdictionarysize: 10000
+synonymfloor: 2000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1103
+ABchoice: 655
+ABCchoice: 539
+Atop: 998
+ABtop: 636
+ABCtop: 526
+superseded: 137
+unfound: 43
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3959
+keypresses: 6281
+letters: 10000
+perfect: 295
+oneperfect: 447
+twoperfect: 458
+perfectchoice: 616
+oneperfectchoice: 681
+twoperfectchoice: 406
+words: 2340
+trigramfilesize: 1.48 Mb
+
+--------------------
+//with first word of sentence accounted for
+
+prioritysize: 48062
+trigramsize: 10000
+trigramwordcount: 4370
+ringdictionarysize: 10000
+synonymfloor: 2000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1111
+ABchoice: 657
+ABCchoice: 529
+Atop: 1012
+ABtop: 634
+ABCtop: 522
+superseded: 129
+unfound: 43
+totalwordcount: 4953920
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+fivehundredbranchesnext: 2
+fivehundredbranchesprev: 2
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3940
+keypresses: 6279
+letters: 10000
+perfect: 290
+oneperfect: 458
+twoperfect: 461
+threeperfect: 397
+perfectchoice: 618
+onechoice: 689
+twochoice: 401
+threechoice: 331
+words: 2340
+trigramfilesize: 1.48 Mb
+
+--------------------
+USING NEW SYNONYMS DICTIONARY (INCLUDING CAPS FAMILIES)
+
+prioritysize: 69076
+trigramsize: 10000
+trigramwordcount: 4465
+ringdictionarysize: 10000
+synonymfloor: 2000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1115
+ABchoice: 665
+ABCchoice: 523
+Atop: 1017
+ABtop: 636
+ABCtop: 512
+superseded: 138
+unfound: 37
+totalwordcount: 8960329
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3904
+keypresses: 6280
+letters: 10000
+perfect: 313
+oneperfect: 431
+twoperfect: 441
+threeperfect: 416
+perfectchoice: 628
+onechoice: 671
+twochoice: 417
+threechoice: 336
+words: 2340
+trigramfilesize: 1.5 Mb
+
+--------------------
+THIS IS THE WINNER - 1000 SYNONYM FLOOR
+
+prioritysize: 69076
+trigramsize: 10000
+trigramwordcount: 4186
+ringdictionarysize: 10000
+synonymfloor: 1000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+numberofchoices: 5
+Achoice: 1099
+ABchoice: 653
+ABCchoice: 544
+Atop: 1007
+ABtop: 626
+ABCtop: 529
+superseded: 134
+unfound: 44
+totalwordcount: 8960329
+topbranchesnext: 16
+topbranchesprev: 27
+hundredbranchesnext: 10
+hundredbranchesprev: 15
+thousandbranchesnext: 2
+thousandbranchesprev: 2
+choicekeypresses: 3912
+keypresses: 6252
+letters: 10000
+perfect: 309
+oneperfect: 435
+twoperfect: 450
+threeperfect: 408
+perfectchoice: 614
+onechoice: 679
+twochoice: 417
+threechoice: 338
+words: 2340
+trigramfilesize: 1.44 Mb
+
+--------------------
+
+prioritysize: 77572
+trigramsize: 10000
+trigramwordcount: 4311
+synonymfloor: 1000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 8922345
+Achoice: 1097
+ABchoice: 680
+ABCchoice: 537
+Atop: 989
+ABtop: 648
+ABCtop: 497
+superseded: 161
+unfound: 35
+choicekeypresses: 3980
+keypresses: 6257
+letters: 10003
+perfect: 299
+oneperfect: 434
+twoperfect: 429
+threeperfect: 412
+perfectchoice: 602
+onechoice: 653
+twochoice: 438
+threechoice: 360
+words: 2336
+dictionaryfilesize: 3.83 Mb
+
+--------------------
+WITH A_C DEACTIVATED - PERFORMS BETTER
+prioritysize: 77572
+trigramsize: 10000
+trigramwordcount: 4311
+synonymfloor: 1000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 8922345
+Achoice: 1205
+ABchoice: 680
+ABCchoice: 433
+Atop: 1096
+ABtop: 648
+ABCtop: 404
+superseded: 151
+unfound: 31
+choicekeypresses: 3903
+keypresses: 6197
+letters: 10003
+perfect: 304
+oneperfect: 476
+twoperfect: 405
+threeperfect: 408
+perfectchoice: 622
+onechoice: 682
+twochoice: 408
+threechoice: 344
+words: 2336
+dictionaryfilesize: 3.83 Mb
+
+--------------------
+
+prioritysize: 77572
+trigramsize: 10000
+trigramwordcount: 4311
+synonymfloor: 1000
+correlationthreshold: 5
+nextoutsize: 10
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 8922345
+Achoice: 1075
+ABchoice: 680
+ABCchoice: 557
+Atop: 966
+ABtop: 648
+ABCtop: 531
+superseded: 154
+unfound: 31
+choicekeypresses: 3889
+keypresses: 6208
+letters: 10003
+perfect: 297
+oneperfect: 481
+twoperfect: 409
+threeperfect: 403
+perfectchoice: 632
+onechoice: 666
+twochoice: 406
+threechoice: 346
+words: 2336
+dictionaryfilesize: 3.83 Mb
+
+--------------------
+
