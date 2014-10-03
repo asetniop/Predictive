@@ -1,0 +1,146 @@
+SYNONYM FLOOR 500, BASE SETUP
+
+prioritysize: 77232
+trigramsize: 10000
+trigramwordcount: 2994
+synonymfloor: 500
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 8481732
+Achoice: 353
+ABchoice: 236
+ABCchoice: 206
+Atop: 351
+ABtop: 224
+ABCtop: 183
+superseded: 36
+unfound: 24
+choicekeypresses: 1414
+keypresses: 2248
+letters: 3651
+perfect: 109
+oneperfect: 220
+twoperfect: 132
+threeperfect: 94
+perfectpercent: 56.4%
+perfectchoice: 242
+onechoice: 259
+twochoice: 97
+threechoice: 94
+choicepercent: 73.1%
+words: 818
+dictionaryfilesize: 3.64 Mb
+
+--------------------
+SYNONYM FLOOR 500, EXTRAS ACTIVE
+
+prioritysize: 77232
+trigramsize: 10000
+trigramwordcount: 2994
+synonymfloor: 500
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 8481732
+Achoice: 292
+ABchoice: 236
+ABCchoice: 268
+Atop: 296
+ABtop: 224
+ABCtop: 238
+superseded: 37
+unfound: 23
+choicekeypresses: 1400
+keypresses: 2245
+letters: 3651
+perfect: 109
+oneperfect: 220
+twoperfect: 132
+threeperfect: 95
+perfectpercent: 56.4%
+perfectchoice: 243
+onechoice: 261
+twochoice: 99
+threechoice: 91
+choicepercent: 73.7%
+words: 818
+dictionaryfilesize: 3.64 Mb
+
+--------------------
+SYNONYM FLOOR 1000, BASE SETUP
+
+prioritysize: 77232
+trigramsize: 10000
+trigramwordcount: 3301
+synonymfloor: 1000
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 8481732
+Achoice: 361
+ABchoice: 233
+ABCchoice: 199
+Atop: 362
+ABtop: 223
+ABCtop: 175
+superseded: 32
+unfound: 26
+choicekeypresses: 1429
+keypresses: 2264
+letters: 3651
+perfect: 110
+oneperfect: 220
+twoperfect: 128
+threeperfect: 96
+perfectpercent: 56%
+perfectchoice: 239
+onechoice: 258
+twochoice: 100
+threechoice: 90
+choicepercent: 73%
+words: 818
+dictionaryfilesize: 3.69 Mb
+
+--------------------
+SYNONYM FLOOR 1000, EXTRAS ACTIVE
+
+prioritysize: 77232
+trigramsize: 10000
+trigramwordcount: 3301
+synonymfloor: 1000
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 8481732
+Achoice: 295
+ABchoice: 233
+ABCchoice: 266
+Atop: 302
+ABtop: 223
+ABCtop: 236
+superseded: 32
+unfound: 25
+choicekeypresses: 1412
+keypresses: 2265
+letters: 3651
+perfect: 111
+oneperfect: 219
+twoperfect: 129
+threeperfect: 97
+perfectpercent: 56.1%
+perfectchoice: 240
+onechoice: 259
+twochoice: 102
+threechoice: 91
+choicepercent: 73.5%
+words: 818
+dictionaryfilesize: 3.69 Mb
+
+--------------------
+
+
