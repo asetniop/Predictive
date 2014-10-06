@@ -1,9 +1,9 @@
-var language = 'en'
+var language = 'test'
 var sentencefile = language + '-testsentences.txt'
 
 var extrasactive = 1;
 
-abcfactor = 1000; //abcfactor >> zabfactor for no effect
+abcfactor = 1; //abcfactor >> zabfactor for no effect
 zabfactor = 1;
 a_cboost = 1;
 if(extrasactive == 1){
@@ -17,6 +17,9 @@ trigramdic = {};
 rings = {};
 ringassignments = {};
 ringtotals = {};
+prerings = {};
+preringassignments = {};
+preringtotals = {};
 typedword = [];
 evalword = "";
 basechoicearray = [];
@@ -73,7 +76,6 @@ init()
 // SIMULATION OF USER INPUT
 
 function init(){
-//prioritydic, rings, trigramdic, dictionarystats are already active - normally would load here
 
 	//build dictionary first, so you can assign 'n' numbers to trigram object
 	//build ring assignments object for easier referencing

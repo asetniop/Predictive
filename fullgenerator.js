@@ -3,7 +3,7 @@ console.time('fullgenerator')
 //GENERAL VARIABLES
 var totalwordcount = 0;
 var cleanarray = [] // for data after it has been cleaned and trimmed	
-var language = 'it'
+var language = 'test'
 var corpus = language + '-corpus.txt'
 
 //SYNONYM GENERATOR VARIABLES
