@@ -46,11 +46,11 @@ ringlimit: 5
 superringlimit: 15
 totalwordcount: 8944149
 Achoice: 460
-ABchoice: 333
-ABCchoice: 359
+ABchoice: 433
+ABCchoice: 259
 Atop: 441
-ABtop: 324
-ABCtop: 331
+ABtop: 416
+ABCtop: 239
 superseded: 56
 unfound: 13
 choicekeypresses: 1793
@@ -142,5 +142,4 @@ words: 1168
 dictionaryfilesize: 3.43 Mb
 
 --------------------
-==========================================================================================================
 

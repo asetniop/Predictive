@@ -9,27 +9,27 @@ nextoutsize: 15
 ringlimit: 5
 superringlimit: 15
 totalwordcount: 8057628
-Achoice: 437
+Achoice: 516
 ABchoice: 238
-ABCchoice: 202
-Atop: 426
+ABCchoice: 123
+Atop: 496
 ABtop: 226
-ABCtop: 167
-superseded: 54
+ABCtop: 96
+superseded: 55
 unfound: 21
-choicekeypresses: 1953
-keypresses: 3037
+choicekeypresses: 1966
+keypresses: 3047
 letters: 4531
-perfect: 90
-oneperfect: 172
-twoperfect: 127
-threeperfect: 112
-perfectpercent: 43.5%
-perfectchoice: 212
-onechoice: 230
-twochoice: 121
-threechoice: 134
-choicepercent: 63%
+perfect: 89
+oneperfect: 173
+twoperfect: 128
+threeperfect: 110
+perfectpercent: 43.6%
+perfectchoice: 211
+onechoice: 231
+twochoice: 117
+threechoice: 136
+choicepercent: 62.5%
 words: 894
 dictionaryfilesize: 4.11 Mb
 
@@ -46,26 +46,26 @@ ringlimit: 5
 superringlimit: 15
 totalwordcount: 8057628
 Achoice: 434
-ABchoice: 238
-ABCchoice: 205
+ABchoice: 317
+ABCchoice: 126
 Atop: 425
-ABtop: 226
-ABCtop: 168
+ABtop: 297
+ABCtop: 97
 superseded: 54
 unfound: 21
-choicekeypresses: 1955
-keypresses: 3039
+choicekeypresses: 1952
+keypresses: 3038
 letters: 4531
-perfect: 88
-oneperfect: 174
+perfect: 87
+oneperfect: 176
 twoperfect: 127
-threeperfect: 112
-perfectpercent: 43.5%
-perfectchoice: 210
-onechoice: 232
+threeperfect: 111
+perfectpercent: 43.6%
+perfectchoice: 209
+onechoice: 235
 twochoice: 121
-threechoice: 134
-choicepercent: 63%
+threechoice: 132
+choicepercent: 63.2%
 words: 894
 dictionaryfilesize: 4.11 Mb
 
@@ -140,6 +140,8 @@ threechoice: 135
 choicepercent: 62.6%
 words: 894
 dictionaryfilesize: 4.12 Mb
+
+--------------------
 
 --------------------
 

@@ -18,18 +18,18 @@ ABCtop: 183
 superseded: 36
 unfound: 24
 choicekeypresses: 1414
-keypresses: 2248
+keypresses: 2245
 letters: 3651
-perfect: 109
-oneperfect: 220
-twoperfect: 132
+perfect: 111
+oneperfect: 219
+twoperfect: 131
 threeperfect: 94
 perfectpercent: 56.4%
-perfectchoice: 242
-onechoice: 259
-twochoice: 97
-threechoice: 94
-choicepercent: 73.1%
+perfectchoice: 241
+onechoice: 264
+twochoice: 90
+threechoice: 97
+choicepercent: 72.7%
 words: 818
 dictionaryfilesize: 3.64 Mb
 
@@ -46,26 +46,26 @@ ringlimit: 5
 superringlimit: 15
 totalwordcount: 8481732
 Achoice: 292
-ABchoice: 236
-ABCchoice: 268
+ABchoice: 297
+ABCchoice: 207
 Atop: 296
-ABtop: 224
-ABCtop: 238
+ABtop: 279
+ABCtop: 183
 superseded: 37
 unfound: 23
 choicekeypresses: 1400
-keypresses: 2245
+keypresses: 2242
 letters: 3651
-perfect: 109
-oneperfect: 220
-twoperfect: 132
+perfect: 111
+oneperfect: 219
+twoperfect: 131
 threeperfect: 95
 perfectpercent: 56.4%
-perfectchoice: 243
-onechoice: 261
-twochoice: 99
-threechoice: 91
-choicepercent: 73.7%
+perfectchoice: 242
+onechoice: 266
+twochoice: 92
+threechoice: 94
+choicepercent: 73.3%
 words: 818
 dictionaryfilesize: 3.64 Mb
 
@@ -142,5 +142,4 @@ words: 818
 dictionaryfilesize: 3.69 Mb
 
 --------------------
-
 

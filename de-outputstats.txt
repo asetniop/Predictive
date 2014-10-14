@@ -13,20 +13,20 @@ Achoice: 401
 ABchoice: 176
 ABCchoice: 119
 Atop: 365
-ABtop: 168
+ABtop: 167
 ABCtop: 116
-superseded: 47
+superseded: 48
 unfound: 27
-choicekeypresses: 1393
-keypresses: 2200
+choicekeypresses: 1390
+keypresses: 2204
 letters: 3579
-perfect: 72
-oneperfect: 148
-twoperfect: 123
+perfect: 71
+oneperfect: 149
+twoperfect: 122
 threeperfect: 126
-perfectpercent: 47.4%
-perfectchoice: 162
-onechoice: 244
+perfectpercent: 47.2%
+perfectchoice: 165
+onechoice: 241
 twochoice: 109
 threechoice: 92
 choicepercent: 71.1%
@@ -46,23 +46,23 @@ ringlimit: 5
 superringlimit: 15
 totalwordcount: 7861699
 Achoice: 321
-ABchoice: 176
-ABCchoice: 199
+ABchoice: 252
+ABCchoice: 123
 Atop: 301
-ABtop: 168
-ABCtop: 179
-superseded: 48
+ABtop: 230
+ABCtop: 116
+superseded: 49
 unfound: 27
-choicekeypresses: 1375
-keypresses: 2191
+choicekeypresses: 1372
+keypresses: 2195
 letters: 3579
-perfect: 72
-oneperfect: 148
-twoperfect: 123
+perfect: 71
+oneperfect: 149
+twoperfect: 122
 threeperfect: 128
-perfectpercent: 47.4%
-perfectchoice: 164
-onechoice: 242
+perfectpercent: 47.2%
+perfectchoice: 167
+onechoice: 239
 twochoice: 114
 threechoice: 92
 choicepercent: 71.8%
@@ -140,6 +140,47 @@ threechoice: 89
 choicepercent: 72%
 words: 724
 dictionaryfilesize: 4.12 Mb
+
+--------------------
+
+prioritysize: 69092
+trigramsize: 10000
+trigramwordcount: 3390
+synonymfloor: 500
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 7861699
+Achoice: 321
+ABchoice: 252
+ABCchoice: 123
+Atop: 301
+ABtop: 230
+ABCtop: 116
+superseded: 49
+unfound: 27
+choicekeypresses: 1372
+keypresses: 2195
+letters: 3579
+perfect: 71
+oneperfect: 149
+twoperfect: 122
+threeperfect: 128
+perfectpercent: 47.2%
+perfectchoice: 167
+onechoice: 239
+twochoice: 114
+threechoice: 92
+choicepercent: 71.8%
+words: 724
+dictionaryfilesize: 4.1 Mb
+
+--------------------
+
+
+--------------------
+
 
 --------------------
 

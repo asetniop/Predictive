@@ -1,0 +1,35 @@
+prioritysize: 116220
+trigramsize: 10000
+trigramwordcount: 5779
+synonymfloor: 500
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 4432687
+Achoice: 41
+ABchoice: 8
+ABCchoice: 2
+Atop: 37
+ABtop: 7
+ABCtop: 3
+superseded: 4
+unfound: 2
+choicekeypresses: 186
+keypresses: 265
+letters: 332
+perfect: 3
+oneperfect: 5
+twoperfect: 3
+threeperfect: 6
+perfectpercent: 20.8%
+perfectchoice: 5
+onechoice: 8
+twochoice: 4
+threechoice: 15
+choicepercent: 32.1%
+words: 53
+dictionaryfilesize: 6.04 Mb
+
+--------------------
+

@@ -3,7 +3,7 @@ console.time('fullgenerator')
 //GENERAL VARIABLES
 var totalwordcount = 0;
 var cleanarray = [] // for data after it has been cleaned and trimmed	
-var language = 'test'
+var language = process.argv[2]
 var corpus = language + '-corpus.txt'
 
 //SYNONYM GENERATOR VARIABLES
@@ -20,7 +20,7 @@ var synonymring = {};
 var targetlines = 50000 //target number of lines to analyze per loop - use 50k for 500, 120k for 1000
 
 //PRIORITY DICTIONARY VARIABLES
-var prioritydictionaryoutsize = 100000; // total size of priority output dictionary -- maybe make this unlimited?
+var prioritydictionaryoutsize = 200000; // total size of priority output dictionary -- maybe make this unlimited?
 var firstprioritysize = 200; //number of 'first word in sentence' items returned/retained
 var priorityminimum = 3; // words must appear more than this minimum amount of times to be included in output dictionary
 var clipped = {};
@@ -1006,6 +1006,7 @@ function countsorter(countedobject,subsize){ //sorts and trims entries in object
 	}
 	numtrimmed = Math.min(countedwordsarray.length,subsize)
 	sortedcountedobject = new Object();
+	//console.log(wordcountarray.length)
 	for(x = 0; x < numtrimmed; x++){
 		maxindex = wordcountarray.indexOf(Math.max.apply(Math, wordcountarray)); //gets index of max value
 		targetword = countedwordsarray[maxindex];

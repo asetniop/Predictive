@@ -1,15 +1,16 @@
-var language = 'test'
+var language = process.argv[2]
 var sentencefile = language + '-testsentences.txt'
 
-var extrasactive = 1;
+console.time('synsimulator')
 
-abcfactor = 1; //abcfactor >> zabfactor for no effect
-zabfactor = 1;
+var extrasactive = 1;
 a_cboost = 1;
 if(extrasactive == 1){
 	a_cboost = 2;
 }
 a_bboost = 3;
+presynboost = 1;
+divpower = 0;  //provides priority to shorter words; set at 0 for no effect
 
 //SIMULATOR VARIABLES
 prioritydic = {};
@@ -17,9 +18,6 @@ trigramdic = {};
 rings = {};
 ringassignments = {};
 ringtotals = {};
-prerings = {};
-preringassignments = {};
-preringtotals = {};
 typedword = [];
 evalword = "";
 basechoicearray = [];
@@ -28,13 +26,6 @@ ABCarray = [];
 ZABarray = [];
 A_Carray = [];
 A_Cfinalarray = [];
-Y_Aarray = [];
-ABxarray = [];
-xBCarray = [];
-AxCarray = [];
-xABarray = [];
-ZxBarray = [];
-xBarray = [];
 finalchoicearray = [];
 originalchoicearray = [];
 potentialword = true;
@@ -42,9 +33,6 @@ penultimateword = "";
 previousword = "";
 numberofchoices = 5;
 
-
-maxwordlength = 30;
-wordpower = 1; // gives boost to shorter words - use 1 for no effect
 
 
 var predictivedictionary = require('./'+language+'-predictive-dictionary.json'); //skip synonym ring generation
@@ -81,6 +69,8 @@ function init(){
 	//build ring assignments object for easier referencing
 	trigramkeys = Object.keys(trigramdic)
 	console.log('starting')
+	console.time('unpacking')
+
 	for(var i = 0; i < trigramkeys.length; i++){
 		activeword = trigramkeys[i]
 		activecount = wordcount(activeword)
@@ -94,9 +84,11 @@ function init(){
 			}
 			activering.push(activeword)
 			rings[activeword] = activering
+			delete trigramdic[activeword].r;
 		}
 		trigramdic[activeword].n = activecount;
 	}
+	console.timeEnd('unpacking')
 	console.log('done')
 	
 	initkeys = Object.keys(trigramdic)
@@ -123,12 +115,6 @@ function clearInput(){
 	ZABarray = [];
 	A_Carray = [];
 	A_Cfinalarray = [];
-	ABxarray = [];
-	xBCarray = [];
-	AxCarray = [];
-	xABarray = [];
-	ZxBarray = [];
-	xBarray = [];
 	finalchoicearray = [];
 	potentialword = true;
 	predictNext();
@@ -171,18 +157,7 @@ function simulateinput(){
 
 			sentence = sentence.toLowerCase();
 			
-			//truesentence = sentence;		
-			//truesentence = truesentence.replace(/[0-9@#$%^&*•()½©{}+=:;"<>,\.\?\/!”»«“~`‘…\[\]]/g, '') //removes all other punctuation except apostrophe and hyphen
-
-			//truesentence = truesentence.replace(/[^A-Za-z\s\-\']/g, '') //removes EVERYTHING except letters and spaces and hyphens and apostrophes
-			
-			//sentence = sentence.latinise()
-			
-			//sentence = sentence.replace(/-/g, '_') //removes dashes and replaces with underscores
-			//sentence = sentence.replace(/'/g, '_') //removes dashes and replaces with underscores
-			
 			sentence = sentence.replace(/\s{2,}/g, ' '); //trims multiple spaces into singles
-			
 			
 			returned = initialreturned
 			
@@ -300,7 +275,9 @@ function simulateinput(){
 		dictionarystats.dictionaryfilesize = totalbytes
 		
 		console.log(dictionarystats)
+		console.timeEnd('synsimulator')
 		appendJSONfile(dictionarystats, 'simulationstats') // simulation report
+		
 	});
 }
 
@@ -310,7 +287,6 @@ function keypress(e) {
 	runningword = "";
 	basechoicearray = [];
 	//nextB,BC,C arrays are not recalculated;
-	Y_Aarray = [];
 	
 	tier0array = [];
 	tier1array = [];
@@ -416,8 +392,8 @@ function keypress(e) {
 					
 					
 						ff1 = trigramdic[synbaseword]['z'][synpreviousword]['y'][synpenultimateword]['n']
-						arraytotal = 0;
 						returnarray = trueWord(synbaseword)
+						arraytotal = 0;
 						for(k in returnarray){
 							arraytotal += returnarray[k][1]
 						}
@@ -431,7 +407,7 @@ function keypress(e) {
 							ff3 = ringtotals[synbaseword]
 							frequencyfactor = ff1*ff2/ff3
 						}
-						tier1array.push([trueword,frequencyfactor*abcfactor,'yza']) //need to figure out factor for # of occurrences in Z object
+						tier1array.push([trueword,frequencyfactor,'yza']) //need to figure out factor for # of occurrences in Z object
 					}
 				}
 				tier1array = tier1array.sort(function(x,y) { return y[1] - x[1] });
@@ -466,7 +442,6 @@ function keypress(e) {
 					for(i in basechoicearray){
 						baseword = basechoicearray[i][0]
 						synbaseword = baseword
-						trueword = basechoicearray[i][3]
 						if(ringassignments[baseword]){
 							synbaseword = ringassignments[baseword]
 						}
@@ -480,72 +455,69 @@ function keypress(e) {
 								ff3 = ringtotals[synbaseword]
 								frequencyfactor = ff1*ff2/ff3
 							}
-							tier5array.push([trueword,frequencyfactor,'za']) 
+							
+							returnarray = trueWord(baseword)
+							arraytotal = 0;
+							for(k in returnarray){
+								arraytotal += returnarray[k][1]
+							}
+							for(k in returnarray){
+								newfrequencyfactor = frequencyfactor*returnarray[k][1]/arraytotal
+								tier5array.push([returnarray[k][0],newfrequencyfactor,'za']) 
+							}
+							
 						}
 					}
 					tier5array = tier5array.sort(function(x,y) { return y[1] - x[1] });
 				}
 				finalchoiceUpdate(tier5array) 
-				
+							
 				//----------------------------------TRIGRAM BLANKS (A_C and Y_A)----------------------------------
 				if(finalchoicearray.length < numberofchoices){ //only processes if EVEN MORE choices needed
 					//determine most likely suggestions based on potential 'next' secondary bigrams (A - C) - FOURTH TIER
+					A_Cused = {}
 					for(i in A_Cfinalarray){
 						//check to see if input letters match potential 'next' words, if not ignore
 						if(A_Cfinalarray[i][0].search(runningword) == 0){
 							tier11array.push([A_Cfinalarray[i][0],A_Cfinalarray[i][1],'a_c']);
+							A_Cused[A_Cfinalarray[i][0]] = true
 						}					
 					}
-					/*
+					
 					//determine most likely suggestions based on potential 'previous' secondary bigrams (A - C) - FOURTH TIER
 					Y_Awordobject = {}
-					subpotentialwords = []
+					Y_Asortarray = []
 					for(i in basechoicearray){
 						baseword = basechoicearray[i][0];
-						if (trigramdic[baseword] && trigramdic[baseword]['z']){
-							Y_Awordobject = trigramdic[baseword]['z']
+						trueword = basechoicearray[i][3]
+						synbaseword = baseword
+						if(ringassignments[baseword]){
+							synbaseword = ringassignments[baseword]
+						}
+						if (trigramdic[synbaseword] && trigramdic[synbaseword]['z']){
+							Y_Awordobject = trigramdic[synbaseword]['z']
 							keys = Object.keys(Y_Awordobject)
 							for(j in keys){
-								if(Y_Awordobject[keys[j]]['y'] && Y_Awordobject[keys[j]]['y'][penultimateword]){
-									lookup = subpotentialwords.indexOf(baseword)
-									if(lookup == -1){ //adds new entry to C array
-										Y_Aarray.push([baseword,Y_Awordobject[keys[j]]['y'][penultimateword]['n'],'y_a'])
-										subpotentialwords.push(baseword)
-									}
-									else{ //sums number of occurrences to existing entry
-										Y_Aarray[lookup][1] = Y_Aarray[lookup][1] + Y_Awordobject[keys[j]]['y'][penultimateword]['n'];
+								if(Y_Awordobject[keys[j]]['y'] && Y_Awordobject[keys[j]]['y'][synpenultimateword] && !A_Cused[baseword]){
+								A_Cused[trueword] = true	
+								returnarray = trueWord(baseword)
+								for(k in returnarray){
+									Y_Asortarray.push([returnarray[k][0],returnarray[k][1]*a_cboost,'y_a'])
 									}
 								}
 							}
 						}
 					}
-					for(i in Y_Aarray){
-						Y_Aarray[i][1] = Y_Aarray[i][1]/wordcount(penultimateword) //uses proportion of occurrences 
-						tier8array.push([Y_Aarray[i][0],Y_Aarray[i][1],'a_c'])
-					}*/
-					//tier8array = tier8array.sort(function(x,y) { return y[1] - x[1] });	
+					Y_Asortarray = Y_Asortarray.sort(function(x,y) { return y[1] - x[1] });
+					
+					for(i in Y_Asortarray){
+						tier11array.push(Y_Asortarray[i])
+					}
 				}	
 				
-				//finalchoiceUpdate(tier8array)  
-				
-				
-				
+				//LAST GASP - EVERYTHING ELSE
 				
 				if(finalchoicearray.length < numberofchoices){
-					/*
-					linksobject = {}
-					for(i in ABarray){
-						ABword = ABarray[i][0]
-						if (trigramdic[ABword] && trigramdic[ABword]['b']){
-							linksarray = Object.keys(trigramdic[ABword]['b'])
-							for(j in linksarray){
-								linkword = linksarray[j]
-								linksobject[linkword] = true;
-							}
-						}
-					}
-					linkskeys = Object.keys(linksobject)
-					*/
 					for(k in basechoicearray){
 						baseword = basechoicearray[k][0]
 						trueword = basechoicearray[k][3];
@@ -567,6 +539,7 @@ function keypress(e) {
 								synbaseword = ringassignments[baseword]
 							}
 							
+							//looks for disconnect/reconnect
 							if(trigramdic[synbaseword] && trigramdic[synbaseword]['z']){
 								linksarray = Object.keys(trigramdic[synbaseword]['z'])
 								for(i in linksarray){
@@ -576,57 +549,27 @@ function keypress(e) {
 										sublinkword = sublinksarray[0] //only uses top value (cycling doesn't help)
 										if(trigramdic[sublinkword] && trigramdic[sublinkword]['z'] && trigramdic[sublinkword]['z'][synpreviousword]){
 											linkboost = a_bboost
-											tag = 'a-b'
+											tag = '-b'
 										}
 									}
 								}
 							}
-							
-							/*
-							for(i in linkskeys){
-								link = linkskeys[i]
-								if(trigramdic[synbaseword] && trigramdic[synbaseword]['z'] && trigramdic[synbaseword]['z'][link]){
-									linkboost = a_bboost
-									tag = 'a-b'
-									break
-								}
-							}
-							*/
 						}
 						
-						wordlengthfactor = Math.pow(wordpower,(maxwordlength - word.length))
-						frequencyfactor = wordlengthfactor*firstextrafactor*linkboost
+						frequencyfactor = firstextrafactor*linkboost
 						tier9array.push([trueword,(basechoicearray[k][1])*frequencyfactor,tag])
 					}
 					tier9array = tier9array.sort(function(x,y) { return y[1] - x[1] });
 				}
 				
-				/*
-				//----------------------------------LAST GASP - EVERYTHING ELSE----------------------------------
-				if(finalchoicearray.length < numberofchoices){
-					discarded = {}
-					for(i in basechoicearray){
-						word = basechoicearray[i][0]
-						trueword = basechoicearray[i][3];
-						firstextrafactor = 1;
-						if(penultimateword.length == 0 && previousword.length == 0){	
-							if(firstpriority[word]){
-								firstextrafactor = firstpriority[word]
-							}
-						}
-						frequencyfactor = Math.pow(wordpower,(maxwordlength - word.length))*firstextrafactor
-						tier11array.push([trueword,(basechoicearray[i][1])*frequencyfactor,'a'])
-					}		
-					tier11array = tier11array.sort(function(x,y) { return y[1] - x[1] });
-				}
-				*/
 				finalchoiceUpdate(tier3array)  
 				finalchoiceUpdate(tier4array) 
-				finalchoiceUpdate(tier6array)  
 				finalchoiceUpdate(tier7array)  
 				finalchoiceUpdate(tier9array)  
 				finalchoiceUpdate(tier10array)  
 				finalchoiceUpdate(tier11array)  
+				
+				keypressUpdate()
 								
 			}
 			else{
@@ -645,35 +588,6 @@ function keypress(e) {
 }  
 
 
-//function to pull potential word from priority dictionary; independent of context
-function purePriority(object) {
-    for (var property in object) {
-        if (object.hasOwnProperty(property)) {
-            if (typeof object[property] == "object"){
-				if(property != 'aa'){
-					runningword += property;
-					purePriority(object[property]);
-					runningword = runningword.substring(0,runningword.length-1); //back up and erase new addition from running word
-				}
-				else{
-					//include original suggestion
-					alternatearray = object['aa']
-					for (var j = 0; j < alternatearray.length; j++){
-						basechoicearray.push([runningword,alternatearray[j][1],'a',alternatearray[j][0]]);
-					}
-				}
-            }else if(property == 'nn'){
-                //found a property which is not an object - push base word and check for pure form later
-				if(object.pp){
-					basechoicearray.push([runningword,object['nn'],'a',object['pp']]);
-				}
-				else{
-					basechoicearray.push([runningword,object['nn'],'a',runningword]);
-				}
-            }
-        }
-    }
-}
 
 
 function predictNext(){
@@ -706,32 +620,34 @@ function predictNext(){
 			synpreviousword = ringassignments[previousword]
 		}
 		
+		
 		//check for trigrams
 		if (trigramdic[synpenultimateword] && trigramdic[synpenultimateword]['b'] && trigramdic[synpenultimateword]['b'][synpreviousword] && trigramdic[synpenultimateword]['b'][synpreviousword]['c']){
 			ABCwordobject = trigramdic[synpenultimateword]['b'][synpreviousword]['c'];
 			keys = Object.keys(ABCwordobject)
 			for(i in keys){
 				ff1 = ABCwordobject[keys[i]]['n']
-				arraytotal = 0;
 				if(rings[keys[i]]){ //synonyms exist
 					synonymringarray = rings[keys[i]]
 					for(j in synonymringarray){
 						returnarray = trueWord(synonymringarray[j])
+						arraytotal = 0;
 						for(k in returnarray){
 							arraytotal += returnarray[k][1]
 						}
 						for(k in returnarray){
-							ABCarray.push([synonymringarray[j],ff1*(returnarray[k][1]/arraytotal)*(returnarray[k][1]/ringtotals[keys[i]])*abcfactor,'abc',returnarray[k][0]])
+							ABCarray.push([synonymringarray[j],ff1*(returnarray[k][1]/arraytotal)*(returnarray[k][1]/ringtotals[keys[i]]),'abc',returnarray[k][0]])
 						}
 					}
 				}
 				else{ //no synonyms
 					returnarray = trueWord(keys[i])
+					arraytotal = 0;
 					for(k in returnarray){
 						arraytotal += returnarray[k][1]
 					}
 					for(k in returnarray){
-						ABCarray.push([keys[i],ff1*returnarray[k][1]/arraytotal*abcfactor,'abc',returnarray[k][0]])
+						ABCarray.push([keys[i],ff1*returnarray[k][1]/arraytotal,'abc',returnarray[k][0]])
 					}
 				}
 			}
@@ -743,26 +659,27 @@ function predictNext(){
 			keys = Object.keys(ZABwordobject)
 			for(i in keys){
 				ff1 = ZABwordobject[keys[i]]['n']
-				arraytotal = 0;
 				if(rings[keys[i]]){ //synonyms exist
 					synonymringarray = rings[keys[i]]
 					for(j in synonymringarray){
 						returnarray = trueWord(synonymringarray[j])
+						arraytotal = 0;
 						for(k in returnarray){
 							arraytotal += returnarray[k][1]
 						}
 						for(k in returnarray){
-							ZABarray.push([synonymringarray[j],ff1*(returnarray[k][1]/arraytotal)*(returnarray[k][1]/ringtotals[keys[i]])*zabfactor,'zab',returnarray[k][0]])
+							ZABarray.push([synonymringarray[j],ff1*(returnarray[k][1]/arraytotal)*(returnarray[k][1]/ringtotals[keys[i]]),'zab',returnarray[k][0]])
 						}
 					}
 				}
 				else{ //no synonyms
 					returnarray = trueWord(keys[i])
+					arraytotal = 0;
 					for(k in returnarray){
 						arraytotal += returnarray[k][1]
 					}
 					for(k in returnarray){
-						ZABarray.push([keys[i],ff1*returnarray[k][1]/arraytotal*zabfactor,'zab',returnarray[k][0]])
+						ZABarray.push([keys[i],ff1*returnarray[k][1]/arraytotal,'zab',returnarray[k][0]])
 					}
 				}
 			}
@@ -793,11 +710,11 @@ function predictNext(){
 			keys = Object.keys(ABwordobject)
 			for(i in keys){
 				ff1 = ABwordobject[keys[i]]['n']
-				arraytotal = 0;
 				if(rings[keys[i]]){ //synonyms exist
 					synonymringarray = rings[keys[i]]
 					for(j in synonymringarray){
 						returnarray = trueWord(synonymringarray[j])
+						arraytotal = 0;
 						for(k in returnarray){
 							arraytotal += returnarray[k][1]
 						}
@@ -808,6 +725,7 @@ function predictNext(){
 				}
 				else{ //no synonyms
 					returnarray = trueWord(keys[i])
+					arraytotal = 0;
 					for(k in returnarray){
 						arraytotal += returnarray[k][1]
 					}
@@ -827,7 +745,7 @@ function predictNext(){
 			}
 		}
 		
-		finalchoicearray = finalchoicearray.sort(function(x,y) { return y[1] - x[1] });
+		//finalchoicearray = finalchoicearray.sort(function(x,y) { return y[1] - x[1] });
 		
 		
 		
@@ -887,11 +805,49 @@ function predictNext(){
 			finalchoicearray.push(predictNextfinalarray[i])
 		}
 	}
-	
+	//only show the top choices
+	predictNextUpdate()
 }
 
+//function to pull potential word from priority dictionary; independent of context
+function purePriority(object) {
+    for (var property in object) {
+        if (object.hasOwnProperty(property)) {
+            if (typeof object[property] == "object"){
+				if(property != 'aa'){
+					runningword += property;
+					purePriority(object[property]);
+					runningword = runningword.substring(0,runningword.length-1); //back up and erase new addition from running word
+				}
+				else{
+					//include original suggestion
+					alternatearray = object['aa']
+					for (var j = 0; j < alternatearray.length; j++){
+						basechoicearray.push([runningword,alternatearray[j][1],'a',alternatearray[j][0]]);
+					}
+				}
+            }else if(property == 'nn'){
+                //found a property which is not an object - push base word and check for pure form later
+				if(object.pp){
+					basechoicearray.push([runningword,object['nn'],'a',object['pp']]);
+				}
+				else{
+					basechoicearray.push([runningword,object['nn'],'a',runningword]);
+				}
+            }
+        }
+    }
+}
 
 function finalchoiceUpdate(array){
+	for(var i = 0; i < array.length; i++){
+		word = array[i][0]
+		wordlength = word.length
+		adjustedcount = array[i][1]/(Math.pow(wordlength,divpower))
+		array[i][1] = adjustedcount
+	}
+	array = array.sort(function(x,y) { return y[1] - x[1] });
+	
 	numloops = Math.min(basechoicearray.length, 2*numberofchoices) //limit number of loops to save time
 	for(var i = 0; i < array.length; i++){
 		if(!potentialwords[array[i][0]]){
@@ -972,6 +928,36 @@ function synonymsort(array){
 	return sorted;
 }
 
+function trueWord(inword){
+	if(inword.length == 1){
+		evalword = "prioritydic." + inword[0];
+	}
+	else{
+		evalword = "prioritydic"
+		for(var i = 0; i < inword.length; i++){
+			evalword += "." + inword[i];
+		}
+	}
+	activeobject = eval(evalword);
+	returnarray = []
+	if(activeobject.aa){
+		//include original suggestion
+		returnarray.push([inword,activeobject['nn']])
+		alternatearray = activeobject['aa']
+		for (var j = 0; j < alternatearray.length; j++){
+			returnarray.push(activeobject.aa[j]);
+		}
+	}
+	else if(activeobject.pp){
+		returnarray.push([activeobject['pp'],activeobject['nn']])
+	}
+	else{
+		returnarray.push([inword,activeobject['nn']])
+	}
+	return returnarray
+}	
+
+
 function wordstatscounter(input,family){
 	wild = '';
 	if(input.indexOf('*') > -1){
@@ -1012,33 +998,12 @@ function appendJSONfile(jsonoutput, type){ //appends currentstats to existing st
 	log.write("\n--------------------\n\n");
 
 }
-
-function trueWord(inword){
-	if(inword.length == 1){
-		evalword = "prioritydic." + inword[0];
-	}
-	else{
-		evalword = "prioritydic"
-		for(var i = 0; i < inword.length; i++){
-			evalword += "." + inword[i];
-		}
-	}
-	activeobject = eval(evalword);
-	returnarray = []
-	if(activeobject.aa){
-		//include original suggestion
-		returnarray.push([inword,activeobject['nn']])
-		alternatearray = activeobject['aa']
-		for (var j = 0; j < alternatearray.length; j++){
-			returnarray.push(activeobject.aa[j]);
-		}
-	}
-	else if(activeobject.pp){
-		returnarray.push([activeobject['pp'],activeobject['nn']])
-	}
-	else{
-		returnarray.push([inword,activeobject['nn']])
-	}
-	return returnarray
-}			
-			
+		
+		
+function predictNextUpdate(){
+	//does nothing here - used in html version
+}	
+	
+function keypressUpdate(){
+	//does nothing here - used in html version
+}	
