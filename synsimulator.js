@@ -10,7 +10,7 @@ if(extrasactive == 1){
 }
 a_bboost = 3;
 presynboost = 1;
-divpower = 0;  //provides priority to shorter words; set at 0 for no effect
+divpower = 1;  //provides priority to shorter words; set at 0 for no effect
 
 //SIMULATOR VARIABLES
 prioritydic = {};

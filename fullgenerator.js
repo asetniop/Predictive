@@ -571,19 +571,19 @@ ringwordsarray = {}
 			//skip; does nothing
 		}
 		else if(assigned[word0] || assigned[word1]){
-			if(rings[word0]){
-				if(rings[word0].length < ringlimit){
-					rings[word0].push(word1);
-					assigned[word1] = word0;
+			if(rings[assigned[word0]]){
+				if(rings[assigned[word0]].length < ringlimit){
+					rings[assigned[word0]].push(word1);
+					assigned[word1] = assigned[word0];
 				}
 				else{
 					unassignedarray.push(allwordsarray[i])
 				}
 			}
-			else if(rings[word1]){
-				if(rings[word1].length < ringlimit){
-					rings[word1].push(word0);
-					assigned[word0] = word1;
+			else if(rings[assigned[word1]]){
+				if(rings[assigned[word1]].length < ringlimit){
+					rings[assigned[word1]].push(word0);
+					assigned[word0] = assigned[word1];
 				}
 				else{
 					unassignedarray.push(allwordsarray[i])
@@ -626,16 +626,16 @@ ringwordsarray = {}
 				//skip; does nothing
 			}
 			else if(assigned[word0] || assigned[word1]){
-				if(rings[word0]){
-					if(rings[word0].length < superringlimit){
-						rings[word0].push(word1);
-						assigned[word1] = word0;
+				if(rings[assigned[word0]]){
+					if(rings[assigned[word0]].length < superringlimit){
+						rings[assigned[word0]].push(word1);
+						assigned[word1] = assigned[word0];
 					}
 				}
-				else if(rings[word1]){
-					if(rings[word1].length < superringlimit){
-						rings[word1].push(word0);
-						assigned[word0] = word1;
+				else if(rings[assigned[word1]]){
+					if(rings[assigned[word1]].length < superringlimit){
+						rings[assigned[word1]].push(word0);
+						assigned[word0] = assigned[word1];
 					}
 				}
 			}

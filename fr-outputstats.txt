@@ -144,3 +144,38 @@ dictionaryfilesize: 3.99 Mb
 --------------------
 
 
+prioritysize: 69063
+trigramsize: 10000
+trigramwordcount: 3286
+synonymfloor: 500
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 7916967
+Achoice: 326
+ABchoice: 293
+ABCchoice: 163
+Atop: 313
+ABtop: 279
+ABCtop: 150
+superseded: 39
+unfound: 23
+choicekeypresses: 1486
+keypresses: 2328
+letters: 3830
+perfect: 100
+oneperfect: 172
+twoperfect: 144
+threeperfect: 121
+perfectpercent: 51.6%
+perfectchoice: 211
+onechoice: 261
+twochoice: 100
+threechoice: 94
+choicepercent: 71%
+words: 806
+dictionaryfilesize: 3.95 Mb
+
+--------------------
+

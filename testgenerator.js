@@ -1,5 +1,7 @@
 console.time('fullgenerator')
 
+//SIMILAR TO ORIGINAL GENERATOR, BUT ALSO PRODUCES SECOND LEVEL OF SYNONYM RINGS
+
 //GENERAL VARIABLES
 var totalwordcount = 0;
 var cleanarray = [] // for data after it has been cleaned and trimmed	
