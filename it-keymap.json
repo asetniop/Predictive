@@ -1,0 +1,11746 @@
+[
+  {
+    "value": 0,
+    "notes": [
+      "Developer : Zack Dennis (zack@asetniop.com)",
+      "Date : 12/12/2014",
+      "All code (c) 2014 Pointesa, LLC all rights reserved",
+      "Abbreviations :    ",
+      "tlp = top left partial",
+      "lp = left partials",
+      "trp = top right partial",
+      "rp = right partials",
+      "tlw = top left word",
+      "lw = left words",
+      "trw = top right word",
+      "rw = right words"
+    ]
+  },
+  {
+    "value": 1,
+    "input": [
+      1
+    ],
+    "keys": "a",
+    "base": "a",
+    "baseshift": "A",
+    "tlp": {
+      "aa": 76
+    },
+    "lp": {
+      "aa": 76
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "a": 134646
+    },
+    "lw": {
+      "a": 134646
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 2,
+    "input": [
+      2
+    ],
+    "keys": "s",
+    "base": "s",
+    "baseshift": "S",
+    "tlp": {
+      "ss": 181781
+    },
+    "lp": {
+      "ss": 181781
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "s": 689
+    },
+    "lw": {
+      "s": 689,
+      "ss": 295
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 3,
+    "input": [
+      1,
+      2
+    ],
+    "keys": "as",
+    "base": "w",
+    "baseshift": "W",
+    "tlp": {
+      "sa": 147177
+    },
+    "lp": {
+      "sa": 147177,
+      "as": 95740,
+      "ssa": 31275,
+      "ass": 30376,
+      "assa": 10033,
+      "asa": 7933,
+      "sas": 1152,
+      "wa": 1047,
+      "sass": 941,
+      "ssas": 588,
+      "aw": 459,
+      "saw": 140,
+      "was": 133,
+      "awa": 71,
+      "ws": 70
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sa": 4372
+    },
+    "lw": {
+      "sa": 4372,
+      "w": 368,
+      "as": 174,
+      "assa": 169,
+      "sas": 68
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 4,
+    "input": [
+      3
+    ],
+    "keys": "e",
+    "base": "e",
+    "baseshift": "E",
+    "tlp": {
+      "ee": 2590
+    },
+    "lp": {
+      "ee": 2590
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "e": 285768
+    },
+    "lw": {
+      "e": 285768
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 5,
+    "input": [
+      1,
+      3
+    ],
+    "keys": "ae",
+    "base": "x",
+    "baseshift": "X",
+    "tlp": {
+      "ea": 16928
+    },
+    "lp": {
+      "ea": 16928,
+      "ae": 6654,
+      "ex": 745,
+      "ax": 239,
+      "xe": 92
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "ex": 571
+    },
+    "lw": {
+      "ex": 571,
+      "x": 208
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 6,
+    "input": [
+      2,
+      3
+    ],
+    "keys": "se",
+    "base": "d",
+    "baseshift": "D",
+    "tlp": {
+      "de": 299367
+    },
+    "lp": {
+      "de": 299367,
+      "se": 272385,
+      "es": 238119,
+      "ess": 87214,
+      "sse": 64855,
+      "ed": 59198,
+      "esse": 30755,
+      "ede": 23000,
+      "ese": 22220,
+      "des": 13072,
+      "dd": 9277,
+      "sed": 6299,
+      "edd": 3602,
+      "dess": 3317,
+      "sede": 2199,
+      "edes": 2168,
+      "ses": 1685,
+      "sess": 1173,
+      "dde": 1053,
+      "dee": 923
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "se": 42825
+    },
+    "lw": {
+      "se": 42825,
+      "ed": 7467,
+      "de": 4099,
+      "esse": 873,
+      "d": 847,
+      "es": 527,
+      "des": 438,
+      "sede": 326,
+      "desse": 75
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 7,
+    "input": [
+      1,
+      2,
+      3
+    ],
+    "keys": "ase",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "da": 161213
+    },
+    "lp": {
+      "da": 161213,
+      "ad": 49494,
+      "essa": 11794,
+      "esa": 9220,
+      "ade": 7439,
+      "ada": 6124,
+      "asse": 5236,
+      "ase": 4882,
+      "aes": 4819,
+      "add": 3547,
+      "dea": 3309,
+      "ades": 3223,
+      "eda": 2453,
+      "we": 1471,
+      "aese": 1433,
+      "seda": 1098,
+      "ew": 833,
+      "sea": 774,
+      "adde": 650,
+      "aesa": 491
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "da": 50742
+    },
+    "lw": {
+      "da": 50742,
+      "ad": 9903,
+      "essa": 2265,
+      "aes": 974,
+      "dea": 179,
+      "das": 149
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 8,
+    "input": [
+      4
+    ],
+    "keys": "t",
+    "base": "t",
+    "baseshift": "T",
+    "tlp": {
+      "tt": 206553
+    },
+    "lp": {
+      "tt": 206553
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "t": 2430
+    },
+    "lw": {
+      "t": 2430
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 9,
+    "input": [
+      1,
+      4
+    ],
+    "keys": "at",
+    "base": "f",
+    "baseshift": "F",
+    "tlp": {
+      "ta": 338700
+    },
+    "lp": {
+      "ta": 338700,
+      "at": 199937,
+      "fa": 72548,
+      "att": 57578,
+      "tta": 36425,
+      "tat": 35939,
+      "ata": 25477,
+      "ff": 19041,
+      "fat": 17792,
+      "fatt": 16532,
+      "af": 8489,
+      "atta": 7221,
+      "tata": 7059,
+      "aff": 6125,
+      "ffa": 2337,
+      "affa": 2189,
+      "ttat": 1795,
+      "ffat": 1015,
+      "tatt": 843,
+      "taf": 594
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "fa": 5357
+    },
+    "lw": {
+      "fa": 5357,
+      "ta": 5219,
+      "fatta": 1219,
+      "f": 337,
+      "af": 213,
+      "at": 209,
+      "fat": 199
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 10,
+    "input": [
+      2,
+      4
+    ],
+    "keys": "st",
+    "base": "c",
+    "baseshift": "C",
+    "tlp": {
+      "st": 249453
+    },
+    "lp": {
+      "st": 249453,
+      "sc": 90099,
+      "cc": 87385,
+      "ts": 247,
+      "ct": 206,
+      "tc": 82
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "c": 1986
+    },
+    "lw": {
+      "c": 1986,
+      "st": 133
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 11,
+    "input": [
+      1,
+      2,
+      4
+    ],
+    "keys": "ast",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ca": 149612
+    },
+    "lp": {
+      "ca": 149612,
+      "sta": 87264,
+      "ac": 64348,
+      "acc": 33244,
+      "stat": 22454,
+      "cas": 16098,
+      "asc": 15897,
+      "fac": 14049,
+      "cat": 12404,
+      "cca": 11669,
+      "ast": 9960,
+      "sat": 8852,
+      "sca": 7817,
+      "casa": 7672,
+      "facc": 5333,
+      "sf": 5197,
+      "acca": 5017,
+      "asta": 4550,
+      "tas": 3412,
+      "ssat": 3335
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "casa": 7589
+    },
+    "lw": {
+      "casa": 7589,
+      "stata": 4844,
+      "sta": 4139,
+      "ca": 2819,
+      "tasca": 554,
+      "ac": 386,
+      "cassa": 218,
+      "sca": 127,
+      "cas": 86,
+      "casta": 86
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 12,
+    "input": [
+      3,
+      4
+    ],
+    "keys": "et",
+    "base": "r",
+    "baseshift": "R",
+    "tlp": {
+      "er": 504768
+    },
+    "lp": {
+      "er": 504768,
+      "re": 418124,
+      "te": 299483,
+      "tr": 182211,
+      "et": 102037,
+      "rt": 83422,
+      "ere": 76930,
+      "ett": 60113,
+      "ter": 42427,
+      "rr": 40818,
+      "tre": 34261,
+      "tte": 33251,
+      "rte": 22189,
+      "ert": 22167,
+      "err": 15223,
+      "ret": 13756,
+      "ette": 12582,
+      "rre": 10433,
+      "etr": 10336,
+      "tere": 9946
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "te": 8282
+    },
+    "lw": {
+      "te": 8282,
+      "re": 6898,
+      "tre": 5258,
+      "et": 819,
+      "ter": 512,
+      "r": 442,
+      "terre": 362,
+      "rete": 289,
+      "ret": 135,
+      "tr": 77
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 13,
+    "input": [
+      1,
+      3,
+      4
+    ],
+    "keys": "aet",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ra": 368409
+    },
+    "lp": {
+      "ra": 368409,
+      "ar": 251230,
+      "era": 116647,
+      "are": 92083,
+      "tra": 67156,
+      "fe": 33642,
+      "rat": 27418,
+      "art": 26021,
+      "rta": 23769,
+      "fr": 22857,
+      "tar": 18716,
+      "far": 18336,
+      "ara": 15546,
+      "eta": 13381,
+      "etta": 13243,
+      "fer": 13136,
+      "tare": 12744,
+      "arte": 12349,
+      "ratt": 10648,
+      "fra": 10607
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "era": 57211
+    },
+    "lw": {
+      "era": 57211,
+      "tra": 9837,
+      "fare": 7566,
+      "fra": 4201,
+      "terra": 3543,
+      "far": 2787,
+      "ra": 2731,
+      "art": 1144,
+      "tratta": 1041,
+      "fretta": 834
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 14,
+    "input": [
+      2,
+      3,
+      4
+    ],
+    "keys": "set",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ce": 118940
+    },
+    "lp": {
+      "ce": 118940,
+      "est": 74595,
+      "ec": 55166,
+      "rs": 53805,
+      "str": 42489,
+      "rc": 38963,
+      "res": 38064,
+      "ser": 37517,
+      "rd": 34748,
+      "ste": 33938,
+      "ers": 30179,
+      "tes": 29660,
+      "erc": 29616,
+      "cr": 26223,
+      "der": 25583,
+      "cer": 24746,
+      "sser": 22605,
+      "tess": 16079,
+      "dere": 15700,
+      "ece": 15515
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "essere": 13580
+    },
+    "lw": {
+      "essere": 13580,
+      "ce": 3002,
+      "stesse": 1348,
+      "certe": 972,
+      "ecc": 847,
+      "sette": 782,
+      "credere": 782,
+      "der": 557,
+      "rese": 480,
+      "tess": 439
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 15,
+    "input": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "keys": "aset",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sar": 25172
+    },
+    "lp": {
+      "sar": 25172,
+      "esta": 21878,
+      "stra": 20518,
+      "ard": 17326,
+      "car": 16746,
+      "sare": 15161,
+      "ace": 13091,
+      "rad": 11771,
+      "dar": 11614,
+      "dat": 9937,
+      "rda": 9270,
+      "rac": 9007,
+      "adr": 8741,
+      "racc": 8021,
+      "rca": 7963,
+      "ars": 7534,
+      "dare": 7129,
+      "ssar": 6513,
+      "face": 6455,
+      "erca": 6401
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "testa": 5675
+    },
+    "lw": {
+      "testa": 5675,
+      "fece": 5052,
+      "stessa": 3841,
+      "strada": 3147,
+      "sara": 2596,
+      "sera": 2446,
+      "dare": 1383,
+      "state": 1306,
+      "certa": 1260,
+      "carattere": 1229
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 16,
+    "input": [
+      5
+    ],
+    "keys": "n",
+    "base": "n",
+    "baseshift": "N",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "nn": 46289
+    },
+    "rp": {
+      "nn": 46289
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "n": 1203
+    },
+    "rw": {
+      "n": 1203
+    },
+    "special": "none"
+  },
+  {
+    "value": 17,
+    "input": [
+      1,
+      5
+    ],
+    "keys": "an",
+    "base": "q",
+    "baseshift": "Q",
+    "tlp": {
+      "an": 351085
+    },
+    "lp": {
+      "an": 351085,
+      "ann": 25069,
+      "ana": 7963,
+      "anna": 2422,
+      "anq": 1124,
+      "anan": 265
+    },
+    "trp": {
+      "na": 191784
+    },
+    "rp": {
+      "na": 191784,
+      "nq": 11662,
+      "nna": 9812,
+      "nan": 3118,
+      "nnan": 262
+    },
+    "tlw": {
+      "an": 861
+    },
+    "lw": {
+      "an": 861,
+      "anna": 149,
+      "q": 115
+    },
+    "trw": {
+      "na": 3153
+    },
+    "rw": {
+      "na": 3153,
+      "nan": 119
+    },
+    "special": "none"
+  },
+  {
+    "value": 18,
+    "input": [
+      2,
+      5
+    ],
+    "keys": "sn",
+    "base": "j",
+    "baseshift": "J",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "ns": 40629
+    },
+    "rp": {
+      "ns": 40629,
+      "nj": 326,
+      "jn": 94
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "j": 428
+    },
+    "rw": {
+      "j": 428
+    },
+    "special": "none"
+  },
+  {
+    "value": 19,
+    "input": [
+      1,
+      2,
+      5
+    ],
+    "keys": "asn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "san": 10754
+    },
+    "lp": {
+      "san": 10754,
+      "ssan": 2186,
+      "sann": 1335,
+      "ans": 842,
+      "sq": 812,
+      "wn": 366,
+      "asq": 216,
+      "aj": 169,
+      "sana": 136,
+      "anj": 104,
+      "anja": 104,
+      "aja": 103
+    },
+    "trp": {
+      "nsa": 10125
+    },
+    "rp": {
+      "nsa": 10125,
+      "nas": 4760,
+      "ja": 3859,
+      "nsan": 594,
+      "nja": 326,
+      "nasa": 109,
+      "nsas": 89,
+      "nass": 80
+    },
+    "tlw": {
+      "san": 820
+    },
+    "lw": {
+      "san": 820,
+      "sana": 136
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 20,
+    "input": [
+      3,
+      5
+    ],
+    "keys": "en",
+    "base": "y",
+    "baseshift": "Y",
+    "tlp": {
+      "en": 325999
+    },
+    "lp": {
+      "en": 325999,
+      "ene": 27696,
+      "enn": 6624,
+      "enne": 4103,
+      "ey": 952,
+      "enen": 790,
+      "eyn": 212,
+      "een": 138,
+      "enny": 138,
+      "eyne": 97
+    },
+    "trp": {
+      "ne": 240032
+    },
+    "rp": {
+      "ne": 240032,
+      "nne": 8599,
+      "ny": 3169,
+      "yn": 3057,
+      "nny": 2377,
+      "nen": 1977,
+      "yne": 1609,
+      "ye": 652,
+      "nyn": 644,
+      "nee": 275
+    },
+    "tlw": {
+      "en": 427
+    },
+    "lw": {
+      "en": 427
+    },
+    "trw": {
+      "ne": 18897
+    },
+    "rw": {
+      "ne": 18897,
+      "y": 97
+    },
+    "special": "none"
+  },
+  {
+    "value": 21,
+    "input": [
+      1,
+      3,
+      5
+    ],
+    "keys": "aen",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ena": 10474
+    },
+    "lp": {
+      "ena": 10474,
+      "ane": 10188,
+      "ay": 2073,
+      "ean": 2008,
+      "ayn": 1395,
+      "ayne": 1395,
+      "enna": 1119,
+      "eq": 1088,
+      "anne": 938,
+      "anea": 770,
+      "aye": 382,
+      "aen": 261,
+      "eann": 184
+    },
+    "trp": {
+      "nea": 2742
+    },
+    "rp": {
+      "nea": 2742,
+      "nean": 898,
+      "yna": 644,
+      "nae": 644,
+      "nyna": 644,
+      "ynae": 644,
+      "ya": 264
+    },
+    "tlw": {
+      "aye": 382
+    },
+    "lw": {
+      "aye": 382
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 22,
+    "input": [
+      2,
+      3,
+      5
+    ],
+    "keys": "sen",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sen": 39413
+    },
+    "lp": {
+      "sen": 39413,
+      "end": 25899,
+      "ens": 23084,
+      "den": 16338,
+      "ende": 11713,
+      "sens": 5808,
+      "esen": 5487,
+      "eden": 1891,
+      "dend": 1820,
+      "ssen": 1806,
+      "dy": 1505
+    },
+    "trp": {
+      "nd": 129982
+    },
+    "rp": {
+      "nd": 129982,
+      "nde": 22374,
+      "nes": 11035,
+      "ness": 7118,
+      "nse": 5405,
+      "nden": 2138,
+      "je": 779,
+      "nsen": 553,
+      "nese": 541
+    },
+    "tlw": {
+      "sen": 952
+    },
+    "lw": {
+      "sen": 952,
+      "den": 487,
+      "denny": 67
+    },
+    "trw": {
+      "nes": 163
+    },
+    "rw": {
+      "nes": 163,
+      "je": 96
+    },
+    "special": "none"
+  },
+  {
+    "value": 23,
+    "input": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "keys": "asen",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "and": 60721
+    },
+    "lp": {
+      "and": 60721,
+      "anda": 13993,
+      "ensa": 8758,
+      "ande": 7219,
+      "dan": 4644,
+      "enda": 2288,
+      "sand": 1807,
+      "dand": 1454,
+      "dann": 1291,
+      "wen": 1098,
+      "esan": 846,
+      "wene": 807,
+      "dena": 726,
+      "sean": 482,
+      "anes": 442,
+      "andy": 340
+    },
+    "trp": {
+      "nda": 24205
+    },
+    "rp": {
+      "nda": 24205,
+      "ndan": 1318,
+      "new": 833,
+      "nand": 422
+    },
+    "tlw": {
+      "and": 382
+    },
+    "lw": {
+      "and": 382,
+      "andy": 340,
+      "andasse": 189,
+      "dan": 121,
+      "dans": 103,
+      "danny": 85
+    },
+    "trw": {
+      "new": 833
+    },
+    "rw": {
+      "new": 833,
+      "jeans": 163,
+      "jean": 125,
+      "nadja": 115
+    },
+    "special": "none"
+  },
+  {
+    "value": 24,
+    "input": [
+      4,
+      5
+    ],
+    "keys": "tn",
+    "base": "b",
+    "baseshift": "B",
+    "tlp": {
+      "bb": 46376
+    },
+    "lp": {
+      "bb": 46376,
+      "tn": 84
+    },
+    "trp": {
+      "nt": 291380
+    },
+    "rp": {
+      "nt": 291380
+    },
+    "tlw": {
+      "b": 526
+    },
+    "lw": {
+      "b": 526
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 25,
+    "input": [
+      1,
+      4,
+      5
+    ],
+    "keys": "atn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ant": 64341
+    },
+    "lp": {
+      "ant": 64341,
+      "tan": 39202,
+      "ba": 39114,
+      "ab": 23247,
+      "tant": 21670,
+      "abb": 12526,
+      "ban": 7846,
+      "anta": 5407,
+      "fan": 4370,
+      "bba": 4260,
+      "bat": 4007,
+      "abba": 3752,
+      "batt": 3394
+    },
+    "trp": {
+      "nta": 37477
+    },
+    "rp": {
+      "nta": 37477,
+      "nat": 16663,
+      "nf": 12456,
+      "ntan": 5873,
+      "ntat": 4972,
+      "nata": 3039,
+      "nfa": 2661
+    },
+    "tlw": {
+      "tanta": 636
+    },
+    "lw": {
+      "tanta": 636,
+      "ba": 423,
+      "tan": 374,
+      "ab": 140,
+      "fan": 131,
+      "bat": 112,
+      "ban": 108,
+      "tana": 79
+    },
+    "trw": {
+      "nata": 204
+    },
+    "rw": {
+      "nata": 204
+    },
+    "special": "none"
+  },
+  {
+    "value": 26,
+    "input": [
+      2,
+      4,
+      5
+    ],
+    "keys": "stn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sb": 2201
+    },
+    "lp": {
+      "sb": 2201,
+      "cn": 994,
+      "tsb": 75
+    },
+    "trp": {
+      "nc": 80441
+    },
+    "rp": {
+      "nc": 80441,
+      "nst": 259,
+      "nsc": 76
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 27,
+    "input": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "keys": "astn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "anc": 55675
+    },
+    "lp": {
+      "anc": 55675,
+      "can": 12919,
+      "stan": 12301,
+      "bas": 7816,
+      "cant": 4772,
+      "bast": 4063,
+      "anca": 3807,
+      "cq": 3590,
+      "acq": 3590,
+      "sant": 3025,
+      "bbas": 2496,
+      "bass": 2429,
+      "ccan": 2346,
+      "sab": 1700,
+      "sba": 1503,
+      "banc": 1397
+    },
+    "trp": {
+      "nca": 4603
+    },
+    "rp": {
+      "nca": 4603,
+      "nasc": 2560,
+      "jac": 1597,
+      "ntas": 1400
+    },
+    "tlw": {
+      "basta": 1053
+    },
+    "lw": {
+      "basta": 1053,
+      "bassa": 629,
+      "santa": 457,
+      "can": 372,
+      "banca": 345,
+      "stanca": 212,
+      "canna": 170,
+      "stan": 156,
+      "tanja": 104,
+      "canta": 99
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 28,
+    "input": [
+      3,
+      4,
+      5
+    ],
+    "keys": "etn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ent": 152199
+    },
+    "lp": {
+      "ent": 152199,
+      "ente": 63096,
+      "be": 61149,
+      "rn": 33497,
+      "eb": 31363,
+      "br": 30937,
+      "ebb": 27522,
+      "ten": 26656,
+      "bbe": 26109,
+      "ebbe": 25693,
+      "reb": 23562,
+      "rebb": 23251,
+      "entr": 18931,
+      "ren": 15748,
+      "ber": 13709,
+      "ben": 13198,
+      "ener": 9181
+    },
+    "trp": {
+      "nte": 100114
+    },
+    "rp": {
+      "nte": 100114,
+      "ntr": 29000,
+      "ner": 15799
+    },
+    "tlw": {
+      "bene": 6300
+    },
+    "lw": {
+      "bene": 6300,
+      "ben": 2856,
+      "ebbe": 1554,
+      "tenere": 768,
+      "be": 697,
+      "bere": 690,
+      "ten": 357,
+      "tenne": 280,
+      "tenebre": 279
+    },
+    "trw": {
+      "nere": 364
+    },
+    "rw": {
+      "nere": 364
+    },
+    "special": "none"
+  },
+  {
+    "value": 29,
+    "input": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "keys": "aetn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ran": 45980
+    },
+    "lp": {
+      "ran": 45980,
+      "eran": 17688,
+      "ante": 16173,
+      "bra": 15262,
+      "enta": 14386,
+      "areb": 9143,
+      "rna": 9112,
+      "tran": 5790,
+      "bar": 3522,
+      "rtan": 3119,
+      "rant": 2888,
+      "fran": 2787,
+      "abbr": 2660,
+      "erna": 2511
+    },
+    "trp": {
+      "nar": 8583
+    },
+    "rp": {
+      "nar": 8583,
+      "ntra": 8386,
+      "nare": 4628,
+      "nera": 4156,
+      "ntar": 3509,
+      "nfe": 2272
+    },
+    "tlw": {
+      "entrare": 873
+    },
+    "lw": {
+      "entrare": 873,
+      "bar": 782,
+      "tante": 758,
+      "tranne": 593,
+      "ran": 366,
+      "barba": 356,
+      "trenta": 352,
+      "batte": 267,
+      "bra": 260
+    },
+    "trw": {
+      "nera": 1031
+    },
+    "rw": {
+      "nera": 1031
+    },
+    "special": "none"
+  },
+  {
+    "value": 30,
+    "input": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "keys": "setn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sent": 16908
+    },
+    "lp": {
+      "sent": 16908,
+      "cen": 16295,
+      "dent": 10512,
+      "rend": 7085,
+      "cent": 6657,
+      "cend": 4656,
+      "tend": 4471,
+      "scen": 3717,
+      "sten": 2878,
+      "deb": 1759,
+      "ecen": 1475,
+      "cenn": 1348,
+      "ccen": 1240
+    },
+    "trp": {
+      "nce": 6484
+    },
+    "rp": {
+      "nce": 6484,
+      "nder": 6121,
+      "nec": 2721,
+      "nece": 2721,
+      "nest": 2362,
+      "nces": 1787,
+      "ncer": 1334
+    },
+    "tlw": {
+      "sebbene": 761
+    },
+    "lw": {
+      "sebbene": 761,
+      "sente": 716,
+      "rende": 526,
+      "tende": 513,
+      "recente": 427,
+      "rendere": 419,
+      "scendere": 348,
+      "cen": 335,
+      "teddy": 270,
+      "crescente": 199
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 31,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "keys": "asetn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sarebbe": 7398
+    },
+    "lw": {
+      "sarebbe": 7398,
+      "andare": 2993,
+      "base": 991,
+      "cane": 975,
+      "carne": 813,
+      "scena": 799,
+      "francese": 786,
+      "andata": 767,
+      "rand": 669,
+      "cena": 655
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 32,
+    "input": [
+      6
+    ],
+    "keys": "i",
+    "base": "i",
+    "baseshift": "I",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "ii": 3469
+    },
+    "rp": {
+      "ii": 3469,
+      "iii": 745
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "i": 56666
+    },
+    "rw": {
+      "i": 56666,
+      "ii": 735,
+      "iii": 397
+    },
+    "special": "none"
+  },
+  {
+    "value": 33,
+    "input": [
+      1,
+      6
+    ],
+    "keys": "ai",
+    "base": "z",
+    "baseshift": "Z",
+    "tlp": {
+      "zi": 77724
+    },
+    "lp": {
+      "zi": 77724,
+      "za": 57377,
+      "ai": 49861,
+      "az": 42911,
+      "zz": 31526,
+      "azi": 30556,
+      "zza": 13776,
+      "azz": 12020,
+      "zia": 7593,
+      "zzi": 4364,
+      "azza": 3748,
+      "azzi": 2368,
+      "aia": 1449,
+      "azia": 1119
+    },
+    "trp": {
+      "ia": 200353
+    },
+    "rp": {
+      "ia": 200353,
+      "iz": 18459,
+      "izi": 15193,
+      "izia": 3191,
+      "izz": 2269,
+      "iaz": 1136
+    },
+    "tlw": {
+      "ai": 8188
+    },
+    "lw": {
+      "ai": 8188,
+      "za": 1865,
+      "zia": 914,
+      "zi": 243
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 34,
+    "input": [
+      2,
+      6
+    ],
+    "keys": "si",
+    "base": "k",
+    "baseshift": "K",
+    "tlp": {
+      "si": 267038
+    },
+    "lp": {
+      "si": 267038,
+      "ssi": 34344,
+      "sis": 6953,
+      "sk": 377,
+      "siss": 320,
+      "ssis": 290,
+      "sii": 97,
+      "sisi": 81,
+      "ski": 70
+    },
+    "trp": {
+      "is": 117042
+    },
+    "rp": {
+      "is": 117042,
+      "iss": 24259,
+      "isi": 7629,
+      "issi": 4001,
+      "ki": 1912,
+      "ik": 445,
+      "isk": 230,
+      "ks": 96,
+      "kik": 65
+    },
+    "tlw": {
+      "si": 95698
+    },
+    "lw": {
+      "si": 95698,
+      "sissi": 232,
+      "sii": 97
+    },
+    "trw": {
+      "k": 250
+    },
+    "rw": {
+      "k": 250
+    },
+    "special": "none"
+  },
+  {
+    "value": 35,
+    "input": [
+      1,
+      2,
+      6
+    ],
+    "keys": "asi",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sia": 18324
+    },
+    "lp": {
+      "sia": 18324,
+      "asi": 12081,
+      "assi": 6992,
+      "sai": 3159,
+      "ak": 2766,
+      "siz": 2211,
+      "sizi": 2211,
+      "ssia": 2175,
+      "saz": 1844,
+      "sazi": 1844,
+      "sias": 1728,
+      "ssai": 950,
+      "aki": 804,
+      "wi": 696,
+      "asia": 587
+    },
+    "trp": {
+      "issa": 4411
+    },
+    "rp": {
+      "issa": 4411,
+      "isa": 3739,
+      "ias": 2765,
+      "iasi": 1426,
+      "ka": 1043
+    },
+    "tlw": {
+      "sia": 7163
+    },
+    "lw": {
+      "sia": 7163,
+      "sai": 1694,
+      "assai": 950,
+      "assi": 180,
+      "sassi": 112
+    },
+    "trw": {
+      "ka": 126
+    },
+    "rw": {
+      "ka": 126
+    },
+    "special": "none"
+  },
+  {
+    "value": 36,
+    "input": [
+      3,
+      6
+    ],
+    "keys": "ei",
+    "base": ",",
+    "baseshift": "<",
+    "tlp": {
+      "ei": 64002
+    },
+    "lp": {
+      "ei": 64002
+    },
+    "trp": {
+      "ie": 107111
+    },
+    "rp": {
+      "ie": 107111,
+      "iei": 2459
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 37,
+    "input": [
+      1,
+      3,
+      6
+    ],
+    "keys": "aei",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ez": 20251
+    },
+    "lp": {
+      "ez": 20251,
+      "ezz": 15251,
+      "ezza": 8378,
+      "ze": 8120,
+      "ezi": 4399,
+      "zie": 3471,
+      "azie": 2671,
+      "zze": 1441,
+      "ezzi": 1339,
+      "azze": 753,
+      "xi": 752,
+      "eaz": 683,
+      "eazi": 683,
+      "aie": 485,
+      "ezze": 356,
+      "eez": 292,
+      "eze": 292
+    },
+    "trp": {
+      "ize": 737
+    },
+    "rp": {
+      "ize": 737,
+      "ix": 705,
+      "izie": 611
+    },
+    "tlw": {
+      "zie": 189
+    },
+    "lw": {
+      "zie": 189,
+      "ze": 186,
+      "xix": 138,
+      "xii": 83,
+      "xiii": 81,
+      "xi": 69
+    },
+    "trw": {
+      "ix": 82
+    },
+    "rw": {
+      "ix": 82
+    },
+    "special": "none"
+  },
+  {
+    "value": 38,
+    "input": [
+      2,
+      3,
+      6
+    ],
+    "keys": "sei",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "di": 428636
+    },
+    "lp": {
+      "di": 428636,
+      "dis": 28034,
+      "dei": 24750,
+      "esi": 16870,
+      "edi": 14962,
+      "diss": 14190,
+      "essi": 12497,
+      "die": 10002,
+      "sie": 8721,
+      "sid": 5852,
+      "side": 5514,
+      "sei": 4846,
+      "ddi": 4339
+    },
+    "trp": {
+      "id": 39251
+    },
+    "rp": {
+      "id": 39251,
+      "ide": 19137,
+      "isse": 13907,
+      "ied": 7676,
+      "ise": 6871,
+      "ies": 5670,
+      "idi": 4134
+    },
+    "tlw": {
+      "di": 272620
+    },
+    "lw": {
+      "di": 272620,
+      "dei": 24750,
+      "disse": 12506,
+      "sei": 4846,
+      "essi": 1835,
+      "eddie": 1423,
+      "dissi": 1396,
+      "diede": 764,
+      "die": 376
+    },
+    "trw": {
+      "idee": 923
+    },
+    "rw": {
+      "idee": 923
+    },
+    "special": "none"
+  },
+  {
+    "value": 39,
+    "input": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "keys": "asei",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "dia": 9487
+    },
+    "lp": {
+      "dia": 9487,
+      "dai": 6318,
+      "adi": 5312,
+      "diz": 3759,
+      "dizi": 3759,
+      "edia": 3421,
+      "esia": 2584,
+      "addi": 1697,
+      "ake": 1301,
+      "edai": 1098,
+      "adiz": 983,
+      "aid": 696,
+      "disa": 594,
+      "aesi": 504,
+      "aida": 488,
+      "ediz": 481
+    },
+    "trp": {
+      "ida": 5456
+    },
+    "rp": {
+      "ida": 5456,
+      "idea": 2945,
+      "iesa": 842,
+      "idia": 539
+    },
+    "tlw": {
+      "dai": 4684
+    },
+    "lw": {
+      "dai": 4684,
+      "sedai": 1098,
+      "sedia": 706,
+      "dia": 447,
+      "diaz": 150,
+      "dadi": 143,
+      "weizak": 114,
+      "zek": 84,
+      "zaida": 77
+    },
+    "trw": {
+      "idea": 948
+    },
+    "rw": {
+      "idea": 948
+    },
+    "special": "none"
+  },
+  {
+    "value": 40,
+    "input": [
+      4,
+      6
+    ],
+    "keys": "ti",
+    "base": "v",
+    "baseshift": "V",
+    "tlp": {
+      "ti": 201674
+    },
+    "lp": {
+      "ti": 201674,
+      "vi": 97823,
+      "tti": 34680,
+      "vit": 13247,
+      "tiv": 11647,
+      "vv": 11009,
+      "tit": 9890,
+      "viv": 7659,
+      "vvi": 4761,
+      "ttiv": 3525,
+      "tivi": 2137,
+      "vitt": 1049
+    },
+    "trp": {
+      "it": 120823
+    },
+    "rp": {
+      "it": 120823,
+      "iv": 63375,
+      "itt": 16234,
+      "iti": 9972,
+      "ivi": 9166,
+      "itti": 1789,
+      "ivit": 1063,
+      "itiv": 834
+    },
+    "tlw": {
+      "ti": 13315
+    },
+    "lw": {
+      "ti": 13315,
+      "vi": 5820,
+      "v": 547,
+      "vivi": 344,
+      "vitti": 192,
+      "vii": 124,
+      "tv": 118
+    },
+    "trw": {
+      "ivi": 381
+    },
+    "rw": {
+      "ivi": 381,
+      "it": 280,
+      "iv": 260
+    },
+    "special": "none"
+  },
+  {
+    "value": 41,
+    "input": [
+      1,
+      4,
+      6
+    ],
+    "keys": "ati",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "va": 190389
+    },
+    "lp": {
+      "va": 190389,
+      "av": 155032,
+      "fi": 65311,
+      "ava": 52761,
+      "tav": 19118,
+      "ati": 18559,
+      "tava": 13227,
+      "via": 11359,
+      "atti": 10962,
+      "vita": 10814,
+      "avi": 8889,
+      "avv": 7697,
+      "ffi": 7106,
+      "vat": 6744
+    },
+    "trp": {
+      "ita": 47351
+    },
+    "rp": {
+      "ita": 47351,
+      "iva": 25149,
+      "if": 15871,
+      "iat": 12668,
+      "ifi": 6147,
+      "itta": 5747
+    },
+    "tlw": {
+      "vita": 7521
+    },
+    "lw": {
+      "vita": 7521,
+      "va": 7492,
+      "via": 5501,
+      "aviva": 1549,
+      "fatti": 1045,
+      "fi": 1041,
+      "fai": 779,
+      "attivita": 670,
+      "vai": 600,
+      "viva": 505
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 42,
+    "input": [
+      2,
+      4,
+      6
+    ],
+    "keys": "sti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ci": 164338
+    },
+    "lp": {
+      "ci": 164338,
+      "sci": 27114,
+      "sti": 26599,
+      "tic": 17986,
+      "vis": 15732,
+      "cci": 15503,
+      "cit": 12280,
+      "sic": 8413,
+      "vist": 7217,
+      "sit": 6981,
+      "sist": 6477,
+      "vic": 5885,
+      "cis": 5562,
+      "vici": 4413
+    },
+    "trp": {
+      "ic": 121416
+    },
+    "rp": {
+      "ic": 121416,
+      "ist": 33844,
+      "ici": 23338,
+      "icc": 9765,
+      "isc": 8331,
+      "isti": 5514
+    },
+    "tlw": {
+      "ci": 18525
+    },
+    "lw": {
+      "ci": 18525,
+      "cit": 841,
+      "sti": 663,
+      "visti": 261,
+      "sci": 229,
+      "cic": 128,
+      "sic": 102,
+      "visi": 68
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 43,
+    "input": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "keys": "asti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cia": 31011
+    },
+    "lp": {
+      "cia": 31011,
+      "fic": 12655,
+      "acci": 11018,
+      "stav": 9207,
+      "asci": 8542,
+      "ccia": 7669,
+      "tica": 7620,
+      "fici": 7039,
+      "scia": 6896,
+      "cav": 5599,
+      "ffic": 5495,
+      "cita": 4913,
+      "aci": 4821,
+      "cava": 4656,
+      "ciat": 4129,
+      "fica": 4067
+    },
+    "trp": {
+      "ica": 28164
+    },
+    "rp": {
+      "ica": 28164,
+      "ista": 8238,
+      "iac": 6762,
+      "ific": 5242
+    },
+    "tlw": {
+      "stava": 5638
+    },
+    "lw": {
+      "stava": 5638,
+      "citta": 3118,
+      "stati": 2855,
+      "faccia": 2846,
+      "vista": 2252,
+      "stai": 810,
+      "casi": 751,
+      "fici": 707,
+      "cia": 626,
+      "visita": 576
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 44,
+    "input": [
+      3,
+      4,
+      6
+    ],
+    "keys": "eti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ri": 271321
+    },
+    "lp": {
+      "ri": 271321,
+      "ve": 188448,
+      "ev": 102519,
+      "ver": 54105,
+      "vev": 40850,
+      "eri": 32812,
+      "rit": 23342,
+      "tri": 19304,
+      "riv": 17343,
+      "rri": 15930,
+      "vr": 15774,
+      "rti": 15156,
+      "vre": 13781,
+      "rv": 10887,
+      "rie": 10457
+    },
+    "trp": {
+      "ir": 53396
+    },
+    "rp": {
+      "ir": 53396,
+      "ire": 26876,
+      "ive": 17593,
+      "ier": 15772,
+      "iet": 14208
+    },
+    "tlw": {
+      "ri": 3645
+    },
+    "lw": {
+      "ri": 3645,
+      "ve": 1585,
+      "vivere": 1230,
+      "ver": 718,
+      "tri": 615,
+      "vive": 516,
+      "vie": 372,
+      "veri": 314,
+      "rie": 276
+    },
+    "trw": {
+      "ieri": 513
+    },
+    "rw": {
+      "ieri": 513
+    },
+    "special": "none"
+  },
+  {
+    "value": 45,
+    "input": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "keys": "aeti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eva": 73289
+    },
+    "lp": {
+      "eva": 73289,
+      "ave": 58305,
+      "veva": 37630,
+      "avev": 35315,
+      "ari": 29989,
+      "ria": 21552,
+      "rav": 13861,
+      "avr": 12747,
+      "aver": 12007,
+      "avre": 11717,
+      "arti": 8504,
+      "raz": 8093,
+      "riva": 7823,
+      "teva": 7786,
+      "rava": 7750,
+      "rz": 7684,
+      "razi": 7246,
+      "aria": 7043,
+      "var": 6874
+    },
+    "trp": {
+      "iar": 12328
+    },
+    "rp": {
+      "iar": 12328
+    },
+    "tlw": {
+      "aveva": 25419
+    },
+    "lw": {
+      "aveva": 25419,
+      "aver": 3038,
+      "avere": 2641,
+      "verita": 1726,
+      "vera": 1359,
+      "avrei": 1205,
+      "ave": 1184,
+      "aria": 975,
+      "effetti": 928,
+      "arrivare": 823
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 46,
+    "input": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "keys": "seti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ris": 22044
+    },
+    "lp": {
+      "ris": 22044,
+      "ric": 19685,
+      "vers": 18457,
+      "dic": 17507,
+      "dir": 16840,
+      "dev": 14728,
+      "rsi": 13879,
+      "div": 12993,
+      "esti": 12926,
+      "cri": 12376,
+      "eci": 12232,
+      "cie": 11915,
+      "ved": 11776,
+      "dire": 10654,
+      "vec": 10284,
+      "cev": 9987,
+      "rdi": 9801,
+      "dive": 9112,
+      "ves": 9047
+    },
+    "trp": {
+      "ice": 15501
+    },
+    "rp": {
+      "ice": 15501
+    },
+    "tlw": {
+      "dire": 5876
+    },
+    "lw": {
+      "dire": 5876,
+      "vedere": 3474,
+      "deve": 3151,
+      "dice": 3050,
+      "vide": 1696,
+      "dieci": 1317,
+      "vede": 1284,
+      "stessi": 1137,
+      "verde": 1115,
+      "scrivere": 955
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 47,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "keys": "aseti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "avesse": 3478
+    },
+    "lw": {
+      "avesse": 3478,
+      "faceva": 2747,
+      "diceva": 1526,
+      "dita": 1391,
+      "tardi": 1346,
+      "vedeva": 995,
+      "farsi": 965,
+      "david": 951,
+      "circa": 854,
+      "ricerca": 774
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 48,
+    "input": [
+      5,
+      6
+    ],
+    "keys": "ni",
+    "base": "h",
+    "baseshift": "H",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "in": 320519
+    },
+    "rp": {
+      "in": 320519,
+      "ni": 127880,
+      "hi": 74560,
+      "ini": 26777,
+      "nni": 8434,
+      "hin": 3880,
+      "hn": 2447,
+      "inn": 2214,
+      "hnn": 2025,
+      "nin": 915,
+      "inni": 601,
+      "nh": 595,
+      "iin": 129,
+      "hini": 72
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "in": 109997
+    },
+    "rw": {
+      "in": 109997,
+      "ni": 2211,
+      "h": 380
+    },
+    "special": "none"
+  },
+  {
+    "value": 49,
+    "input": [
+      1,
+      5,
+      6
+    ],
+    "keys": "ani",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ani": 19586
+    },
+    "lp": {
+      "ani": 19586,
+      "anz": 17748,
+      "anza": 10372,
+      "anni": 7227,
+      "anzi": 3789,
+      "ah": 3716
+    },
+    "trp": {
+      "nz": 54632
+    },
+    "rp": {
+      "nz": 54632,
+      "nza": 35715,
+      "ha": 33959,
+      "ina": 27059,
+      "ian": 18374,
+      "hia": 16994,
+      "nzi": 12087,
+      "han": 6938,
+      "hann": 5379,
+      "hai": 4785,
+      "nia": 4225,
+      "niz": 3725,
+      "naz": 3249,
+      "nizi": 3238
+    },
+    "tlw": {
+      "anni": 5707
+    },
+    "lw": {
+      "anni": 5707,
+      "anzi": 1392,
+      "ah": 1323,
+      "anziani": 128,
+      "ahi": 116
+    },
+    "trw": {
+      "ha": 18022
+    },
+    "rw": {
+      "ha": 18022,
+      "hai": 3880,
+      "inizia": 144,
+      "innanzi": 139,
+      "inizi": 124
+    },
+    "special": "none"
+  },
+  {
+    "value": 50,
+    "input": [
+      2,
+      5,
+      6
+    ],
+    "keys": "sni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sin": 7946
+    },
+    "lp": {
+      "sin": 7946,
+      "sh": 2049,
+      "sini": 1751,
+      "ssin": 588,
+      "shi": 528,
+      "shin": 317,
+      "sinn": 281
+    },
+    "trp": {
+      "nsi": 15035
+    },
+    "rp": {
+      "nsi": 15035,
+      "nis": 6625,
+      "ins": 6544,
+      "inis": 3605,
+      "insi": 3309,
+      "niss": 1203,
+      "his": 1153,
+      "nsis": 1139,
+      "hiss": 710,
+      "nk": 587,
+      "kn": 242,
+      "nkn": 242,
+      "hisk": 230
+    },
+    "tlw": {
+      "sin": 309
+    },
+    "lw": {
+      "sin": 309,
+      "sinni": 281
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 51,
+    "input": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "keys": "asni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sian": 1135
+    },
+    "lp": {
+      "sian": 1135,
+      "sha": 1053,
+      "shai": 370,
+      "ansi": 317,
+      "ash": 294,
+      "anis": 271,
+      "ank": 267,
+      "wh": 230,
+      "whi": 230,
+      "whis": 230,
+      "shak": 182,
+      "sina": 182,
+      "asha": 161
+    },
+    "trp": {
+      "nsaz": 1239
+    },
+    "rp": {
+      "nsaz": 1239,
+      "jak": 1224,
+      "kan": 378,
+      "nsai": 375,
+      "nsia": 236,
+      "hak": 182,
+      "hans": 173
+    },
+    "tlw": {
+      "assassini": 163
+    },
+    "lw": {
+      "assassini": 163,
+      "ansia": 148,
+      "ajah": 103,
+      "sanza": 67
+    },
+    "trw": {
+      "hans": 173
+    },
+    "rw": {
+      "hans": 173,
+      "hishikawa": 71,
+      "kanai": 70
+    },
+    "special": "none"
+  },
+  {
+    "value": 52,
+    "input": [
+      3,
+      5,
+      6
+    ],
+    "keys": "eni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eni": 10691
+    },
+    "lp": {
+      "eni": 10691,
+      "eh": 980,
+      "ein": 671,
+      "enni": 493
+    },
+    "trp": {
+      "he": 257312
+    },
+    "rp": {
+      "he": 257312,
+      "ien": 23159,
+      "ine": 20676,
+      "hie": 11844,
+      "nie": 7980,
+      "nei": 6509,
+      "iene": 5014,
+      "nien": 4870,
+      "hnny": 2025,
+      "hien": 1078,
+      "ieni": 1009,
+      "hen": 976,
+      "iy": 739,
+      "hei": 601,
+      "nhe": 485,
+      "nhei": 485
+    },
+    "tlw": {
+      "eh": 464
+    },
+    "lw": {
+      "eh": 464,
+      "ehi": 253
+    },
+    "trw": {
+      "nei": 6212
+    },
+    "rw": {
+      "nei": 6212,
+      "he": 76
+    },
+    "special": "none"
+  },
+  {
+    "value": 53,
+    "input": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "keys": "aeni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "enz": 33789
+    },
+    "lp": {
+      "enz": 33789,
+      "enza": 25275,
+      "enzi": 5779,
+      "anie": 1827,
+      "enze": 1769,
+      "anze": 1753,
+      "zien": 1090,
+      "aine": 399,
+      "anei": 297,
+      "enez": 278,
+      "enia": 243
+    },
+    "trp": {
+      "ienz": 3732
+    },
+    "rp": {
+      "ienz": 3732,
+      "nze": 3723,
+      "iena": 2121,
+      "inea": 1074,
+      "hez": 796,
+      "hezz": 796,
+      "iane": 508,
+      "nez": 444,
+      "nezz": 294
+    },
+    "tlw": {
+      "annie": 76
+    },
+    "lw": {
+      "annie": 76
+    },
+    "trw": {
+      "haze": 116
+    },
+    "rw": {
+      "haze": 116
+    },
+    "special": "none"
+  },
+  {
+    "value": 54,
+    "input": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "keys": "seni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "din": 9601
+    },
+    "lp": {
+      "din": 9601,
+      "ensi": 7099,
+      "dine": 2705,
+      "dini": 1939,
+      "enis": 1203,
+      "endi": 1130
+    },
+    "trp": {
+      "ndi": 18448
+    },
+    "rp": {
+      "ndi": 18448,
+      "ind": 14247,
+      "indi": 10009,
+      "nsie": 5540,
+      "iden": 4952,
+      "hies": 4362,
+      "ines": 2489,
+      "nsid": 2433,
+      "hied": 2389,
+      "ndie": 1992,
+      "inse": 1599,
+      "hes": 1407,
+      "hese": 836,
+      "iend": 824
+    },
+    "tlw": {
+      "sensi": 395
+    },
+    "lw": {
+      "sensi": 395,
+      "seni": 186
+    },
+    "trw": {
+      "jessie": 395
+    },
+    "rw": {
+      "jessie": 395,
+      "heidi": 116,
+      "keynes": 97
+    },
+    "special": "none"
+  },
+  {
+    "value": 55,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "keys": "aseni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "senza": 11519
+    },
+    "lw": {
+      "senza": 11519,
+      "dinanzi": 319,
+      "whisky": 230,
+      "andai": 224,
+      "danza": 201,
+      "assenza": 191,
+      "danni": 150,
+      "essenza": 112
+    },
+    "trw": {
+      "jake": 1119
+    },
+    "rw": {
+      "jake": 1119,
+      "india": 119
+    },
+    "special": "none"
+  },
+  {
+    "value": 56,
+    "input": [
+      4,
+      5,
+      6
+    ],
+    "keys": "tni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "bi": 59544
+    },
+    "lp": {
+      "bi": 59544,
+      "tin": 11579,
+      "bbi": 9416,
+      "bit": 7319,
+      "vin": 5035,
+      "th": 4299,
+      "bin": 4027
+    },
+    "trp": {
+      "nti": 54757
+    },
+    "rp": {
+      "nti": 54757,
+      "int": 22534,
+      "ib": 21158,
+      "nv": 10155,
+      "ibi": 10125,
+      "inv": 7335,
+      "nit": 7186,
+      "ntin": 5806,
+      "niv": 4019,
+      "init": 3245,
+      "nvi": 2863,
+      "ntit": 2732,
+      "ntiv": 2068
+    },
+    "tlw": {
+      "bi": 1153
+    },
+    "lw": {
+      "bi": 1153,
+      "vin": 145,
+      "vinni": 143
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 57,
+    "input": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "keys": "atni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "van": 36986
+    },
+    "lp": {
+      "van": 36986,
+      "fin": 26008,
+      "anti": 15681,
+      "avan": 14203,
+      "bia": 12839,
+      "abi": 8938,
+      "tanz": 7428,
+      "bbia": 7391,
+      "vant": 6810,
+      "abbi": 5970,
+      "fini": 5690,
+      "bian": 4015,
+      "tina": 3323
+    },
+    "trp": {
+      "inf": 7482
+    },
+    "rp": {
+      "inf": 7482,
+      "ivan": 3793,
+      "nfi": 3624,
+      "nif": 3465,
+      "nita": 3287,
+      "nav": 3253,
+      "inat": 3100
+    },
+    "tlw": {
+      "avanti": 2333
+    },
+    "lw": {
+      "avanti": 2333,
+      "fin": 2091,
+      "abbia": 1589,
+      "tanti": 860,
+      "fini": 552,
+      "abiti": 392,
+      "finita": 389,
+      "abitanti": 343
+    },
+    "trw": {
+      "infatti": 1929
+    },
+    "rw": {
+      "infatti": 1929,
+      "navi": 520
+    },
+    "special": "none"
+  },
+  {
+    "value": 58,
+    "input": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "keys": "stni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ch": 325862
+    },
+    "lp": {
+      "ch": 325862,
+      "chi": 68908,
+      "cch": 28522,
+      "cchi": 26461,
+      "cin": 14381,
+      "sib": 7454,
+      "sibi": 7454,
+      "sch": 6565,
+      "ssib": 5070,
+      "bis": 4769,
+      "schi": 4292
+    },
+    "trp": {
+      "nch": 30760
+    },
+    "rp": {
+      "nch": 30760,
+      "inc": 18389,
+      "nci": 14606,
+      "inci": 9684,
+      "ich": 9552,
+      "nic": 7263,
+      "icin": 4702,
+      "ntic": 4604,
+      "nist": 3754
+    },
+    "tlw": {
+      "chi": 6236
+    },
+    "lw": {
+      "chi": 6236,
+      "vicini": 384,
+      "sinti": 143,
+      "cin": 138,
+      "scinni": 100,
+      "bici": 74,
+      "cibi": 71
+    },
+    "trw": {
+      "nisci": 250
+    },
+    "rw": {
+      "nisci": 250,
+      "hist": 69
+    },
+    "special": "none"
+  },
+  {
+    "value": 59,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "keys": "astni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "stanza": 2031
+    },
+    "lw": {
+      "stanza": 2031,
+      "abbastanza": 1920,
+      "bianca": 1058,
+      "bianchi": 656,
+      "chissa": 637,
+      "fantasia": 587,
+      "cani": 567,
+      "tanticchia": 536,
+      "antichi": 498
+    },
+    "trw": {
+      "jack": 1501
+    },
+    "rw": {
+      "jack": 1501
+    },
+    "special": "none"
+  },
+  {
+    "value": 60,
+    "input": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "etni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "enti": 29283
+    },
+    "lp": {
+      "enti": 29283,
+      "ven": 26526,
+      "vreb": 10977,
+      "vent": 10288,
+      "rin": 9910,
+      "veni": 5610,
+      "rni": 4645,
+      "vien": 4597,
+      "bri": 4427,
+      "venn": 3148
+    },
+    "trp": {
+      "inte": 12868
+    },
+    "rp": {
+      "inte": 12868,
+      "ient": 8992,
+      "nve": 6568,
+      "iven": 5412,
+      "inve": 5309,
+      "ibe": 4688,
+      "iber": 4499,
+      "nev": 3929,
+      "ibr": 3745,
+      "nir": 3103
+    },
+    "tlw": {
+      "viene": 2680
+    },
+    "lw": {
+      "viene": 2680,
+      "venne": 1637,
+      "venire": 1277,
+      "breve": 1122,
+      "the": 820,
+      "venti": 786
+    },
+    "trw": {
+      "niente": 4357
+    },
+    "rw": {
+      "niente": 4357,
+      "neve": 891,
+      "henry": 798,
+      "neri": 702
+    },
+    "special": "none"
+  },
+  {
+    "value": 61,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "aetni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "avrebbe": 7187
+    },
+    "lw": {
+      "avrebbe": 7187,
+      "fine": 3664,
+      "veniva": 1354,
+      "teneva": 987,
+      "finire": 573,
+      "rabbia": 483,
+      "ribatte": 397
+    },
+    "trw": {
+      "infine": 1261
+    },
+    "rw": {
+      "infine": 1261,
+      "nynaeve": 644,
+      "nave": 565
+    },
+    "special": "none"
+  },
+  {
+    "value": 62,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "setni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "che": 190983
+    },
+    "lw": {
+      "che": 190983,
+      "chiese": 1939,
+      "senti": 1818,
+      "sentire": 1232,
+      "denti": 1044,
+      "vecchi": 810,
+      "bicchiere": 636,
+      "benche": 627
+    },
+    "trw": {
+      "invece": 4329
+    },
+    "rw": {
+      "invece": 4329,
+      "interesse": 619
+    },
+    "special": "none"
+  },
+  {
+    "value": 63,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "asetni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "anche": 22478
+    },
+    "lw": {
+      "anche": 22478,
+      "davanti": 4050,
+      "sentiva": 1460,
+      "vecchia": 1452,
+      "finche": 1446,
+      "braccia": 1360,
+      "andava": 1335,
+      "sinistra": 1181,
+      "finestra": 1143
+    },
+    "trw": {
+      "neanche": 898
+    },
+    "rw": {
+      "neanche": 898
+    },
+    "special": "none"
+  },
+  {
+    "value": 64,
+    "input": [
+      7
+    ],
+    "keys": "o",
+    "base": "o",
+    "baseshift": "O",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "oo": 538
+    },
+    "rp": {
+      "oo": 538
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "o": 24888
+    },
+    "rw": {
+      "o": 24888
+    },
+    "special": "none"
+  },
+  {
+    "value": 65,
+    "input": [
+      1,
+      7
+    ],
+    "keys": "ao",
+    "base": "(",
+    "baseshift": "[",
+    "tlp": {
+      "ao": 1339
+    },
+    "lp": {
+      "ao": 1339
+    },
+    "trp": {
+      "oa": 935
+    },
+    "rp": {
+      "oa": 935
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 66,
+    "input": [
+      2,
+      7
+    ],
+    "keys": "so",
+    "base": ".",
+    "baseshift": ">",
+    "tlp": {
+      "so": 207940
+    },
+    "lp": {
+      "so": 207940,
+      "sso": 40126,
+      "sos": 3515
+    },
+    "trp": {
+      "os": 147196
+    },
+    "rp": {
+      "os": 147196,
+      "oss": 35563,
+      "osso": 7114,
+      "oso": 5558,
+      "oos": 197
+    },
+    "tlw": {
+      "so": 6170
+    },
+    "lw": {
+      "so": 6170
+    },
+    "trw": {
+      "oso": 79
+    },
+    "rw": {
+      "oso": 79
+    },
+    "special": "none"
+  },
+  {
+    "value": 67,
+    "input": [
+      1,
+      2,
+      7
+    ],
+    "keys": "aso",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "asso": 6821
+    },
+    "lp": {
+      "asso": 6821,
+      "aso": 5369,
+      "aos": 214,
+      "wo": 76,
+      "sao": 68
+    },
+    "trp": {
+      "osa": 24654
+    },
+    "rp": {
+      "osa": 24654,
+      "ossa": 4337,
+      "ow": 546,
+      "ows": 70
+    },
+    "tlw": {
+      "sasso": 152
+    },
+    "lw": {
+      "sasso": 152
+    },
+    "trw": {
+      "ossa": 382
+    },
+    "rw": {
+      "ossa": 382
+    },
+    "special": "none"
+  },
+  {
+    "value": 68,
+    "input": [
+      3,
+      7
+    ],
+    "keys": "eo",
+    "base": "-",
+    "baseshift": "_",
+    "tlp": {
+      "eo": 5232
+    },
+    "lp": {
+      "eo": 5232
+    },
+    "trp": {
+      "oe": 8136
+    },
+    "rp": {
+      "oe": 8136,
+      "o-": 68
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "-": 14856
+    },
+    "rw": {
+      "-": 14856
+    },
+    "special": "none"
+  },
+  {
+    "value": 69,
+    "input": [
+      1,
+      3,
+      7
+    ],
+    "keys": "aeo",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "xo": 67
+    },
+    "lp": {
+      "xo": 67
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 70,
+    "input": [
+      2,
+      3,
+      7
+    ],
+    "keys": "seo",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "do": 158471
+    },
+    "lp": {
+      "do": 158471,
+      "esso": 24288,
+      "eso": 5769,
+      "edo": 3904,
+      "dos": 2882,
+      "doss": 2060,
+      "ddo": 1996,
+      "eddo": 998,
+      "sod": 857,
+      "ddos": 781,
+      "sodd": 688,
+      "seo": 410
+    },
+    "trp": {
+      "od": 22403
+    },
+    "rp": {
+      "od": 22403,
+      "osse": 14839,
+      "odo": 11880,
+      "ose": 9626,
+      "ode": 2991,
+      "oes": 2623,
+      "odd": 1406,
+      "odes": 453
+    },
+    "tlw": {
+      "do": 2723
+    },
+    "lw": {
+      "do": 2723,
+      "esso": 1613,
+      "sesso": 335,
+      "dosso": 111,
+      "dose": 109
+    },
+    "trw": {
+      "od": 70
+    },
+    "rw": {
+      "od": 70
+    },
+    "special": "none"
+  },
+  {
+    "value": 71,
+    "input": [
+      1,
+      2,
+      3,
+      7
+    ],
+    "keys": "aseo",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ado": 4250
+    },
+    "lp": {
+      "ado": 4250,
+      "addo": 998,
+      "aseo": 185,
+      "ados": 165,
+      "dado": 87
+    },
+    "trp": {
+      "oda": 1104
+    },
+    "rp": {
+      "oda": 1104,
+      "oad": 114,
+      "owd": 110,
+      "owde": 110,
+      "osea": 69
+    },
+    "tlw": {
+      "adesso": 3039
+    },
+    "lw": {
+      "adesso": 3039,
+      "addosso": 781
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 72,
+    "input": [
+      4,
+      7
+    ],
+    "keys": "to",
+    "base": "g",
+    "baseshift": "G",
+    "tlp": {
+      "to": 401592
+    },
+    "lp": {
+      "to": 401592,
+      "tto": 86897,
+      "gg": 33111,
+      "go": 26067,
+      "tog": 1447,
+      "tot": 932,
+      "gog": 757,
+      "got": 273,
+      "gott": 273,
+      "gt": 133,
+      "gto": 133,
+      "ggo": 75
+    },
+    "trp": {
+      "ot": 65714
+    },
+    "rp": {
+      "ot": 65714,
+      "og": 43298,
+      "ott": 26279,
+      "otto": 14867,
+      "ogg": 6502,
+      "oto": 4962,
+      "ogo": 2241,
+      "otog": 817
+    },
+    "tlw": {
+      "to": 7313
+    },
+    "lw": {
+      "to": 7313,
+      "go": 728,
+      "g": 419
+    },
+    "trw": {
+      "otto": 700
+    },
+    "rw": {
+      "otto": 700
+    },
+    "special": "none"
+  },
+  {
+    "value": 73,
+    "input": [
+      1,
+      4,
+      7
+    ],
+    "keys": "ato",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ato": 73996
+    },
+    "lp": {
+      "ato": 73996,
+      "ag": 56081,
+      "fo": 55368,
+      "ga": 29223,
+      "atto": 20713,
+      "tato": 20408,
+      "agg": 16302,
+      "aga": 8581,
+      "tag": 4466,
+      "gat": 3604,
+      "ago": 2314,
+      "fog": 1698,
+      "fot": 1434,
+      "gato": 1430,
+      "foto": 1368
+    },
+    "trp": {
+      "of": 9885
+    },
+    "rp": {
+      "of": 9885,
+      "ota": 4046,
+      "off": 3220,
+      "ofo": 2985,
+      "otta": 2424
+    },
+    "tlw": {
+      "fatto": 10159
+    },
+    "lw": {
+      "fatto": 10159,
+      "affatto": 1015,
+      "atto": 602,
+      "ga": 576,
+      "foto": 551,
+      "gatto": 480,
+      "fo": 202,
+      "tatto": 106,
+      "fato": 92
+    },
+    "trw": {
+      "of": 731
+    },
+    "rw": {
+      "of": 731
+    },
+    "special": "none"
+  },
+  {
+    "value": 74,
+    "input": [
+      2,
+      4,
+      7
+    ],
+    "keys": "sto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "co": 390163
+    },
+    "lp": {
+      "co": 390163,
+      "sto": 52219,
+      "cos": 51355,
+      "cco": 18243,
+      "sco": 18206,
+      "sog": 8190,
+      "sot": 7937,
+      "sott": 7799,
+      "cost": 7326,
+      "soc": 6324,
+      "sg": 3921,
+      "tos": 2462,
+      "ttos": 2033,
+      "tost": 1809
+    },
+    "trp": {
+      "oc": 56253
+    },
+    "rp": {
+      "oc": 56253,
+      "ost": 33815,
+      "occ": 22690,
+      "osc": 10484,
+      "osto": 8075,
+      "oco": 7828
+    },
+    "tlw": {
+      "sotto": 6145
+    },
+    "lw": {
+      "sotto": 6145,
+      "co": 2667,
+      "sto": 1661,
+      "cos": 758,
+      "tocco": 473,
+      "costo": 268,
+      "sco": 233,
+      "sgg": 204,
+      "sot": 138
+    },
+    "trw": {
+      "oc": 194
+    },
+    "rw": {
+      "oc": 194
+    },
+    "special": "none"
+  },
+  {
+    "value": 75,
+    "input": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "keys": "asto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cosa": 19547
+    },
+    "lp": {
+      "cosa": 19547,
+      "fos": 11685,
+      "foss": 11257,
+      "acco": 7925,
+      "cato": 6282,
+      "sato": 5193,
+      "asco": 3862,
+      "caso": 3785,
+      "sag": 3490,
+      "sagg": 2903,
+      "sof": 2687,
+      "sfo": 2641,
+      "aco": 2576,
+      "asto": 2224,
+      "soff": 1670,
+      "ssag": 1305,
+      "asfo": 1214
+    },
+    "trp": {
+      "osta": 6879
+    },
+    "rp": {
+      "osta": 6879,
+      "occa": 4654,
+      "oca": 4630
+    },
+    "tlw": {
+      "cosa": 13626
+    },
+    "lw": {
+      "cosa": 13626,
+      "stato": 11413,
+      "caso": 3785,
+      "scatto": 527,
+      "sacco": 458,
+      "costa": 343,
+      "gas": 306,
+      "attacco": 297,
+      "fos": 265,
+      "toccato": 244
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 76,
+    "input": [
+      3,
+      4,
+      7
+    ],
+    "keys": "eto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ro": 227920
+    },
+    "lp": {
+      "ro": 227920,
+      "eg": 57686,
+      "tro": 57323,
+      "ero": 38319,
+      "ge": 36825,
+      "gr": 34774,
+      "tor": 32640,
+      "etto": 24645,
+      "rto": 15415,
+      "rg": 11383,
+      "erto": 8921,
+      "gge": 8000,
+      "egg": 7847,
+      "ttor": 7785
+    },
+    "trp": {
+      "or": 269472
+    },
+    "rp": {
+      "or": 269472,
+      "ore": 35067,
+      "ort": 33764,
+      "oro": 25778,
+      "ote": 17869,
+      "orr": 13751
+    },
+    "tlw": {
+      "ero": 2296
+    },
+    "lw": {
+      "ero": 2296,
+      "ro": 1918,
+      "torre": 972,
+      "tro": 802,
+      "ge": 770,
+      "errore": 458,
+      "terrore": 452
+    },
+    "trw": {
+      "ore": 1264
+    },
+    "rw": {
+      "ore": 1264,
+      "oggetto": 698,
+      "or": 448
+    },
+    "special": "none"
+  },
+  {
+    "value": 77,
+    "input": [
+      1,
+      3,
+      4,
+      7
+    ],
+    "keys": "aeto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "for": 26973
+    },
+    "lp": {
+      "for": 26973,
+      "gra": 21610,
+      "aro": 13873,
+      "rag": 13343,
+      "rato": 7513,
+      "ega": 6425,
+      "raga": 5685,
+      "rof": 4674,
+      "gar": 4202,
+      "fort": 4190,
+      "fro": 4170,
+      "arg": 3762,
+      "ator": 3289,
+      "ragg": 2753,
+      "rofo": 2611,
+      "egat": 2149,
+      "efo": 2111
+    },
+    "trp": {
+      "ora": 39990
+    },
+    "rp": {
+      "ora": 39990,
+      "orta": 15855,
+      "orat": 2202
+    },
+    "tlw": {
+      "forte": 2002
+    },
+    "lw": {
+      "forte": 2002,
+      "tratto": 1183,
+      "ferro": 725,
+      "teatro": 547,
+      "faro": 493,
+      "fora": 490,
+      "effetto": 474,
+      "for": 464,
+      "gra": 325
+    },
+    "trw": {
+      "ora": 7824
+    },
+    "rw": {
+      "ora": 7824
+    },
+    "special": "none"
+  },
+  {
+    "value": 78,
+    "input": [
+      2,
+      3,
+      4,
+      7
+    ],
+    "keys": "seto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cor": 38804
+    },
+    "lp": {
+      "cor": 38804,
+      "esto": 25195,
+      "rso": 23200,
+      "erso": 18732,
+      "seg": 12223,
+      "sor": 11329,
+      "rdo": 10221,
+      "ros": 9482,
+      "eco": 9413,
+      "deg": 8211,
+      "seco": 7334,
+      "stro": 6954,
+      "cord": 6283,
+      "stor": 5902,
+      "cors": 5435
+    },
+    "trp": {
+      "ors": 15158
+    },
+    "rp": {
+      "ors": 15158,
+      "ostr": 13586,
+      "ord": 11970,
+      "orse": 9331,
+      "oce": 8464
+    },
+    "tlw": {
+      "stesso": 6792
+    },
+    "lw": {
+      "stesso": 6792,
+      "detto": 5697,
+      "certo": 5581,
+      "cose": 5029,
+      "resto": 2134,
+      "credo": 2123,
+      "ecco": 1969,
+      "corso": 1149,
+      "rosso": 1139,
+      "dottor": 1012
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 79,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    "keys": "aseto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "fosse": 8373
+    },
+    "lw": {
+      "fosse": 8373,
+      "forse": 7756,
+      "dato": 2397,
+      "fossero": 2048,
+      "grado": 1761,
+      "freddo": 998,
+      "sorta": 815,
+      "rosa": 712,
+      "caro": 694,
+      "corsa": 642
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 80,
+    "input": [
+      5,
+      7
+    ],
+    "keys": "no",
+    "base": "u",
+    "baseshift": "U",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "on": 433832
+    },
+    "rp": {
+      "on": 433832,
+      "no": 385815,
+      "un": 277275,
+      "non": 115975,
+      "uo": 92907,
+      "ono": 48700,
+      "nu": 34565,
+      "uno": 20637,
+      "nno": 15777,
+      "nuo": 10306,
+      "onn": 10035,
+      "uon": 6528,
+      "nun": 2140,
+      "uono": 1918,
+      "nono": 1205,
+      "nnu": 1154,
+      "onno": 1090,
+      "ou": 1010,
+      "onu": 664,
+      "nuno": 565
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "un": 115533
+    },
+    "rw": {
+      "un": 115533,
+      "non": 113453,
+      "uno": 12046,
+      "no": 11205,
+      "u": 305,
+      "nonno": 271,
+      "nu": 253,
+      "nuo": 180,
+      "nun": 134,
+      "on": 91
+    },
+    "special": "none"
+  },
+  {
+    "value": 81,
+    "input": [
+      1,
+      5,
+      7
+    ],
+    "keys": "ano",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "qu": 190328
+    },
+    "lp": {
+      "qu": 190328,
+      "qua": 77681,
+      "ano": 65571,
+      "quan": 30674,
+      "anno": 13315,
+      "au": 11443,
+      "anqu": 1124,
+      "annu": 946,
+      "quo": 938
+    },
+    "trp": {
+      "ua": 132700
+    },
+    "rp": {
+      "ua": 132700,
+      "una": 86055,
+      "uan": 32837,
+      "ona": 14043,
+      "nqu": 11662,
+      "unq": 7249,
+      "unqu": 7249,
+      "onna": 5337,
+      "nua": 3252,
+      "uona": 1818,
+      "uann": 589
+    },
+    "tlw": {
+      "qua": 1585
+    },
+    "lw": {
+      "qua": 1585,
+      "anno": 1143,
+      "quan": 674,
+      "quanno": 589,
+      "au": 181,
+      "quo": 77
+    },
+    "trw": {
+      "una": 79579
+    },
+    "rw": {
+      "una": 79579,
+      "nonna": 235,
+      "nano": 86
+    },
+    "special": "none"
+  },
+  {
+    "value": 82,
+    "input": [
+      2,
+      5,
+      7
+    ],
+    "keys": "sno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "su": 132637
+    },
+    "lp": {
+      "su": 132637,
+      "son": 31667,
+      "suo": 31462,
+      "sono": 23253,
+      "ssu": 9650,
+      "sun": 6985,
+      "ssun": 6985,
+      "suno": 3678,
+      "sus": 2485,
+      "suon": 1722,
+      "sson": 1433
+    },
+    "trp": {
+      "us": 36612
+    },
+    "rp": {
+      "us": 36612,
+      "nos": 15001,
+      "ons": 8796,
+      "nso": 8371,
+      "onos": 7152,
+      "uss": 4074,
+      "jo": 3195,
+      "uso": 2108,
+      "uns": 1274
+    },
+    "tlw": {
+      "sono": 21614
+    },
+    "lw": {
+      "sono": 21614,
+      "suo": 21151,
+      "su": 11996,
+      "suono": 902,
+      "sonno": 819,
+      "son": 547
+    },
+    "trw": {
+      "uso": 357
+    },
+    "rw": {
+      "uso": 357
+    },
+    "special": "none"
+  },
+  {
+    "value": 83,
+    "input": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "keys": "asno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sua": 24168
+    },
+    "lp": {
+      "sua": 24168,
+      "quas": 6927,
+      "sona": 4115,
+      "aus": 2408,
+      "ausa": 1542,
+      "suna": 1517,
+      "susa": 1517,
+      "assu": 1294,
+      "squ": 812,
+      "sano": 714,
+      "squa": 653,
+      "ssua": 375
+    },
+    "trp": {
+      "uas": 6999
+    },
+    "rp": {
+      "uas": 6999,
+      "usa": 6983,
+      "usan": 1855,
+      "onsa": 1367,
+      "naso": 1168,
+      "ussa": 700,
+      "own": 366,
+      "jona": 325
+    },
+    "tlw": {
+      "sua": 23065
+    },
+    "lw": {
+      "sua": 23065,
+      "susan": 646,
+      "sanno": 464,
+      "susanna": 175,
+      "sano": 147,
+      "suona": 134
+    },
+    "trw": {
+      "naso": 1168
+    },
+    "rw": {
+      "naso": 1168,
+      "jonas": 325,
+      "usa": 212,
+      "juan": 131
+    },
+    "special": "none"
+  },
+  {
+    "value": 84,
+    "input": [
+      3,
+      5,
+      7
+    ],
+    "keys": "eno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eno": 16301
+    },
+    "lp": {
+      "eno": 16301,
+      "enu": 5118,
+      "eu": 1862,
+      "enno": 771,
+      "eon": 506,
+      "eone": 436
+    },
+    "trp": {
+      "ue": 125676
+    },
+    "rp": {
+      "ue": 125676,
+      "one": 59396,
+      "onne": 3479,
+      "une": 2827,
+      "uen": 2641,
+      "yo": 1665,
+      "n-": 548,
+      "oy": 441,
+      "neo": 409,
+      "uone": 346,
+      "onen": 340,
+      "nue": 237,
+      "uy": 200,
+      "noe": 193
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "oy": 212
+    },
+    "rw": {
+      "oy": 212,
+      "une": 98
+    },
+    "special": "none"
+  },
+  {
+    "value": 85,
+    "input": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "keys": "aeno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "que": 97787
+    },
+    "lp": {
+      "que": 97787,
+      "equ": 1088,
+      "eque": 647,
+      "quen": 638,
+      "aneo": 409,
+      "enua": 88,
+      "aone": 79,
+      "eau": 72,
+      "aneu": 67,
+      "anue": 66
+    },
+    "trp": {
+      "nque": 9338
+    },
+    "rp": {
+      "nque": 9338,
+      "yoa": 739,
+      "uane": 290
+    },
+    "tlw": {
+      "que": 683
+    },
+    "lw": {
+      "que": 683
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 86,
+    "input": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "keys": "seno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "du": 34768
+    },
+    "lp": {
+      "du": 34768,
+      "due": 12808,
+      "don": 11273,
+      "endo": 9954,
+      "donn": 7413,
+      "essu": 7350,
+      "enso": 6714,
+      "sue": 6211,
+      "edu": 2809,
+      "dun": 2701,
+      "sone": 2340
+    },
+    "trp": {
+      "ndo": 56462
+    },
+    "rp": {
+      "ndo": 56462,
+      "ues": 36702,
+      "ond": 28523,
+      "ondo": 14111,
+      "ud": 11367,
+      "onde": 3335,
+      "ude": 2693,
+      "use": 2653,
+      "onse": 2363
+    },
+    "tlw": {
+      "due": 12347
+    },
+    "lw": {
+      "due": 12347,
+      "sue": 6071,
+      "senso": 3213,
+      "donne": 2709,
+      "du": 1128,
+      "don": 724,
+      "sud": 661,
+      "essendo": 502
+    },
+    "trw": {
+      "nessuno": 3678
+    },
+    "rw": {
+      "nessuno": 3678,
+      "nessun": 1339
+    },
+    "special": "none"
+  },
+  {
+    "value": 87,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    "keys": "aseno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "quando": 17079
+    },
+    "lw": {
+      "quando": 17079,
+      "donna": 4513,
+      "dunque": 2507,
+      "ando": 1227,
+      "danno": 527,
+      "andando": 356,
+      "dando": 257
+    },
+    "trw": {
+      "nessuna": 1517
+    },
+    "rw": {
+      "nessuna": 1517,
+      "nuda": 283,
+      "usando": 177
+    },
+    "special": "none"
+  },
+  {
+    "value": 88,
+    "input": [
+      4,
+      5,
+      7
+    ],
+    "keys": "tno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tu": 92522
+    },
+    "lp": {
+      "tu": 92522,
+      "tut": 46587,
+      "gn": 45274,
+      "tutt": 40814,
+      "gu": 35998,
+      "gno": 18507,
+      "bo": 14645
+    },
+    "trp": {
+      "ut": 89032
+    },
+    "rp": {
+      "ut": 89032,
+      "nto": 66810,
+      "utt": 46164,
+      "ont": 43108,
+      "ng": 31189,
+      "uto": 25050,
+      "utto": 20530,
+      "ogn": 18462,
+      "ob": 11263,
+      "ub": 10394,
+      "ngo": 9366,
+      "not": 9220,
+      "ung": 8962
+    },
+    "tlw": {
+      "tutto": 14989
+    },
+    "lw": {
+      "tutto": 14989,
+      "tu": 7538,
+      "tuo": 2386,
+      "tono": 1712,
+      "buon": 1360,
+      "tut": 659,
+      "buono": 605,
+      "gno": 344
+    },
+    "trw": {
+      "noto": 633
+    },
+    "rw": {
+      "noto": 633,
+      "ognuno": 565
+    },
+    "special": "none"
+  },
+  {
+    "value": 89,
+    "input": [
+      1,
+      4,
+      5,
+      7
+    ],
+    "keys": "atno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "anto": 26642
+    },
+    "lp": {
+      "anto": 26642,
+      "fu": 23977,
+      "gua": 19467,
+      "fon": 9900,
+      "atu": 7943,
+      "gna": 7914,
+      "ang": 7657,
+      "tua": 7002,
+      "agn": 6527,
+      "fuo": 6028,
+      "bano": 3474,
+      "aut": 3353
+    },
+    "trp": {
+      "onta": 14073
+    },
+    "rp": {
+      "onta": 14073,
+      "uant": 12311,
+      "uta": 7909,
+      "utta": 7790,
+      "nato": 6201,
+      "natu": 5341,
+      "onf": 4899,
+      "uat": 3453
+    },
+    "tlw": {
+      "quanto": 9498
+    },
+    "lw": {
+      "quanto": 9498,
+      "fu": 7873,
+      "tanto": 6905,
+      "tutta": 4286,
+      "tua": 2500,
+      "buona": 1281,
+      "fanno": 1167,
+      "bagno": 771
+    },
+    "trw": {
+      "nota": 688
+    },
+    "rw": {
+      "nota": 688,
+      "nato": 447
+    },
+    "special": "none"
+  },
+  {
+    "value": 90,
+    "input": [
+      2,
+      4,
+      5,
+      7
+    ],
+    "keys": "stno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "con": 129147
+    },
+    "lp": {
+      "con": 129147,
+      "cu": 50451,
+      "cont": 24852,
+      "cun": 9206,
+      "cono": 8568,
+      "cons": 7695,
+      "sogn": 6725,
+      "scu": 6617,
+      "stu": 5023,
+      "cuo": 4517,
+      "sub": 3825,
+      "conc": 3641
+    },
+    "trp": {
+      "nco": 21375
+    },
+    "rp": {
+      "nco": 21375,
+      "uc": 16514,
+      "usc": 9410,
+      "nost": 8554,
+      "ucc": 6553,
+      "nosc": 6021,
+      "ust": 5984,
+      "onc": 4312
+    },
+    "tlw": {
+      "con": 65735
+    },
+    "lw": {
+      "con": 65735,
+      "conto": 2361,
+      "sogno": 1137,
+      "cu": 595,
+      "gusto": 568,
+      "bosco": 416,
+      "conosco": 408,
+      "buco": 287,
+      "stu": 232
+    },
+    "trw": {
+      "jung": 428
+    },
+    "rw": {
+      "jung": 428
+    },
+    "special": "none"
+  },
+  {
+    "value": 91,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    "keys": "astno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "bocca": 2528
+    },
+    "lw": {
+      "bocca": 2528,
+      "accanto": 1995,
+      "fuoco": 1473,
+      "causa": 1038,
+      "basso": 884,
+      "stanno": 826,
+      "acqua": 688,
+      "canto": 634,
+      "contatto": 566
+    },
+    "trw": {
+      "nascosto": 446
+    },
+    "rw": {
+      "nascosto": 446
+    },
+    "special": "none"
+  },
+  {
+    "value": 92,
+    "input": [
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "etno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ento": 24735
+    },
+    "lp": {
+      "ento": 24735,
+      "rno": 16054,
+      "ru": 15731,
+      "tur": 15515,
+      "ron": 15239,
+      "gen": 13216,
+      "torn": 10348,
+      "gnor": 7729,
+      "gue": 7676,
+      "egn": 6954
+    },
+    "trp": {
+      "ur": 55498
+    },
+    "rp": {
+      "ur": 55498,
+      "orn": 22269,
+      "nor": 13318,
+      "ntro": 12204,
+      "orno": 11925,
+      "uro": 9455,
+      "ontr": 9212,
+      "ure": 8986,
+      "onte": 7723,
+      "uor": 7118
+    },
+    "tlw": {
+      "tutte": 5259
+    },
+    "lw": {
+      "tutte": 5259,
+      "gente": 2359,
+      "genere": 2070,
+      "torno": 1456,
+      "entro": 1101,
+      "terreno": 793,
+      "tue": 557,
+      "treno": 504
+    },
+    "trw": {
+      "notte": 3456
+    },
+    "rw": {
+      "notte": 3456,
+      "nero": 1365
+    },
+    "special": "none"
+  },
+  {
+    "value": 93,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "aetno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "erano": 13650
+    },
+    "lw": {
+      "erano": 13650,
+      "fronte": 2537,
+      "gran": 2461,
+      "quattro": 2225,
+      "guerra": 2035,
+      "furono": 1395,
+      "attorno": 1178,
+      "tornare": 1088,
+      "fortuna": 901
+    },
+    "trw": {
+      "natura": 2226
+    },
+    "rw": {
+      "natura": 2226
+    },
+    "special": "none"
+  },
+  {
+    "value": 94,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "setno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "contro": 4167
+    },
+    "lw": {
+      "contro": 4167,
+      "secondo": 3874,
+      "dentro": 3139,
+      "cuore": 2328,
+      "successo": 1282,
+      "centro": 1279,
+      "segno": 969,
+      "cento": 844,
+      "seduto": 830
+    },
+    "trw": {
+      "nostro": 2381
+    },
+    "rw": {
+      "nostro": 2381
+    },
+    "special": "none"
+  },
+  {
+    "value": 95,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "asetno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "questo": 17502
+    },
+    "lw": {
+      "questo": 17502,
+      "ancora": 12400,
+      "questa": 9957,
+      "grande": 5157,
+      "queste": 3054,
+      "sguardo": 2479,
+      "fondo": 2255,
+      "sangue": 2117,
+      "durante": 1912
+    },
+    "trw": {
+      "nostra": 2563
+    },
+    "rw": {
+      "nostra": 2563
+    },
+    "special": "none"
+  },
+  {
+    "value": 96,
+    "input": [
+      6,
+      7
+    ],
+    "keys": "io",
+    "base": "l",
+    "baseshift": "L",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "ll": 292163
+    },
+    "rp": {
+      "ll": 292163,
+      "io": 239066,
+      "li": 215837,
+      "il": 206729,
+      "ol": 174528,
+      "lo": 163566,
+      "llo": 41443,
+      "olo": 39674,
+      "oi": 38949,
+      "lio": 18005,
+      "lli": 15409,
+      "oli": 15068,
+      "ili": 12205,
+      "oll": 11026,
+      "ill": 8815,
+      "ilo": 2737,
+      "ollo": 2534,
+      "iol": 1991,
+      "olli": 1802,
+      "oio": 1485
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "il": 150399
+    },
+    "rw": {
+      "il": 150399,
+      "lo": 36078,
+      "io": 13857,
+      "li": 11607,
+      "l": 617,
+      "olio": 112
+    },
+    "special": "none"
+  },
+  {
+    "value": 97,
+    "input": [
+      1,
+      6,
+      7
+    ],
+    "keys": "aio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "al": 306120
+    },
+    "lp": {
+      "al": 306120,
+      "all": 84940,
+      "zio": 56855,
+      "alla": 40940,
+      "azio": 26444,
+      "ali": 25368,
+      "zo": 19133,
+      "allo": 12816,
+      "zzo": 10842,
+      "ala": 4689,
+      "alo": 4444,
+      "azzo": 4260,
+      "alz": 3889
+    },
+    "trp": {
+      "la": 389912
+    },
+    "rp": {
+      "la": 389912,
+      "lla": 146304,
+      "ola": 21724,
+      "lia": 16238,
+      "ial": 10994,
+      "izio": 10751,
+      "lz": 3889
+    },
+    "tlw": {
+      "al": 34419
+    },
+    "lw": {
+      "al": 34419,
+      "alla": 25780,
+      "allo": 2277,
+      "zio": 1811,
+      "alzo": 1333,
+      "zo": 527,
+      "ali": 441,
+      "alza": 233
+    },
+    "trw": {
+      "la": 169844
+    },
+    "rw": {
+      "la": 169844,
+      "lia": 129
+    },
+    "special": "none"
+  },
+  {
+    "value": 98,
+    "input": [
+      2,
+      6,
+      7
+    ],
+    "keys": "sio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sol": 35720
+    },
+    "lp": {
+      "sol": 35720,
+      "solo": 15768,
+      "sio": 13402,
+      "ssio": 6120,
+      "soli": 3653,
+      "sil": 2788,
+      "ssol": 1799,
+      "soll": 1682
+    },
+    "trp": {
+      "osi": 21430
+    },
+    "rp": {
+      "osi": 21430,
+      "iso": 13409,
+      "ossi": 9084,
+      "ios": 4873,
+      "ls": 4713,
+      "lis": 3392,
+      "isio": 2437,
+      "ioso": 2075,
+      "los": 2024,
+      "ols": 1837,
+      "lsi": 1766,
+      "loso": 1303
+    },
+    "tlw": {
+      "solo": 15660
+    },
+    "lw": {
+      "solo": 15660,
+      "soli": 550,
+      "sio": 472,
+      "sol": 227
+    },
+    "trw": {
+      "los": 154
+    },
+    "rw": {
+      "los": 154,
+      "iso": 76
+    },
+    "special": "none"
+  },
+  {
+    "value": 99,
+    "input": [
+      1,
+      2,
+      6,
+      7
+    ],
+    "keys": "asio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sal": 7582
+    },
+    "lp": {
+      "sal": 7582,
+      "sola": 3185,
+      "als": 1993,
+      "sali": 1647,
+      "alsi": 1527,
+      "alis": 1477,
+      "zios": 1335,
+      "sala": 811,
+      "asio": 792,
+      "wil": 696,
+      "wal": 575,
+      "salo": 570,
+      "will": 473
+    },
+    "trp": {
+      "las": 8686
+    },
+    "rp": {
+      "las": 8686,
+      "osiz": 2211,
+      "lass": 1794,
+      "lsia": 1426,
+      "iosa": 1329,
+      "oak": 739,
+      "oaki": 739
+    },
+    "tlw": {
+      "sola": 1804
+    },
+    "lw": {
+      "sola": 1804,
+      "sala": 811,
+      "sali": 321,
+      "wall": 168,
+      "will": 162,
+      "sal": 135
+    },
+    "trw": {
+      "ossia": 438
+    },
+    "rw": {
+      "ossia": 438,
+      "lasso": 87,
+      "isao": 68,
+      "isola": 67
+    },
+    "special": "none"
+  },
+  {
+    "value": 100,
+    "input": [
+      3,
+      6,
+      7
+    ],
+    "keys": "eio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "el": 300307
+    },
+    "lp": {
+      "el": 300307,
+      "ell": 168777,
+      "elle": 36047,
+      "ello": 24430,
+      "elli": 9699,
+      "ele": 7286,
+      "eli": 6685,
+      "elo": 5864
+    },
+    "trp": {
+      "le": 283237
+    },
+    "rp": {
+      "le": 283237,
+      "lle": 62930,
+      "ile": 23140,
+      "ole": 21042,
+      "lei": 15649,
+      "lie": 10390,
+      "iel": 4424,
+      "olle": 4168,
+      "ielo": 2899,
+      "ioe": 1900,
+      "ille": 1549,
+      "liel": 1324
+    },
+    "tlw": {
+      "el": 414
+    },
+    "lw": {
+      "el": 414
+    },
+    "trw": {
+      "le": 75413
+    },
+    "rw": {
+      "le": 75413,
+      "lei": 15509,
+      "leo": 97
+    },
+    "special": "none"
+  },
+  {
+    "value": 101,
+    "input": [
+      1,
+      3,
+      6,
+      7
+    ],
+    "keys": "aeio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ella": 86423
+    },
+    "lp": {
+      "ella": 86423,
+      "ale": 43976,
+      "alle": 17431,
+      "ela": 6962,
+      "eal": 5294,
+      "ezzo": 4966,
+      "ezio": 4249,
+      "eale": 1296,
+      "elai": 1060,
+      "elaz": 938,
+      "eali": 830,
+      "aile": 697,
+      "alie": 543
+    },
+    "trp": {
+      "iale": 6102
+    },
+    "rp": {
+      "iale": 6102,
+      "lez": 2289,
+      "lezz": 1570,
+      "llez": 1001,
+      "lea": 852,
+      "lezi": 719,
+      "olez": 436
+    },
+    "tlw": {
+      "alle": 8523
+    },
+    "lw": {
+      "alle": 8523,
+      "aiel": 402,
+      "ella": 349,
+      "zelo": 96
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 102,
+    "input": [
+      2,
+      3,
+      6,
+      7
+    ],
+    "keys": "seio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "del": 145198
+    },
+    "lp": {
+      "del": 145198,
+      "dell": 81678,
+      "dio": 8281,
+      "dol": 4245,
+      "sole": 2863,
+      "sile": 2464,
+      "dolo": 1980,
+      "deli": 1892,
+      "sold": 1842
+    },
+    "trp": {
+      "ido": 5517
+    },
+    "rp": {
+      "ido": 5517,
+      "ld": 4553,
+      "les": 4437,
+      "odi": 3536,
+      "oesi": 2623,
+      "less": 2374,
+      "old": 2332,
+      "lid": 1677,
+      "lse": 1601,
+      "iod": 1573,
+      "olse": 1413
+    },
+    "tlw": {
+      "del": 59660
+    },
+    "lw": {
+      "del": 59660,
+      "delle": 19894,
+      "dio": 3295,
+      "dello": 2947,
+      "sole": 2367,
+      "soldi": 895,
+      "sedile": 219
+    },
+    "trw": {
+      "les": 352
+    },
+    "rw": {
+      "les": 352,
+      "odio": 295,
+      "keiko": 243
+    },
+    "special": "none"
+  },
+  {
+    "value": 103,
+    "input": [
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "keys": "aseio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "della": 49783
+    },
+    "lw": {
+      "della": 49783,
+      "dal": 14108,
+      "dalla": 12256,
+      "dalle": 4207,
+      "dallo": 809,
+      "dale": 471,
+      "sella": 426,
+      "sale": 375,
+      "elaida": 271
+    },
+    "trw": {
+      "ideale": 372
+    },
+    "rw": {
+      "ideale": 372
+    },
+    "special": "none"
+  },
+  {
+    "value": 104,
+    "input": [
+      4,
+      6,
+      7
+    ],
+    "keys": "tio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "gi": 98127
+    },
+    "lp": {
+      "gi": 98127,
+      "gl": 97683,
+      "gli": 96054,
+      "vo": 91343,
+      "gio": 41548,
+      "vol": 37645,
+      "ggi": 24568,
+      "volt": 17273,
+      "glio": 15949,
+      "ggio": 12673
+    },
+    "trp": {
+      "lt": 89489
+    },
+    "rp": {
+      "lt": 89489,
+      "ov": 63692,
+      "olt": 41730,
+      "ig": 41721,
+      "ito": 32649,
+      "lto": 16188,
+      "igl": 14634,
+      "igli": 14634,
+      "lit": 12746,
+      "olto": 12675
+    },
+    "tlw": {
+      "gli": 38211
+    },
+    "lw": {
+      "gli": 38211,
+      "volto": 2276,
+      "voglio": 1999,
+      "voi": 1872,
+      "vo": 1842,
+      "gi": 980,
+      "vivo": 764,
+      "gio": 733,
+      "vol": 564
+    },
+    "trw": {
+      "oggi": 2072
+    },
+    "rw": {
+      "oggi": 2072
+    },
+    "special": "none"
+  },
+  {
+    "value": 105,
+    "input": [
+      1,
+      4,
+      6,
+      7
+    ],
+    "keys": "atio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "alt": 36637
+    },
+    "lp": {
+      "alt": 36637,
+      "tal": 20271,
+      "gia": 18006,
+      "aggi": 15890,
+      "agi": 11771,
+      "avo": 11659,
+      "glia": 10796,
+      "agl": 8504,
+      "agli": 8504,
+      "gaz": 6634,
+      "val": 6401,
+      "fig": 5923,
+      "agaz": 5919
+    },
+    "trp": {
+      "lta": 24023
+    },
+    "rp": {
+      "lta": 24023,
+      "olta": 16883,
+      "ova": 16555,
+      "lita": 7159,
+      "iato": 7092,
+      "lat": 6721,
+      "lav": 6707
+    },
+    "tlw": {
+      "volta": 7909
+    },
+    "lw": {
+      "volta": 7909,
+      "gia": 7541,
+      "agli": 2812,
+      "figlio": 1970,
+      "alto": 1559,
+      "fazio": 1402,
+      "tavolo": 1278,
+      "figli": 1172,
+      "alta": 1133
+    },
+    "trw": {
+      "lato": 1361
+    },
+    "rw": {
+      "lato": 1361
+    },
+    "special": "none"
+  },
+  {
+    "value": 106,
+    "input": [
+      2,
+      4,
+      6,
+      7
+    ],
+    "keys": "stio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "col": 38715
+    },
+    "lp": {
+      "col": 38715,
+      "cio": 22659,
+      "cosi": 15017,
+      "sig": 11895,
+      "colo": 11615,
+      "voc": 7226,
+      "ccol": 6580,
+      "tico": 6489,
+      "soci": 6115,
+      "cl": 5833,
+      "coll": 4728
+    },
+    "trp": {
+      "ico": 29735
+    },
+    "rp": {
+      "ico": 29735,
+      "lc": 24703,
+      "lic": 11736,
+      "oci": 7925,
+      "lco": 6984,
+      "isto": 6610,
+      "icol": 6449,
+      "lcos": 6263,
+      "icco": 5774
+    },
+    "tlw": {
+      "cosi": 14686
+    },
+    "lw": {
+      "cosi": 14686,
+      "cio": 6264,
+      "col": 4443,
+      "visto": 3582,
+      "viso": 1653,
+      "solito": 1231,
+      "collo": 1150,
+      "gioco": 1055,
+      "coi": 1051,
+      "voci": 898
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 107,
+    "input": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "keys": "astio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "cavallo": 1015
+    },
+    "lw": {
+      "cavallo": 1015,
+      "cavalli": 885,
+      "faccio": 816,
+      "salvo": 641,
+      "stavo": 579,
+      "fisso": 579,
+      "sociali": 565
+    },
+    "trw": {
+      "lasciato": 1193
+    },
+    "rw": {
+      "lasciato": 1193,
+      "lascio": 938,
+      "lascia": 683
+    },
+    "special": "none"
+  },
+  {
+    "value": 108,
+    "input": [
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "etio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rio": 23501
+    },
+    "lp": {
+      "rio": 23501,
+      "egl": 19897,
+      "egli": 19897,
+      "rl": 19231,
+      "rov": 17536,
+      "gior": 14427,
+      "evo": 12617,
+      "tori": 11018,
+      "rol": 10420,
+      "trov": 10211
+    },
+    "trp": {
+      "lor": 31885
+    },
+    "rp": {
+      "lor": 31885,
+      "ltr": 31883,
+      "ori": 27885,
+      "ove": 23923,
+      "ior": 20613,
+      "loro": 18909,
+      "let": 14473,
+      "lett": 11757,
+      "ltro": 11543,
+      "leg": 10192
+    },
+    "tlw": {
+      "vero": 3849
+    },
+    "lw": {
+      "vero": 3849,
+      "egli": 3748,
+      "volte": 3555,
+      "giro": 1846,
+      "trovo": 1048
+    },
+    "trw": {
+      "loro": 17911
+    },
+    "rw": {
+      "loro": 17911,
+      "letto": 2962,
+      "oltre": 2273,
+      "legge": 1255,
+      "leggere": 885
+    },
+    "special": "none"
+  },
+  {
+    "value": 109,
+    "input": [
+      1,
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "aetio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "allora": 5910
+    },
+    "lw": {
+      "allora": 5910,
+      "altri": 5860,
+      "altro": 5664,
+      "altre": 3347,
+      "forza": 2687,
+      "realta": 2682,
+      "tale": 2601,
+      "avevo": 2387,
+      "voleva": 2150
+    },
+    "trw": {
+      "lavoro": 2692
+    },
+    "rw": {
+      "lavoro": 2692
+    },
+    "special": "none"
+  },
+  {
+    "value": 110,
+    "input": [
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "setio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "dove": 7905
+    },
+    "lw": {
+      "dove": 7905,
+      "degli": 7812,
+      "verso": 7427,
+      "voce": 4941,
+      "dietro": 3101,
+      "cielo": 2103,
+      "sorriso": 1885,
+      "cioe": 1819,
+      "ricordo": 1772,
+      "devo": 1509
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 111,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "asetio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "storia": 3176
+    },
+    "lw": {
+      "storia": 3176,
+      "doveva": 3065,
+      "attraverso": 2867,
+      "societa": 2641,
+      "davvero": 2337,
+      "dagli": 1485,
+      "sociale": 1373,
+      "difficile": 1320,
+      "felice": 908,
+      "sorella": 876
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 112,
+    "input": [
+      5,
+      6,
+      7
+    ],
+    "keys": "nio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "iu": 69600
+    },
+    "rp": {
+      "iu": 69600,
+      "ion": 68946,
+      "ui": 59715,
+      "lu": 50411,
+      "ul": 44153,
+      "ino": 25177,
+      "oni": 20797,
+      "ull": 18526,
+      "lui": 16936,
+      "ho": 15764,
+      "ioni": 13368,
+      "uoi": 11957,
+      "lin": 10857,
+      "uni": 10572,
+      "lun": 8916,
+      "hio": 8258,
+      "inu": 8217,
+      "lon": 7387,
+      "noi": 5915,
+      "iun": 5759
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "lui": 16197
+    },
+    "rw": {
+      "lui": 16197,
+      "ho": 11089,
+      "noi": 5646,
+      "oh": 1683,
+      "lu": 402,
+      "uni": 333,
+      "hill": 128,
+      "lon": 120,
+      "lun": 117,
+      "nio": 106
+    },
+    "special": "none"
+  },
+  {
+    "value": 113,
+    "input": [
+      1,
+      5,
+      6,
+      7
+    ],
+    "keys": "anio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "zion": 44305
+    },
+    "lp": {
+      "zion": 44305,
+      "qual": 30415,
+      "qui": 13922,
+      "quin": 3554,
+      "alu": 2596
+    },
+    "trp": {
+      "ual": 34744
+    },
+    "rp": {
+      "ual": 34744,
+      "ulla": 13411,
+      "nal": 9354,
+      "lan": 8889,
+      "nzio": 7401,
+      "uz": 5794,
+      "uali": 5605,
+      "iano": 5402,
+      "uzi": 5057,
+      "uzio": 4869,
+      "onal": 3776,
+      "iona": 3752,
+      "inua": 3071,
+      "inqu": 2925,
+      "nzo": 2656
+    },
+    "tlw": {
+      "qui": 6480
+    },
+    "lw": {
+      "qui": 6480,
+      "quali": 2973,
+      "qual": 933,
+      "azioni": 875,
+      "annui": 647,
+      "zona": 592
+    },
+    "trw": {
+      "hanno": 4870
+    },
+    "rw": {
+      "hanno": 4870,
+      "nulla": 3827,
+      "luna": 983,
+      "inizio": 574
+    },
+    "special": "none"
+  },
+  {
+    "value": 114,
+    "input": [
+      2,
+      5,
+      6,
+      7
+    ],
+    "keys": "snio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sul": 27914
+    },
+    "lp": {
+      "sul": 27914,
+      "sull": 13938,
+      "sion": 12684,
+      "suoi": 8246,
+      "sui": 2720,
+      "sino": 2378,
+      "solu": 2051
+    },
+    "trp": {
+      "ius": 9576
+    },
+    "rp": {
+      "ius": 9576,
+      "usi": 4519,
+      "onsi": 4221,
+      "lus": 3007,
+      "joh": 2447,
+      "john": 2447,
+      "isu": 2429,
+      "hius": 2326,
+      "uis": 2010,
+      "nsio": 1773,
+      "ussi": 1770,
+      "usio": 1442,
+      "isul": 1370
+    },
+    "tlw": {
+      "sul": 12074
+    },
+    "lw": {
+      "sul": 12074,
+      "suoi": 8246,
+      "sui": 2532,
+      "sullo": 639,
+      "sino": 504,
+      "susi": 336,
+      "suoni": 289,
+      "suolo": 257
+    },
+    "trw": {
+      "john": 422
+    },
+    "rw": {
+      "john": 422,
+      "lusso": 225
+    },
+    "special": "none"
+  },
+  {
+    "value": 115,
+    "input": [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    "keys": "asnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sulla": 9250
+    },
+    "lw": {
+      "sulla": 9250,
+      "quasi": 6818,
+      "qualsiasi": 1426,
+      "siano": 1135,
+      "susannah": 696,
+      "siuan": 298,
+      "analisi": 184,
+      "squillo": 159
+    },
+    "trw": {
+      "unknown": 242
+    },
+    "rw": {
+      "unknown": 242,
+      "lassu": 191
+    },
+    "special": "none"
+  },
+  {
+    "value": 116,
+    "input": [
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "enio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "nel": 55639
+    },
+    "rp": {
+      "nel": 55639,
+      "ione": 49159,
+      "uel": 45863,
+      "uell": 34008,
+      "nell": 29797,
+      "len": 9240,
+      "ulle": 3735,
+      "uei": 2931,
+      "ilen": 2396,
+      "uole": 2163,
+      "olen": 1917,
+      "line": 1817,
+      "ieno": 1154,
+      "ly": 1114,
+      "lly": 767,
+      "llen": 764,
+      "hel": 761,
+      "iyo": 739,
+      "onie": 727,
+      "lien": 685
+    },
+    "tlw": {
+      "ellen": 168
+    },
+    "lw": {
+      "ellen": 168
+    },
+    "trw": {
+      "nel": 25842
+    },
+    "rw": {
+      "nel": 25842,
+      "nelle": 5767,
+      "nello": 1813,
+      "leone": 281,
+      "linee": 275,
+      "len": 203,
+      "lenin": 188,
+      "unione": 102,
+      "leoni": 70
+    },
+    "special": "none"
+  },
+  {
+    "value": 117,
+    "input": [
+      1,
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "aenio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "quella": 13048
+    },
+    "lw": {
+      "quella": 13048,
+      "quel": 11789,
+      "quello": 11577,
+      "quale": 6034,
+      "quelle": 4987,
+      "quelli": 3476,
+      "quei": 2931,
+      "elayne": 1395,
+      "qualunque": 1221
+    },
+    "trw": {
+      "nella": 18121
+    },
+    "rw": {
+      "nella": 18121
+    },
+    "special": "none"
+  },
+  {
+    "value": 118,
+    "input": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "senio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sulle": 3574
+    },
+    "lw": {
+      "sulle": 3574,
+      "solenne": 221,
+      "dyelin": 130
+    },
+    "trw": {
+      "johnny": 2025
+    },
+    "rw": {
+      "johnny": 2025,
+      "ulises": 413,
+      "udi": 315,
+      "nudi": 196,
+      "indosso": 170,
+      "london": 134,
+      "joline": 126
+    },
+    "special": "none"
+  },
+  {
+    "value": 119,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "asenio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "quindi": 2988
+    },
+    "lw": {
+      "quindi": 2988,
+      "silenzio": 1867,
+      "sensazione": 1051,
+      "soluzione": 322,
+      "sezione": 274,
+      "sessuale": 249,
+      "essenziale": 248
+    },
+    "trw": {
+      "honda": 1391
+    },
+    "rw": {
+      "honda": 1391,
+      "kiyoaki": 739,
+      "lady": 231
+    },
+    "special": "none"
+  },
+  {
+    "value": 120,
+    "input": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "tnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "bil": 19308
+    },
+    "lp": {
+      "bil": 19308,
+      "gni": 16631,
+      "vu": 12382,
+      "giu": 11928,
+      "gin": 9393,
+      "bl": 8433
+    },
+    "trp": {
+      "ing": 11351
+    },
+    "rp": {
+      "ing": 11351,
+      "utti": 11296,
+      "ign": 11280,
+      "ogni": 11016,
+      "uov": 10168,
+      "ibil": 9631,
+      "nuov": 8668,
+      "ult": 8608,
+      "igno": 8174,
+      "lib": 8091,
+      "onti": 7207,
+      "itu": 7134,
+      "iut": 6998,
+      "lung": 6388
+    },
+    "tlw": {
+      "tutti": 11017
+    },
+    "lw": {
+      "tutti": 11017,
+      "giu": 1770,
+      "vuoi": 1578,
+      "voluto": 1105,
+      "buio": 867,
+      "vuoto": 822
+    },
+    "trw": {
+      "ogni": 9891
+    },
+    "rw": {
+      "ogni": 9891,
+      "nuovo": 5092,
+      "lungo": 3691,
+      "luogo": 1818
+    },
+    "special": "none"
+  },
+  {
+    "value": 121,
+    "input": [
+      1,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "atnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "fino": 4978
+    },
+    "lw": {
+      "fino": 4978,
+      "avuto": 2612,
+      "tuttavia": 2084,
+      "giovani": 1030,
+      "finito": 918,
+      "volonta": 879
+    },
+    "trw": {
+      "lingua": 2263
+    },
+    "rw": {
+      "lingua": 2263,
+      "nuova": 1668,
+      "lontano": 1522,
+      "lunga": 1203
+    },
+    "special": "none"
+  },
+  {
+    "value": 122,
+    "input": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "stnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "cui": 15060
+    },
+    "lw": {
+      "cui": 15060,
+      "subito": 3495,
+      "bisogno": 2621,
+      "vicino": 2131,
+      "continuo": 1297,
+      "giusto": 1230,
+      "sogni": 819,
+      "consiglio": 713
+    },
+    "trw": {
+      "occhi": 7963
+    },
+    "rw": {
+      "occhi": 7963,
+      "usci": 648
+    },
+    "special": "none"
+  },
+  {
+    "value": 123,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "astnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "qualcosa": 5921
+    },
+    "lw": {
+      "qualcosa": 5921,
+      "soltanto": 4103,
+      "qualcuno": 2563,
+      "alcuni": 2121,
+      "stavano": 1423,
+      "bianco": 1369,
+      "alcun": 1060,
+      "bisogna": 1041,
+      "scuola": 1028,
+      "cucina": 944
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 124,
+    "input": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "etnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "giorno": 5009
+    },
+    "lw": {
+      "giorno": 5009,
+      "giorni": 2643,
+      "vuole": 1926,
+      "vento": 1513,
+      "bel": 1225,
+      "venuto": 1050
+    },
+    "trw": {
+      "intorno": 2138
+    },
+    "rw": {
+      "intorno": 2138,
+      "negli": 2021,
+      "libro": 1784,
+      "libri": 1232
+    },
+    "special": "none"
+  },
+  {
+    "value": 125,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "aetnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "avevano": 4836
+    },
+    "lw": {
+      "avevano": 4836,
+      "fuori": 4332,
+      "giovane": 2352,
+      "ragione": 2110,
+      "generale": 1763,
+      "bella": 1729,
+      "avrebbero": 1637,
+      "telefono": 1125
+    },
+    "trw": {
+      "labbra": 1521
+    },
+    "rw": {
+      "labbra": 1521,
+      "liberta": 1268
+    },
+    "special": "none"
+  },
+  {
+    "value": 126,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "setnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "vecchio": 2836
+    },
+    "lw": {
+      "vecchio": 2836,
+      "signor": 2144,
+      "dovuto": 2039,
+      "sicuro": 1789,
+      "sentito": 1440,
+      "seguito": 1424,
+      "signore": 1348
+    },
+    "trw": {
+      "luce": 3993
+    },
+    "rw": {
+      "luce": 3993,
+      "nostri": 1332,
+      "indietro": 1256
+    },
+    "special": "none"
+  },
+  {
+    "value": 127,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "asetnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "qualche": 7372
+    },
+    "lw": {
+      "qualche": 7372,
+      "questi": 3803,
+      "signora": 2711,
+      "roland": 2305,
+      "grandi": 2261,
+      "cinque": 1663,
+      "situazione": 1416,
+      "braccio": 1318,
+      "alcune": 1279,
+      "chiaro": 1174
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 128,
+    "input": [
+      8
+    ],
+    "keys": "p",
+    "base": "p",
+    "baseshift": "P",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "pp": 38074
+    },
+    "rp": {
+      "pp": 38074
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "p": 2856
+    },
+    "rw": {
+      "p": 2856,
+      "pp": 1252
+    },
+    "special": "none"
+  },
+  {
+    "value": 129,
+    "input": [
+      1,
+      8
+    ],
+    "keys": "ap",
+    "base": "?",
+    "baseshift": "/",
+    "tlp": {
+      "ap": 53641
+    },
+    "lp": {
+      "ap": 53641,
+      "app": 19085,
+      "appa": 4602,
+      "apa": 3348
+    },
+    "trp": {
+      "pa": 113853
+    },
+    "rp": {
+      "pa": 113853,
+      "ppa": 5195,
+      "pap": 1174,
+      "papa": 962,
+      "papp": 68
+    },
+    "tlw": {
+      "ap": 277
+    },
+    "lw": {
+      "ap": 277
+    },
+    "trw": {
+      "pa": 1374
+    },
+    "rw": {
+      "pa": 1374,
+      "papa": 962
+    },
+    "special": "none"
+  },
+  {
+    "value": 130,
+    "input": [
+      2,
+      8
+    ],
+    "keys": "sp",
+    "base": ")",
+    "baseshift": "]",
+    "tlp": {
+      "sp": 57528
+    },
+    "lp": {
+      "sp": 57528
+    },
+    "trp": {
+      "ps": 391
+    },
+    "rp": {
+      "ps": 391
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 131,
+    "input": [
+      1,
+      2,
+      8
+    ],
+    "keys": "asp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sap": 10722
+    },
+    "lp": {
+      "sap": 10722,
+      "spa": 8514,
+      "asp": 4483,
+      "sapp": 771,
+      "aspa": 163,
+      "asap": 109,
+      "spas": 75
+    },
+    "trp": {
+      "pas": 13080
+    },
+    "rp": {
+      "pas": 13080,
+      "pass": 11688,
+      "ppas": 101
+    },
+    "tlw": {
+      "spa": 392
+    },
+    "lw": {
+      "spa": 392
+    },
+    "trw": {
+      "passa": 483
+    },
+    "rw": {
+      "passa": 483,
+      "pas": 376
+    },
+    "special": "none"
+  },
+  {
+    "value": 132,
+    "input": [
+      3,
+      8
+    ],
+    "keys": "ep",
+    "base": "'",
+    "baseshift": "\"",
+    "tlp": {
+      "ep": 9203
+    },
+    "lp": {
+      "ep": 9203,
+      "epp": 3943,
+      "e'": 2281,
+      "eppe": 659,
+      "epe": 161
+    },
+    "trp": {
+      "pe": 210895
+    },
+    "rp": {
+      "pe": 210895,
+      "'e": 26301,
+      "ppe": 7351,
+      "'ep": 421,
+      "pep": 81,
+      "pepe": 81,
+      "pee": 76
+    },
+    "tlw": {
+      "e'": 746
+    },
+    "lw": {
+      "e'": 746
+    },
+    "trw": {
+      "'": 1162
+    },
+    "rw": {
+      "'": 1162,
+      "pe": 919,
+      "pepe": 81
+    },
+    "special": "none"
+  },
+  {
+    "value": 133,
+    "input": [
+      1,
+      3,
+      8
+    ],
+    "keys": "aep",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ape": 12996
+    },
+    "lp": {
+      "ape": 12996,
+      "appe": 5794,
+      "epa": 1746,
+      "a'": 932,
+      "epap": 144,
+      "a'a": 95,
+      "eppa": 65
+    },
+    "trp": {
+      "'a": 34981
+    },
+    "rp": {
+      "'a": 34981,
+      "pae": 2586,
+      "pea": 445,
+      "'ap": 356,
+      "'ape": 216,
+      "pape": 144,
+      "'app": 140,
+      "'ex": 100
+    },
+    "tlw": {
+      "a'": 123
+    },
+    "lw": {
+      "a'": 123
+    },
+    "trw": {
+      "pae": 158
+    },
+    "rw": {
+      "pae": 158
+    },
+    "special": "none"
+  },
+  {
+    "value": 134,
+    "input": [
+      2,
+      3,
+      8
+    ],
+    "keys": "sep",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spe": 21318
+    },
+    "lp": {
+      "spe": 21318,
+      "d'": 9044,
+      "esp": 7260,
+      "spes": 3047,
+      "s'": 2310,
+      "espe": 1733,
+      "s'e": 1542,
+      "sep": 1517,
+      "sepp": 846,
+      "d'e": 756,
+      "sped": 496,
+      "d'es": 465,
+      "de'": 420
+    },
+    "trp": {
+      "pes": 6844
+    },
+    "rp": {
+      "pes": 6844,
+      "'es": 4709,
+      "pess": 2886,
+      "'ess": 1372,
+      "'esp": 1277,
+      "ped": 1183,
+      "ppes": 538
+    },
+    "tlw": {
+      "de'": 420
+    },
+    "lw": {
+      "de'": 420,
+      "spese": 271,
+      "seppe": 236,
+      "s'e": 215,
+      "spe": 129
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 135,
+    "input": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "keys": "asep",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sape": 7738
+    },
+    "lp": {
+      "sape": 7738,
+      "d'a": 4470,
+      "aspe": 3811,
+      "sepa": 593,
+      "spad": 550,
+      "dap": 483,
+      "dapp": 483,
+      "s'a": 477,
+      "apes": 275,
+      "spea": 182,
+      "s'as": 148
+    },
+    "trp": {
+      "pad": 5524
+    },
+    "rp": {
+      "pad": 5524,
+      "paes": 2428,
+      "pesa": 1171,
+      "'as": 1000,
+      "'ass": 731,
+      "pada": 674,
+      "pade": 329,
+      "peda": 289,
+      "'asp": 269
+    },
+    "tlw": {
+      "spada": 415
+    },
+    "lw": {
+      "spada": 415,
+      "sapesse": 208,
+      "depape": 144,
+      "spade": 135,
+      "spesa": 119,
+      "appesa": 118,
+      "da'": 103,
+      "spessa": 96,
+      "appese": 78
+    },
+    "trw": {
+      "paese": 1433
+    },
+    "rw": {
+      "paese": 1433
+    },
+    "special": "none"
+  },
+  {
+    "value": 136,
+    "input": [
+      4,
+      8
+    ],
+    "keys": "tp",
+    "tlp": {
+      "tp": 67
+    },
+    "lp": {
+      "tp": 67
+    },
+    "trp": {
+      "pt": 593
+    },
+    "rp": {
+      "pt": 593
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "pt": 593
+    },
+    "rw": {
+      "pt": 593
+    },
+    "special": "none"
+  },
+  {
+    "value": 137,
+    "input": [
+      1,
+      4,
+      8
+    ],
+    "keys": "atp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tap": 444
+    },
+    "lp": {
+      "tap": 444,
+      "tapp": 444
+    },
+    "trp": {
+      "pat": 3422
+    },
+    "rp": {
+      "pat": 3422,
+      "pata": 391,
+      "patt": 324,
+      "ppat": 304
+    },
+    "tlw": {
+      "tappa": 74
+    },
+    "lw": {
+      "tappa": 74
+    },
+    "trw": {
+      "pat": 105
+    },
+    "rw": {
+      "pat": 105
+    },
+    "special": "none"
+  },
+  {
+    "value": 138,
+    "input": [
+      2,
+      4,
+      8
+    ],
+    "keys": "stp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 139,
+    "input": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "keys": "astp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cap": 16620
+    },
+    "lp": {
+      "cap": 16620,
+      "capa": 2386,
+      "apac": 2290,
+      "capp": 1435,
+      "scap": 459
+    },
+    "trp": {
+      "pac": 3619
+    },
+    "rp": {
+      "pac": 3619,
+      "past": 427,
+      "pasc": 373,
+      "pacc": 301,
+      "paca": 78
+    },
+    "tlw": {
+      "cap": 137
+    },
+    "lw": {
+      "cap": 137,
+      "scappa": 71
+    },
+    "trw": {
+      "passata": 399
+    },
+    "rw": {
+      "passata": 399,
+      "pasta": 113,
+      "pacca": 80
+    },
+    "special": "none"
+  },
+  {
+    "value": 140,
+    "input": [
+      3,
+      4,
+      8
+    ],
+    "keys": "etp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rp": 6335
+    },
+    "lp": {
+      "rp": 6335,
+      "t'": 2271,
+      "rep": 2091,
+      "rpr": 1725,
+      "rpre": 1725,
+      "rpe": 1177
+    },
+    "trp": {
+      "pr": 145579
+    },
+    "rp": {
+      "pr": 145579,
+      "per": 144008,
+      "pre": 51261,
+      "pet": 11873,
+      "'er": 11015,
+      "pett": 8633,
+      "pert": 6022,
+      "pere": 3195,
+      "ppr": 2870,
+      "ppre": 2382,
+      "pete": 1777,
+      "perr": 1178,
+      "pret": 955,
+      "prep": 864
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "per": 80117
+    },
+    "rw": {
+      "per": 80117,
+      "pre": 1143,
+      "peter": 410,
+      "prete": 206,
+      "pere": 81,
+      "pete": 75
+    },
+    "special": "none"
+  },
+  {
+    "value": 141,
+    "input": [
+      1,
+      3,
+      4,
+      8
+    ],
+    "keys": "aetp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rap": 5944
+    },
+    "lp": {
+      "rap": 5944,
+      "aper": 5439,
+      "rapp": 4128,
+      "apr": 3149,
+      "appr": 2870,
+      "epar": 1602,
+      "t'a": 1263
+    },
+    "trp": {
+      "par": 50789
+    },
+    "rp": {
+      "par": 50789,
+      "part": 16812,
+      "'era": 10470,
+      "pra": 9405,
+      "pare": 7496,
+      "pera": 6394,
+      "'ar": 4879,
+      "ppar": 3895,
+      "perf": 3655,
+      "prat": 3464,
+      "para": 3350,
+      "'art": 1641,
+      "'at": 1386
+    },
+    "tlw": {
+      "aperta": 930
+    },
+    "lw": {
+      "aperta": 930,
+      "appare": 420,
+      "apre": 330,
+      "aperte": 233
+    },
+    "trw": {
+      "parte": 8500
+    },
+    "rw": {
+      "parte": 8500,
+      "pare": 1510,
+      "par": 685,
+      "parete": 675,
+      "perfetta": 339,
+      "parere": 206
+    },
+    "special": "none"
+  },
+  {
+    "value": 142,
+    "input": [
+      2,
+      3,
+      4,
+      8
+    ],
+    "keys": "setp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "c'": 13326
+    },
+    "lp": {
+      "c'": 13326,
+      "c'e": 13182,
+      "spet": 7830,
+      "c'er": 7692,
+      "sper": 4743,
+      "spec": 4005,
+      "spr": 3392,
+      "espr": 2790,
+      "spre": 2568,
+      "resp": 1723,
+      "st'": 832
+    },
+    "trp": {
+      "pres": 21493
+    },
+    "rp": {
+      "pres": 21493,
+      "perc": 17991,
+      "pers": 8699,
+      "pec": 4896,
+      "prec": 3301,
+      "perd": 2850,
+      "pecc": 1117,
+      "'est": 1067,
+      "pesc": 902
+    },
+    "tlw": {
+      "c'e": 5387
+    },
+    "lw": {
+      "c'e": 5387,
+      "d'essere": 312,
+      "c'c": 144
+    },
+    "trw": {
+      "prese": 1400
+    },
+    "rw": {
+      "prese": 1400,
+      "perdere": 863,
+      "pesce": 314,
+      "perse": 225,
+      "perde": 210,
+      "pretese": 124,
+      "pres": 106
+    },
+    "special": "none"
+  },
+  {
+    "value": 143,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    "keys": "asetp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "c'era": 5795
+    },
+    "lw": {
+      "c'era": 5795,
+      "sapere": 2223,
+      "capace": 1060,
+      "scarpe": 665,
+      "aspettare": 602,
+      "s'era": 516
+    },
+    "trw": {
+      "padre": 3195
+    },
+    "rw": {
+      "padre": 3195,
+      "passare": 1146,
+      "pace": 871,
+      "presa": 634
+    },
+    "special": "none"
+  },
+  {
+    "value": 144,
+    "input": [
+      5,
+      8
+    ],
+    "keys": "np",
+    "base": "m",
+    "baseshift": "M",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "mp": 63764
+    },
+    "rp": {
+      "mp": 63764,
+      "mm": 26277,
+      "pn": 291,
+      "pm": 75
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "m": 580
+    },
+    "rw": {
+      "m": 580,
+      "pm": 75
+    },
+    "special": "none"
+  },
+  {
+    "value": 145,
+    "input": [
+      1,
+      5,
+      8
+    ],
+    "keys": "anp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "am": 93470
+    },
+    "lp": {
+      "am": 93470,
+      "ama": 7282,
+      "amm": 7266,
+      "amp": 5950,
+      "amma": 2987,
+      "ampa": 2243,
+      "aman": 961,
+      "anam": 300
+    },
+    "trp": {
+      "ma": 209998
+    },
+    "rp": {
+      "ma": 209998,
+      "man": 38317,
+      "mma": 9239,
+      "mpa": 8145,
+      "pan": 2860,
+      "mana": 1786,
+      "mam": 1617,
+      "nam": 1096,
+      "mamm": 878,
+      "nap": 400,
+      "mpan": 373,
+      "pann": 309
+    },
+    "tlw": {
+      "ama": 245
+    },
+    "lw": {
+      "ama": 245,
+      "am": 151
+    },
+    "trw": {
+      "ma": 53590
+    },
+    "rw": {
+      "ma": 53590,
+      "mamma": 878,
+      "man": 736,
+      "pan": 152,
+      "mappa": 148,
+      "mann": 67
+    },
+    "special": "none"
+  },
+  {
+    "value": 146,
+    "input": [
+      2,
+      5,
+      8
+    ],
+    "keys": "snp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sm": 3714
+    },
+    "lp": {
+      "sm": 3714
+    },
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 147,
+    "input": [
+      1,
+      2,
+      5,
+      8
+    ],
+    "keys": "asnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sam": 2868
+    },
+    "lp": {
+      "sam": 2868,
+      "asm": 766,
+      "sma": 282,
+      "asma": 184,
+      "ssam": 81
+    },
+    "trp": {
+      "mas": 6926
+    },
+    "rp": {
+      "mas": 6926,
+      "mass": 2128,
+      "nsap": 533,
+      "jam": 504,
+      "mpas": 260,
+      "njam": 222,
+      "pasq": 216,
+      "mmas": 185,
+      "nasp": 84,
+      "nsam": 84
+    },
+    "tlw": {
+      "sam": 230
+    },
+    "lw": {
+      "sam": 230
+    },
+    "trw": {
+      "massa": 628
+    },
+    "rw": {
+      "massa": 628
+    },
+    "special": "none"
+  },
+  {
+    "value": 148,
+    "input": [
+      3,
+      5,
+      8
+    ],
+    "keys": "enp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "em": 69499
+    },
+    "lp": {
+      "em": 69499,
+      "emp": 30363,
+      "eme": 9667,
+      "emen": 5265,
+      "emm": 4510,
+      "emme": 2523
+    },
+    "trp": {
+      "me": 205039
+    },
+    "rp": {
+      "me": 205039,
+      "men": 87869,
+      "pen": 22288,
+      "n'": 7869,
+      "mme": 7275,
+      "nem": 4179,
+      "ppen": 3899,
+      "mmen": 3695,
+      "mpe": 3353,
+      "nemm": 2445,
+      "nep": 1709,
+      "m'": 1694,
+      "mem": 1662,
+      "nepp": 1597
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "me": 9600
+    },
+    "rw": {
+      "me": 9600,
+      "men": 1140,
+      "'n": 373,
+      "pen": 297,
+      "n'e": 251,
+      "pene": 146,
+      "ne'": 114,
+      "nep": 112,
+      "m'e": 100,
+      "penne": 97
+    },
+    "special": "none"
+  },
+  {
+    "value": 149,
+    "input": [
+      1,
+      3,
+      5,
+      8
+    ],
+    "keys": "aenp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ame": 31411
+    },
+    "lp": {
+      "ame": 31411,
+      "amen": 26955,
+      "ema": 6154,
+      "amme": 1137,
+      "eam": 649,
+      "eame": 649,
+      "emma": 484
+    },
+    "trp": {
+      "pena": 4673
+    },
+    "rp": {
+      "pena": 4673,
+      "'an": 3685,
+      "n'a": 3284,
+      "mane": 2437,
+      "'am": 2338,
+      "mae": 1519,
+      "'ann": 1510,
+      "nema": 1093,
+      "'na": 1029,
+      "name": 844,
+      "pane": 755,
+      "neam": 649,
+      "mame": 646
+    },
+    "tlw": {
+      "appena": 3899
+    },
+    "lw": {
+      "appena": 3899,
+      "emma": 354
+    },
+    "trw": {
+      "'na": 1029
+    },
+    "rw": {
+      "'na": 1029,
+      "pena": 577,
+      "pane": 497,
+      "penna": 298,
+      "mae": 102,
+      "max": 88
+    },
+    "special": "none"
+  },
+  {
+    "value": 150,
+    "input": [
+      2,
+      3,
+      5,
+      8
+    ],
+    "keys": "senp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sem": 25705
+    },
+    "lp": {
+      "sem": 25705,
+      "semp": 16531,
+      "esem": 2379,
+      "spen": 646,
+      "sme": 595,
+      "dem": 560,
+      "ssem": 447
+    },
+    "trp": {
+      "pens": 14000
+    },
+    "rp": {
+      "pens": 14000,
+      "mes": 8118,
+      "mess": 5489,
+      "med": 4337,
+      "pend": 1804,
+      "mmed": 1276,
+      "mens": 944,
+      "n'es": 653,
+      "mese": 638,
+      "mped": 538,
+      "mede": 525,
+      "mmes": 475,
+      "mend": 397
+    },
+    "tlw": {
+      "sem": 596
+    },
+    "lw": {
+      "sem": 596,
+      "spense": 169,
+      "seme": 102
+    },
+    "trw": {
+      "mese": 638
+    },
+    "rw": {
+      "mese": 638,
+      "messe": 176,
+      "mes": 147,
+      "pens": 79
+    },
+    "special": "none"
+  },
+  {
+    "value": 151,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    "keys": "asenp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "damane": 190
+    },
+    "lw": {
+      "damane": 190,
+      "esame": 152,
+      "dama": 144,
+      "dame": 117
+    },
+    "trw": {
+      "pensa": 920
+    },
+    "rw": {
+      "pensa": 920,
+      "messa": 493,
+      "masse": 348,
+      "madame": 197,
+      "masema": 183,
+      "james": 118
+    },
+    "special": "none"
+  },
+  {
+    "value": 152,
+    "input": [
+      4,
+      5,
+      8
+    ],
+    "keys": "tnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tm": 759
+    },
+    "lp": {
+      "tm": 759
+    },
+    "trp": {
+      "mb": 24935
+    },
+    "rp": {
+      "mb": 24935
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 153,
+    "input": [
+      1,
+      4,
+      5,
+      8
+    ],
+    "keys": "atnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tam": 11090
+    },
+    "lp": {
+      "tam": 11090,
+      "amb": 9896,
+      "fam": 3769,
+      "bam": 3460,
+      "bamb": 3366,
+      "ttam": 2426,
+      "amat": 1889,
+      "atam": 1458,
+      "tamp": 495,
+      "amba": 455
+    },
+    "trp": {
+      "mat": 11944
+    },
+    "rp": {
+      "mat": 11944,
+      "matt": 2686,
+      "mant": 2550,
+      "mba": 1745,
+      "ntam": 1390,
+      "mata": 906,
+      "mpat": 592,
+      "mmat": 557,
+      "pant": 554,
+      "mbat": 427
+    },
+    "tlw": {
+      "fama": 205
+    },
+    "lw": {
+      "fama": 205,
+      "amata": 99,
+      "bam": 94
+    },
+    "trw": {
+      "mat": 965
+    },
+    "rw": {
+      "mat": 965,
+      "mfm": 65
+    },
+    "special": "none"
+  },
+  {
+    "value": 154,
+    "input": [
+      2,
+      4,
+      5,
+      8
+    ],
+    "keys": "stnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 155,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      8
+    ],
+    "keys": "astnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "stampa": 344
+    },
+    "lw": {
+      "stampa": 344,
+      "fantasma": 184,
+      "cam": 167,
+      "campana": 115,
+      "capanna": 96
+    },
+    "trw": {
+      "manca": 395
+    },
+    "rw": {
+      "manca": 395,
+      "panca": 89,
+      "mac": 78
+    },
+    "special": "none"
+  },
+  {
+    "value": 156,
+    "input": [
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "etnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rm": 30451
+    },
+    "lp": {
+      "rm": 30451,
+      "tem": 18398,
+      "temp": 13305,
+      "empr": 11154,
+      "erm": 10663,
+      "emb": 10053,
+      "embr": 8970,
+      "rme": 5709,
+      "rem": 5407,
+      "term": 2626,
+      "trem": 2625
+    },
+    "trp": {
+      "ment": 73144
+    },
+    "rp": {
+      "ment": 73144,
+      "mpr": 17500,
+      "mpre": 14433,
+      "mer": 12135,
+      "mbr": 11063,
+      "met": 10155,
+      "mett": 5571,
+      "pren": 5552,
+      "ntem": 2545
+    },
+    "tlw": {
+      "be'": 1001
+    },
+    "lw": {
+      "be'": 1001,
+      "tem": 283,
+      "temere": 192
+    },
+    "trw": {
+      "mentre": 7346
+    },
+    "rw": {
+      "mentre": 7346,
+      "mente": 2373,
+      "mettere": 971,
+      "mette": 500,
+      "permette": 227,
+      "met": 161,
+      "mr": 159
+    },
+    "special": "none"
+  },
+  {
+    "value": 157,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "aetnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "entrambe": 518
+    },
+    "lw": {
+      "entrambe": 518,
+      "ferma": 461,
+      "fame": 402,
+      "tema": 391
+    },
+    "trw": {
+      "mare": 1575
+    },
+    "rw": {
+      "mare": 1575,
+      "meta": 1475,
+      "perfettamente": 561,
+      "mary": 470,
+      "mantenere": 431,
+      "mar": 333
+    },
+    "special": "none"
+  },
+  {
+    "value": 158,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "setnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sempre": 11019
+    },
+    "lw": {
+      "sempre": 11019,
+      "serpente": 279,
+      "settembre": 274,
+      "smettere": 230
+    },
+    "trw": {
+      "prendere": 1451
+    },
+    "rw": {
+      "prendere": 1451,
+      "presente": 1081,
+      "precedente": 553,
+      "prende": 488,
+      "merce": 147,
+      "pretendere": 84
+    },
+    "special": "none"
+  },
+  {
+    "value": 159,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "asetnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sembra": 1918
+    },
+    "lw": {
+      "sembra": 1918,
+      "camera": 1005,
+      "certamente": 907,
+      "esattamente": 712,
+      "sembrare": 443,
+      "cammara": 394
+    },
+    "trw": {
+      "madre": 2851
+    },
+    "rw": {
+      "madre": 2851,
+      "pensare": 1917,
+      "pesante": 524,
+      "presenta": 367
+    },
+    "special": "none"
+  },
+  {
+    "value": 160,
+    "input": [
+      6,
+      8
+    ],
+    "keys": "ip",
+    "base": "!",
+    "baseshift": "!",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "pi": 115591
+    },
+    "rp": {
+      "pi": 115591,
+      "ip": 14255,
+      "ipi": 3596,
+      "ppi": 2917,
+      "pii": 147,
+      "pip": 131,
+      "ipp": 118
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "pi": 1894
+    },
+    "rw": {
+      "pi": 1894
+    },
+    "special": "none"
+  },
+  {
+    "value": 161,
+    "input": [
+      1,
+      6,
+      8
+    ],
+    "keys": "aip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "api": 10470
+    },
+    "lp": {
+      "api": 10470,
+      "appi": 808,
+      "apii": 147
+    },
+    "trp": {
+      "pia": 13275
+    },
+    "rp": {
+      "pia": 13275,
+      "paz": 3650,
+      "pazi": 2718,
+      "ipa": 2095,
+      "ppia": 1420,
+      "pai": 1376,
+      "pazz": 932,
+      "piaz": 700,
+      "iap": 616,
+      "iapi": 332,
+      "ipaz": 309,
+      "iapp": 284,
+      "pipa": 131,
+      "piz": 121,
+      "pizz": 121,
+      "ppai": 116
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "piazza": 530
+    },
+    "rw": {
+      "piazza": 530,
+      "pia": 175,
+      "pazzia": 141,
+      "pipa": 131,
+      "pazzi": 127,
+      "pazza": 126
+    },
+    "special": "none"
+  },
+  {
+    "value": 162,
+    "input": [
+      2,
+      6,
+      8
+    ],
+    "keys": "sip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spi": 10357
+    },
+    "lp": {
+      "spi": 10357
+    },
+    "trp": {
+      "isp": 11667
+    },
+    "rp": {
+      "isp": 11667,
+      "pis": 3034,
+      "psi": 391,
+      "ispi": 345
+    },
+    "tlw": {
+      "spi": 83
+    },
+    "lw": {
+      "spi": 83
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 163,
+    "input": [
+      1,
+      2,
+      6,
+      8
+    ],
+    "keys": "asip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spia": 1284
+    },
+    "lp": {
+      "spia": 1284,
+      "apis": 1252,
+      "spaz": 1080,
+      "sapi": 783,
+      "aspi": 94
+    },
+    "trp": {
+      "ispa": 273
+    },
+    "rp": {
+      "ispa": 273,
+      "pais": 157,
+      "isap": 85,
+      "pias": 71
+    },
+    "tlw": {
+      "sappia": 270
+    },
+    "lw": {
+      "sappia": 270,
+      "spia": 175,
+      "spazi": 152
+    },
+    "trw": {
+      "passi": 1081
+    },
+    "rw": {
+      "passi": 1081,
+      "paisi": 157
+    },
+    "special": "none"
+  },
+  {
+    "value": 164,
+    "input": [
+      3,
+      6,
+      8
+    ],
+    "keys": "eip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "epi": 750
+    },
+    "lp": {
+      "epi": 750,
+      "eppi": 147
+    },
+    "trp": {
+      "pie": 14120
+    },
+    "rp": {
+      "pie": 14120,
+      "'i": 13563,
+      "ipe": 3156,
+      "i'": 263,
+      "'ip": 178,
+      "iep": 166,
+      "pei": 140,
+      "ppie": 127,
+      "iepi": 86,
+      "iepe": 80
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "pie": 288
+    },
+    "rw": {
+      "pie": 288
+    },
+    "special": "none"
+  },
+  {
+    "value": 165,
+    "input": [
+      1,
+      3,
+      6,
+      8
+    ],
+    "keys": "aeip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "apie": 832
+    },
+    "lp": {
+      "apie": 832,
+      "z'": 420,
+      "zz'": 212,
+      "ezz'": 212,
+      "z'a": 208,
+      "ai'": 162
+    },
+    "trp": {
+      "pez": 2090
+    },
+    "rp": {
+      "pez": 2090,
+      "pezz": 1954,
+      "'az": 621,
+      "'azi": 621,
+      "'ai": 301
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "pezzi": 621
+    },
+    "rw": {
+      "pezzi": 621,
+      "pez": 136,
+      "piazze": 74
+    },
+    "special": "none"
+  },
+  {
+    "value": 166,
+    "input": [
+      2,
+      3,
+      6,
+      8
+    ],
+    "keys": "seip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "disp": 3751
+    },
+    "lp": {
+      "disp": 3751,
+      "spie": 2364,
+      "dip": 1487,
+      "dipe": 938,
+      "espi": 889,
+      "d'i": 534,
+      "dipi": 475,
+      "s'i": 208
+    },
+    "trp": {
+      "pied": 3956
+    },
+    "rp": {
+      "pied": 3956,
+      "ispe": 2740,
+      "pid": 2243,
+      "'id": 1541,
+      "'ide": 1472,
+      "pedi": 894,
+      "'esi": 626,
+      "'is": 581,
+      "pidi": 369,
+      "ipes": 249,
+      "'edi": 188,
+      "kesp": 182
+    },
+    "tlw": {
+      "spie": 208
+    },
+    "lw": {
+      "spie": 208,
+      "di'": 101,
+      "siepe": 80,
+      "seppi": 80
+    },
+    "trw": {
+      "piedi": 2995
+    },
+    "rw": {
+      "piedi": 2995,
+      "piede": 629,
+      "pedi": 149
+    },
+    "special": "none"
+  },
+  {
+    "value": 167,
+    "input": [
+      1,
+      2,
+      3,
+      6,
+      8
+    ],
+    "keys": "aseip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "appesi": 112
+    },
+    "lw": {
+      "appesi": 112
+    },
+    "trw": {
+      "paesi": 504
+    },
+    "rw": {
+      "paesi": 504
+    },
+    "special": "none"
+  },
+  {
+    "value": 168,
+    "input": [
+      4,
+      6,
+      8
+    ],
+    "keys": "tip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tip": 2675
+    },
+    "lp": {
+      "tip": 2675,
+      "tipi": 880
+    },
+    "trp": {
+      "pit": 7247
+    },
+    "rp": {
+      "pit": 7247,
+      "piv": 688,
+      "piti": 530,
+      "pitt": 518,
+      "ipit": 328
+    },
+    "tlw": {
+      "tipi": 332
+    },
+    "lw": {
+      "tipi": 332
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 169,
+    "input": [
+      1,
+      4,
+      6,
+      8
+    ],
+    "keys": "atip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "apit": 4239
+    },
+    "lp": {
+      "apit": 4239,
+      "apiv": 438,
+      "vap": 249
+    },
+    "trp": {
+      "pita": 2661
+    },
+    "rp": {
+      "pita": 2661,
+      "pav": 2042,
+      "piat": 984,
+      "pavi": 757,
+      "piva": 688,
+      "pati": 542,
+      "pava": 192,
+      "ipat": 70
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "piatti": 270
+    },
+    "rw": {
+      "piatti": 270,
+      "piatta": 95,
+      "patti": 73
+    },
+    "special": "none"
+  },
+  {
+    "value": 170,
+    "input": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "keys": "stip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cip": 5282
+    },
+    "lp": {
+      "cip": 5282,
+      "cipi": 2166,
+      "spit": 572,
+      "scip": 330,
+      "stip": 85,
+      "tisp": 85
+    },
+    "trp": {
+      "pic": 6757
+    },
+    "rp": {
+      "pic": 6757,
+      "picc": 5993,
+      "pisc": 1476,
+      "pist": 1389,
+      "ipic": 548,
+      "psic": 391,
+      "icip": 249,
+      "pick": 82,
+      "pici": 78
+    },
+    "tlw": {
+      "tipici": 78
+    },
+    "lw": {
+      "tipici": 78
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 171,
+    "input": [
+      1,
+      2,
+      4,
+      6,
+      8
+    ],
+    "keys": "astip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "capi": 635
+    },
+    "lw": {
+      "capi": 635,
+      "capacita": 611,
+      "capiva": 338,
+      "capita": 276,
+      "capaci": 274,
+      "capisci": 246,
+      "tipica": 174
+    },
+    "trw": {
+      "passava": 443
+    },
+    "rw": {
+      "passava": 443,
+      "passati": 316,
+      "pista": 194
+    },
+    "special": "none"
+  },
+  {
+    "value": 172,
+    "input": [
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "etip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rip": 3818
+    },
+    "lp": {
+      "rip": 3818,
+      "ripr": 1345,
+      "ripe": 1310,
+      "v'": 1054,
+      "v'e": 1054
+    },
+    "trp": {
+      "pri": 41676
+    },
+    "rp": {
+      "pri": 41676,
+      "pir": 7268,
+      "peri": 5623,
+      "pev": 4246,
+      "piri": 2529,
+      "priv": 2177,
+      "piet": 1995,
+      "pire": 1810,
+      "prie": 1691,
+      "ipr": 1523,
+      "ipet": 1235,
+      "ipre": 1201,
+      "prir": 1128,
+      "prev": 770,
+      "pier": 484
+    },
+    "tlw": {
+      "ripete": 508
+    },
+    "lw": {
+      "ripete": 508,
+      "ripetere": 214,
+      "v'e": 68
+    },
+    "trw": {
+      "pri": 723
+    },
+    "rw": {
+      "pri": 723,
+      "pietre": 389,
+      "pierre": 216,
+      "privi": 132,
+      "preti": 120,
+      "prive": 104
+    },
+    "special": "none"
+  },
+  {
+    "value": 173,
+    "input": [
+      1,
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "aetip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "apri": 920
+    },
+    "lw": {
+      "apri": 920,
+      "aprire": 370
+    },
+    "trw": {
+      "parti": 1322
+    },
+    "rw": {
+      "parti": 1322,
+      "pareva": 1224,
+      "pietra": 1003,
+      "parve": 630,
+      "partire": 627,
+      "pareti": 497,
+      "pari": 473,
+      "patria": 401
+    },
+    "special": "none"
+  },
+  {
+    "value": 174,
+    "input": [
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "setip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "specie": 1573
+    },
+    "lw": {
+      "specie": 1573,
+      "riprese": 542,
+      "dev'essere": 292,
+      "spiriti": 163
+    },
+    "trw": {
+      "presi": 303
+    },
+    "rw": {
+      "presi": 303,
+      "preside": 185,
+      "pesci": 179,
+      "pressi": 157,
+      "perdite": 141,
+      "percepire": 138
+    },
+    "special": "none"
+  },
+  {
+    "value": 175,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "asetip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sapeva": 2346
+    },
+    "lw": {
+      "sapeva": 2346,
+      "capire": 1349,
+      "capisce": 495,
+      "aspetti": 487,
+      "aspettava": 399
+    },
+    "trw": {
+      "piacere": 1214
+    },
+    "rw": {
+      "piacere": 1214,
+      "piace": 634,
+      "piaceva": 501,
+      "pratica": 491,
+      "precisa": 292
+    },
+    "special": "none"
+  },
+  {
+    "value": 176,
+    "input": [
+      5,
+      6,
+      8
+    ],
+    "keys": "nip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "mi": 125525
+    },
+    "rp": {
+      "mi": 125525,
+      "im": 88573,
+      "min": 24777,
+      "imp": 13204,
+      "imi": 9097,
+      "mini": 8973,
+      "mpi": 8932,
+      "mmi": 7457,
+      "imm": 7395,
+      "nim": 5009,
+      "mmin": 3486,
+      "pin": 2886,
+      "inim": 1190,
+      "immi": 973,
+      "mim": 825,
+      "mimi": 731,
+      "impi": 644,
+      "pini": 618,
+      "ph": 588,
+      "ipin": 475
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "mi": 29736
+    },
+    "rw": {
+      "mi": 29736,
+      "mimi": 731,
+      "im": 581,
+      "min": 351,
+      "pnin": 291,
+      "pini": 149,
+      "minimi": 76
+    },
+    "special": "none"
+  },
+  {
+    "value": 177,
+    "input": [
+      1,
+      5,
+      6,
+      8
+    ],
+    "keys": "anip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ami": 11196
+    },
+    "lp": {
+      "ami": 11196,
+      "anim": 3327,
+      "ammi": 2975,
+      "ampi": 1839
+    },
+    "trp": {
+      "ima": 27754
+    },
+    "rp": {
+      "ima": 27754,
+      "iam": 20478,
+      "mai": 13429,
+      "mia": 9396,
+      "mani": 9113,
+      "mina": 5262,
+      "hiam": 5107,
+      "pian": 4951,
+      "imma": 3995,
+      "iama": 3986,
+      "nima": 3062,
+      "iman": 2901,
+      "maz": 2071,
+      "impa": 1531,
+      "mazi": 1397,
+      "manz": 873
+    },
+    "tlw": {
+      "anima": 623
+    },
+    "lw": {
+      "anima": 623,
+      "ami": 263,
+      "ampia": 136,
+      "zampa": 117
+    },
+    "trw": {
+      "mai": 10502
+    },
+    "rw": {
+      "mai": 10502,
+      "mia": 8622,
+      "mani": 3785,
+      "piani": 415,
+      "minima": 332,
+      "pian": 128
+    },
+    "special": "none"
+  },
+  {
+    "value": 178,
+    "input": [
+      2,
+      5,
+      6,
+      8
+    ],
+    "keys": "snip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sim": 7979
+    },
+    "lp": {
+      "sim": 7979,
+      "ssim": 3658,
+      "simi": 2766,
+      "spin": 1467,
+      "smi": 628,
+      "simp": 450,
+      "smis": 255,
+      "sism": 75
+    },
+    "trp": {
+      "mis": 8876
+    },
+    "rp": {
+      "mis": 8876,
+      "miss": 3255,
+      "mmis": 2929,
+      "ism": 1355,
+      "pins": 463,
+      "misi": 410,
+      "nism": 291,
+      "imis": 274,
+      "jim": 117,
+      "mk": 90
+    },
+    "tlw": {
+      "spin": 81
+    },
+    "lw": {
+      "spin": 81
+    },
+    "trw": {
+      "misi": 410
+    },
+    "rw": {
+      "misi": 410,
+      "jim": 117,
+      "miss": 109
+    },
+    "special": "none"
+  },
+  {
+    "value": 179,
+    "input": [
+      1,
+      2,
+      5,
+      6,
+      8
+    ],
+    "keys": "asnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "spina": 102
+    },
+    "lw": {
+      "spina": 102
+    },
+    "trw": {
+      "massima": 364
+    },
+    "rw": {
+      "massima": 364,
+      "imanishi": 71
+    },
+    "special": "none"
+  },
+  {
+    "value": 180,
+    "input": [
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "enip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "empi": 4592
+    },
+    "lp": {
+      "empi": 4592,
+      "emi": 3704
+    },
+    "trp": {
+      "ime": 13962
+    },
+    "rp": {
+      "ime": 13962,
+      "imen": 9467,
+      "'in": 6536,
+      "mie": 5113,
+      "'h": 3621,
+      "iem": 3594,
+      "'im": 3471,
+      "pien": 3425,
+      "ieme": 3067,
+      "miei": 2459,
+      "'imp": 2271,
+      "impe": 1818,
+      "imme": 1654,
+      "h'": 1538,
+      "mine": 1351,
+      "ipen": 1098,
+      "inem": 1093,
+      "'imm": 1087
+    },
+    "tlw": {
+      "ehm": 84
+    },
+    "lw": {
+      "ehm": 84
+    },
+    "trw": {
+      "miei": 2459
+    },
+    "rw": {
+      "miei": 2459,
+      "mie": 1459,
+      "pieni": 343,
+      "piene": 236,
+      "mime": 94
+    },
+    "special": "none"
+  },
+  {
+    "value": 181,
+    "input": [
+      1,
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "aenip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "zampe": 282
+    },
+    "lw": {
+      "zampe": 282,
+      "anime": 215,
+      "ahime": 121
+    },
+    "trw": {
+      "piena": 963
+    },
+    "rw": {
+      "piena": 963,
+      "mezza": 652,
+      "mezzi": 508,
+      "pazienza": 285,
+      "m'ha": 201,
+      "mez": 173,
+      "pienezza": 128
+    },
+    "special": "none"
+  },
+  {
+    "value": 182,
+    "input": [
+      2,
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "senip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "dimmi": 325
+    },
+    "lw": {
+      "dimmi": 325,
+      "dipende": 271,
+      "spinse": 241,
+      "esempi": 207,
+      "emise": 178
+    },
+    "trw": {
+      "insieme": 2565
+    },
+    "rw": {
+      "insieme": 2565,
+      "mise": 1414,
+      "mesi": 975,
+      "pensi": 589,
+      "messi": 370
+    },
+    "special": "none"
+  },
+  {
+    "value": 183,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "asenip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "assieme": 502
+    },
+    "lw": {
+      "assieme": 502,
+      "asha'man": 161,
+      "ammise": 134,
+      "semmai": 130,
+      "dammi": 125,
+      "d'anni": 123
+    },
+    "trw": {
+      "pensai": 375
+    },
+    "rw": {
+      "pensai": 375,
+      "media": 320,
+      "medesima": 216,
+      "jamie": 164
+    },
+    "special": "none"
+  },
+  {
+    "value": 184,
+    "input": [
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "tnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tim": 12886
+    },
+    "lp": {
+      "tim": 12886,
+      "ttim": 3183,
+      "vim": 2191,
+      "timi": 1179,
+      "bim": 172,
+      "bimb": 172
+    },
+    "trp": {
+      "mbi": 7548
+    },
+    "rp": {
+      "mbi": 7548,
+      "mit": 5184,
+      "mbin": 3354,
+      "imit": 2676,
+      "ntim": 2383,
+      "imb": 1200,
+      "pint": 1013,
+      "mpit": 930,
+      "miti": 922,
+      "itm": 508,
+      "mbit": 314,
+      "miv": 217,
+      "mith": 194,
+      "mpiv": 118
+    },
+    "tlw": {
+      "tim": 512
+    },
+    "lw": {
+      "tim": 512
+    },
+    "trw": {
+      "miti": 105
+    },
+    "rw": {
+      "miti": 105,
+      "intimi": 77
+    },
+    "special": "none"
+  },
+  {
+    "value": 185,
+    "input": [
+      1,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "atnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "bambini": 1251
+    },
+    "lw": {
+      "bambini": 1251,
+      "bambina": 498,
+      "fimmina": 397,
+      "vittima": 352,
+      "amava": 247,
+      "fiamma": 236,
+      "amanti": 159
+    },
+    "trw": {
+      "mattina": 971
+    },
+    "rw": {
+      "mattina": 971,
+      "pianta": 180,
+      "matina": 161
+    },
+    "special": "none"
+  },
+  {
+    "value": 186,
+    "input": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "stnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "smith": 194
+    },
+    "lw": {
+      "smith": 194
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 187,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "astnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "amici": 1446
+    },
+    "lw": {
+      "amici": 1446,
+      "chiama": 718,
+      "chiamava": 704,
+      "campi": 689,
+      "camicia": 674,
+      "cima": 553,
+      "amica": 367
+    },
+    "trw": {
+      "macchina": 1679
+    },
+    "rw": {
+      "macchina": 1679,
+      "mancanza": 587,
+      "machina": 400
+    },
+    "special": "none"
+  },
+  {
+    "value": 188,
+    "input": [
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "etnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "tempi": 1297
+    },
+    "lw": {
+      "tempi": 1297,
+      "termine": 702,
+      "termini": 502,
+      "vittime": 218
+    },
+    "trw": {
+      "perrin": 1178
+    },
+    "rw": {
+      "perrin": 1178,
+      "primi": 904,
+      "prime": 660,
+      "metri": 650,
+      "membri": 318,
+      "metti": 197
+    },
+    "special": "none"
+  },
+  {
+    "value": 189,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "aetnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "veramente": 1194
+    },
+    "lw": {
+      "veramente": 1194,
+      "entrambi": 843,
+      "rimanere": 487,
+      "arnheim": 485,
+      "armi": 471,
+      "farmi": 457
+    },
+    "trw": {
+      "prima": 12710
+    },
+    "rw": {
+      "prima": 12710,
+      "maniera": 1139,
+      "maria": 748,
+      "materia": 631
+    },
+    "special": "none"
+  },
+  {
+    "value": 190,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "setnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sentimenti": 600
+    },
+    "lw": {
+      "sentimenti": 600,
+      "evidentemente": 517
+    },
+    "trw": {
+      "perche": 14386
+    },
+    "rw": {
+      "perche": 14386,
+      "pensieri": 958,
+      "pirchi": 868,
+      "perch": 629,
+      "principi": 616,
+      "principe": 574,
+      "mercier": 551,
+      "presidente": 469
+    },
+    "special": "none"
+  },
+  {
+    "value": 191,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "asetnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sembrava": 3174
+    },
+    "lw": {
+      "sembrava": 3174,
+      "rimase": 1083,
+      "sistema": 983,
+      "cinema": 894,
+      "speranza": 790,
+      "settimana": 750
+    },
+    "trw": {
+      "presenza": 1054
+    },
+    "rw": {
+      "presenza": 1054,
+      "macari": 1024,
+      "pensava": 916,
+      "immediatamente": 882
+    },
+    "special": "none"
+  },
+  {
+    "value": 192,
+    "input": [
+      7,
+      8
+    ],
+    "keys": "op",
+    "base": ";",
+    "baseshift": ":",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "po": 170696
+    },
+    "rp": {
+      "po": 170696,
+      "op": 54998,
+      "opo": 15663,
+      "ppo": 12712,
+      "opp": 10294,
+      "oppo": 6907,
+      "pop": 2558,
+      "popo": 2477,
+      "oop": 183,
+      "ppop": 81
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "po": 1713
+    },
+    "rw": {
+      "po": 1713,
+      "op": 205
+    },
+    "special": "none"
+  },
+  {
+    "value": 193,
+    "input": [
+      1,
+      7,
+      8
+    ],
+    "keys": "aop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "appo": 3603
+    },
+    "lp": {
+      "appo": 3603,
+      "apo": 3371
+    },
+    "trp": {
+      "opa": 1076
+    },
+    "rp": {
+      "opa": 1076,
+      "oppa": 353,
+      "pao": 231
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 194,
+    "input": [
+      2,
+      7,
+      8
+    ],
+    "keys": "sop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spo": 12332
+    },
+    "lp": {
+      "spo": 12332,
+      "spos": 7192,
+      "sop": 6237,
+      "sosp": 1793,
+      "sopp": 414
+    },
+    "trp": {
+      "pos": 30275
+    },
+    "rp": {
+      "pos": 30275,
+      "poss": 12141,
+      "osp": 3064,
+      "opos": 1643,
+      "poso": 803,
+      "ppos": 760
+    },
+    "tlw": {
+      "spo": 162
+    },
+    "lw": {
+      "spo": 162,
+      "sposo": 84
+    },
+    "trw": {
+      "posso": 2175
+    },
+    "rw": {
+      "posso": 2175,
+      "poso": 415,
+      "pos": 152
+    },
+    "special": "none"
+  },
+  {
+    "value": 195,
+    "input": [
+      1,
+      2,
+      7,
+      8
+    ],
+    "keys": "asop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sapo": 395
+    },
+    "lp": {
+      "sapo": 395,
+      "aspo": 198,
+      "apos": 72
+    },
+    "trp": {
+      "posa": 1234
+    },
+    "rp": {
+      "posa": 1234
+    },
+    "tlw": {
+      "sposa": 181
+    },
+    "lw": {
+      "sposa": 181,
+      "spasso": 75
+    },
+    "trw": {
+      "passo": 2265
+    },
+    "rw": {
+      "passo": 2265,
+      "possa": 1313,
+      "posa": 223
+    },
+    "special": "none"
+  },
+  {
+    "value": 196,
+    "input": [
+      3,
+      7,
+      8
+    ],
+    "keys": "eop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "epo": 996
+    },
+    "lp": {
+      "epo": 996,
+      "eop": 82,
+      "eppo": 69
+    },
+    "trp": {
+      "'o": 10586
+    },
+    "rp": {
+      "'o": 10586,
+      "ope": 6571,
+      "o'": 5477,
+      "poe": 5443,
+      "po'": 5326,
+      "'op": 941,
+      "'ope": 772,
+      "peo": 481,
+      "'epo": 421,
+      "oppe": 224,
+      "oope": 183,
+      "opeo": 168,
+      "'opp": 80,
+      "opee": 76
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "po'": 5326
+    },
+    "rw": {
+      "po'": 5326,
+      "poe": 224
+    },
+    "special": "none"
+  },
+  {
+    "value": 197,
+    "input": [
+      1,
+      3,
+      7,
+      8
+    ],
+    "keys": "aeop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eopa": 82
+    },
+    "lp": {
+      "eopa": 82
+    },
+    "trp": {
+      "opea": 192
+    },
+    "rp": {
+      "opea": 192
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 198,
+    "input": [
+      2,
+      3,
+      7,
+      8
+    ],
+    "keys": "seop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "dop": 11237
+    },
+    "lp": {
+      "dop": 11237,
+      "dopo": 10059,
+      "d'o": 1711,
+      "espo": 1282,
+      "dopp": 1105,
+      "depo": 184,
+      "epos": 184
+    },
+    "trp": {
+      "pose": 2787
+    },
+    "rp": {
+      "pose": 2787,
+      "poes": 2623,
+      "ospe": 1937,
+      "peso": 1177,
+      "os'": 1094,
+      "os'e": 682,
+      "'od": 553,
+      "'os": 477,
+      "'odo": 462,
+      "pod": 297,
+      "opod": 159,
+      "pode": 138,
+      "'osp": 116
+    },
+    "tlw": {
+      "dopo": 9632
+    },
+    "lw": {
+      "dopo": 9632,
+      "spesso": 2266,
+      "doppo": 565,
+      "sospeso": 207,
+      "so'": 82
+    },
+    "trw": {
+      "peso": 740
+    },
+    "rw": {
+      "peso": 740,
+      "possesso": 307,
+      "pose": 121
+    },
+    "special": "none"
+  },
+  {
+    "value": 199,
+    "input": [
+      1,
+      2,
+      3,
+      7,
+      8
+    ],
+    "keys": "aseop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "appeso": 230
+    },
+    "lw": {
+      "appeso": 230,
+      "sospesa": 88
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 200,
+    "input": [
+      4,
+      7,
+      8
+    ],
+    "keys": "top",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "top": 650
+    },
+    "lp": {
+      "top": 650,
+      "topo": 252,
+      "ttop": 81
+    },
+    "trp": {
+      "pot": 22315
+    },
+    "rp": {
+      "pot": 22315,
+      "pog": 829,
+      "ppog": 640,
+      "pogg": 640,
+      "pott": 250,
+      "opot": 181,
+      "ppot": 154,
+      "opog": 87
+    },
+    "tlw": {
+      "topo": 171
+    },
+    "lw": {
+      "topo": 171
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 201,
+    "input": [
+      1,
+      4,
+      7,
+      8
+    ],
+    "keys": "atop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "pag": 5925
+    },
+    "rp": {
+      "pag": 5925,
+      "paga": 1050,
+      "pato": 879,
+      "opag": 117,
+      "pago": 73,
+      "ppag": 68
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "patto": 180
+    },
+    "rw": {
+      "patto": 180,
+      "pagato": 173,
+      "paga": 162,
+      "pago": 73
+    },
+    "special": "none"
+  },
+  {
+    "value": 202,
+    "input": [
+      2,
+      4,
+      7,
+      8
+    ],
+    "keys": "stop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cop": 6022
+    },
+    "lp": {
+      "cop": 6022,
+      "scop": 3294,
+      "copp": 990,
+      "copo": 742,
+      "coop": 183,
+      "spog": 102,
+      "cosp": 77
+    },
+    "trp": {
+      "post": 9448
+    },
+    "rp": {
+      "post": 9448,
+      "poc": 7737,
+      "poco": 4741
+    },
+    "tlw": {
+      "scopo": 742
+    },
+    "lw": {
+      "scopo": 742,
+      "sposto": 170,
+      "sottoposto": 81
+    },
+    "trw": {
+      "poco": 4741
+    },
+    "rw": {
+      "poco": 4741,
+      "posto": 3365,
+      "opposto": 225
+    },
+    "special": "none"
+  },
+  {
+    "value": 203,
+    "input": [
+      1,
+      2,
+      4,
+      7,
+      8
+    ],
+    "keys": "astop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "capo": 2162
+    },
+    "lw": {
+      "capo": 2162,
+      "sposato": 200,
+      "coppa": 179,
+      "apposta": 163,
+      "cappotto": 154
+    },
+    "trw": {
+      "passato": 1802
+    },
+    "rw": {
+      "passato": 1802,
+      "posta": 301,
+      "poca": 225,
+      "opposta": 206,
+      "pasto": 179
+    },
+    "special": "none"
+  },
+  {
+    "value": 204,
+    "input": [
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "etop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rop": 21378
+    },
+    "lp": {
+      "rop": 21378,
+      "ropr": 12362,
+      "trop": 5527,
+      "ropp": 5285,
+      "rpo": 2667,
+      "ropo": 2001
+    },
+    "trp": {
+      "pro": 42777
+    },
+    "rp": {
+      "pro": 42777,
+      "por": 22882,
+      "opr": 19296,
+      "port": 18582,
+      "pote": 14604,
+      "prop": 14399,
+      "oper": 5995,
+      "pero": 5571,
+      "'or": 4605,
+      "orp": 4593,
+      "potr": 4315,
+      "ppor": 2879,
+      "orpo": 2667,
+      "poet": 2359
+    },
+    "tlw": {
+      "troppo": 4434
+    },
+    "lw": {
+      "troppo": 4434
+    },
+    "trw": {
+      "pero": 4668
+    },
+    "rw": {
+      "pero": 4668,
+      "potere": 1731,
+      "porto": 1076,
+      "poter": 1073,
+      "petto": 958,
+      "pro": 842,
+      "prego": 629,
+      "opere": 594,
+      "por": 529
+    },
+    "special": "none"
+  },
+  {
+    "value": 205,
+    "input": [
+      1,
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "aetop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "rapporto": 1150
+    },
+    "lw": {
+      "rapporto": 1150,
+      "aperto": 753
+    },
+    "trw": {
+      "porta": 4253
+    },
+    "rw": {
+      "porta": 4253,
+      "poeta": 1213,
+      "portato": 1041,
+      "portare": 730,
+      "opera": 650,
+      "potra": 543,
+      "portata": 531,
+      "perfetto": 361
+    },
+    "special": "none"
+  },
+  {
+    "value": 206,
+    "input": [
+      2,
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "setop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "corpo": 2667
+    },
+    "lw": {
+      "corpo": 2667,
+      "d'oro": 745,
+      "scoperto": 623,
+      "cos'e": 529
+    },
+    "trw": {
+      "presto": 1698
+    },
+    "rw": {
+      "presto": 1698,
+      "preso": 1431,
+      "potesse": 1406,
+      "perso": 866,
+      "presso": 685,
+      "processo": 626
+    },
+    "special": "none"
+  },
+  {
+    "value": 207,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "asetop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "sopra": 3357
+    },
+    "lw": {
+      "sopra": 3357,
+      "d'accordo": 855,
+      "sorpresa": 750,
+      "aspetto": 738,
+      "appresso": 504,
+      "coperta": 383,
+      "scoperta": 364
+    },
+    "trw": {
+      "peccato": 398
+    },
+    "rw": {
+      "peccato": 398,
+      "professore": 348,
+      "parco": 341
+    },
+    "special": "none"
+  },
+  {
+    "value": 208,
+    "input": [
+      5,
+      7,
+      8
+    ],
+    "keys": "nop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "mo": 124534
+    },
+    "rp": {
+      "mo": 124534,
+      "om": 123974,
+      "pu": 32834,
+      "mpo": 18234,
+      "um": 16383,
+      "mon": 16128,
+      "omp": 14247,
+      "up": 12438,
+      "uom": 12213,
+      "mu": 11995,
+      "omo": 9084,
+      "puo": 7814,
+      "pun": 7600,
+      "uomo": 7577,
+      "omm": 6938,
+      "mom": 6446,
+      "nom": 6050,
+      "ppu": 5702,
+      "pon": 5381,
+      "mun": 5063
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "puo": 6756
+    },
+    "rw": {
+      "puo": 6756,
+      "uomo": 3570,
+      "mo": 2064,
+      "pu": 513,
+      "mon": 272,
+      "mu": 257,
+      "omo": 203,
+      "pun": 192,
+      "pomp": 95
+    },
+    "special": "none"
+  },
+  {
+    "value": 209,
+    "input": [
+      1,
+      5,
+      7,
+      8
+    ],
+    "keys": "anop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "amo": 18506
+    },
+    "lp": {
+      "amo": 18506,
+      "ampo": 1586,
+      "appu": 1333,
+      "apu": 808,
+      "aum": 470,
+      "amon": 411
+    },
+    "trp": {
+      "oma": 10024
+    },
+    "rp": {
+      "oma": 10024,
+      "mano": 8555,
+      "oman": 7545,
+      "ompa": 4371,
+      "uma": 3939,
+      "uman": 2962,
+      "pau": 2895,
+      "upa": 2331,
+      "munq": 2203,
+      "omma": 1692,
+      "napo": 400,
+      "mona": 383,
+      "uam": 348,
+      "nuam": 348
+    },
+    "tlw": {
+      "amo": 246
+    },
+    "lw": {
+      "amo": 246,
+      "amano": 86
+    },
+    "trw": {
+      "mano": 6828
+    },
+    "rw": {
+      "mano": 6828,
+      "umano": 865,
+      "umana": 784,
+      "panno": 110,
+      "pau": 91,
+      "pompa": 88
+    },
+    "special": "none"
+  },
+  {
+    "value": 210,
+    "input": [
+      2,
+      5,
+      7,
+      8
+    ],
+    "keys": "snop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sup": 3910
+    },
+    "lp": {
+      "sup": 3910,
+      "spon": 3396,
+      "som": 2342,
+      "smo": 2209,
+      "somm": 1717,
+      "sum": 742,
+      "spu": 731,
+      "ssum": 438,
+      "supp": 429,
+      "spun": 351
+    },
+    "trp": {
+      "mos": 4879
+    },
+    "rp": {
+      "mos": 4879,
+      "mus": 1839,
+      "mpos": 1513,
+      "nsom": 919,
+      "moss": 883,
+      "pons": 834,
+      "moso": 245,
+      "nsum": 220,
+      "mous": 205,
+      "moos": 197
+    },
+    "tlw": {
+      "sommo": 127
+    },
+    "lw": {
+      "sommo": 127,
+      "smo": 123,
+      "spon": 80
+    },
+    "trw": {
+      "possono": 1433
+    },
+    "rw": {
+      "possono": 1433,
+      "muso": 175,
+      "mosso": 142
+    },
+    "special": "none"
+  },
+  {
+    "value": 211,
+    "input": [
+      1,
+      2,
+      5,
+      7,
+      8
+    ],
+    "keys": "asnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "somma": 313
+    },
+    "lw": {
+      "somma": 313,
+      "soma": 128
+    },
+    "trw": {
+      "pausa": 424
+    },
+    "rw": {
+      "pausa": 424,
+      "mossa": 243,
+      "possano": 236,
+      "pasquano": 216,
+      "passano": 131
+    },
+    "special": "none"
+  },
+  {
+    "value": 212,
+    "input": [
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "enop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "empo": 10444
+    },
+    "lp": {
+      "empo": 10444,
+      "emo": 3837,
+      "eppu": 3003
+    },
+    "trp": {
+      "ome": 58690
+    },
+    "rp": {
+      "ome": 58690,
+      "'u": 12665,
+      "meno": 11145,
+      "omen": 8460,
+      "un'": 7081,
+      "ume": 6597,
+      "mome": 6446,
+      "'un": 4737,
+      "'uo": 3916,
+      "'uom": 3916,
+      "nome": 3668,
+      "upe": 3073,
+      "nume": 2713,
+      "umen": 2075,
+      "omme": 1961,
+      "n'o": 1640,
+      "un'o": 1640
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "meno": 4910
+    },
+    "rw": {
+      "meno": 4910,
+      "nome": 2803,
+      "nemmeno": 2445,
+      "pompeo": 313,
+      "pone": 170,
+      "mo'": 69
+    },
+    "special": "none"
+  },
+  {
+    "value": 213,
+    "input": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "aenop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "umane": 290
+    },
+    "rw": {
+      "umane": 290,
+      "poema": 169,
+      "paone": 79
+    },
+    "special": "none"
+  },
+  {
+    "value": 214,
+    "input": [
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "senop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "d'un": 897
+    },
+    "lw": {
+      "d'un": 897,
+      "smesso": 278,
+      "demone": 104
+    },
+    "trw": {
+      "modo": 7852
+    },
+    "rw": {
+      "modo": 7852,
+      "mondo": 5836,
+      "penso": 2490,
+      "messo": 1442,
+      "mosse": 412,
+      "mouse": 205,
+      "museo": 156
+    },
+    "special": "none"
+  },
+  {
+    "value": 215,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "asenop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "domanda": 1306
+    },
+    "lw": {
+      "domanda": 1306,
+      "domando": 1210,
+      "domande": 615,
+      "d'una": 469,
+      "sapendo": 230
+    },
+    "trw": {
+      "pensando": 468
+    },
+    "rw": {
+      "pensando": 468,
+      "passando": 314,
+      "moda": 292,
+      "mando": 206,
+      "madonna": 191
+    },
+    "special": "none"
+  },
+  {
+    "value": 216,
+    "input": [
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "tnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tom": 2271
+    },
+    "lp": {
+      "tom": 2271,
+      "tup": 1453,
+      "gom": 1253
+    },
+    "trp": {
+      "punt": 7081
+    },
+    "rp": {
+      "punt": 7081,
+      "mont": 6012,
+      "omb": 3282,
+      "potu": 2910,
+      "pub": 2846,
+      "pubb": 2641,
+      "mot": 2552,
+      "mog": 2379,
+      "mbo": 1754,
+      "put": 1641,
+      "mob": 1393,
+      "pug": 1260,
+      "mut": 979,
+      "pugn": 967,
+      "moto": 911,
+      "puto": 895,
+      "pont": 874
+    },
+    "tlw": {
+      "tom": 318
+    },
+    "lw": {
+      "tom": 318
+    },
+    "trw": {
+      "punto": 4093
+    },
+    "rw": {
+      "punto": 4093,
+      "potuto": 2616,
+      "moto": 481,
+      "pugno": 473,
+      "pub": 205,
+      "muto": 203,
+      "motto": 79
+    },
+    "special": "none"
+  },
+  {
+    "value": 217,
+    "input": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "atnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "appunto": 879
+    },
+    "lw": {
+      "appunto": 879,
+      "fumo": 575,
+      "gamba": 455,
+      "tomba": 320,
+      "amato": 196,
+      "gomma": 184
+    },
+    "trw": {
+      "punta": 775
+    },
+    "rw": {
+      "punta": 775,
+      "montagna": 336,
+      "matto": 291,
+      "puttana": 212
+    },
+    "special": "none"
+  },
+  {
+    "value": 218,
+    "input": [
+      2,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "stnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "com": 539
+    },
+    "lw": {
+      "com": 539,
+      "suppongo": 235,
+      "cupo": 232,
+      "composto": 149,
+      "consumo": 133,
+      "spunto": 88,
+      "sputo": 87,
+      "commosso": 86,
+      "como": 77
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 219,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "astnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "campo": 1259
+    },
+    "lw": {
+      "campo": 1259,
+      "saputo": 808,
+      "campagna": 670,
+      "compagno": 442,
+      "stomaco": 404,
+      "famoso": 245,
+      "accompagnato": 217
+    },
+    "trw": {
+      "manco": 711
+    },
+    "rw": {
+      "manco": 711,
+      "mosca": 232,
+      "occupato": 215
+    },
+    "special": "none"
+  },
+  {
+    "value": 220,
+    "input": [
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "etnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "tempo": 9244
+    },
+    "lw": {
+      "tempo": 9244
+    },
+    "trw": {
+      "momento": 5714
+    },
+    "rw": {
+      "momento": 5714,
+      "morte": 2947,
+      "potrebbe": 1820,
+      "pure": 1665,
+      "morto": 1619,
+      "neppure": 1597,
+      "numero": 1584,
+      "pur": 1424,
+      "oppure": 1366
+    },
+    "special": "none"
+  },
+  {
+    "value": 221,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "aetnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "forma": 2605
+    },
+    "lw": {
+      "forma": 2605,
+      "gambe": 1272,
+      "fermo": 1160,
+      "amore": 1029,
+      "roma": 953,
+      "forme": 894,
+      "fenomeno": 493
+    },
+    "trw": {
+      "paura": 1888
+    },
+    "rw": {
+      "paura": 1888,
+      "morta": 716,
+      "pura": 623
+    },
+    "special": "none"
+  },
+  {
+    "value": 222,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "setnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "come": 44183
+    },
+    "lw": {
+      "come": 44183,
+      "comune": 1042,
+      "com'e": 605,
+      "commento": 530,
+      "sembro": 467,
+      "comprendere": 360
+    },
+    "trw": {
+      "persone": 2066
+    },
+    "rw": {
+      "persone": 2066,
+      "permesso": 524,
+      "mostro": 448,
+      "perduto": 438
+    },
+    "special": "none"
+  },
+  {
+    "value": 223,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "asetnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "comunque": 2203
+    },
+    "lw": {
+      "comunque": 2203,
+      "c'erano": 1897,
+      "soprattutto": 1681,
+      "supra": 679,
+      "com'era": 569
+    },
+    "trw": {
+      "persona": 1755
+    },
+    "rw": {
+      "persona": 1755,
+      "pensato": 1106,
+      "maestro": 952,
+      "profondo": 891,
+      "mercato": 593
+    },
+    "special": "none"
+  },
+  {
+    "value": 224,
+    "input": [
+      6,
+      7,
+      8
+    ],
+    "keys": "iop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "poi": 14737
+    },
+    "rp": {
+      "poi": 14737,
+      "pl": 10095,
+      "pol": 9640,
+      "pio": 6475,
+      "pli": 5182,
+      "lp": 4687,
+      "poli": 4570,
+      "olp": 4070,
+      "ipo": 3334,
+      "opol": 2785,
+      "lpo": 1583,
+      "olpo": 1583,
+      "oppi": 1444,
+      "lpi": 1294,
+      "olpi": 1294,
+      "opi": 1285,
+      "polo": 1213,
+      "ipio": 1154,
+      "ppio": 531,
+      "ipl": 330
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "poi": 13201
+    },
+    "rw": {
+      "poi": 13201,
+      "popolo": 1048,
+      "popoli": 338,
+      "pli": 153,
+      "pio": 122,
+      "polo": 81,
+      "pollo": 76
+    },
+    "special": "none"
+  },
+  {
+    "value": 225,
+    "input": [
+      1,
+      6,
+      7,
+      8
+    ],
+    "keys": "aiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "alp": 617
+    },
+    "lp": {
+      "alp": 617,
+      "apol": 493,
+      "alap": 197
+    },
+    "trp": {
+      "pal": 8270
+    },
+    "rp": {
+      "pal": 8270,
+      "pall": 4450,
+      "pola": 1516,
+      "paio": 1219,
+      "pala": 1093,
+      "ipal": 984,
+      "pla": 966,
+      "lpa": 774,
+      "olpa": 774,
+      "poz": 522,
+      "pozz": 522,
+      "palp": 369,
+      "pali": 314,
+      "pila": 211,
+      "opia": 207,
+      "lap": 197,
+      "paol": 152
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "paio": 1036
+    },
+    "rw": {
+      "paio": 1036,
+      "polizia": 866,
+      "palazzo": 677,
+      "pazzo": 391,
+      "pozzo": 321,
+      "palla": 265,
+      "pila": 124,
+      "palo": 122,
+      "pizzo": 121,
+      "pozzi": 120
+    },
+    "special": "none"
+  },
+  {
+    "value": 226,
+    "input": [
+      2,
+      6,
+      7,
+      8
+    ],
+    "keys": "siop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spl": 884
+    },
+    "lp": {
+      "spl": 884,
+      "spio": 684,
+      "splo": 174,
+      "spli": 99
+    },
+    "trp": {
+      "ispo": 7900
+    },
+    "rp": {
+      "ispo": 7900,
+      "posi": 3710,
+      "ospi": 1127,
+      "pols": 424,
+      "ipos": 419,
+      "piso": 169,
+      "lpis": 106,
+      "plos": 89
+    },
+    "tlw": {
+      "spio": 684
+    },
+    "lw": {
+      "spio": 684
+    },
+    "trw": {
+      "polso": 267
+    },
+    "rw": {
+      "polso": 267,
+      "polsi": 157
+    },
+    "special": "none"
+  },
+  {
+    "value": 227,
+    "input": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "keys": "asiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "spazio": 928
+    },
+    "lw": {
+      "spazio": 928,
+      "spalla": 790,
+      "spiazzo": 96,
+      "spalli": 74
+    },
+    "trw": {},
+    "rw": {},
+    "special": "none"
+  },
+  {
+    "value": 228,
+    "input": [
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "eiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ell'": 11381
+    },
+    "lp": {
+      "ell'": 11381,
+      "epl": 625,
+      "epli": 625
+    },
+    "trp": {
+      "l'": 63315
+    },
+    "rp": {
+      "l'": 63315,
+      "ll'": 21469,
+      "l'i": 10992,
+      "l'o": 6872,
+      "l'e": 5936,
+      "pel": 5431,
+      "ll'i": 4796,
+      "pell": 4601,
+      "ple": 3531,
+      "ll'e": 2277,
+      "ll'o": 2254,
+      "lpe": 788,
+      "'io": 759,
+      "l'op": 735,
+      "ppel": 730,
+      "pelo": 545,
+      "olpe": 419
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "pelle": 1317
+    },
+    "rw": {
+      "pelle": 1317,
+      "l'": 289,
+      "pelo": 208,
+      "pel": 175,
+      "peli": 110,
+      "'l": 103,
+      "piel": 95,
+      "ple": 85,
+      "l'e": 78
+    },
+    "special": "none"
+  },
+  {
+    "value": 229,
+    "input": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "aeiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "appello": 93
+    },
+    "lw": {
+      "appello": 93,
+      "all'": 73
+    },
+    "trw": {
+      "pezzo": 996
+    },
+    "rw": {
+      "pezzo": 996,
+      "palle": 162,
+      "l'ex": 100
+    },
+    "special": "none"
+  },
+  {
+    "value": 230,
+    "input": [
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "seiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "doppio": 286
+    },
+    "lw": {
+      "doppio": 286,
+      "dell'": 202,
+      "episodio": 96,
+      "esplose": 89,
+      "episodi": 73,
+      "d'iddio": 69
+    },
+    "trw": {
+      "poesie": 742
+    },
+    "rw": {
+      "poesie": 742,
+      "possiede": 215,
+      "l'odio": 91
+    },
+    "special": "none"
+  },
+  {
+    "value": 231,
+    "input": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "aseiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "spalle": 2219
+    },
+    "lw": {
+      "spalle": 2219,
+      "doppia": 173,
+      "all'idea": 148,
+      "all'ospedale": 116
+    },
+    "trw": {
+      "poesia": 1881
+    },
+    "rw": {
+      "poesia": 1881,
+      "l'idea": 805,
+      "pallido": 386,
+      "pallida": 251,
+      "ospedale": 173,
+      "l'ideale": 99
+    },
+    "special": "none"
+  },
+  {
+    "value": 232,
+    "input": [
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "tiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tipo": 1710
+    },
+    "lp": {
+      "tipo": 1710,
+      "topi": 124,
+      "volp": 112
+    },
+    "trp": {
+      "pito": 3299
+    },
+    "rp": {
+      "pito": 3299,
+      "pov": 1491,
+      "pig": 1279,
+      "pigl": 1279,
+      "piog": 813,
+      "ipot": 744,
+      "polv": 585,
+      "polt": 542,
+      "lpit": 386,
+      "poti": 236,
+      "ipig": 143,
+      "pogl": 102,
+      "piov": 78,
+      "lpiv": 66
+    },
+    "tlw": {
+      "tipo": 1710
+    },
+    "lw": {
+      "tipo": 1710,
+      "topi": 124
+    },
+    "trw": {
+      "piglio": 445
+    },
+    "rw": {
+      "piglio": 445
+    },
+    "special": "none"
+  },
+  {
+    "value": 233,
+    "input": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "atiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "appoggio": 268
+    },
+    "lw": {
+      "appoggio": 268,
+      "appoggiato": 222,
+      "appoggiata": 150
+    },
+    "trw": {
+      "pioggia": 738
+    },
+    "rw": {
+      "pioggia": 738,
+      "poliziotto": 490,
+      "piatto": 474,
+      "pigliato": 246,
+      "potiva": 236,
+      "paglia": 187,
+      "poliziotti": 146
+    },
+    "special": "none"
+  },
+  {
+    "value": 234,
+    "input": [
+      2,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "stiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "colpo": 1583
+    },
+    "lw": {
+      "colpo": 1583,
+      "colpi": 616,
+      "colpito": 308,
+      "scoppio": 245
+    },
+    "trw": {
+      "piccolo": 2047
+    },
+    "rw": {
+      "piccolo": 2047,
+      "piccoli": 910,
+      "politico": 534,
+      "posti": 394,
+      "ospiti": 322,
+      "politici": 298
+    },
+    "special": "none"
+  },
+  {
+    "value": 235,
+    "input": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "astiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "capito": 1303
+    },
+    "lw": {
+      "capito": 1303,
+      "colpa": 774,
+      "capisco": 511,
+      "capitolo": 374,
+      "spiaggia": 311
+    },
+    "trw": {
+      "piccola": 1514
+    },
+    "rw": {
+      "piccola": 1514,
+      "politica": 1179,
+      "passaggio": 744,
+      "pistola": 533,
+      "picciotta": 345
+    },
+    "special": "none"
+  },
+  {
+    "value": 236,
+    "input": [
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "etiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "proprio": 7247
+    },
+    "rw": {
+      "proprio": 7247,
+      "propri": 755,
+      "proprie": 743,
+      "peggio": 662,
+      "polvere": 585,
+      "potrei": 554,
+      "poeti": 534,
+      "povero": 507,
+      "potevo": 465,
+      "provo": 442
+    },
+    "special": "none"
+  },
+  {
+    "value": 237,
+    "input": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "aetiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "poteva": 4863
+    },
+    "rw": {
+      "poteva": 4863,
+      "parole": 3219,
+      "parlare": 2929,
+      "parola": 2573,
+      "propria": 2442,
+      "l'altro": 1682,
+      "l'aveva": 1452,
+      "l'altra": 1155,
+      "l'aria": 981,
+      "parlato": 910
+    },
+    "special": "none"
+  },
+  {
+    "value": 238,
+    "input": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "setiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "rispose": 2477
+    },
+    "lw": {
+      "rispose": 2477,
+      "spirito": 1524,
+      "rispetto": 1314,
+      "sospiro": 658,
+      "respiro": 557
+    },
+    "trw": {
+      "percio": 1506
+    },
+    "rw": {
+      "percio": 1506,
+      "periodo": 1252,
+      "proposito": 928,
+      "piccole": 624,
+      "pericolo": 530
+    },
+    "special": "none"
+  },
+  {
+    "value": 239,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "asetiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "capelli": 2276
+    },
+    "lw": {
+      "capelli": 2276,
+      "risposta": 1209,
+      "capitale": 832,
+      "dall'altra": 680,
+      "cappello": 571,
+      "speciale": 560,
+      "spettacolo": 551,
+      "sapevo": 543
+    },
+    "trw": {
+      "particolare": 1528
+    },
+    "rw": {
+      "particolare": 1528,
+      "particolari": 553
+    },
+    "special": "none"
+  },
+  {
+    "value": 240,
+    "input": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "niop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {
+      "piu": 40881
+    },
+    "rp": {
+      "piu": 40881,
+      "lm": 15629,
+      "imo": 14116,
+      "omi": 14082,
+      "mol": 12913,
+      "omin": 10402,
+      "mio": 9387,
+      "mpl": 6904,
+      "mil": 6424,
+      "uomi": 4636,
+      "impo": 4499,
+      "ilm": 3985,
+      "mpli": 3828,
+      "lim": 3473,
+      "ompl": 2965,
+      "ommi": 2896,
+      "mili": 2879,
+      "mpio": 2849,
+      "imil": 2663,
+      "umi": 2369
+    },
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "piu": 38322
+    },
+    "rw": {
+      "piu": 38322,
+      "mio": 8636,
+      "uomini": 4470,
+      "puoi": 1058,
+      "minimo": 654,
+      "nomi": 609,
+      "milioni": 471,
+      "lupi": 295,
+      "lupo": 283,
+      "mol": 273
+    },
+    "special": "none"
+  },
+  {
+    "value": 241,
+    "input": [
+      1,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "animali": 640
+    },
+    "lw": {
+      "animali": 640,
+      "ampio": 257
+    },
+    "trw": {
+      "piano": 2006
+    },
+    "rw": {
+      "piano": 2006,
+      "milano": 601,
+      "mal": 533,
+      "paul": 492,
+      "umani": 490,
+      "lama": 381,
+      "lampo": 247,
+      "napoli": 245
+    },
+    "special": "none"
+  },
+  {
+    "value": 242,
+    "input": [
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "sniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "simili": 901
+    },
+    "lw": {
+      "simili": 901
+    },
+    "trw": {
+      "luminoso": 184
+    },
+    "rw": {
+      "luminoso": 184,
+      "impulso": 142,
+      "luminosi": 100,
+      "pinso": 99,
+      "impulsi": 82,
+      "mussolini": 70
+    },
+    "special": "none"
+  },
+  {
+    "value": 243,
+    "input": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "asniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "siamo": 2506
+    },
+    "lw": {
+      "siamo": 2506,
+      "sappiamo": 416,
+      "william": 311,
+      "soliman": 93
+    },
+    "trw": {
+      "possiamo": 953
+    },
+    "rw": {
+      "possiamo": 953,
+      "insomma": 919,
+      "massimo": 670,
+      "passioni": 162,
+      "luminosa": 142,
+      "posizioni": 131
+    },
+    "special": "none"
+  },
+  {
+    "value": 244,
+    "input": [
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "eniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "l'uomo": 2192
+    },
+    "rw": {
+      "l'uomo": 2192,
+      "l'ho": 1358,
+      "pieno": 1065,
+      "mille": 566,
+      "l'uno": 521,
+      "opinione": 240,
+      "l'omo": 201,
+      "noemi": 193,
+      "lupe": 189,
+      "piume": 176
+    },
+    "special": "none"
+  },
+  {
+    "value": 245,
+    "input": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aeniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "almeno": 2906
+    },
+    "lw": {
+      "almeno": 2906,
+      "all'inizio": 567,
+      "quell'uomo": 397
+    },
+    "trw": {
+      "mezzo": 2952
+    },
+    "rw": {
+      "mezzo": 2952,
+      "male": 2439,
+      "l'ha": 1086,
+      "l'hai": 452,
+      "l'hanno": 441,
+      "l'anima": 420,
+      "l'una": 376
+    },
+    "special": "none"
+  },
+  {
+    "value": 246,
+    "input": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "seniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "esempio": 1778
+    },
+    "lw": {
+      "esempio": 1778,
+      "simile": 1655,
+      "dell'uomo": 843,
+      "dimensioni": 369,
+      "dominio": 250
+    },
+    "trw": {
+      "modi": 645
+    },
+    "rw": {
+      "modi": 645,
+      "modello": 478,
+      "medesimo": 309,
+      "mondi": 256,
+      "pensione": 223
+    },
+    "special": "none"
+  },
+  {
+    "value": 247,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aseniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "domani": 713
+    },
+    "lw": {
+      "domani": 713,
+      "andiamo": 546,
+      "disposizione": 501,
+      "dell'anima": 238,
+      "d'animo": 224
+    },
+    "trw": {
+      "posizione": 1014
+    },
+    "rw": {
+      "posizione": 1014,
+      "passione": 593,
+      "un'idea": 420,
+      "mondiale": 298,
+      "lampada": 259
+    },
+    "special": "none"
+  },
+  {
+    "value": 248,
+    "input": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "tniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "molto": 8286
+    },
+    "rw": {
+      "molto": 8286,
+      "molti": 1788,
+      "motivo": 966,
+      "minuti": 932,
+      "ultimi": 876,
+      "punti": 574,
+      "minuto": 534,
+      "limiti": 526,
+      "motivi": 512,
+      "ultimo": 463
+    },
+    "special": "none"
+  },
+  {
+    "value": 249,
+    "input": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "atniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "abbiamo": 2561
+    },
+    "lw": {
+      "abbiamo": 2561,
+      "famiglia": 1766,
+      "bambino": 1392,
+      "attimo": 1091,
+      "film": 814
+    },
+    "trw": {
+      "montalbano": 3474
+    },
+    "rw": {
+      "montalbano": 3474,
+      "immagini": 903,
+      "mattino": 661,
+      "molta": 468,
+      "pagina": 412
+    },
+    "special": "none"
+  },
+  {
+    "value": 250,
+    "input": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "stniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "comincio": 1412
+    },
+    "lw": {
+      "comincio": 1412,
+      "compito": 629,
+      "sviluppo": 610,
+      "comuni": 273,
+      "simbolo": 260,
+      "compiuto": 256
+    },
+    "trw": {
+      "piuttosto": 1744
+    },
+    "rw": {
+      "piuttosto": 1744,
+      "pochi": 1294,
+      "pubblico": 875,
+      "possibili": 303
+    },
+    "special": "none"
+  },
+  {
+    "value": 251,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "astniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "amico": 1691
+    },
+    "lw": {
+      "amico": 1691,
+      "calma": 759,
+      "cominciato": 727,
+      "chiamato": 690,
+      "compagnia": 629,
+      "chiamo": 561,
+      "compagni": 524,
+      "facciamo": 457
+    },
+    "trw": {
+      "possibilita": 1220
+    },
+    "rw": {
+      "possibilita": 1220,
+      "musica": 1002
+    },
+    "special": "none"
+  },
+  {
+    "value": 252,
+    "input": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "etniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {},
+    "lw": {},
+    "trw": {
+      "meglio": 3762
+    },
+    "rw": {
+      "meglio": 3762,
+      "primo": 3317,
+      "moglie": 2035,
+      "molte": 1187,
+      "movimento": 1008,
+      "morti": 925,
+      "migliore": 815,
+      "pomeriggio": 784,
+      "morire": 767,
+      "problemi": 755
+    },
+    "special": "none"
+  },
+  {
+    "value": 253,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aetniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "finalmente": 1303
+    },
+    "lw": {
+      "finalmente": 1303
+    },
+    "trw": {
+      "ormai": 2373
+    },
+    "rw": {
+      "ormai": 2373,
+      "un'altra": 2286,
+      "probabilmente": 1682,
+      "marito": 1439,
+      "naturalmente": 1413,
+      "perfino": 1371,
+      "problema": 1253,
+      "potevano": 1165,
+      "importante": 1162
+    },
+    "special": "none"
+  },
+  {
+    "value": 254,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "setniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "semplice": 1455
+    },
+    "lw": {
+      "semplice": 1455,
+      "semplicemente": 1114,
+      "superiore": 777,
+      "benissimo": 739
+    },
+    "trw": {
+      "possibile": 2609
+    },
+    "rw": {
+      "possibile": 2609,
+      "pensiero": 1848,
+      "persino": 1392,
+      "poiche": 1315,
+      "principio": 1087,
+      "impossibile": 844
+    },
+    "special": "none"
+  },
+  {
+    "value": 255,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "asetniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "lp": {},
+    "trp": {},
+    "rp": {},
+    "tlw": {
+      "commissario": 2277
+    },
+    "lw": {
+      "commissario": 2277,
+      "completamente": 1098,
+      "assolutamente": 1062,
+      "all'improvviso": 872,
+      "rimasto": 815,
+      "dobbiamo": 808,
+      "sembravano": 704
+    },
+    "trw": {
+      "l'unica": 795
+    },
+    "rw": {
+      "l'unica": 795,
+      "lacrime": 758,
+      "un'occhiata": 756
+    },
+    "special": "none"
+  }
+]

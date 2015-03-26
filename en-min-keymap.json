@@ -1,0 +1,5740 @@
+[
+  {
+    "value": 0,
+    "notes": [
+      "Developer : Zack Dennis (zack@asetniop.com)",
+      "Date : 12/12/2014",
+      "All code (c) 2014 Pointesa, LLC all rights reserved",
+      "Abbreviations :    ",
+      "tlp = top left partial",
+      "lp = left partials",
+      "trp = top right partial",
+      "rp = right partials",
+      "tlw = top left word",
+      "lw = left words",
+      "trw = top right word",
+      "rw = right words"
+    ]
+  },
+  {
+    "value": 1,
+    "input": [
+      1
+    ],
+    "keys": "a",
+    "base": "a",
+    "baseshift": "A",
+    "tlp": {
+      "aa": 410
+    },
+    "trp": {},
+    "tlw": {
+      "a": 211837
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 2,
+    "input": [
+      2
+    ],
+    "keys": "s",
+    "base": "s",
+    "baseshift": "S",
+    "tlp": {
+      "ss": 89478
+    },
+    "trp": {},
+    "tlw": {
+      "s": 2993
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 3,
+    "input": [
+      1,
+      2
+    ],
+    "keys": "as",
+    "base": "w",
+    "baseshift": "W",
+    "tlp": {
+      "as": 286499
+    },
+    "trp": {},
+    "tlw": {
+      "was": 112330
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 4,
+    "input": [
+      3
+    ],
+    "keys": "e",
+    "base": "e",
+    "baseshift": "E",
+    "tlp": {
+      "ee": 129154
+    },
+    "trp": {},
+    "tlw": {
+      "e": 471
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 5,
+    "input": [
+      1,
+      3
+    ],
+    "keys": "ae",
+    "base": "x",
+    "baseshift": "X",
+    "tlp": {
+      "ea": 216643
+    },
+    "trp": {},
+    "tlw": {
+      "x": 233
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 6,
+    "input": [
+      2,
+      3
+    ],
+    "keys": "se",
+    "base": "d",
+    "baseshift": "D",
+    "tlp": {
+      "ed": 326541
+    },
+    "trp": {},
+    "tlw": {
+      "see": 9997
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 7,
+    "input": [
+      1,
+      2,
+      3
+    ],
+    "keys": "ase",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ad": 140314
+    },
+    "trp": {},
+    "tlw": {
+      "we": 33258
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 8,
+    "input": [
+      4
+    ],
+    "keys": "t",
+    "base": "t",
+    "baseshift": "T",
+    "tlp": {
+      "tt": 55910
+    },
+    "trp": {},
+    "tlw": {
+      "t": 670
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 9,
+    "input": [
+      1,
+      4
+    ],
+    "keys": "at",
+    "base": "f",
+    "baseshift": "F",
+    "tlp": {
+      "at": 371419
+    },
+    "trp": {},
+    "tlw": {
+      "at": 51085
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 10,
+    "input": [
+      2,
+      4
+    ],
+    "keys": "st",
+    "base": "c",
+    "baseshift": "C",
+    "tlp": {
+      "st": 260669
+    },
+    "trp": {},
+    "tlw": {
+      "c": 872
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 11,
+    "input": [
+      1,
+      2,
+      4
+    ],
+    "keys": "ast",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ca": 118675
+    },
+    "trp": {},
+    "tlw": {
+      "fact": 3233
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 12,
+    "input": [
+      3,
+      4
+    ],
+    "keys": "et",
+    "base": "r",
+    "baseshift": "R",
+    "tlp": {
+      "er": 558051
+    },
+    "trp": {},
+    "tlw": {
+      "tree": 670
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 13,
+    "input": [
+      1,
+      3,
+      4
+    ],
+    "keys": "aet",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ar": 265629
+    },
+    "trp": {},
+    "tlw": {
+      "are": 29172
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 14,
+    "input": [
+      2,
+      3,
+      4
+    ],
+    "keys": "set",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ce": 144944
+    },
+    "trp": {},
+    "tlw": {
+      "set": 3472
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 15,
+    "input": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "keys": "aset",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "wer": 47082
+    },
+    "trp": {},
+    "tlw": {
+      "were": 34909
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 16,
+    "input": [
+      5
+    ],
+    "keys": "n",
+    "base": "n",
+    "baseshift": "N",
+    "tlp": {},
+    "trp": {
+      "nn": 20957
+    },
+    "tlw": {},
+    "trw": {
+      "n": 169
+    },
+    "special": "none"
+  },
+  {
+    "value": 17,
+    "input": [
+      1,
+      5
+    ],
+    "keys": "an",
+    "base": "q",
+    "baseshift": "Q",
+    "tlp": {
+      "an": 578917
+    },
+    "trp": {
+      "na": 51349
+    },
+    "tlw": {
+      "an": 29559
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 18,
+    "input": [
+      2,
+      5
+    ],
+    "keys": "sn",
+    "base": "j",
+    "baseshift": "J",
+    "tlp": {
+      "sn": 9321
+    },
+    "trp": {
+      "ns": 85305
+    },
+    "tlw": {},
+    "trw": {
+      "j": 365
+    },
+    "special": "none"
+  },
+  {
+    "value": 19,
+    "input": [
+      1,
+      2,
+      5
+    ],
+    "keys": "asn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "wn": 31110
+    },
+    "trp": {
+      "ja": 7328
+    },
+    "tlw": {
+      "san": 544
+    },
+    "trw": {
+      "jaw": 167
+    },
+    "special": "none"
+  },
+  {
+    "value": 20,
+    "input": [
+      3,
+      5
+    ],
+    "keys": "en",
+    "base": "y",
+    "baseshift": "Y",
+    "tlp": {
+      "en": 361157
+    },
+    "trp": {
+      "ne": 208843
+    },
+    "tlw": {
+      "eye": 1504
+    },
+    "trw": {
+      "ye": 442
+    },
+    "special": "none"
+  },
+  {
+    "value": 21,
+    "input": [
+      1,
+      3,
+      5
+    ],
+    "keys": "aen",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ay": 87083
+    },
+    "trp": {
+      "yea": 12043
+    },
+    "tlw": {
+      "any": 10758
+    },
+    "trw": {
+      "nay": 83
+    },
+    "special": "none"
+  },
+  {
+    "value": 22,
+    "input": [
+      2,
+      3,
+      5
+    ],
+    "keys": "sen",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "end": 27020
+    },
+    "trp": {
+      "nd": 415919
+    },
+    "tlw": {
+      "eyes": 5472
+    },
+    "trw": {
+      "need": 4397
+    },
+    "special": "none"
+  },
+  {
+    "value": 23,
+    "input": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "keys": "asen",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "and": 307129
+    },
+    "trp": {
+      "new": 18090
+    },
+    "tlw": {
+      "and": 266855
+    },
+    "trw": {
+      "new": 10172
+    },
+    "special": "none"
+  },
+  {
+    "value": 24,
+    "input": [
+      4,
+      5
+    ],
+    "keys": "tn",
+    "base": "b",
+    "baseshift": "B",
+    "tlp": {
+      "bt": 3003
+    },
+    "trp": {
+      "nt": 218499
+    },
+    "tlw": {
+      "b": 695
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 25,
+    "input": [
+      1,
+      4,
+      5
+    ],
+    "keys": "atn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ab": 55519
+    },
+    "trp": {
+      "nat": 11510
+    },
+    "tlw": {
+      "fan": 245
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 26,
+    "input": [
+      2,
+      4,
+      5
+    ],
+    "keys": "stn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "bs": 6980
+    },
+    "trp": {
+      "nc": 79565
+    },
+    "tlw": {
+      "bc": 95
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 27,
+    "input": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "keys": "astn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "can": 27607
+    },
+    "trp": {
+      "nsta": 3211
+    },
+    "tlw": {
+      "can": 15149
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 28,
+    "input": [
+      3,
+      4,
+      5
+    ],
+    "keys": "etn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "be": 175052
+    },
+    "trp": {
+      "nte": 31075
+    },
+    "tlw": {
+      "be": 44932
+    },
+    "trw": {
+      "yet": 4449
+    },
+    "special": "none"
+  },
+  {
+    "value": 29,
+    "input": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "keys": "aetn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ran": 19074
+    },
+    "trp": {
+      "year": 11125
+    },
+    "tlw": {
+      "ran": 1611
+    },
+    "trw": {
+      "next": 4617
+    },
+    "special": "none"
+  },
+  {
+    "value": 30,
+    "input": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "keys": "setn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "enc": 25606
+    },
+    "trp": {
+      "nce": 54473
+    },
+    "tlw": {
+      "best": 3733
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 31,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "keys": "asetn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "went": 6413
+    },
+    "trw": {
+      "years": 7833
+    },
+    "special": "none"
+  },
+  {
+    "value": 32,
+    "input": [
+      6
+    ],
+    "keys": "i",
+    "base": "i",
+    "baseshift": "I",
+    "tlp": {},
+    "trp": {
+      "ii": 1762
+    },
+    "tlw": {},
+    "trw": {
+      "i": 117501
+    },
+    "special": "none"
+  },
+  {
+    "value": 33,
+    "input": [
+      1,
+      6
+    ],
+    "keys": "ai",
+    "base": "z",
+    "baseshift": "Z",
+    "tlp": {
+      "ai": 104869
+    },
+    "trp": {
+      "ia": 38456
+    },
+    "tlw": {
+      "aziz": 61
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 34,
+    "input": [
+      2,
+      6
+    ],
+    "keys": "si",
+    "base": "k",
+    "baseshift": "K",
+    "tlp": {
+      "si": 120170
+    },
+    "trp": {
+      "is": 263616
+    },
+    "tlw": {},
+    "trw": {
+      "is": 60295
+    },
+    "special": "none"
+  },
+  {
+    "value": 35,
+    "input": [
+      1,
+      2,
+      6
+    ],
+    "keys": "asi",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "wi": 119378
+    },
+    "trp": {
+      "ka": 3991
+    },
+    "tlw": {
+      "ask": 2497
+    },
+    "trw": {
+      "kaa": 57
+    },
+    "special": "none"
+  },
+  {
+    "value": 36,
+    "input": [
+      3,
+      6
+    ],
+    "keys": "ei",
+    "base": ",",
+    "baseshift": "<",
+    "tlp": {
+      "ei": 51232
+    },
+    "trp": {
+      "ie": 85987
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 37,
+    "input": [
+      1,
+      3,
+      6
+    ],
+    "keys": "aei",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ze": 9545
+    },
+    "trp": {
+      "ize": 5603
+    },
+    "tlw": {
+      "xiii": 65
+    },
+    "trw": {
+      "ix": 80
+    },
+    "special": "none"
+  },
+  {
+    "value": 38,
+    "input": [
+      2,
+      3,
+      6
+    ],
+    "keys": "sei",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "di": 96016
+    },
+    "trp": {
+      "id": 100069
+    },
+    "tlw": {
+      "did": 12252
+    },
+    "trw": {
+      "kids": 1451
+    },
+    "special": "none"
+  },
+  {
+    "value": 39,
+    "input": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "keys": "asei",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ake": 27987
+    },
+    "trp": {
+      "idea": 4816
+    },
+    "tlw": {
+      "said": 23960
+    },
+    "trw": {
+      "idea": 2885
+    },
+    "special": "none"
+  },
+  {
+    "value": 40,
+    "input": [
+      4,
+      6
+    ],
+    "keys": "ti",
+    "base": "v",
+    "baseshift": "V",
+    "tlp": {
+      "ti": 213739
+    },
+    "trp": {
+      "it": 311028
+    },
+    "tlw": {
+      "tv": 551
+    },
+    "trw": {
+      "it": 92474
+    },
+    "special": "none"
+  },
+  {
+    "value": 41,
+    "input": [
+      1,
+      4,
+      6
+    ],
+    "keys": "ati",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "fi": 67126
+    },
+    "trp": {
+      "if": 58122
+    },
+    "tlw": {
+      "fit": 689
+    },
+    "trw": {
+      "if": 25154
+    },
+    "special": "none"
+  },
+  {
+    "value": 42,
+    "input": [
+      2,
+      4,
+      6
+    ],
+    "keys": "sti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ck": 51278
+    },
+    "trp": {
+      "ic": 118179
+    },
+    "tlw": {
+      "sit": 1264
+    },
+    "trw": {
+      "its": 10155
+    },
+    "special": "none"
+  },
+  {
+    "value": 43,
+    "input": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "keys": "asti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "wit": 77056
+    },
+    "trp": {
+      "ica": 19163
+    },
+    "tlw": {
+      "wait": 1256
+    },
+    "trw": {
+      "isaac": 209
+    },
+    "special": "none"
+  },
+  {
+    "value": 44,
+    "input": [
+      3,
+      4,
+      6
+    ],
+    "keys": "eti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ve": 240401
+    },
+    "trp": {
+      "ir": 91496
+    },
+    "tlw": {
+      "ever": 4714
+    },
+    "trw": {
+      "ive": 85
+    },
+    "special": "none"
+  },
+  {
+    "value": 45,
+    "input": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "keys": "aeti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ave": 49806
+    },
+    "trp": {
+      "ife": 12017
+    },
+    "tlw": {
+      "five": 2604
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 46,
+    "input": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "keys": "seti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rk": 28978
+    },
+    "trp": {
+      "ice": 25015
+    },
+    "tlw": {
+      "tried": 2205
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 47,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "keys": "aseti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "first": 11244
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 48,
+    "input": [
+      5,
+      6
+    ],
+    "keys": "ni",
+    "base": "h",
+    "baseshift": "H",
+    "tlp": {},
+    "trp": {
+      "in": 644070
+    },
+    "tlw": {},
+    "trw": {
+      "in": 155002
+    },
+    "special": "none"
+  },
+  {
+    "value": 49,
+    "input": [
+      1,
+      5,
+      6
+    ],
+    "keys": "ani",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ain": 43995
+    },
+    "trp": {
+      "ha": 357027
+    },
+    "tlw": {
+      "ah": 458
+    },
+    "trw": {
+      "han": 268
+    },
+    "special": "none"
+  },
+  {
+    "value": 50,
+    "input": [
+      2,
+      5,
+      6
+    ],
+    "keys": "sni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sh": 119750
+    },
+    "trp": {
+      "his": 109386
+    },
+    "tlw": {
+      "skin": 661
+    },
+    "trw": {
+      "his": 69304
+    },
+    "special": "none"
+  },
+  {
+    "value": 51,
+    "input": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "keys": "asni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "wh": 148489
+    },
+    "trp": {
+      "has": 13193
+    },
+    "tlw": {
+      "wish": 1198
+    },
+    "trw": {
+      "has": 11125
+    },
+    "special": "none"
+  },
+  {
+    "value": 52,
+    "input": [
+      3,
+      5,
+      6
+    ],
+    "keys": "eni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ein": 10146
+    },
+    "trp": {
+      "he": 1036192
+    },
+    "tlw": {
+      "eh": 128
+    },
+    "trw": {
+      "he": 92135
+    },
+    "special": "none"
+  },
+  {
+    "value": 53,
+    "input": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "keys": "aeni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "aine": 5046
+    },
+    "trp": {
+      "hea": 22882
+    },
+    "tlw": {
+      "annie": 159
+    },
+    "trw": {
+      "yeah": 918
+    },
+    "special": "none"
+  },
+  {
+    "value": 54,
+    "input": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "keys": "seni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "she": 58316
+    },
+    "trp": {
+      "ind": 31046
+    },
+    "tlw": {
+      "she": 45928
+    },
+    "trw": {
+      "kind": 3481
+    },
+    "special": "none"
+  },
+  {
+    "value": 55,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "keys": "aseni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "when": 27718
+    },
+    "trw": {
+      "had": 63389
+    },
+    "special": "none"
+  },
+  {
+    "value": 56,
+    "input": [
+      4,
+      5,
+      6
+    ],
+    "keys": "tni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "th": 1104848
+    },
+    "trp": {
+      "ith": 80740
+    },
+    "tlw": {
+      "bit": 1490
+    },
+    "trw": {
+      "hit": 1079
+    },
+    "special": "none"
+  },
+  {
+    "value": 57,
+    "input": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "keys": "atni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tha": 132122
+    },
+    "trp": {
+      "hat": 148416
+    },
+    "tlw": {
+      "that": 110865
+    },
+    "trw": {
+      "hat": 521
+    },
+    "special": "none"
+  },
+  {
+    "value": 58,
+    "input": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "keys": "stni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ch": 138742
+    },
+    "trp": {
+      "ich": 25423
+    },
+    "tlw": {
+      "this": 36089
+    },
+    "trw": {
+      "nick": 237
+    },
+    "special": "none"
+  },
+  {
+    "value": 59,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "keys": "astni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "with": 67032
+    },
+    "trw": {
+      "jack": 1623
+    },
+    "special": "none"
+  },
+  {
+    "value": 60,
+    "input": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "etni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "the": 718926
+    },
+    "trp": {
+      "her": 160213
+    },
+    "tlw": {
+      "the": 506501
+    },
+    "trw": {
+      "her": 47940
+    },
+    "special": "none"
+  },
+  {
+    "value": 61,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "aetni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "father": 3696
+    },
+    "trw": {
+      "have": 35739
+    },
+    "special": "none"
+  },
+  {
+    "value": 62,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "setni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "these": 9773
+    },
+    "trw": {
+      "interest": 1336
+    },
+    "special": "none"
+  },
+  {
+    "value": 63,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "asetni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "where": 9655
+    },
+    "trw": {
+      "heard": 3016
+    },
+    "special": "none"
+  },
+  {
+    "value": 64,
+    "input": [
+      7
+    ],
+    "keys": "o",
+    "base": "o",
+    "baseshift": "O",
+    "tlp": {},
+    "trp": {
+      "oo": 93108
+    },
+    "tlw": {},
+    "trw": {
+      "o": 531
+    },
+    "special": "none"
+  },
+  {
+    "value": 65,
+    "input": [
+      1,
+      7
+    ],
+    "keys": "ao",
+    "base": "(",
+    "baseshift": "[",
+    "tlp": {
+      "ao": 915
+    },
+    "trp": {
+      "oa": 14939
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 66,
+    "input": [
+      2,
+      7
+    ],
+    "keys": "so",
+    "base": ".",
+    "baseshift": ">",
+    "tlp": {
+      "so": 117437
+    },
+    "trp": {
+      "os": 70799
+    },
+    "tlw": {
+      "so": 27040
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 67,
+    "input": [
+      1,
+      2,
+      7
+    ],
+    "keys": "aso",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "wo": 92580
+    },
+    "trp": {
+      "ow": 122368
+    },
+    "tlw": {
+      "wow": 113
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 68,
+    "input": [
+      3,
+      7
+    ],
+    "keys": "eo",
+    "base": "-",
+    "baseshift": "_",
+    "tlp": {
+      "eo": 22601
+    },
+    "trp": {
+      "oe": 10755
+    },
+    "tlw": {},
+    "trw": {
+      "-": 1362
+    },
+    "special": "none"
+  },
+  {
+    "value": 69,
+    "input": [
+      1,
+      3,
+      7
+    ],
+    "keys": "aeo",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "xo": 296
+    },
+    "trp": {
+      "ox": 1874
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 70,
+    "input": [
+      2,
+      3,
+      7
+    ],
+    "keys": "seo",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "do": 77376
+    },
+    "trp": {
+      "od": 44403
+    },
+    "tlw": {
+      "do": 18689
+    },
+    "trw": {
+      "odd": 416
+    },
+    "special": "none"
+  },
+  {
+    "value": 71,
+    "input": [
+      1,
+      2,
+      3,
+      7
+    ],
+    "keys": "aseo",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "dow": 14691
+    },
+    "trp": {
+      "owe": 15537
+    },
+    "tlw": {
+      "wood": 515
+    },
+    "trw": {
+      "owed": 149
+    },
+    "special": "none"
+  },
+  {
+    "value": 72,
+    "input": [
+      4,
+      7
+    ],
+    "keys": "to",
+    "base": "g",
+    "baseshift": "G",
+    "tlp": {
+      "to": 350815
+    },
+    "trp": {
+      "ot": 133805
+    },
+    "tlw": {
+      "to": 249163
+    },
+    "trw": {
+      "otto": 67
+    },
+    "special": "none"
+  },
+  {
+    "value": 73,
+    "input": [
+      1,
+      4,
+      7
+    ],
+    "keys": "ato",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "fo": 133745
+    },
+    "trp": {
+      "of": 272457
+    },
+    "tlw": {
+      "ago": 1471
+    },
+    "trw": {
+      "of": 245539
+    },
+    "special": "none"
+  },
+  {
+    "value": 74,
+    "input": [
+      2,
+      4,
+      7
+    ],
+    "keys": "sto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "co": 161789
+    },
+    "trp": {
+      "oc": 25929
+    },
+    "tlw": {
+      "cost": 675
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 75,
+    "input": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "keys": "asto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "two": 12798
+    },
+    "trp": {
+      "oac": 2483
+    },
+    "tlw": {
+      "two": 11667
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 76,
+    "input": [
+      3,
+      4,
+      7
+    ],
+    "keys": "eto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ro": 170933
+    },
+    "trp": {
+      "or": 314634
+    },
+    "tlw": {
+      "get": 10986
+    },
+    "trw": {
+      "or": 34654
+    },
+    "special": "none"
+  },
+  {
+    "value": 77,
+    "input": [
+      1,
+      3,
+      4,
+      7
+    ],
+    "keys": "aeto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "for": 111436
+    },
+    "trp": {
+      "orta": 4717
+    },
+    "tlw": {
+      "for": 70927
+    },
+    "trw": {
+      "offer": 1014
+    },
+    "special": "none"
+  },
+  {
+    "value": 78,
+    "input": [
+      2,
+      3,
+      4,
+      7
+    ],
+    "keys": "seto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eco": 13557
+    },
+    "trp": {
+      "ord": 17538
+    },
+    "tlw": {
+      "good": 9480
+    },
+    "trw": {
+      "order": 2602
+    },
+    "special": "none"
+  },
+  {
+    "value": 79,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    "keys": "aseto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "words": 3228
+    },
+    "trw": {
+      "offered": 1121
+    },
+    "special": "none"
+  },
+  {
+    "value": 80,
+    "input": [
+      5,
+      7
+    ],
+    "keys": "no",
+    "base": "u",
+    "baseshift": "U",
+    "tlp": {},
+    "trp": {
+      "on": 380429
+    },
+    "tlw": {},
+    "trw": {
+      "on": 61313
+    },
+    "special": "none"
+  },
+  {
+    "value": 81,
+    "input": [
+      1,
+      5,
+      7
+    ],
+    "keys": "ano",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "au": 32369
+    },
+    "trp": {
+      "ua": 23498
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 82,
+    "input": [
+      2,
+      5,
+      7
+    ],
+    "keys": "sno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "su": 62257
+    },
+    "trp": {
+      "us": 124701
+    },
+    "tlw": {
+      "soon": 3191
+    },
+    "trw": {
+      "us": 10609
+    },
+    "special": "none"
+  },
+  {
+    "value": 83,
+    "input": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "keys": "asno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "wou": 29932
+    },
+    "trp": {
+      "now": 32603
+    },
+    "tlw": {
+      "won": 495
+    },
+    "trw": {
+      "now": 13343
+    },
+    "special": "none"
+  },
+  {
+    "value": 84,
+    "input": [
+      3,
+      5,
+      7
+    ],
+    "keys": "eno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eno": 5765
+    },
+    "trp": {
+      "yo": 112940
+    },
+    "tlw": {},
+    "trw": {
+      "you": 68463
+    },
+    "special": "none"
+  },
+  {
+    "value": 85,
+    "input": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "keys": "aeno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "que": 9630
+    },
+    "trp": {
+      "oya": 1710
+    },
+    "tlw": {
+      "anyone": 1715
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 86,
+    "input": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "keys": "seno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "du": 19747
+    },
+    "trp": {
+      "und": 37128
+    },
+    "tlw": {
+      "done": 3602
+    },
+    "trw": {
+      "use": 3572
+    },
+    "special": "none"
+  },
+  {
+    "value": 87,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    "keys": "aseno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "down": 11247
+    },
+    "trw": {
+      "owned": 326
+    },
+    "special": "none"
+  },
+  {
+    "value": 88,
+    "input": [
+      4,
+      5,
+      7
+    ],
+    "keys": "tno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "bu": 70306
+    },
+    "trp": {
+      "ng": 301255
+    },
+    "tlw": {
+      "but": 49620
+    },
+    "trw": {
+      "not": 43106
+    },
+    "special": "none"
+  },
+  {
+    "value": 89,
+    "input": [
+      1,
+      4,
+      5,
+      7
+    ],
+    "keys": "atno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "abo": 26472
+    },
+    "trp": {
+      "uf": 3979
+    },
+    "tlw": {
+      "about": 23108
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 90,
+    "input": [
+      2,
+      4,
+      5,
+      7
+    ],
+    "keys": "stno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "con": 43239
+    },
+    "trp": {
+      "uc": 39944
+    },
+    "tlw": {
+      "cut": 1451
+    },
+    "trw": {
+      "just": 14589
+    },
+    "special": "none"
+  },
+  {
+    "value": 91,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    "keys": "astno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "town": 2110
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 92,
+    "input": [
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "etno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rou": 33045
+    },
+    "trp": {
+      "ur": 136165
+    },
+    "tlw": {
+      "turn": 2317
+    },
+    "trw": {
+      "your": 20504
+    },
+    "special": "none"
+  },
+  {
+    "value": 93,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "aetno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "before": 10203
+    },
+    "trw": {
+      "often": 3952
+    },
+    "special": "none"
+  },
+  {
+    "value": 94,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "setno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "course": 3730
+    },
+    "trw": {
+      "once": 5524
+    },
+    "special": "none"
+  },
+  {
+    "value": 95,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "asetno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "because": 9879
+    },
+    "trw": {
+      "understand": 2238
+    },
+    "special": "none"
+  },
+  {
+    "value": 96,
+    "input": [
+      6,
+      7
+    ],
+    "keys": "io",
+    "base": "l",
+    "baseshift": "L",
+    "tlp": {},
+    "trp": {
+      "ll": 183975
+    },
+    "tlw": {},
+    "trw": {
+      "oil": 657
+    },
+    "special": "none"
+  },
+  {
+    "value": 97,
+    "input": [
+      1,
+      6,
+      7
+    ],
+    "keys": "aio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "al": 228009
+    },
+    "trp": {
+      "la": 103279
+    },
+    "tlw": {
+      "all": 30772
+    },
+    "trw": {
+      "la": 689
+    },
+    "special": "none"
+  },
+  {
+    "value": 98,
+    "input": [
+      2,
+      6,
+      7
+    ],
+    "keys": "sio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sio": 15825
+    },
+    "trp": {
+      "ok": 35246
+    },
+    "tlw": {
+      "skills": 834
+    },
+    "trw": {
+      "look": 5477
+    },
+    "special": "none"
+  },
+  {
+    "value": 99,
+    "input": [
+      1,
+      2,
+      6,
+      7
+    ],
+    "keys": "asio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "wil": 18445
+    },
+    "trp": {
+      "low": 16681
+    },
+    "tlw": {
+      "will": 14271
+    },
+    "trw": {
+      "low": 1274
+    },
+    "special": "none"
+  },
+  {
+    "value": 100,
+    "input": [
+      3,
+      6,
+      7
+    ],
+    "keys": "eio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "el": 142952
+    },
+    "trp": {
+      "le": 213808
+    },
+    "tlw": {
+      "el": 99
+    },
+    "trw": {
+      "lie": 725
+    },
+    "special": "none"
+  },
+  {
+    "value": 101,
+    "input": [
+      1,
+      3,
+      6,
+      7
+    ],
+    "keys": "aeio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eal": 18892
+    },
+    "trp": {
+      "lea": 26849
+    },
+    "tlw": {
+      "alex": 152
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 102,
+    "input": [
+      2,
+      3,
+      6,
+      7
+    ],
+    "keys": "seio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sel": 25483
+    },
+    "trp": {
+      "ld": 104617
+    },
+    "tlw": {
+      "else": 2789
+    },
+    "trw": {
+      "like": 19390
+    },
+    "special": "none"
+  },
+  {
+    "value": 103,
+    "input": [
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "keys": "aseio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "well": 8952
+    },
+    "trw": {
+      "lead": 1050
+    },
+    "special": "none"
+  },
+  {
+    "value": 104,
+    "input": [
+      4,
+      6,
+      7
+    ],
+    "keys": "tio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tio": 72429
+    },
+    "trp": {
+      "ig": 72061
+    },
+    "tlw": {
+      "till": 1036
+    },
+    "trw": {
+      "lot": 2713
+    },
+    "special": "none"
+  },
+  {
+    "value": 105,
+    "input": [
+      1,
+      4,
+      6,
+      7
+    ],
+    "keys": "atio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "atio": 33167
+    },
+    "trp": {
+      "lf": 21773
+    },
+    "tlw": {
+      "fall": 1195
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 106,
+    "input": [
+      2,
+      4,
+      6,
+      7
+    ],
+    "keys": "stio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cl": 31724
+    },
+    "trp": {
+      "lic": 9087
+    },
+    "tlw": {
+      "still": 7621
+    },
+    "trw": {
+      "lost": 2029
+    },
+    "special": "none"
+  },
+  {
+    "value": 107,
+    "input": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "keys": "astio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "call": 2856
+    },
+    "trw": {
+      "last": 4981
+    },
+    "special": "none"
+  },
+  {
+    "value": 108,
+    "input": [
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "etio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rl": 25465
+    },
+    "trp": {
+      "ove": 39462
+    },
+    "tlw": {
+      "tell": 4528
+    },
+    "trw": {
+      "over": 12910
+    },
+    "special": "none"
+  },
+  {
+    "value": 109,
+    "input": [
+      1,
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "aetio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "felt": 4669
+    },
+    "trw": {
+      "life": 8740
+    },
+    "special": "none"
+  },
+  {
+    "value": 110,
+    "input": [
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "setio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "told": 5605
+    },
+    "trw": {
+      "lives": 1641
+    },
+    "special": "none"
+  },
+  {
+    "value": 111,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "asetio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "work": 8749
+    },
+    "trw": {
+      "least": 2856
+    },
+    "special": "none"
+  },
+  {
+    "value": 112,
+    "input": [
+      5,
+      6,
+      7
+    ],
+    "keys": "nio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "ho": 160810
+    },
+    "tlw": {},
+    "trw": {
+      "oh": 2847
+    },
+    "special": "none"
+  },
+  {
+    "value": 113,
+    "input": [
+      1,
+      5,
+      6,
+      7
+    ],
+    "keys": "anio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "qui": 11723
+    },
+    "trp": {
+      "lan": 16797
+    },
+    "tlw": {
+      "annual": 207
+    },
+    "trw": {
+      "hall": 950
+    },
+    "special": "none"
+  },
+  {
+    "value": 114,
+    "input": [
+      2,
+      5,
+      6,
+      7
+    ],
+    "keys": "snio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sho": 24544
+    },
+    "trp": {
+      "kno": 19117
+    },
+    "tlw": {
+      "soul": 950
+    },
+    "trw": {
+      "john": 1863
+    },
+    "special": "none"
+  },
+  {
+    "value": 115,
+    "input": [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    "keys": "asnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "who": 23669
+    },
+    "trw": {
+      "how": 14162
+    },
+    "special": "none"
+  },
+  {
+    "value": 116,
+    "input": [
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "enio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ely": 17170
+    },
+    "trp": {
+      "ly": 122921
+    },
+    "tlw": {},
+    "trw": {
+      "only": 13824
+    },
+    "special": "none"
+  },
+  {
+    "value": 117,
+    "input": [
+      1,
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "aenio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "alone": 2184
+    },
+    "trw": {
+      "lay": 1482
+    },
+    "special": "none"
+  },
+  {
+    "value": 118,
+    "input": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "senio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "should": 7178
+    },
+    "trw": {
+      "house": 4935
+    },
+    "special": "none"
+  },
+  {
+    "value": 119,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "asenio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "would": 27522
+    },
+    "trw": {
+      "usually": 1445
+    },
+    "special": "none"
+  },
+  {
+    "value": 120,
+    "input": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "tnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "gh": 90668
+    },
+    "trp": {
+      "ing": 245303
+    },
+    "tlw": {
+      "thought": 7112
+    },
+    "trw": {
+      "into": 18343
+    },
+    "special": "none"
+  },
+  {
+    "value": 121,
+    "input": [
+      1,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "atnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "again": 7165
+    },
+    "trw": {
+      "having": 3594
+    },
+    "special": "none"
+  },
+  {
+    "value": 122,
+    "input": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "stnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "such": 8032
+    },
+    "trw": {
+      "looking": 3174
+    },
+    "special": "none"
+  },
+  {
+    "value": 123,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "astnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "without": 5841
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 124,
+    "input": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "etnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "through": 8798
+    },
+    "trw": {
+      "other": 13909
+    },
+    "special": "none"
+  },
+  {
+    "value": 125,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "aetnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "another": 6638
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 126,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "setnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "could": 18061
+    },
+    "trw": {
+      "others": 3864
+    },
+    "special": "none"
+  },
+  {
+    "value": 127,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "asetnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "already": 3329
+    },
+    "trw": {
+      "however": 3319
+    },
+    "special": "none"
+  },
+  {
+    "value": 128,
+    "input": [
+      8
+    ],
+    "keys": "p",
+    "base": "p",
+    "baseshift": "P",
+    "tlp": {},
+    "trp": {
+      "pp": 37015
+    },
+    "tlw": {},
+    "trw": {
+      "p": 765
+    },
+    "special": "none"
+  },
+  {
+    "value": 129,
+    "input": [
+      1,
+      8
+    ],
+    "keys": "ap",
+    "base": "?",
+    "baseshift": "/",
+    "tlp": {
+      "ap": 46764
+    },
+    "trp": {
+      "pa": 72065
+    },
+    "tlw": {},
+    "trw": {
+      "pa": 273
+    },
+    "special": "none"
+  },
+  {
+    "value": 130,
+    "input": [
+      2,
+      8
+    ],
+    "keys": "sp",
+    "base": ")",
+    "baseshift": "]",
+    "tlp": {
+      "sp": 40374
+    },
+    "trp": {
+      "ps": 13734
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 131,
+    "input": [
+      1,
+      2,
+      8
+    ],
+    "keys": "asp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spa": 3930
+    },
+    "trp": {
+      "pas": 8500
+    },
+    "tlw": {
+      "sap": 81
+    },
+    "trw": {
+      "pass": 1068
+    },
+    "special": "none"
+  },
+  {
+    "value": 132,
+    "input": [
+      3,
+      8
+    ],
+    "keys": "ep",
+    "base": "'",
+    "baseshift": "\"",
+    "tlp": {
+      "ep": 39298
+    },
+    "trp": {
+      "pe": 115056
+    },
+    "tlw": {},
+    "trw": {
+      "'": 14271
+    },
+    "special": "none"
+  },
+  {
+    "value": 133,
+    "input": [
+      1,
+      3,
+      8
+    ],
+    "keys": "aep",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "xp": 16071
+    },
+    "trp": {
+      "pea": 10889
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 134,
+    "input": [
+      2,
+      3,
+      8
+    ],
+    "keys": "sep",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spe": 18659
+    },
+    "trp": {
+      "'s": 36866
+    },
+    "tlw": {
+      "deep": 1465
+    },
+    "trw": {
+      "'s": 213
+    },
+    "special": "none"
+  },
+  {
+    "value": 135,
+    "input": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "keys": "asep",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "we'": 3765
+    },
+    "trp": {
+      "'w": 281
+    },
+    "tlw": {
+      "we'd": 695
+    },
+    "trw": {
+      "passed": 1693
+    },
+    "special": "none"
+  },
+  {
+    "value": 136,
+    "input": [
+      4,
+      8
+    ],
+    "keys": "tp",
+    "tlp": {
+      "tp": 256
+    },
+    "trp": {
+      "pt": 19963
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 137,
+    "input": [
+      1,
+      4,
+      8
+    ],
+    "keys": "atp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "apt": 4201
+    },
+    "trp": {
+      "pat": 6411
+    },
+    "tlw": {
+      "tap": 153
+    },
+    "trw": {
+      "pat": 193
+    },
+    "special": "none"
+  },
+  {
+    "value": 138,
+    "input": [
+      2,
+      4,
+      8
+    ],
+    "keys": "stp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "pts": 388
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 139,
+    "input": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "keys": "astp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cap": 5240
+    },
+    "trp": {
+      "pac": 3604
+    },
+    "tlw": {
+      "cap": 258
+    },
+    "trw": {
+      "past": 2353
+    },
+    "special": "none"
+  },
+  {
+    "value": 140,
+    "input": [
+      3,
+      4,
+      8
+    ],
+    "keys": "etp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "t'": 15643
+    },
+    "trp": {
+      "pr": 76723
+    },
+    "tlw": {},
+    "trw": {
+      "per": 611
+    },
+    "special": "none"
+  },
+  {
+    "value": 141,
+    "input": [
+      1,
+      3,
+      4,
+      8
+    ],
+    "keys": "aetp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "at'": 5623
+    },
+    "trp": {
+      "par": 26731
+    },
+    "tlw": {
+      "appear": 816
+    },
+    "trw": {
+      "part": 4589
+    },
+    "special": "none"
+  },
+  {
+    "value": 142,
+    "input": [
+      2,
+      3,
+      4,
+      8
+    ],
+    "keys": "setp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "t's": 15472
+    },
+    "trp": {
+      "pres": 13007
+    },
+    "tlw": {
+      "step": 1154
+    },
+    "trw": {
+      "press": 708
+    },
+    "special": "none"
+  },
+  {
+    "value": 143,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    "keys": "asetp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "we're": 1513
+    },
+    "trw": {
+      "perfect": 1065
+    },
+    "special": "none"
+  },
+  {
+    "value": 144,
+    "input": [
+      5,
+      8
+    ],
+    "keys": "np",
+    "base": "m",
+    "baseshift": "M",
+    "tlp": {},
+    "trp": {
+      "mp": 43386
+    },
+    "tlw": {},
+    "trw": {
+      "m": 1273
+    },
+    "special": "none"
+  },
+  {
+    "value": 145,
+    "input": [
+      1,
+      5,
+      8
+    ],
+    "keys": "anp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "am": 72035
+    },
+    "trp": {
+      "ma": 137500
+    },
+    "tlw": {
+      "am": 4235
+    },
+    "trw": {
+      "man": 9572
+    },
+    "special": "none"
+  },
+  {
+    "value": 146,
+    "input": [
+      2,
+      5,
+      8
+    ],
+    "keys": "snp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sm": 13242
+    },
+    "trp": {
+      "ms": 20491
+    },
+    "tlw": {},
+    "trw": {
+      "ms": 185
+    },
+    "special": "none"
+  },
+  {
+    "value": 147,
+    "input": [
+      1,
+      2,
+      5,
+      8
+    ],
+    "keys": "asnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sam": 7005
+    },
+    "trp": {
+      "mas": 4399
+    },
+    "tlw": {
+      "sam": 133
+    },
+    "trw": {
+      "mass": 521
+    },
+    "special": "none"
+  },
+  {
+    "value": 148,
+    "input": [
+      3,
+      5,
+      8
+    ],
+    "keys": "enp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "em": 87362
+    },
+    "trp": {
+      "me": 235102
+    },
+    "tlw": {
+      "enemy": 1028
+    },
+    "trw": {
+      "my": 40423
+    },
+    "special": "none"
+  },
+  {
+    "value": 149,
+    "input": [
+      1,
+      3,
+      5,
+      8
+    ],
+    "keys": "aenp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ame": 34012
+    },
+    "trp": {
+      "may": 9648
+    },
+    "tlw": {
+      "an'": 417
+    },
+    "trw": {
+      "many": 8068
+    },
+    "special": "none"
+  },
+  {
+    "value": 150,
+    "input": [
+      2,
+      3,
+      5,
+      8
+    ],
+    "keys": "senp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "dn'": 13235
+    },
+    "trp": {
+      "med": 15366
+    },
+    "tlw": {
+      "seemed": 4232
+    },
+    "trw": {
+      "jem": 320
+    },
+    "special": "none"
+  },
+  {
+    "value": 151,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    "keys": "asenp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "same": 6718
+    },
+    "trw": {
+      "made": 9696
+    },
+    "special": "none"
+  },
+  {
+    "value": 152,
+    "input": [
+      4,
+      5,
+      8
+    ],
+    "keys": "tnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tm": 4765
+    },
+    "trp": {
+      "mb": 19208
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 153,
+    "input": [
+      1,
+      4,
+      5,
+      8
+    ],
+    "keys": "atnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "fam": 7099
+    },
+    "trp": {
+      "mat": 11909
+    },
+    "tlw": {},
+    "trw": {
+      "mba": 123
+    },
+    "special": "none"
+  },
+  {
+    "value": 154,
+    "input": [
+      2,
+      4,
+      5,
+      8
+    ],
+    "keys": "stnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "stm": 1138
+    },
+    "trp": {
+      "mst": 943
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 155,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      8
+    ],
+    "keys": "astnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "camp": 660
+    },
+    "trw": {
+      "pants": 299
+    },
+    "special": "none"
+  },
+  {
+    "value": 156,
+    "input": [
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "etnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rm": 33028
+    },
+    "trp": {
+      "n't": 37419
+    },
+    "tlw": {
+      "remember": 2277
+    },
+    "trw": {
+      "mr": 4133
+    },
+    "special": "none"
+  },
+  {
+    "value": 157,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "aetnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "army": 2073
+    },
+    "trw": {
+      "matter": 2479
+    },
+    "special": "none"
+  },
+  {
+    "value": 158,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "setnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "spent": 1640
+    },
+    "trw": {
+      "mrs": 2541
+    },
+    "special": "none"
+  },
+  {
+    "value": 159,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "asetnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "came": 6889
+    },
+    "trw": {
+      "parents": 2027
+    },
+    "special": "none"
+  },
+  {
+    "value": 160,
+    "input": [
+      6,
+      8
+    ],
+    "keys": "ip",
+    "base": "!",
+    "baseshift": "!",
+    "tlp": {},
+    "trp": {
+      "pi": 28303
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 161,
+    "input": [
+      1,
+      6,
+      8
+    ],
+    "keys": "aip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "appi": 2174
+    },
+    "trp": {
+      "pai": 6465
+    },
+    "tlw": {},
+    "trw": {
+      "pizza": 143
+    },
+    "special": "none"
+  },
+  {
+    "value": 162,
+    "input": [
+      2,
+      6,
+      8
+    ],
+    "keys": "sip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spi": 5949
+    },
+    "trp": {
+      "ips": 2652
+    },
+    "tlw": {
+      "sip": 104
+    },
+    "trw": {
+      "piss": 63
+    },
+    "special": "none"
+  },
+  {
+    "value": 163,
+    "input": [
+      1,
+      2,
+      6,
+      8
+    ],
+    "keys": "asip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spai": 637
+    },
+    "trp": {
+      "isap": 1148
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 164,
+    "input": [
+      3,
+      6,
+      8
+    ],
+    "keys": "eip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "epi": 1744
+    },
+    "trp": {
+      "i'": 14185
+    },
+    "tlw": {},
+    "trw": {
+      "'i": 461
+    },
+    "special": "none"
+  },
+  {
+    "value": 165,
+    "input": [
+      1,
+      3,
+      6,
+      8
+    ],
+    "keys": "aeip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "epai": 321
+    },
+    "trp": {
+      "iz'": 67
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 166,
+    "input": [
+      2,
+      3,
+      6,
+      8
+    ],
+    "keys": "seip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "disp": 1152
+    },
+    "trp": {
+      "keep": 4608
+    },
+    "tlw": {
+      "spies": 180
+    },
+    "trw": {
+      "keep": 3496
+    },
+    "special": "none"
+  },
+  {
+    "value": 167,
+    "input": [
+      1,
+      2,
+      3,
+      6,
+      8
+    ],
+    "keys": "aseip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "speak": 1583
+    },
+    "trw": {
+      "paid": 1096
+    },
+    "special": "none"
+  },
+  {
+    "value": 168,
+    "input": [
+      4,
+      6,
+      8
+    ],
+    "keys": "tip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tip": 610
+    },
+    "trp": {
+      "pti": 3889
+    },
+    "tlw": {
+      "tip": 221
+    },
+    "trw": {
+      "pit": 127
+    },
+    "special": "none"
+  },
+  {
+    "value": 169,
+    "input": [
+      1,
+      4,
+      6,
+      8
+    ],
+    "keys": "atip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "apit": 605
+    },
+    "trp": {
+      "pati": 1779
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 170,
+    "input": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "keys": "stip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cip": 2669
+    },
+    "trp": {
+      "pic": 5474
+    },
+    "tlw": {
+      "tips": 128
+    },
+    "trw": {
+      "pick": 801
+    },
+    "special": "none"
+  },
+  {
+    "value": 171,
+    "input": [
+      1,
+      2,
+      4,
+      6,
+      8
+    ],
+    "keys": "astip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {
+      "pack": 385
+    },
+    "special": "none"
+  },
+  {
+    "value": 172,
+    "input": [
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "etip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rip": 2627
+    },
+    "trp": {
+      "pri": 13942
+    },
+    "tlw": {
+      "trip": 647
+    },
+    "trw": {
+      "i've": 2219
+    },
+    "special": "none"
+  },
+  {
+    "value": 173,
+    "input": [
+      1,
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "aetip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "repair": 185
+    },
+    "trw": {
+      "private": 1010
+    },
+    "special": "none"
+  },
+  {
+    "value": 174,
+    "input": [
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "setip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "despite": 946
+    },
+    "trw": {
+      "it's": 8558
+    },
+    "special": "none"
+  },
+  {
+    "value": 175,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "asetip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "we've": 750
+    },
+    "trw": {
+      "paris": 1353
+    },
+    "special": "none"
+  },
+  {
+    "value": 176,
+    "input": [
+      5,
+      6,
+      8
+    ],
+    "keys": "nip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "im": 93559
+    },
+    "tlw": {},
+    "trw": {
+      "him": 28423
+    },
+    "special": "none"
+  },
+  {
+    "value": 177,
+    "input": [
+      1,
+      5,
+      6,
+      8
+    ],
+    "keys": "anip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ami": 8211
+    },
+    "trp": {
+      "hap": 14305
+    },
+    "tlw": {
+      "aim": 231
+    },
+    "trw": {
+      "pain": 1250
+    },
+    "special": "none"
+  },
+  {
+    "value": 178,
+    "input": [
+      2,
+      5,
+      6,
+      8
+    ],
+    "keys": "snip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ship": 5146
+    },
+    "trp": {
+      "mis": 8985
+    },
+    "tlw": {
+      "ship": 877
+    },
+    "trw": {
+      "miss": 1642
+    },
+    "special": "none"
+  },
+  {
+    "value": 179,
+    "input": [
+      1,
+      2,
+      5,
+      6,
+      8
+    ],
+    "keys": "asnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "spanish": 469
+    },
+    "trw": {
+      "mask": 160
+    },
+    "special": "none"
+  },
+  {
+    "value": 180,
+    "input": [
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "enip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "emi": 2800
+    },
+    "trp": {
+      "ime": 28758
+    },
+    "tlw": {},
+    "trw": {
+      "i'm": 6537
+    },
+    "special": "none"
+  },
+  {
+    "value": 181,
+    "input": [
+      1,
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "aenip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "examine": 179
+    },
+    "trw": {
+      "happy": 1895
+    },
+    "special": "none"
+  },
+  {
+    "value": 182,
+    "input": [
+      2,
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "senip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "she'd": 1495
+    },
+    "trw": {
+      "mind": 4439
+    },
+    "special": "none"
+  },
+  {
+    "value": 183,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "asenip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "shame": 796
+    },
+    "trw": {
+      "make": 9390
+    },
+    "special": "none"
+  },
+  {
+    "value": 184,
+    "input": [
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "tnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tim": 28120
+    },
+    "trp": {
+      "mit": 4914
+    },
+    "tlw": {
+      "tim": 128
+    },
+    "trw": {
+      "ibm": 109
+    },
+    "special": "none"
+  },
+  {
+    "value": 185,
+    "input": [
+      1,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "atnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {
+      "path": 946
+    },
+    "special": "none"
+  },
+  {
+    "value": 186,
+    "input": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "stnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "smith": 320
+    },
+    "trw": {
+      "pitch": 164
+    },
+    "special": "none"
+  },
+  {
+    "value": 187,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "astnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "captain": 1078
+    },
+    "trw": {
+      "match": 450
+    },
+    "special": "none"
+  },
+  {
+    "value": 188,
+    "input": [
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "etnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "them": 21593
+    },
+    "trw": {
+      "prevent": 380
+    },
+    "special": "none"
+  },
+  {
+    "value": 189,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "aetnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "remain": 740
+    },
+    "trw": {
+      "haven't": 641
+    },
+    "special": "none"
+  },
+  {
+    "value": 190,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "setnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "didn't": 7051
+    },
+    "trw": {
+      "isn't": 1565
+    },
+    "special": "none"
+  },
+  {
+    "value": 191,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "asetnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "that's": 4282
+    },
+    "trw": {
+      "perhaps": 2737
+    },
+    "special": "none"
+  },
+  {
+    "value": 192,
+    "input": [
+      7,
+      8
+    ],
+    "keys": "op",
+    "base": ";",
+    "baseshift": ":",
+    "tlp": {},
+    "trp": {
+      "po": 68607
+    },
+    "tlw": {},
+    "trw": {
+      "pop": 223
+    },
+    "special": "none"
+  },
+  {
+    "value": 193,
+    "input": [
+      1,
+      7,
+      8
+    ],
+    "keys": "aop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "apo": 1508
+    },
+    "trp": {
+      "opa": 186
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 194,
+    "input": [
+      2,
+      7,
+      8
+    ],
+    "keys": "sop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spo": 7683
+    },
+    "trp": {
+      "pos": 16560
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 195,
+    "input": [
+      1,
+      2,
+      7,
+      8
+    ],
+    "keys": "asop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "soap": 132
+    },
+    "trp": {
+      "pow": 4845
+    },
+    "tlw": {
+      "soap": 132
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 196,
+    "input": [
+      3,
+      7,
+      8
+    ],
+    "keys": "eop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eop": 15223
+    },
+    "trp": {
+      "peo": 15223
+    },
+    "tlw": {},
+    "trw": {
+      "pope": 239
+    },
+    "special": "none"
+  },
+  {
+    "value": 197,
+    "input": [
+      1,
+      3,
+      7,
+      8
+    ],
+    "keys": "aeop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eapo": 649
+    },
+    "trp": {
+      "opea": 428
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 198,
+    "input": [
+      2,
+      3,
+      7,
+      8
+    ],
+    "keys": "seop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "espo": 3005
+    },
+    "trp": {
+      "pose": 4757
+    },
+    "tlw": {},
+    "trw": {
+      "possessed": 333
+    },
+    "special": "none"
+  },
+  {
+    "value": 199,
+    "input": [
+      1,
+      2,
+      3,
+      7,
+      8
+    ],
+    "keys": "aseop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "exposed": 267
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 200,
+    "input": [
+      4,
+      7,
+      8
+    ],
+    "keys": "top",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "top": 6183
+    },
+    "trp": {
+      "pot": 2394
+    },
+    "tlw": {
+      "top": 1822
+    },
+    "trw": {
+      "pot": 221
+    },
+    "special": "none"
+  },
+  {
+    "value": 201,
+    "input": [
+      1,
+      4,
+      7,
+      8
+    ],
+    "keys": "atop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "gap": 376
+    },
+    "trp": {
+      "pag": 1322
+    },
+    "tlw": {
+      "gap": 204
+    },
+    "trw": {
+      "potato": 74
+    },
+    "special": "none"
+  },
+  {
+    "value": 202,
+    "input": [
+      2,
+      4,
+      7,
+      8
+    ],
+    "keys": "stop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "stop": 3680
+    },
+    "trp": {
+      "post": 1282
+    },
+    "tlw": {
+      "stop": 1798
+    },
+    "trw": {
+      "post": 644
+    },
+    "special": "none"
+  },
+  {
+    "value": 203,
+    "input": [
+      1,
+      2,
+      4,
+      7,
+      8
+    ],
+    "keys": "astop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "gaps": 71
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 204,
+    "input": [
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "etop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rop": 6404
+    },
+    "trp": {
+      "pro": 33640
+    },
+    "tlw": {
+      "report": 778
+    },
+    "trw": {
+      "poor": 1596
+    },
+    "special": "none"
+  },
+  {
+    "value": 205,
+    "input": [
+      1,
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "aetop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "rapport": 98
+    },
+    "trw": {
+      "page": 587
+    },
+    "special": "none"
+  },
+  {
+    "value": 206,
+    "input": [
+      2,
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "setop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "stopped": 1419
+    },
+    "trw": {
+      "process": 1455
+    },
+    "special": "none"
+  },
+  {
+    "value": 207,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "asetop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "corporate": 363
+    },
+    "trw": {
+      "power": 3130
+    },
+    "special": "none"
+  },
+  {
+    "value": 208,
+    "input": [
+      5,
+      7,
+      8
+    ],
+    "keys": "nop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "om": 158331
+    },
+    "tlw": {},
+    "trw": {
+      "up": 23594
+    },
+    "special": "none"
+  },
+  {
+    "value": 209,
+    "input": [
+      1,
+      5,
+      7,
+      8
+    ],
+    "keys": "anop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "amo": 4702
+    },
+    "trp": {
+      "oma": 6690
+    },
+    "tlw": {},
+    "trw": {
+      "mao": 108
+    },
+    "special": "none"
+  },
+  {
+    "value": 210,
+    "input": [
+      2,
+      5,
+      7,
+      8
+    ],
+    "keys": "snop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "som": 32033
+    },
+    "trp": {
+      "mos": 15768
+    },
+    "tlw": {
+      "sum": 220
+    },
+    "trw": {
+      "jump": 350
+    },
+    "special": "none"
+  },
+  {
+    "value": 211,
+    "input": [
+      1,
+      2,
+      5,
+      7,
+      8
+    ],
+    "keys": "asnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "woman": 3590
+    },
+    "trw": {
+      "mason": 79
+    },
+    "special": "none"
+  },
+  {
+    "value": 212,
+    "input": [
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "enop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "emo": 6070
+    },
+    "trp": {
+      "ome": 63421
+    },
+    "tlw": {},
+    "trw": {
+      "money": 3556
+    },
+    "special": "none"
+  },
+  {
+    "value": 213,
+    "input": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "aenop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 214,
+    "input": [
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "senop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "some": 15162
+    },
+    "trw": {
+      "opened": 1401
+    },
+    "special": "none"
+  },
+  {
+    "value": 215,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "asenop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "women": 3612
+    },
+    "trw": {
+      "paused": 403
+    },
+    "special": "none"
+  },
+  {
+    "value": 216,
+    "input": [
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "tnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tom": 5301
+    },
+    "trp": {
+      "mot": 10460
+    },
+    "tlw": {
+      "tom": 762
+    },
+    "trw": {
+      "put": 5210
+    },
+    "special": "none"
+  },
+  {
+    "value": 217,
+    "input": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "atnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "among": 2526
+    },
+    "trw": {
+      "obama": 363
+    },
+    "special": "none"
+  },
+  {
+    "value": 218,
+    "input": [
+      2,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "stnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "common": 1407
+    },
+    "trw": {
+      "most": 10396
+    },
+    "special": "none"
+  },
+  {
+    "value": 219,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "astnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "famous": 816
+    },
+    "trw": {
+      "moscow": 341
+    },
+    "special": "none"
+  },
+  {
+    "value": 220,
+    "input": [
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "etnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "room": 5055
+    },
+    "trw": {
+      "more": 21171
+    },
+    "special": "none"
+  },
+  {
+    "value": 221,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "aetnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "from": 35952
+    },
+    "trw": {
+      "program": 634
+    },
+    "special": "none"
+  },
+  {
+    "value": 222,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "setnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "don't": 9569
+    },
+    "trw": {
+      "person": 3411
+    },
+    "special": "none"
+  },
+  {
+    "value": 223,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "asetnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "company": 2711
+    },
+    "trw": {
+      "major": 1113
+    },
+    "special": "none"
+  },
+  {
+    "value": 224,
+    "input": [
+      6,
+      7,
+      8
+    ],
+    "keys": "iop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "pl": 68379
+    },
+    "tlw": {},
+    "trw": {
+      "pool": 330
+    },
+    "special": "none"
+  },
+  {
+    "value": 225,
+    "input": [
+      1,
+      6,
+      7,
+      8
+    ],
+    "keys": "aiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "appl": 2216
+    },
+    "trp": {
+      "pla": 24558
+    },
+    "tlw": {
+      "apollo": 82
+    },
+    "trw": {
+      "lap": 242
+    },
+    "special": "none"
+  },
+  {
+    "value": 226,
+    "input": [
+      2,
+      6,
+      7,
+      8
+    ],
+    "keys": "siop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spok": 1763
+    },
+    "trp": {
+      "posi": 4502
+    },
+    "tlw": {
+      "slip": 260
+    },
+    "trw": {
+      "lips": 930
+    },
+    "special": "none"
+  },
+  {
+    "value": 227,
+    "input": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "keys": "asiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "slap": 95
+    },
+    "trw": {
+      "pillow": 134
+    },
+    "special": "none"
+  },
+  {
+    "value": 228,
+    "input": [
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "eiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eopl": 15223
+    },
+    "trp": {
+      "ple": 30676
+    },
+    "tlw": {},
+    "trw": {
+      "people": 14668
+    },
+    "special": "none"
+  },
+  {
+    "value": 229,
+    "input": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "aeiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "apple": 631
+    },
+    "trw": {
+      "pale": 447
+    },
+    "special": "none"
+  },
+  {
+    "value": 230,
+    "input": [
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "seiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "spoke": 1285
+    },
+    "trw": {
+      "people's": 449
+    },
+    "special": "none"
+  },
+  {
+    "value": 231,
+    "input": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "aseiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "we'll": 807
+    },
+    "trw": {
+      "please": 985
+    },
+    "special": "none"
+  },
+  {
+    "value": 232,
+    "input": [
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "tiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "topi": 337
+    },
+    "trp": {
+      "ptio": 2778
+    },
+    "tlw": {},
+    "trw": {
+      "pilot": 266
+    },
+    "special": "none"
+  },
+  {
+    "value": 233,
+    "input": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "atiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "flip": 108
+    },
+    "trw": {
+      "plato": 120
+    },
+    "special": "none"
+  },
+  {
+    "value": 234,
+    "input": [
+      2,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "stiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "split": 254
+    },
+    "trw": {
+      "politics": 443
+    },
+    "special": "none"
+  },
+  {
+    "value": 235,
+    "input": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "astiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "capital": 544
+    },
+    "trw": {
+      "political": 1085
+    },
+    "special": "none"
+  },
+  {
+    "value": 236,
+    "input": [
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "etiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "grip": 165
+    },
+    "trw": {
+      "prove": 546
+    },
+    "special": "none"
+  },
+  {
+    "value": 237,
+    "input": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "aetiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "april": 549
+    },
+    "trw": {
+      "plate": 447
+    },
+    "special": "none"
+  },
+  {
+    "value": 238,
+    "input": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "setiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "replied": 1257
+    },
+    "trw": {
+      "police": 1092
+    },
+    "special": "none"
+  },
+  {
+    "value": 239,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "asetiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "special": 1059
+    },
+    "trw": {
+      "place": 5268
+    },
+    "special": "none"
+  },
+  {
+    "value": 240,
+    "input": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "niop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "mil": 16287
+    },
+    "tlw": {},
+    "trw": {
+      "million": 900
+    },
+    "special": "none"
+  },
+  {
+    "value": 241,
+    "input": [
+      1,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "animal": 491
+    },
+    "trw": {
+      "human": 2178
+    },
+    "special": "none"
+  },
+  {
+    "value": 242,
+    "input": [
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "sniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "shop": 667
+    },
+    "trw": {
+      "mission": 568
+    },
+    "special": "none"
+  },
+  {
+    "value": 243,
+    "input": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "asniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "small": 3786
+    },
+    "trw": {
+      "plans": 687
+    },
+    "special": "none"
+  },
+  {
+    "value": 244,
+    "input": [
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "eniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "employee": 275
+    },
+    "trw": {
+      "home": 4865
+    },
+    "special": "none"
+  },
+  {
+    "value": 245,
+    "input": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aeniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "example": 1694
+    },
+    "trw": {
+      "play": 1696
+    },
+    "special": "none"
+  },
+  {
+    "value": 246,
+    "input": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "seniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "simply": 1710
+    },
+    "trw": {
+      "pulled": 1252
+    },
+    "special": "none"
+  },
+  {
+    "value": 247,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aseniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "explained": 950
+    },
+    "trw": {
+      "played": 975
+    },
+    "special": "none"
+  },
+  {
+    "value": 248,
+    "input": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "tniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {
+      "might": 6921
+    },
+    "special": "none"
+  },
+  {
+    "value": 249,
+    "input": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "atniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "film": 366
+    },
+    "trw": {
+      "imagination": 438
+    },
+    "special": "none"
+  },
+  {
+    "value": 250,
+    "input": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "stniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "coming": 1985
+    },
+    "trw": {
+      "much": 10233
+    },
+    "special": "none"
+  },
+  {
+    "value": 251,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "astniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "almost": 3784
+    },
+    "trw": {
+      "making": 2931
+    },
+    "special": "none"
+  },
+  {
+    "value": 252,
+    "input": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "etniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "government": 1285
+    },
+    "trw": {
+      "mother": 4253
+    },
+    "special": "none"
+  },
+  {
+    "value": 253,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aetniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "family": 3955
+    },
+    "trw": {
+      "important": 2765
+    },
+    "special": "none"
+  },
+  {
+    "value": 254,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "setniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "something": 7615
+    },
+    "trw": {
+      "possible": 2350
+    },
+    "special": "none"
+  },
+  {
+    "value": 255,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "asetniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "especially": 1737
+    },
+    "trw": {
+      "himself": 5632
+    },
+    "special": "none"
+  }
+]

@@ -1,0 +1,5730 @@
+[
+  {
+    "value": 0,
+    "notes": [
+      "Developer : Zack Dennis (zack@asetniop.com)",
+      "Date : 12/12/2014",
+      "All code (c) 2014 Pointesa, LLC all rights reserved",
+      "Abbreviations :    ",
+      "tlp = top left partial",
+      "lp = left partials",
+      "trp = top right partial",
+      "rp = right partials",
+      "tlw = top left word",
+      "lw = left words",
+      "trw = top right word",
+      "rw = right words"
+    ]
+  },
+  {
+    "value": 1,
+    "input": [
+      1
+    ],
+    "keys": "a",
+    "base": "a",
+    "baseshift": "A",
+    "tlp": {
+      "aa": 76
+    },
+    "trp": {},
+    "tlw": {
+      "a": 134646
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 2,
+    "input": [
+      2
+    ],
+    "keys": "s",
+    "base": "s",
+    "baseshift": "S",
+    "tlp": {
+      "ss": 181781
+    },
+    "trp": {},
+    "tlw": {
+      "s": 689
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 3,
+    "input": [
+      1,
+      2
+    ],
+    "keys": "as",
+    "base": "w",
+    "baseshift": "W",
+    "tlp": {
+      "sa": 147177
+    },
+    "trp": {},
+    "tlw": {
+      "sa": 4372
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 4,
+    "input": [
+      3
+    ],
+    "keys": "e",
+    "base": "e",
+    "baseshift": "E",
+    "tlp": {
+      "ee": 2590
+    },
+    "trp": {},
+    "tlw": {
+      "e": 285768
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 5,
+    "input": [
+      1,
+      3
+    ],
+    "keys": "ae",
+    "base": "x",
+    "baseshift": "X",
+    "tlp": {
+      "ea": 16928
+    },
+    "trp": {},
+    "tlw": {
+      "ex": 571
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 6,
+    "input": [
+      2,
+      3
+    ],
+    "keys": "se",
+    "base": "d",
+    "baseshift": "D",
+    "tlp": {
+      "de": 299367
+    },
+    "trp": {},
+    "tlw": {
+      "se": 42825
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 7,
+    "input": [
+      1,
+      2,
+      3
+    ],
+    "keys": "ase",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "da": 161213
+    },
+    "trp": {},
+    "tlw": {
+      "da": 50742
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 8,
+    "input": [
+      4
+    ],
+    "keys": "t",
+    "base": "t",
+    "baseshift": "T",
+    "tlp": {
+      "tt": 206553
+    },
+    "trp": {},
+    "tlw": {
+      "t": 2430
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 9,
+    "input": [
+      1,
+      4
+    ],
+    "keys": "at",
+    "base": "f",
+    "baseshift": "F",
+    "tlp": {
+      "ta": 338700
+    },
+    "trp": {},
+    "tlw": {
+      "fa": 5357
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 10,
+    "input": [
+      2,
+      4
+    ],
+    "keys": "st",
+    "base": "c",
+    "baseshift": "C",
+    "tlp": {
+      "st": 249453
+    },
+    "trp": {},
+    "tlw": {
+      "c": 1986
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 11,
+    "input": [
+      1,
+      2,
+      4
+    ],
+    "keys": "ast",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ca": 149612
+    },
+    "trp": {},
+    "tlw": {
+      "casa": 7589
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 12,
+    "input": [
+      3,
+      4
+    ],
+    "keys": "et",
+    "base": "r",
+    "baseshift": "R",
+    "tlp": {
+      "er": 504768
+    },
+    "trp": {},
+    "tlw": {
+      "te": 8282
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 13,
+    "input": [
+      1,
+      3,
+      4
+    ],
+    "keys": "aet",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ra": 368409
+    },
+    "trp": {},
+    "tlw": {
+      "era": 57211
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 14,
+    "input": [
+      2,
+      3,
+      4
+    ],
+    "keys": "set",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ce": 118940
+    },
+    "trp": {},
+    "tlw": {
+      "essere": 13580
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 15,
+    "input": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "keys": "aset",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sar": 25172
+    },
+    "trp": {},
+    "tlw": {
+      "testa": 5675
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 16,
+    "input": [
+      5
+    ],
+    "keys": "n",
+    "base": "n",
+    "baseshift": "N",
+    "tlp": {},
+    "trp": {
+      "nn": 46289
+    },
+    "tlw": {},
+    "trw": {
+      "n": 1203
+    },
+    "special": "none"
+  },
+  {
+    "value": 17,
+    "input": [
+      1,
+      5
+    ],
+    "keys": "an",
+    "base": "q",
+    "baseshift": "Q",
+    "tlp": {
+      "an": 351085
+    },
+    "trp": {
+      "na": 191784
+    },
+    "tlw": {
+      "an": 861
+    },
+    "trw": {
+      "na": 3153
+    },
+    "special": "none"
+  },
+  {
+    "value": 18,
+    "input": [
+      2,
+      5
+    ],
+    "keys": "sn",
+    "base": "j",
+    "baseshift": "J",
+    "tlp": {},
+    "trp": {
+      "ns": 40629
+    },
+    "tlw": {},
+    "trw": {
+      "j": 428
+    },
+    "special": "none"
+  },
+  {
+    "value": 19,
+    "input": [
+      1,
+      2,
+      5
+    ],
+    "keys": "asn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "san": 10754
+    },
+    "trp": {
+      "nsa": 10125
+    },
+    "tlw": {
+      "san": 820
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 20,
+    "input": [
+      3,
+      5
+    ],
+    "keys": "en",
+    "base": "y",
+    "baseshift": "Y",
+    "tlp": {
+      "en": 325999
+    },
+    "trp": {
+      "ne": 240032
+    },
+    "tlw": {
+      "en": 427
+    },
+    "trw": {
+      "ne": 18897
+    },
+    "special": "none"
+  },
+  {
+    "value": 21,
+    "input": [
+      1,
+      3,
+      5
+    ],
+    "keys": "aen",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ena": 10474
+    },
+    "trp": {
+      "nea": 2742
+    },
+    "tlw": {
+      "aye": 382
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 22,
+    "input": [
+      2,
+      3,
+      5
+    ],
+    "keys": "sen",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sen": 39413
+    },
+    "trp": {
+      "nd": 129982
+    },
+    "tlw": {
+      "sen": 952
+    },
+    "trw": {
+      "nes": 163
+    },
+    "special": "none"
+  },
+  {
+    "value": 23,
+    "input": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "keys": "asen",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "and": 60721
+    },
+    "trp": {
+      "nda": 24205
+    },
+    "tlw": {
+      "and": 382
+    },
+    "trw": {
+      "new": 833
+    },
+    "special": "none"
+  },
+  {
+    "value": 24,
+    "input": [
+      4,
+      5
+    ],
+    "keys": "tn",
+    "base": "b",
+    "baseshift": "B",
+    "tlp": {
+      "bb": 46376
+    },
+    "trp": {
+      "nt": 291380
+    },
+    "tlw": {
+      "b": 526
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 25,
+    "input": [
+      1,
+      4,
+      5
+    ],
+    "keys": "atn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ant": 64341
+    },
+    "trp": {
+      "nta": 37477
+    },
+    "tlw": {
+      "tanta": 636
+    },
+    "trw": {
+      "nata": 204
+    },
+    "special": "none"
+  },
+  {
+    "value": 26,
+    "input": [
+      2,
+      4,
+      5
+    ],
+    "keys": "stn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sb": 2201
+    },
+    "trp": {
+      "nc": 80441
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 27,
+    "input": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "keys": "astn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "anc": 55675
+    },
+    "trp": {
+      "nca": 4603
+    },
+    "tlw": {
+      "basta": 1053
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 28,
+    "input": [
+      3,
+      4,
+      5
+    ],
+    "keys": "etn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ent": 152199
+    },
+    "trp": {
+      "nte": 100114
+    },
+    "tlw": {
+      "bene": 6300
+    },
+    "trw": {
+      "nere": 364
+    },
+    "special": "none"
+  },
+  {
+    "value": 29,
+    "input": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "keys": "aetn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ran": 45980
+    },
+    "trp": {
+      "nar": 8583
+    },
+    "tlw": {
+      "entrare": 873
+    },
+    "trw": {
+      "nera": 1031
+    },
+    "special": "none"
+  },
+  {
+    "value": 30,
+    "input": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "keys": "setn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sent": 16908
+    },
+    "trp": {
+      "nce": 6484
+    },
+    "tlw": {
+      "sebbene": 761
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 31,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "keys": "asetn",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "sarebbe": 7398
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 32,
+    "input": [
+      6
+    ],
+    "keys": "i",
+    "base": "i",
+    "baseshift": "I",
+    "tlp": {},
+    "trp": {
+      "ii": 3469
+    },
+    "tlw": {},
+    "trw": {
+      "i": 56666
+    },
+    "special": "none"
+  },
+  {
+    "value": 33,
+    "input": [
+      1,
+      6
+    ],
+    "keys": "ai",
+    "base": "z",
+    "baseshift": "Z",
+    "tlp": {
+      "zi": 77724
+    },
+    "trp": {
+      "ia": 200353
+    },
+    "tlw": {
+      "ai": 8188
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 34,
+    "input": [
+      2,
+      6
+    ],
+    "keys": "si",
+    "base": "k",
+    "baseshift": "K",
+    "tlp": {
+      "si": 267038
+    },
+    "trp": {
+      "is": 117042
+    },
+    "tlw": {
+      "si": 95698
+    },
+    "trw": {
+      "k": 250
+    },
+    "special": "none"
+  },
+  {
+    "value": 35,
+    "input": [
+      1,
+      2,
+      6
+    ],
+    "keys": "asi",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sia": 18324
+    },
+    "trp": {
+      "issa": 4411
+    },
+    "tlw": {
+      "sia": 7163
+    },
+    "trw": {
+      "ka": 126
+    },
+    "special": "none"
+  },
+  {
+    "value": 36,
+    "input": [
+      3,
+      6
+    ],
+    "keys": "ei",
+    "base": ",",
+    "baseshift": "<",
+    "tlp": {
+      "ei": 64002
+    },
+    "trp": {
+      "ie": 107111
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 37,
+    "input": [
+      1,
+      3,
+      6
+    ],
+    "keys": "aei",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ez": 20251
+    },
+    "trp": {
+      "ize": 737
+    },
+    "tlw": {
+      "zie": 189
+    },
+    "trw": {
+      "ix": 82
+    },
+    "special": "none"
+  },
+  {
+    "value": 38,
+    "input": [
+      2,
+      3,
+      6
+    ],
+    "keys": "sei",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "di": 428636
+    },
+    "trp": {
+      "id": 39251
+    },
+    "tlw": {
+      "di": 272620
+    },
+    "trw": {
+      "idee": 923
+    },
+    "special": "none"
+  },
+  {
+    "value": 39,
+    "input": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "keys": "asei",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "dia": 9487
+    },
+    "trp": {
+      "ida": 5456
+    },
+    "tlw": {
+      "dai": 4684
+    },
+    "trw": {
+      "idea": 948
+    },
+    "special": "none"
+  },
+  {
+    "value": 40,
+    "input": [
+      4,
+      6
+    ],
+    "keys": "ti",
+    "base": "v",
+    "baseshift": "V",
+    "tlp": {
+      "ti": 201674
+    },
+    "trp": {
+      "it": 120823
+    },
+    "tlw": {
+      "ti": 13315
+    },
+    "trw": {
+      "ivi": 381
+    },
+    "special": "none"
+  },
+  {
+    "value": 41,
+    "input": [
+      1,
+      4,
+      6
+    ],
+    "keys": "ati",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "va": 190389
+    },
+    "trp": {
+      "ita": 47351
+    },
+    "tlw": {
+      "vita": 7521
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 42,
+    "input": [
+      2,
+      4,
+      6
+    ],
+    "keys": "sti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ci": 164338
+    },
+    "trp": {
+      "ic": 121416
+    },
+    "tlw": {
+      "ci": 18525
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 43,
+    "input": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "keys": "asti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cia": 31011
+    },
+    "trp": {
+      "ica": 28164
+    },
+    "tlw": {
+      "stava": 5638
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 44,
+    "input": [
+      3,
+      4,
+      6
+    ],
+    "keys": "eti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ri": 271321
+    },
+    "trp": {
+      "ir": 53396
+    },
+    "tlw": {
+      "ri": 3645
+    },
+    "trw": {
+      "ieri": 513
+    },
+    "special": "none"
+  },
+  {
+    "value": 45,
+    "input": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "keys": "aeti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eva": 73289
+    },
+    "trp": {
+      "iar": 12328
+    },
+    "tlw": {
+      "aveva": 25419
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 46,
+    "input": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "keys": "seti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ris": 22044
+    },
+    "trp": {
+      "ice": 15501
+    },
+    "tlw": {
+      "dire": 5876
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 47,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "keys": "aseti",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "avesse": 3478
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 48,
+    "input": [
+      5,
+      6
+    ],
+    "keys": "ni",
+    "base": "h",
+    "baseshift": "H",
+    "tlp": {},
+    "trp": {
+      "in": 320519
+    },
+    "tlw": {},
+    "trw": {
+      "in": 109997
+    },
+    "special": "none"
+  },
+  {
+    "value": 49,
+    "input": [
+      1,
+      5,
+      6
+    ],
+    "keys": "ani",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ani": 19586
+    },
+    "trp": {
+      "nz": 54632
+    },
+    "tlw": {
+      "anni": 5707
+    },
+    "trw": {
+      "ha": 18022
+    },
+    "special": "none"
+  },
+  {
+    "value": 50,
+    "input": [
+      2,
+      5,
+      6
+    ],
+    "keys": "sni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sin": 7946
+    },
+    "trp": {
+      "nsi": 15035
+    },
+    "tlw": {
+      "sin": 309
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 51,
+    "input": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "keys": "asni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sian": 1135
+    },
+    "trp": {
+      "nsaz": 1239
+    },
+    "tlw": {
+      "assassini": 163
+    },
+    "trw": {
+      "hans": 173
+    },
+    "special": "none"
+  },
+  {
+    "value": 52,
+    "input": [
+      3,
+      5,
+      6
+    ],
+    "keys": "eni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eni": 10691
+    },
+    "trp": {
+      "he": 257312
+    },
+    "tlw": {
+      "eh": 464
+    },
+    "trw": {
+      "nei": 6212
+    },
+    "special": "none"
+  },
+  {
+    "value": 53,
+    "input": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "keys": "aeni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "enz": 33789
+    },
+    "trp": {
+      "ienz": 3732
+    },
+    "tlw": {
+      "annie": 76
+    },
+    "trw": {
+      "haze": 116
+    },
+    "special": "none"
+  },
+  {
+    "value": 54,
+    "input": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "keys": "seni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "din": 9601
+    },
+    "trp": {
+      "ndi": 18448
+    },
+    "tlw": {
+      "sensi": 395
+    },
+    "trw": {
+      "jessie": 395
+    },
+    "special": "none"
+  },
+  {
+    "value": 55,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "keys": "aseni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "senza": 11519
+    },
+    "trw": {
+      "jake": 1119
+    },
+    "special": "none"
+  },
+  {
+    "value": 56,
+    "input": [
+      4,
+      5,
+      6
+    ],
+    "keys": "tni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "bi": 59544
+    },
+    "trp": {
+      "nti": 54757
+    },
+    "tlw": {
+      "bi": 1153
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 57,
+    "input": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "keys": "atni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "van": 36986
+    },
+    "trp": {
+      "inf": 7482
+    },
+    "tlw": {
+      "avanti": 2333
+    },
+    "trw": {
+      "infatti": 1929
+    },
+    "special": "none"
+  },
+  {
+    "value": 58,
+    "input": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "keys": "stni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ch": 325862
+    },
+    "trp": {
+      "nch": 30760
+    },
+    "tlw": {
+      "chi": 6236
+    },
+    "trw": {
+      "nisci": 250
+    },
+    "special": "none"
+  },
+  {
+    "value": 59,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "keys": "astni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "stanza": 2031
+    },
+    "trw": {
+      "jack": 1501
+    },
+    "special": "none"
+  },
+  {
+    "value": 60,
+    "input": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "etni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "enti": 29283
+    },
+    "trp": {
+      "inte": 12868
+    },
+    "tlw": {
+      "viene": 2680
+    },
+    "trw": {
+      "niente": 4357
+    },
+    "special": "none"
+  },
+  {
+    "value": 61,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "aetni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "avrebbe": 7187
+    },
+    "trw": {
+      "infine": 1261
+    },
+    "special": "none"
+  },
+  {
+    "value": 62,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "setni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "che": 190983
+    },
+    "trw": {
+      "invece": 4329
+    },
+    "special": "none"
+  },
+  {
+    "value": 63,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "keys": "asetni",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "anche": 22478
+    },
+    "trw": {
+      "neanche": 898
+    },
+    "special": "none"
+  },
+  {
+    "value": 64,
+    "input": [
+      7
+    ],
+    "keys": "o",
+    "base": "o",
+    "baseshift": "O",
+    "tlp": {},
+    "trp": {
+      "oo": 538
+    },
+    "tlw": {},
+    "trw": {
+      "o": 24888
+    },
+    "special": "none"
+  },
+  {
+    "value": 65,
+    "input": [
+      1,
+      7
+    ],
+    "keys": "ao",
+    "base": "(",
+    "baseshift": "[",
+    "tlp": {
+      "ao": 1339
+    },
+    "trp": {
+      "oa": 935
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 66,
+    "input": [
+      2,
+      7
+    ],
+    "keys": "so",
+    "base": ".",
+    "baseshift": ">",
+    "tlp": {
+      "so": 207940
+    },
+    "trp": {
+      "os": 147196
+    },
+    "tlw": {
+      "so": 6170
+    },
+    "trw": {
+      "oso": 79
+    },
+    "special": "none"
+  },
+  {
+    "value": 67,
+    "input": [
+      1,
+      2,
+      7
+    ],
+    "keys": "aso",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "asso": 6821
+    },
+    "trp": {
+      "osa": 24654
+    },
+    "tlw": {
+      "sasso": 152
+    },
+    "trw": {
+      "ossa": 382
+    },
+    "special": "none"
+  },
+  {
+    "value": 68,
+    "input": [
+      3,
+      7
+    ],
+    "keys": "eo",
+    "base": "-",
+    "baseshift": "_",
+    "tlp": {
+      "eo": 5232
+    },
+    "trp": {
+      "oe": 8136
+    },
+    "tlw": {},
+    "trw": {
+      "-": 14856
+    },
+    "special": "none"
+  },
+  {
+    "value": 69,
+    "input": [
+      1,
+      3,
+      7
+    ],
+    "keys": "aeo",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "xo": 67
+    },
+    "trp": {},
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 70,
+    "input": [
+      2,
+      3,
+      7
+    ],
+    "keys": "seo",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "do": 158471
+    },
+    "trp": {
+      "od": 22403
+    },
+    "tlw": {
+      "do": 2723
+    },
+    "trw": {
+      "od": 70
+    },
+    "special": "none"
+  },
+  {
+    "value": 71,
+    "input": [
+      1,
+      2,
+      3,
+      7
+    ],
+    "keys": "aseo",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ado": 4250
+    },
+    "trp": {
+      "oda": 1104
+    },
+    "tlw": {
+      "adesso": 3039
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 72,
+    "input": [
+      4,
+      7
+    ],
+    "keys": "to",
+    "base": "g",
+    "baseshift": "G",
+    "tlp": {
+      "to": 401592
+    },
+    "trp": {
+      "ot": 65714
+    },
+    "tlw": {
+      "to": 7313
+    },
+    "trw": {
+      "otto": 700
+    },
+    "special": "none"
+  },
+  {
+    "value": 73,
+    "input": [
+      1,
+      4,
+      7
+    ],
+    "keys": "ato",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ato": 73996
+    },
+    "trp": {
+      "of": 9885
+    },
+    "tlw": {
+      "fatto": 10159
+    },
+    "trw": {
+      "of": 731
+    },
+    "special": "none"
+  },
+  {
+    "value": 74,
+    "input": [
+      2,
+      4,
+      7
+    ],
+    "keys": "sto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "co": 390163
+    },
+    "trp": {
+      "oc": 56253
+    },
+    "tlw": {
+      "sotto": 6145
+    },
+    "trw": {
+      "oc": 194
+    },
+    "special": "none"
+  },
+  {
+    "value": 75,
+    "input": [
+      1,
+      2,
+      4,
+      7
+    ],
+    "keys": "asto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cosa": 19547
+    },
+    "trp": {
+      "osta": 6879
+    },
+    "tlw": {
+      "cosa": 13626
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 76,
+    "input": [
+      3,
+      4,
+      7
+    ],
+    "keys": "eto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ro": 227920
+    },
+    "trp": {
+      "or": 269472
+    },
+    "tlw": {
+      "ero": 2296
+    },
+    "trw": {
+      "ore": 1264
+    },
+    "special": "none"
+  },
+  {
+    "value": 77,
+    "input": [
+      1,
+      3,
+      4,
+      7
+    ],
+    "keys": "aeto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "for": 26973
+    },
+    "trp": {
+      "ora": 39990
+    },
+    "tlw": {
+      "forte": 2002
+    },
+    "trw": {
+      "ora": 7824
+    },
+    "special": "none"
+  },
+  {
+    "value": 78,
+    "input": [
+      2,
+      3,
+      4,
+      7
+    ],
+    "keys": "seto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cor": 38804
+    },
+    "trp": {
+      "ors": 15158
+    },
+    "tlw": {
+      "stesso": 6792
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 79,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    "keys": "aseto",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "fosse": 8373
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 80,
+    "input": [
+      5,
+      7
+    ],
+    "keys": "no",
+    "base": "u",
+    "baseshift": "U",
+    "tlp": {},
+    "trp": {
+      "on": 433832
+    },
+    "tlw": {},
+    "trw": {
+      "un": 115533
+    },
+    "special": "none"
+  },
+  {
+    "value": 81,
+    "input": [
+      1,
+      5,
+      7
+    ],
+    "keys": "ano",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "qu": 190328
+    },
+    "trp": {
+      "ua": 132700
+    },
+    "tlw": {
+      "qua": 1585
+    },
+    "trw": {
+      "una": 79579
+    },
+    "special": "none"
+  },
+  {
+    "value": 82,
+    "input": [
+      2,
+      5,
+      7
+    ],
+    "keys": "sno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "su": 132637
+    },
+    "trp": {
+      "us": 36612
+    },
+    "tlw": {
+      "sono": 21614
+    },
+    "trw": {
+      "uso": 357
+    },
+    "special": "none"
+  },
+  {
+    "value": 83,
+    "input": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "keys": "asno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sua": 24168
+    },
+    "trp": {
+      "uas": 6999
+    },
+    "tlw": {
+      "sua": 23065
+    },
+    "trw": {
+      "naso": 1168
+    },
+    "special": "none"
+  },
+  {
+    "value": 84,
+    "input": [
+      3,
+      5,
+      7
+    ],
+    "keys": "eno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eno": 16301
+    },
+    "trp": {
+      "ue": 125676
+    },
+    "tlw": {},
+    "trw": {
+      "oy": 212
+    },
+    "special": "none"
+  },
+  {
+    "value": 85,
+    "input": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "keys": "aeno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "que": 97787
+    },
+    "trp": {
+      "nque": 9338
+    },
+    "tlw": {
+      "que": 683
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 86,
+    "input": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "keys": "seno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "du": 34768
+    },
+    "trp": {
+      "ndo": 56462
+    },
+    "tlw": {
+      "due": 12347
+    },
+    "trw": {
+      "nessuno": 3678
+    },
+    "special": "none"
+  },
+  {
+    "value": 87,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    "keys": "aseno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "quando": 17079
+    },
+    "trw": {
+      "nessuna": 1517
+    },
+    "special": "none"
+  },
+  {
+    "value": 88,
+    "input": [
+      4,
+      5,
+      7
+    ],
+    "keys": "tno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tu": 92522
+    },
+    "trp": {
+      "ut": 89032
+    },
+    "tlw": {
+      "tutto": 14989
+    },
+    "trw": {
+      "noto": 633
+    },
+    "special": "none"
+  },
+  {
+    "value": 89,
+    "input": [
+      1,
+      4,
+      5,
+      7
+    ],
+    "keys": "atno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "anto": 26642
+    },
+    "trp": {
+      "onta": 14073
+    },
+    "tlw": {
+      "quanto": 9498
+    },
+    "trw": {
+      "nota": 688
+    },
+    "special": "none"
+  },
+  {
+    "value": 90,
+    "input": [
+      2,
+      4,
+      5,
+      7
+    ],
+    "keys": "stno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "con": 129147
+    },
+    "trp": {
+      "nco": 21375
+    },
+    "tlw": {
+      "con": 65735
+    },
+    "trw": {
+      "jung": 428
+    },
+    "special": "none"
+  },
+  {
+    "value": 91,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    "keys": "astno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "bocca": 2528
+    },
+    "trw": {
+      "nascosto": 446
+    },
+    "special": "none"
+  },
+  {
+    "value": 92,
+    "input": [
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "etno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ento": 24735
+    },
+    "trp": {
+      "ur": 55498
+    },
+    "tlw": {
+      "tutte": 5259
+    },
+    "trw": {
+      "notte": 3456
+    },
+    "special": "none"
+  },
+  {
+    "value": 93,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "aetno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "erano": 13650
+    },
+    "trw": {
+      "natura": 2226
+    },
+    "special": "none"
+  },
+  {
+    "value": 94,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "setno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "contro": 4167
+    },
+    "trw": {
+      "nostro": 2381
+    },
+    "special": "none"
+  },
+  {
+    "value": 95,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "keys": "asetno",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "questo": 17502
+    },
+    "trw": {
+      "nostra": 2563
+    },
+    "special": "none"
+  },
+  {
+    "value": 96,
+    "input": [
+      6,
+      7
+    ],
+    "keys": "io",
+    "base": "l",
+    "baseshift": "L",
+    "tlp": {},
+    "trp": {
+      "ll": 292163
+    },
+    "tlw": {},
+    "trw": {
+      "il": 150399
+    },
+    "special": "none"
+  },
+  {
+    "value": 97,
+    "input": [
+      1,
+      6,
+      7
+    ],
+    "keys": "aio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "al": 306120
+    },
+    "trp": {
+      "la": 389912
+    },
+    "tlw": {
+      "al": 34419
+    },
+    "trw": {
+      "la": 169844
+    },
+    "special": "none"
+  },
+  {
+    "value": 98,
+    "input": [
+      2,
+      6,
+      7
+    ],
+    "keys": "sio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sol": 35720
+    },
+    "trp": {
+      "osi": 21430
+    },
+    "tlw": {
+      "solo": 15660
+    },
+    "trw": {
+      "los": 154
+    },
+    "special": "none"
+  },
+  {
+    "value": 99,
+    "input": [
+      1,
+      2,
+      6,
+      7
+    ],
+    "keys": "asio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sal": 7582
+    },
+    "trp": {
+      "las": 8686
+    },
+    "tlw": {
+      "sola": 1804
+    },
+    "trw": {
+      "ossia": 438
+    },
+    "special": "none"
+  },
+  {
+    "value": 100,
+    "input": [
+      3,
+      6,
+      7
+    ],
+    "keys": "eio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "el": 300307
+    },
+    "trp": {
+      "le": 283237
+    },
+    "tlw": {
+      "el": 414
+    },
+    "trw": {
+      "le": 75413
+    },
+    "special": "none"
+  },
+  {
+    "value": 101,
+    "input": [
+      1,
+      3,
+      6,
+      7
+    ],
+    "keys": "aeio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ella": 86423
+    },
+    "trp": {
+      "iale": 6102
+    },
+    "tlw": {
+      "alle": 8523
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 102,
+    "input": [
+      2,
+      3,
+      6,
+      7
+    ],
+    "keys": "seio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "del": 145198
+    },
+    "trp": {
+      "ido": 5517
+    },
+    "tlw": {
+      "del": 59660
+    },
+    "trw": {
+      "les": 352
+    },
+    "special": "none"
+  },
+  {
+    "value": 103,
+    "input": [
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "keys": "aseio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "della": 49783
+    },
+    "trw": {
+      "ideale": 372
+    },
+    "special": "none"
+  },
+  {
+    "value": 104,
+    "input": [
+      4,
+      6,
+      7
+    ],
+    "keys": "tio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "gi": 98127
+    },
+    "trp": {
+      "lt": 89489
+    },
+    "tlw": {
+      "gli": 38211
+    },
+    "trw": {
+      "oggi": 2072
+    },
+    "special": "none"
+  },
+  {
+    "value": 105,
+    "input": [
+      1,
+      4,
+      6,
+      7
+    ],
+    "keys": "atio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "alt": 36637
+    },
+    "trp": {
+      "lta": 24023
+    },
+    "tlw": {
+      "volta": 7909
+    },
+    "trw": {
+      "lato": 1361
+    },
+    "special": "none"
+  },
+  {
+    "value": 106,
+    "input": [
+      2,
+      4,
+      6,
+      7
+    ],
+    "keys": "stio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "col": 38715
+    },
+    "trp": {
+      "ico": 29735
+    },
+    "tlw": {
+      "cosi": 14686
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 107,
+    "input": [
+      1,
+      2,
+      4,
+      6,
+      7
+    ],
+    "keys": "astio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "cavallo": 1015
+    },
+    "trw": {
+      "lasciato": 1193
+    },
+    "special": "none"
+  },
+  {
+    "value": 108,
+    "input": [
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "etio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rio": 23501
+    },
+    "trp": {
+      "lor": 31885
+    },
+    "tlw": {
+      "vero": 3849
+    },
+    "trw": {
+      "loro": 17911
+    },
+    "special": "none"
+  },
+  {
+    "value": 109,
+    "input": [
+      1,
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "aetio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "allora": 5910
+    },
+    "trw": {
+      "lavoro": 2692
+    },
+    "special": "none"
+  },
+  {
+    "value": 110,
+    "input": [
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "setio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "dove": 7905
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 111,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "keys": "asetio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "storia": 3176
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 112,
+    "input": [
+      5,
+      6,
+      7
+    ],
+    "keys": "nio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "iu": 69600
+    },
+    "tlw": {},
+    "trw": {
+      "lui": 16197
+    },
+    "special": "none"
+  },
+  {
+    "value": 113,
+    "input": [
+      1,
+      5,
+      6,
+      7
+    ],
+    "keys": "anio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "zion": 44305
+    },
+    "trp": {
+      "ual": 34744
+    },
+    "tlw": {
+      "qui": 6480
+    },
+    "trw": {
+      "hanno": 4870
+    },
+    "special": "none"
+  },
+  {
+    "value": 114,
+    "input": [
+      2,
+      5,
+      6,
+      7
+    ],
+    "keys": "snio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sul": 27914
+    },
+    "trp": {
+      "ius": 9576
+    },
+    "tlw": {
+      "sul": 12074
+    },
+    "trw": {
+      "john": 422
+    },
+    "special": "none"
+  },
+  {
+    "value": 115,
+    "input": [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    "keys": "asnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "sulla": 9250
+    },
+    "trw": {
+      "unknown": 242
+    },
+    "special": "none"
+  },
+  {
+    "value": 116,
+    "input": [
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "enio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "nel": 55639
+    },
+    "tlw": {
+      "ellen": 168
+    },
+    "trw": {
+      "nel": 25842
+    },
+    "special": "none"
+  },
+  {
+    "value": 117,
+    "input": [
+      1,
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "aenio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "quella": 13048
+    },
+    "trw": {
+      "nella": 18121
+    },
+    "special": "none"
+  },
+  {
+    "value": 118,
+    "input": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "senio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "sulle": 3574
+    },
+    "trw": {
+      "johnny": 2025
+    },
+    "special": "none"
+  },
+  {
+    "value": 119,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "keys": "asenio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "quindi": 2988
+    },
+    "trw": {
+      "honda": 1391
+    },
+    "special": "none"
+  },
+  {
+    "value": 120,
+    "input": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "tnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "bil": 19308
+    },
+    "trp": {
+      "ing": 11351
+    },
+    "tlw": {
+      "tutti": 11017
+    },
+    "trw": {
+      "ogni": 9891
+    },
+    "special": "none"
+  },
+  {
+    "value": 121,
+    "input": [
+      1,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "atnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "fino": 4978
+    },
+    "trw": {
+      "lingua": 2263
+    },
+    "special": "none"
+  },
+  {
+    "value": 122,
+    "input": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "stnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "cui": 15060
+    },
+    "trw": {
+      "occhi": 7963
+    },
+    "special": "none"
+  },
+  {
+    "value": 123,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "astnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "qualcosa": 5921
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 124,
+    "input": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "etnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "giorno": 5009
+    },
+    "trw": {
+      "intorno": 2138
+    },
+    "special": "none"
+  },
+  {
+    "value": 125,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "aetnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "avevano": 4836
+    },
+    "trw": {
+      "labbra": 1521
+    },
+    "special": "none"
+  },
+  {
+    "value": 126,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "setnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "vecchio": 2836
+    },
+    "trw": {
+      "luce": 3993
+    },
+    "special": "none"
+  },
+  {
+    "value": 127,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "keys": "asetnio",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "qualche": 7372
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 128,
+    "input": [
+      8
+    ],
+    "keys": "p",
+    "base": "p",
+    "baseshift": "P",
+    "tlp": {},
+    "trp": {
+      "pp": 38074
+    },
+    "tlw": {},
+    "trw": {
+      "p": 2856
+    },
+    "special": "none"
+  },
+  {
+    "value": 129,
+    "input": [
+      1,
+      8
+    ],
+    "keys": "ap",
+    "base": "?",
+    "baseshift": "/",
+    "tlp": {
+      "ap": 53641
+    },
+    "trp": {
+      "pa": 113853
+    },
+    "tlw": {
+      "ap": 277
+    },
+    "trw": {
+      "pa": 1374
+    },
+    "special": "none"
+  },
+  {
+    "value": 130,
+    "input": [
+      2,
+      8
+    ],
+    "keys": "sp",
+    "base": ")",
+    "baseshift": "]",
+    "tlp": {
+      "sp": 57528
+    },
+    "trp": {
+      "ps": 391
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 131,
+    "input": [
+      1,
+      2,
+      8
+    ],
+    "keys": "asp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sap": 10722
+    },
+    "trp": {
+      "pas": 13080
+    },
+    "tlw": {
+      "spa": 392
+    },
+    "trw": {
+      "passa": 483
+    },
+    "special": "none"
+  },
+  {
+    "value": 132,
+    "input": [
+      3,
+      8
+    ],
+    "keys": "ep",
+    "base": "'",
+    "baseshift": "\"",
+    "tlp": {
+      "ep": 9203
+    },
+    "trp": {
+      "pe": 210895
+    },
+    "tlw": {
+      "e'": 746
+    },
+    "trw": {
+      "'": 1162
+    },
+    "special": "none"
+  },
+  {
+    "value": 133,
+    "input": [
+      1,
+      3,
+      8
+    ],
+    "keys": "aep",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ape": 12996
+    },
+    "trp": {
+      "'a": 34981
+    },
+    "tlw": {
+      "a'": 123
+    },
+    "trw": {
+      "pae": 158
+    },
+    "special": "none"
+  },
+  {
+    "value": 134,
+    "input": [
+      2,
+      3,
+      8
+    ],
+    "keys": "sep",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spe": 21318
+    },
+    "trp": {
+      "pes": 6844
+    },
+    "tlw": {
+      "de'": 420
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 135,
+    "input": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "keys": "asep",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sape": 7738
+    },
+    "trp": {
+      "pad": 5524
+    },
+    "tlw": {
+      "spada": 415
+    },
+    "trw": {
+      "paese": 1433
+    },
+    "special": "none"
+  },
+  {
+    "value": 136,
+    "input": [
+      4,
+      8
+    ],
+    "keys": "tp",
+    "tlp": {
+      "tp": 67
+    },
+    "trp": {
+      "pt": 593
+    },
+    "tlw": {},
+    "trw": {
+      "pt": 593
+    },
+    "special": "none"
+  },
+  {
+    "value": 137,
+    "input": [
+      1,
+      4,
+      8
+    ],
+    "keys": "atp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tap": 444
+    },
+    "trp": {
+      "pat": 3422
+    },
+    "tlw": {
+      "tappa": 74
+    },
+    "trw": {
+      "pat": 105
+    },
+    "special": "none"
+  },
+  {
+    "value": 138,
+    "input": [
+      2,
+      4,
+      8
+    ],
+    "keys": "stp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 139,
+    "input": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "keys": "astp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cap": 16620
+    },
+    "trp": {
+      "pac": 3619
+    },
+    "tlw": {
+      "cap": 137
+    },
+    "trw": {
+      "passata": 399
+    },
+    "special": "none"
+  },
+  {
+    "value": 140,
+    "input": [
+      3,
+      4,
+      8
+    ],
+    "keys": "etp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rp": 6335
+    },
+    "trp": {
+      "pr": 145579
+    },
+    "tlw": {},
+    "trw": {
+      "per": 80117
+    },
+    "special": "none"
+  },
+  {
+    "value": 141,
+    "input": [
+      1,
+      3,
+      4,
+      8
+    ],
+    "keys": "aetp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rap": 5944
+    },
+    "trp": {
+      "par": 50789
+    },
+    "tlw": {
+      "aperta": 930
+    },
+    "trw": {
+      "parte": 8500
+    },
+    "special": "none"
+  },
+  {
+    "value": 142,
+    "input": [
+      2,
+      3,
+      4,
+      8
+    ],
+    "keys": "setp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "c'": 13326
+    },
+    "trp": {
+      "pres": 21493
+    },
+    "tlw": {
+      "c'e": 5387
+    },
+    "trw": {
+      "prese": 1400
+    },
+    "special": "none"
+  },
+  {
+    "value": 143,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    "keys": "asetp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "c'era": 5795
+    },
+    "trw": {
+      "padre": 3195
+    },
+    "special": "none"
+  },
+  {
+    "value": 144,
+    "input": [
+      5,
+      8
+    ],
+    "keys": "np",
+    "base": "m",
+    "baseshift": "M",
+    "tlp": {},
+    "trp": {
+      "mp": 63764
+    },
+    "tlw": {},
+    "trw": {
+      "m": 580
+    },
+    "special": "none"
+  },
+  {
+    "value": 145,
+    "input": [
+      1,
+      5,
+      8
+    ],
+    "keys": "anp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "am": 93470
+    },
+    "trp": {
+      "ma": 209998
+    },
+    "tlw": {
+      "ama": 245
+    },
+    "trw": {
+      "ma": 53590
+    },
+    "special": "none"
+  },
+  {
+    "value": 146,
+    "input": [
+      2,
+      5,
+      8
+    ],
+    "keys": "snp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sm": 3714
+    },
+    "trp": {},
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 147,
+    "input": [
+      1,
+      2,
+      5,
+      8
+    ],
+    "keys": "asnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sam": 2868
+    },
+    "trp": {
+      "mas": 6926
+    },
+    "tlw": {
+      "sam": 230
+    },
+    "trw": {
+      "massa": 628
+    },
+    "special": "none"
+  },
+  {
+    "value": 148,
+    "input": [
+      3,
+      5,
+      8
+    ],
+    "keys": "enp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "em": 69499
+    },
+    "trp": {
+      "me": 205039
+    },
+    "tlw": {},
+    "trw": {
+      "me": 9600
+    },
+    "special": "none"
+  },
+  {
+    "value": 149,
+    "input": [
+      1,
+      3,
+      5,
+      8
+    ],
+    "keys": "aenp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ame": 31411
+    },
+    "trp": {
+      "pena": 4673
+    },
+    "tlw": {
+      "appena": 3899
+    },
+    "trw": {
+      "'na": 1029
+    },
+    "special": "none"
+  },
+  {
+    "value": 150,
+    "input": [
+      2,
+      3,
+      5,
+      8
+    ],
+    "keys": "senp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sem": 25705
+    },
+    "trp": {
+      "pens": 14000
+    },
+    "tlw": {
+      "sem": 596
+    },
+    "trw": {
+      "mese": 638
+    },
+    "special": "none"
+  },
+  {
+    "value": 151,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    "keys": "asenp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "damane": 190
+    },
+    "trw": {
+      "pensa": 920
+    },
+    "special": "none"
+  },
+  {
+    "value": 152,
+    "input": [
+      4,
+      5,
+      8
+    ],
+    "keys": "tnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tm": 759
+    },
+    "trp": {
+      "mb": 24935
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 153,
+    "input": [
+      1,
+      4,
+      5,
+      8
+    ],
+    "keys": "atnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tam": 11090
+    },
+    "trp": {
+      "mat": 11944
+    },
+    "tlw": {
+      "fama": 205
+    },
+    "trw": {
+      "mat": 965
+    },
+    "special": "none"
+  },
+  {
+    "value": 154,
+    "input": [
+      2,
+      4,
+      5,
+      8
+    ],
+    "keys": "stnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 155,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      8
+    ],
+    "keys": "astnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "stampa": 344
+    },
+    "trw": {
+      "manca": 395
+    },
+    "special": "none"
+  },
+  {
+    "value": 156,
+    "input": [
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "etnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rm": 30451
+    },
+    "trp": {
+      "ment": 73144
+    },
+    "tlw": {
+      "be'": 1001
+    },
+    "trw": {
+      "mentre": 7346
+    },
+    "special": "none"
+  },
+  {
+    "value": 157,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "aetnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "entrambe": 518
+    },
+    "trw": {
+      "mare": 1575
+    },
+    "special": "none"
+  },
+  {
+    "value": 158,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "setnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "sempre": 11019
+    },
+    "trw": {
+      "prendere": 1451
+    },
+    "special": "none"
+  },
+  {
+    "value": 159,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "keys": "asetnp",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "sembra": 1918
+    },
+    "trw": {
+      "madre": 2851
+    },
+    "special": "none"
+  },
+  {
+    "value": 160,
+    "input": [
+      6,
+      8
+    ],
+    "keys": "ip",
+    "base": "!",
+    "baseshift": "!",
+    "tlp": {},
+    "trp": {
+      "pi": 115591
+    },
+    "tlw": {},
+    "trw": {
+      "pi": 1894
+    },
+    "special": "none"
+  },
+  {
+    "value": 161,
+    "input": [
+      1,
+      6,
+      8
+    ],
+    "keys": "aip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "api": 10470
+    },
+    "trp": {
+      "pia": 13275
+    },
+    "tlw": {},
+    "trw": {
+      "piazza": 530
+    },
+    "special": "none"
+  },
+  {
+    "value": 162,
+    "input": [
+      2,
+      6,
+      8
+    ],
+    "keys": "sip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spi": 10357
+    },
+    "trp": {
+      "isp": 11667
+    },
+    "tlw": {
+      "spi": 83
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 163,
+    "input": [
+      1,
+      2,
+      6,
+      8
+    ],
+    "keys": "asip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spia": 1284
+    },
+    "trp": {
+      "ispa": 273
+    },
+    "tlw": {
+      "sappia": 270
+    },
+    "trw": {
+      "passi": 1081
+    },
+    "special": "none"
+  },
+  {
+    "value": 164,
+    "input": [
+      3,
+      6,
+      8
+    ],
+    "keys": "eip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "epi": 750
+    },
+    "trp": {
+      "pie": 14120
+    },
+    "tlw": {},
+    "trw": {
+      "pie": 288
+    },
+    "special": "none"
+  },
+  {
+    "value": 165,
+    "input": [
+      1,
+      3,
+      6,
+      8
+    ],
+    "keys": "aeip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "apie": 832
+    },
+    "trp": {
+      "pez": 2090
+    },
+    "tlw": {},
+    "trw": {
+      "pezzi": 621
+    },
+    "special": "none"
+  },
+  {
+    "value": 166,
+    "input": [
+      2,
+      3,
+      6,
+      8
+    ],
+    "keys": "seip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "disp": 3751
+    },
+    "trp": {
+      "pied": 3956
+    },
+    "tlw": {
+      "spie": 208
+    },
+    "trw": {
+      "piedi": 2995
+    },
+    "special": "none"
+  },
+  {
+    "value": 167,
+    "input": [
+      1,
+      2,
+      3,
+      6,
+      8
+    ],
+    "keys": "aseip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "appesi": 112
+    },
+    "trw": {
+      "paesi": 504
+    },
+    "special": "none"
+  },
+  {
+    "value": 168,
+    "input": [
+      4,
+      6,
+      8
+    ],
+    "keys": "tip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tip": 2675
+    },
+    "trp": {
+      "pit": 7247
+    },
+    "tlw": {
+      "tipi": 332
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 169,
+    "input": [
+      1,
+      4,
+      6,
+      8
+    ],
+    "keys": "atip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "apit": 4239
+    },
+    "trp": {
+      "pita": 2661
+    },
+    "tlw": {},
+    "trw": {
+      "piatti": 270
+    },
+    "special": "none"
+  },
+  {
+    "value": 170,
+    "input": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "keys": "stip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cip": 5282
+    },
+    "trp": {
+      "pic": 6757
+    },
+    "tlw": {
+      "tipici": 78
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 171,
+    "input": [
+      1,
+      2,
+      4,
+      6,
+      8
+    ],
+    "keys": "astip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "capi": 635
+    },
+    "trw": {
+      "passava": 443
+    },
+    "special": "none"
+  },
+  {
+    "value": 172,
+    "input": [
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "etip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rip": 3818
+    },
+    "trp": {
+      "pri": 41676
+    },
+    "tlw": {
+      "ripete": 508
+    },
+    "trw": {
+      "pri": 723
+    },
+    "special": "none"
+  },
+  {
+    "value": 173,
+    "input": [
+      1,
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "aetip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "apri": 920
+    },
+    "trw": {
+      "parti": 1322
+    },
+    "special": "none"
+  },
+  {
+    "value": 174,
+    "input": [
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "setip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "specie": 1573
+    },
+    "trw": {
+      "presi": 303
+    },
+    "special": "none"
+  },
+  {
+    "value": 175,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "keys": "asetip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "sapeva": 2346
+    },
+    "trw": {
+      "piacere": 1214
+    },
+    "special": "none"
+  },
+  {
+    "value": 176,
+    "input": [
+      5,
+      6,
+      8
+    ],
+    "keys": "nip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "mi": 125525
+    },
+    "tlw": {},
+    "trw": {
+      "mi": 29736
+    },
+    "special": "none"
+  },
+  {
+    "value": 177,
+    "input": [
+      1,
+      5,
+      6,
+      8
+    ],
+    "keys": "anip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ami": 11196
+    },
+    "trp": {
+      "ima": 27754
+    },
+    "tlw": {
+      "anima": 623
+    },
+    "trw": {
+      "mai": 10502
+    },
+    "special": "none"
+  },
+  {
+    "value": 178,
+    "input": [
+      2,
+      5,
+      6,
+      8
+    ],
+    "keys": "snip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sim": 7979
+    },
+    "trp": {
+      "mis": 8876
+    },
+    "tlw": {
+      "spin": 81
+    },
+    "trw": {
+      "misi": 410
+    },
+    "special": "none"
+  },
+  {
+    "value": 179,
+    "input": [
+      1,
+      2,
+      5,
+      6,
+      8
+    ],
+    "keys": "asnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "spina": 102
+    },
+    "trw": {
+      "massima": 364
+    },
+    "special": "none"
+  },
+  {
+    "value": 180,
+    "input": [
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "enip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "empi": 4592
+    },
+    "trp": {
+      "ime": 13962
+    },
+    "tlw": {
+      "ehm": 84
+    },
+    "trw": {
+      "miei": 2459
+    },
+    "special": "none"
+  },
+  {
+    "value": 181,
+    "input": [
+      1,
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "aenip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "zampe": 282
+    },
+    "trw": {
+      "piena": 963
+    },
+    "special": "none"
+  },
+  {
+    "value": 182,
+    "input": [
+      2,
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "senip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "dimmi": 325
+    },
+    "trw": {
+      "insieme": 2565
+    },
+    "special": "none"
+  },
+  {
+    "value": 183,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8
+    ],
+    "keys": "asenip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "assieme": 502
+    },
+    "trw": {
+      "pensai": 375
+    },
+    "special": "none"
+  },
+  {
+    "value": 184,
+    "input": [
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "tnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tim": 12886
+    },
+    "trp": {
+      "mbi": 7548
+    },
+    "tlw": {
+      "tim": 512
+    },
+    "trw": {
+      "miti": 105
+    },
+    "special": "none"
+  },
+  {
+    "value": 185,
+    "input": [
+      1,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "atnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "bambini": 1251
+    },
+    "trw": {
+      "mattina": 971
+    },
+    "special": "none"
+  },
+  {
+    "value": 186,
+    "input": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "stnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "smith": 194
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 187,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "astnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "amici": 1446
+    },
+    "trw": {
+      "macchina": 1679
+    },
+    "special": "none"
+  },
+  {
+    "value": 188,
+    "input": [
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "etnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "tempi": 1297
+    },
+    "trw": {
+      "perrin": 1178
+    },
+    "special": "none"
+  },
+  {
+    "value": 189,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "aetnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "veramente": 1194
+    },
+    "trw": {
+      "prima": 12710
+    },
+    "special": "none"
+  },
+  {
+    "value": 190,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "setnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "sentimenti": 600
+    },
+    "trw": {
+      "perche": 14386
+    },
+    "special": "none"
+  },
+  {
+    "value": 191,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "keys": "asetnip",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "sembrava": 3174
+    },
+    "trw": {
+      "presenza": 1054
+    },
+    "special": "none"
+  },
+  {
+    "value": 192,
+    "input": [
+      7,
+      8
+    ],
+    "keys": "op",
+    "base": ";",
+    "baseshift": ":",
+    "tlp": {},
+    "trp": {
+      "po": 170696
+    },
+    "tlw": {},
+    "trw": {
+      "po": 1713
+    },
+    "special": "none"
+  },
+  {
+    "value": 193,
+    "input": [
+      1,
+      7,
+      8
+    ],
+    "keys": "aop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "appo": 3603
+    },
+    "trp": {
+      "opa": 1076
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 194,
+    "input": [
+      2,
+      7,
+      8
+    ],
+    "keys": "sop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spo": 12332
+    },
+    "trp": {
+      "pos": 30275
+    },
+    "tlw": {
+      "spo": 162
+    },
+    "trw": {
+      "posso": 2175
+    },
+    "special": "none"
+  },
+  {
+    "value": 195,
+    "input": [
+      1,
+      2,
+      7,
+      8
+    ],
+    "keys": "asop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sapo": 395
+    },
+    "trp": {
+      "posa": 1234
+    },
+    "tlw": {
+      "sposa": 181
+    },
+    "trw": {
+      "passo": 2265
+    },
+    "special": "none"
+  },
+  {
+    "value": 196,
+    "input": [
+      3,
+      7,
+      8
+    ],
+    "keys": "eop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "epo": 996
+    },
+    "trp": {
+      "'o": 10586
+    },
+    "tlw": {},
+    "trw": {
+      "po'": 5326
+    },
+    "special": "none"
+  },
+  {
+    "value": 197,
+    "input": [
+      1,
+      3,
+      7,
+      8
+    ],
+    "keys": "aeop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "eopa": 82
+    },
+    "trp": {
+      "opea": 192
+    },
+    "tlw": {},
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 198,
+    "input": [
+      2,
+      3,
+      7,
+      8
+    ],
+    "keys": "seop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "dop": 11237
+    },
+    "trp": {
+      "pose": 2787
+    },
+    "tlw": {
+      "dopo": 9632
+    },
+    "trw": {
+      "peso": 740
+    },
+    "special": "none"
+  },
+  {
+    "value": 199,
+    "input": [
+      1,
+      2,
+      3,
+      7,
+      8
+    ],
+    "keys": "aseop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "appeso": 230
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 200,
+    "input": [
+      4,
+      7,
+      8
+    ],
+    "keys": "top",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "top": 650
+    },
+    "trp": {
+      "pot": 22315
+    },
+    "tlw": {
+      "topo": 171
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 201,
+    "input": [
+      1,
+      4,
+      7,
+      8
+    ],
+    "keys": "atop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "pag": 5925
+    },
+    "tlw": {},
+    "trw": {
+      "patto": 180
+    },
+    "special": "none"
+  },
+  {
+    "value": 202,
+    "input": [
+      2,
+      4,
+      7,
+      8
+    ],
+    "keys": "stop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "cop": 6022
+    },
+    "trp": {
+      "post": 9448
+    },
+    "tlw": {
+      "scopo": 742
+    },
+    "trw": {
+      "poco": 4741
+    },
+    "special": "none"
+  },
+  {
+    "value": 203,
+    "input": [
+      1,
+      2,
+      4,
+      7,
+      8
+    ],
+    "keys": "astop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "capo": 2162
+    },
+    "trw": {
+      "passato": 1802
+    },
+    "special": "none"
+  },
+  {
+    "value": 204,
+    "input": [
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "etop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "rop": 21378
+    },
+    "trp": {
+      "pro": 42777
+    },
+    "tlw": {
+      "troppo": 4434
+    },
+    "trw": {
+      "pero": 4668
+    },
+    "special": "none"
+  },
+  {
+    "value": 205,
+    "input": [
+      1,
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "aetop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "rapporto": 1150
+    },
+    "trw": {
+      "porta": 4253
+    },
+    "special": "none"
+  },
+  {
+    "value": 206,
+    "input": [
+      2,
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "setop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "corpo": 2667
+    },
+    "trw": {
+      "presto": 1698
+    },
+    "special": "none"
+  },
+  {
+    "value": 207,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8
+    ],
+    "keys": "asetop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "sopra": 3357
+    },
+    "trw": {
+      "peccato": 398
+    },
+    "special": "none"
+  },
+  {
+    "value": 208,
+    "input": [
+      5,
+      7,
+      8
+    ],
+    "keys": "nop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "mo": 124534
+    },
+    "tlw": {},
+    "trw": {
+      "puo": 6756
+    },
+    "special": "none"
+  },
+  {
+    "value": 209,
+    "input": [
+      1,
+      5,
+      7,
+      8
+    ],
+    "keys": "anop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "amo": 18506
+    },
+    "trp": {
+      "oma": 10024
+    },
+    "tlw": {
+      "amo": 246
+    },
+    "trw": {
+      "mano": 6828
+    },
+    "special": "none"
+  },
+  {
+    "value": 210,
+    "input": [
+      2,
+      5,
+      7,
+      8
+    ],
+    "keys": "snop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "sup": 3910
+    },
+    "trp": {
+      "mos": 4879
+    },
+    "tlw": {
+      "sommo": 127
+    },
+    "trw": {
+      "possono": 1433
+    },
+    "special": "none"
+  },
+  {
+    "value": 211,
+    "input": [
+      1,
+      2,
+      5,
+      7,
+      8
+    ],
+    "keys": "asnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "somma": 313
+    },
+    "trw": {
+      "pausa": 424
+    },
+    "special": "none"
+  },
+  {
+    "value": 212,
+    "input": [
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "enop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "empo": 10444
+    },
+    "trp": {
+      "ome": 58690
+    },
+    "tlw": {},
+    "trw": {
+      "meno": 4910
+    },
+    "special": "none"
+  },
+  {
+    "value": 213,
+    "input": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "aenop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {
+      "umane": 290
+    },
+    "special": "none"
+  },
+  {
+    "value": 214,
+    "input": [
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "senop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "d'un": 897
+    },
+    "trw": {
+      "modo": 7852
+    },
+    "special": "none"
+  },
+  {
+    "value": 215,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8
+    ],
+    "keys": "asenop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "domanda": 1306
+    },
+    "trw": {
+      "pensando": 468
+    },
+    "special": "none"
+  },
+  {
+    "value": 216,
+    "input": [
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "tnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tom": 2271
+    },
+    "trp": {
+      "punt": 7081
+    },
+    "tlw": {
+      "tom": 318
+    },
+    "trw": {
+      "punto": 4093
+    },
+    "special": "none"
+  },
+  {
+    "value": 217,
+    "input": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "atnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "appunto": 879
+    },
+    "trw": {
+      "punta": 775
+    },
+    "special": "none"
+  },
+  {
+    "value": 218,
+    "input": [
+      2,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "stnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "com": 539
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 219,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "astnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "campo": 1259
+    },
+    "trw": {
+      "manco": 711
+    },
+    "special": "none"
+  },
+  {
+    "value": 220,
+    "input": [
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "etnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "tempo": 9244
+    },
+    "trw": {
+      "momento": 5714
+    },
+    "special": "none"
+  },
+  {
+    "value": 221,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "aetnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "forma": 2605
+    },
+    "trw": {
+      "paura": 1888
+    },
+    "special": "none"
+  },
+  {
+    "value": 222,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "setnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "come": 44183
+    },
+    "trw": {
+      "persone": 2066
+    },
+    "special": "none"
+  },
+  {
+    "value": 223,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "keys": "asetnop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "comunque": 2203
+    },
+    "trw": {
+      "persona": 1755
+    },
+    "special": "none"
+  },
+  {
+    "value": 224,
+    "input": [
+      6,
+      7,
+      8
+    ],
+    "keys": "iop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "poi": 14737
+    },
+    "tlw": {},
+    "trw": {
+      "poi": 13201
+    },
+    "special": "none"
+  },
+  {
+    "value": 225,
+    "input": [
+      1,
+      6,
+      7,
+      8
+    ],
+    "keys": "aiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "alp": 617
+    },
+    "trp": {
+      "pal": 8270
+    },
+    "tlw": {},
+    "trw": {
+      "paio": 1036
+    },
+    "special": "none"
+  },
+  {
+    "value": 226,
+    "input": [
+      2,
+      6,
+      7,
+      8
+    ],
+    "keys": "siop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "spl": 884
+    },
+    "trp": {
+      "ispo": 7900
+    },
+    "tlw": {
+      "spio": 684
+    },
+    "trw": {
+      "polso": 267
+    },
+    "special": "none"
+  },
+  {
+    "value": 227,
+    "input": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "keys": "asiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "spazio": 928
+    },
+    "trw": {},
+    "special": "none"
+  },
+  {
+    "value": 228,
+    "input": [
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "eiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "ell'": 11381
+    },
+    "trp": {
+      "l'": 63315
+    },
+    "tlw": {},
+    "trw": {
+      "pelle": 1317
+    },
+    "special": "none"
+  },
+  {
+    "value": 229,
+    "input": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "aeiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "appello": 93
+    },
+    "trw": {
+      "pezzo": 996
+    },
+    "special": "none"
+  },
+  {
+    "value": 230,
+    "input": [
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "seiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "doppio": 286
+    },
+    "trw": {
+      "poesie": 742
+    },
+    "special": "none"
+  },
+  {
+    "value": 231,
+    "input": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "keys": "aseiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "spalle": 2219
+    },
+    "trw": {
+      "poesia": 1881
+    },
+    "special": "none"
+  },
+  {
+    "value": 232,
+    "input": [
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "tiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {
+      "tipo": 1710
+    },
+    "trp": {
+      "pito": 3299
+    },
+    "tlw": {
+      "tipo": 1710
+    },
+    "trw": {
+      "piglio": 445
+    },
+    "special": "none"
+  },
+  {
+    "value": 233,
+    "input": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "atiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "appoggio": 268
+    },
+    "trw": {
+      "pioggia": 738
+    },
+    "special": "none"
+  },
+  {
+    "value": 234,
+    "input": [
+      2,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "stiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "colpo": 1583
+    },
+    "trw": {
+      "piccolo": 2047
+    },
+    "special": "none"
+  },
+  {
+    "value": 235,
+    "input": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "astiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "capito": 1303
+    },
+    "trw": {
+      "piccola": 1514
+    },
+    "special": "none"
+  },
+  {
+    "value": 236,
+    "input": [
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "etiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {
+      "proprio": 7247
+    },
+    "special": "none"
+  },
+  {
+    "value": 237,
+    "input": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "aetiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {
+      "poteva": 4863
+    },
+    "special": "none"
+  },
+  {
+    "value": 238,
+    "input": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "setiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "rispose": 2477
+    },
+    "trw": {
+      "percio": 1506
+    },
+    "special": "none"
+  },
+  {
+    "value": 239,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "keys": "asetiop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "capelli": 2276
+    },
+    "trw": {
+      "particolare": 1528
+    },
+    "special": "none"
+  },
+  {
+    "value": 240,
+    "input": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "niop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {
+      "piu": 40881
+    },
+    "tlw": {},
+    "trw": {
+      "piu": 38322
+    },
+    "special": "none"
+  },
+  {
+    "value": 241,
+    "input": [
+      1,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "animali": 640
+    },
+    "trw": {
+      "piano": 2006
+    },
+    "special": "none"
+  },
+  {
+    "value": 242,
+    "input": [
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "sniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "simili": 901
+    },
+    "trw": {
+      "luminoso": 184
+    },
+    "special": "none"
+  },
+  {
+    "value": 243,
+    "input": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "asniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "siamo": 2506
+    },
+    "trw": {
+      "possiamo": 953
+    },
+    "special": "none"
+  },
+  {
+    "value": 244,
+    "input": [
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "eniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {
+      "l'uomo": 2192
+    },
+    "special": "none"
+  },
+  {
+    "value": 245,
+    "input": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aeniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "almeno": 2906
+    },
+    "trw": {
+      "mezzo": 2952
+    },
+    "special": "none"
+  },
+  {
+    "value": 246,
+    "input": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "seniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "esempio": 1778
+    },
+    "trw": {
+      "modi": 645
+    },
+    "special": "none"
+  },
+  {
+    "value": 247,
+    "input": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aseniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "domani": 713
+    },
+    "trw": {
+      "posizione": 1014
+    },
+    "special": "none"
+  },
+  {
+    "value": 248,
+    "input": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "tniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {
+      "molto": 8286
+    },
+    "special": "none"
+  },
+  {
+    "value": 249,
+    "input": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "atniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "abbiamo": 2561
+    },
+    "trw": {
+      "montalbano": 3474
+    },
+    "special": "none"
+  },
+  {
+    "value": 250,
+    "input": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "stniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "comincio": 1412
+    },
+    "trw": {
+      "piuttosto": 1744
+    },
+    "special": "none"
+  },
+  {
+    "value": 251,
+    "input": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "astniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "amico": 1691
+    },
+    "trw": {
+      "possibilita": 1220
+    },
+    "special": "none"
+  },
+  {
+    "value": 252,
+    "input": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "etniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {},
+    "trw": {
+      "meglio": 3762
+    },
+    "special": "none"
+  },
+  {
+    "value": 253,
+    "input": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "aetniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "finalmente": 1303
+    },
+    "trw": {
+      "ormai": 2373
+    },
+    "special": "none"
+  },
+  {
+    "value": 254,
+    "input": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "setniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "semplice": 1455
+    },
+    "trw": {
+      "possibile": 2609
+    },
+    "special": "none"
+  },
+  {
+    "value": 255,
+    "input": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "keys": "asetniop",
+    "base": "",
+    "baseshift": "",
+    "tlp": {},
+    "trp": {},
+    "tlw": {
+      "commissario": 2277
+    },
+    "trw": {
+      "l'unica": 795
+    },
+    "special": "none"
+  }
+]

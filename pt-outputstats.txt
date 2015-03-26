@@ -103,3 +103,73 @@ dictionaryfilesize: 3.78 Mb
 
 --------------------
 
+FINAL CONFIGURATION
+
+prioritysize: 76452
+trigramsize: 10000
+trigramwordcount: 3131
+synonymfloor: 500
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 8139560
+Achoice: 553
+ABchoice: 291
+ABCchoice: 98
+Atop: 497
+ABtop: 267
+ABCtop: 102
+superseded: 76
+unfound: 66
+choicekeypresses: 2001
+keypresses: 3010
+letters: 4535
+perfect: 9.1%
+oneperfect: 31.5%
+twoperfect: 45.9%
+threeperfect: 61.5%
+perfectchoice: 24.2%
+onechoice: 52.1%
+twochoice: 67.4%
+threechoice: 78.6%
+words: 1008
+dictionaryfilesize: 3.86 Mb
+
+--------------------
+
+REVISED FINAL CONFIGURATION
+
+prioritysize: 76452
+trigramsize: 10000
+trigramwordcount: 3131
+synonymfloor: 500
+correlationthreshold: 5
+nextoutsize: 15
+ringlimit: 5
+superringlimit: 15
+totalwordcount: 8139560
+Achoice: 548
+ABchoice: 284
+ABCchoice: 109
+Atop: 500
+ABtop: 267
+ABCtop: 107
+superseded: 67
+unfound: 67
+choicekeypresses: 2000
+keypresses: 2990
+letters: 4535
+perfect: 9%
+oneperfect: 31.7%
+twoperfect: 46.4%
+threeperfect: 62.7%
+perfectchoice: 24.3%
+onechoice: 51.7%
+twochoice: 68.2%
+threechoice: 78.4%
+words: 1008
+dictionaryfilesize: 3.16 Mb
+
+--------------------
+
